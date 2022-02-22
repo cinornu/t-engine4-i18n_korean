@@ -42,6 +42,20 @@ t("Demonologists are melee fighters, bashing their foes skulls with their shield
 t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, +0 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +2", "_t")
+t("#LIGHT_BLUE# * +3 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 힘, +3 민첩, +0 체격", "_t")
+t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +0 교활", "_t")
+-- new text
+--[==[
+t("Fiend", "Fiend", "birth descriptor name")
+t("Wretched form and vile power, escaped from demons in darkest hour. Twisted body and caustic might, powerful weapons for the fight. Tortured slave not any longer, what they tried to break made only stronger!", "Wretched form and vile power, escaped from demons in darkest hour. Twisted body and caustic might, powerful weapons for the fight. Tortured slave not any longer, what they tried to break made only stronger!", "_t")
+t("The Fiend is a quick and agile fighter, infused with vile Wretch essence.", "The Fiend is a quick and agile fighter, infused with vile Wretch essence.", "_t")
+t("They create acid pools from their corrupted blood and use them in a number of ways.", "They create acid pools from their corrupted blood and use them in a number of ways.", "_t")
+t("They have developed fiendish, acid-dripping claws, and caustic powers.", "They have developed fiendish, acid-dripping claws, and caustic powers.", "_t")
+t("Fiends are unarmed combatants, shredding foes with their demonic claws and corrupt magic.", "Fiends are unarmed combatants, shredding foes with their demonic claws and corrupt magic.", "_t")
+t("Their most important stats are: Magic, Dexterity, and Strength", "Their most important stats are: Magic, Dexterity, and Strength", "_t")
+t("#GOLD#Life per level:#LIGHT_BLUE# 0", "#GOLD#Life per level:#LIGHT_BLUE# 0", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/birth/doomelf.lua"
@@ -87,6 +101,23 @@ t("Demonic Tatoos 5", "악마의 문신 5", "_t")
 t("Demonic Tatoos 6", "악마의 문신 6", "_t")
 t("Demonic Tatoos 7", "악마의 문신 7", "_t")
 t("Demonic Tatoos 8", "악마의 문신 8", "_t")
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/damage_types.lua"
+
+t("%s resists the blinding!", "%s 실명에 저항했다!", "logSeen", nil, {"가"})
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/general/events/caustic-crater.lua"
+
+
+-- new text
+--[==[
+t("Way to a mysterious crater", "Way to a mysterious crater", "_t")
+t("There is a green flash in the sky", "There is a green flash in the sky", "_t")
+t("You see a bright green streak of light flash though the sky toward a distant forest...", "You see a bright green streak of light flash though the sky toward a distant forest...", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/general/events/demon-statue.lua"
@@ -246,12 +277,24 @@ t("A strange orb of demonic origins. It glows with a surreal red light.", "악�
 t("Jaw of Rogroth", "로그로스의 턱", "entity name")
 t("tooth lined belt", "이빨이 줄지은 허리띠", "_t")
 t("Rogroth's mouth happened to be about the same size as your waist. Interesting.", "로그로스의 아가리는 허리 크기와 비슷합니다. 흥미롭네요.", "_t")
-t("deal darkness damage equal to your 350%% of your spellpower to a target, and, if it kills the target, restores 15% of max hp and all resources (except paradox and equilibrium)", "착용자의 주문력의 350%% 에 달하는 어둠 피해를 대상에게 가해, 대상이 죽으면 최대 생명력과 모든 원천력의 15% 를 회복합니다 (괴리와 평정 제외)", "_t")
--- untranslated text
+-- new text
 --[==[
 t("", "", "_t")
+t("deals darkness damage equal to 350% of your spellpower to a target, and, if it kills the target, restores 15% of your max hp and all resources (except paradox and equilibrium)", "deals darkness damage equal to 350% of your spellpower to a target, and, if it kills the target, restores 15% of your max hp and all resources (except paradox and equilibrium)", "_t")
+t("Wretch Hide Buckler", "Wretch Hide Buckler", "entity name")
+t("green hide buckler", "green hide buckler", "_t")
+t("A hide buckler with a green sheen and a caustic coating.", "A hide buckler with a green sheen and a caustic coating.", "_t")
+t("Gain 25% movement speed and 5% attack speed for each of your acid pools within 4 tiles of yourself, up to 4 pools at most. Moving onto an acid pool will create a radius 4 splash dealing 50 acid damage with a chance to blind for 2 turns (highest power vs physical save) and remove the acid pool.", "Gain 25% movement speed and 5% attack speed for each of your acid pools within 4 tiles of yourself, up to 4 pools at most. Moving onto an acid pool will create a radius 4 splash dealing 50 acid damage with a chance to blind for 2 turns (highest power vs physical save) and remove the acid pool.", "_t")
+t("35% chance to create an acid pool within 2 tiles lasting 4 turns.", "35% chance to create an acid pool within 2 tiles lasting 4 turns.", "_t")
+t("#Source# creates an acid pool!", "#Source# creates an acid pool!", "logCombat")
+t("Caustic Lash", "Caustic Lash", "entity name")
+t("caustic whip", "caustic whip", "_t")
+t("A sinuous length of green leather with a noxious bite.", "A sinuous length of green leather with a noxious bite.", "_t")
+t("Granted talents give each acid pool you create a chance to summon a wretchling to fight for you. Vile Splash will attempt to create 2 acid pools each time it triggers.", "Granted talents give each acid pool you create a chance to summon a wretchling to fight for you. Vile Splash will attempt to create 2 acid pools each time it triggers.", "_t")
 --]==]
 
+-- old translated text
+t("deal darkness damage equal to your 350%% of your spellpower to a target, and, if it kills the target, restores 15% of max hp and all resources (except paradox and equilibrium)", "착용자의 주문력의 350%% 에 달하는 어둠 피해를 대상에게 가해, 대상이 죽으면 최대 생명력과 모든 원천력의 15% 를 회복합니다 (괴리와 평정 제외)", "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/lore/demon.lua"
@@ -644,6 +687,73 @@ t("demon statue: Corrupted Daelach", "악마상: 오염된 댈라크", "_t")
 t("One of the problems with making daelach is the inherent instability that comes from creating something that is almost entirely made of magic.  If ambient levels of blight are even slightly too high, it can set off a chain reaction that at best destroys the daelach, and at worst destroys most of the mages who were building it.  Daelach production is thus theoretically cheap, but in practice involves great expense, and usually a blighted daelach has to be immediately put down lest it cause tremendous damage.  One specimen, though, adapted to the blight in a very interesting way, sprouting wings and bolstering its usual firestorms with blight, but otherwise remaining perfectly balanced and controllable.  We'll try to recreate this happy accident however we can, but in the meantime, it will prove effective on the surface of Eyal.", "댈라크를 만들 때의 애로사항 중 하나는 본질적인 불안정함인데, 이는 무언가를 거의 순수한 마법으로 구성하려 할 때에 흔히 일어나는 문제이다.  주변의 황폐화 정도가 기준치를 아주 살짝만 넘어도 연쇄 반응이 일어나 일단 댈라크는 완전히 파괴되며, 최악의 경우에는 그걸 만들고 있던 마법사들까지 가루가 될 수도 있다.  그렇기 때문에 댈라크의 생산은 이론적으로는 비용이 싸지만, 실제로는 결코 싸지 않으며 일반적으로 댈라크가 황폐화된다면 즉시 처분하여 막대한 피해가 발생하는 것을 막아야 한다.  하지만 예외도 있는데, 어떤 댈라크들은 매우 흥미로운 방식으로 황폐에 적응하면서 날개가 돋아났고, 그들이 원래 일으키던 화염폭풍에는 황폐의 힘이 실리게 되었다. 게다가 완벽하게 안정적인 상태를 유지하고 있고, 우리가 제어하는 것도 가능하다.  우리는 이 기적과도 같은 상황을 재현하기 위해서 온 힘을 다할 것이다. 하지만 그러는 동안에, 그 댈라크들은 에이알의 표면에서 자신들의 힘을 입증해 보일 것이다.", "_t")
 t("demon statue: Harkor'Zun", "악마상: 하코르'준", "_t")
 t("Of the anomalies and phenomena we've noticed in our studies of the shield protecting Eyal, none have frustrated us so much as meteors.  Certain powerful Eyalite spellcasters can pull a large meteor into low orbit, passing it through the shield relatively unharmed, aside from being split into predictably-sized chunks, which are then called to the surface one-by-one in a series of devastating meteoric crashes.  While we have not yet found a way to reverse-engineer these spells to protect our standard troops from disintegration, we have had some limited success in making a construct that closely resembles a meteor in composition and appearance.  Harkor'Zun, a being made mostly of stone, was simply dropped from our platform; the shield shattered him as expected, but we had designed him to survive this, the fragments merging back into their completed form once he reached the surface.  It would seem, though, that either we made him to be too sturdy, or the shield envelops incoming objects in a sort of anti-magic coating, as he has been unable to start the second stage of this process, wherein he merges these fragments back into a completed form.  Should an Eyalite stumble upon him and attempt to destroy the fragments, Harkor'Zun will be able to re-combine and \"thank\" whoever granted him his ascension.", "우리가 에이알을 둘러싸고 있는 보호막에 대해 연구하면서 알게 된 수많은 현상들과 이상한 일들 중에서, 유성만큼 우릴 좌절시킨 것이 없을 것이다.  강력한 힘을 가진 에이알의 주문시전자 몇몇은 거대한 운석을 저궤도로 끌어들이고, 보호막을 뚫고 지표면으로 낙하시켜 어마어마한 유성 충돌을 일으킨다. 물론 보호막을 돌파하는 과정에서 운석이 부서지긴 하지만 완전히 산산조각나지는 않으며, 놈들은 적당한 크기로 나누어진 운석 덩어리들을 하나하나 쏘아내는 것이다.  우리는 그런 마법들을 역설계하여 우리의 병력들이 산산조각나는 것을 방지하려 하지만 연구가 쉽지 않다.  하지만 운석의 성분과 외견을 흉내낸 병기를 만들어내는 데에는 성공했다.  우리는 육체 대부분이 암석으로 이루어진 하코르'준을 우리 정거장에서 에이알로 낙하시켰다. 예상했던 대로 보호막이 그를 산산조각냈지만, 우린 그가 살아남을 수 있도록 수를 써 두었다. 그가 에이알의 지표면에 도달한 뒤에, 부서진 조각들이 하나의 형체로 합쳐질 수 있도록.  하지만 우리가 그를 너무 튼튼하게 만든 것인지, 아니면 행성 보호막이 통과하는 물체에다 반마법 도금 처리 같은 것이라도 하는 것인지, 그는 제2단계 - 조각들이 합쳐져서 부활하는 수순을 밟지 못하고 있다.  만약 어떤 에이알인이 그를 마주치게 되어서 그 조각들을 파괴하려 한다면, 하코르'준은 다시 하나로 합쳐질 수 있게 될 것이고, 그는 자신이 부활할 수 있게 해 준 녀석에게 \"감사\"할 것이다.", "_t")
+-- new text
+--[==[
+t("orbital base: battle plan (fiend)", "orbital base: battle plan (fiend)", "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impacts that allowed enabled <?=player:his_her()?> to escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment. Doubling the exposure time should make sure they don’t escape again.This time, we’ll double the exposure time to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we approach this carefullykeep proper tactics in mind.  Having been infused with wretch essence, <?=player:he_she()?> has control over devastating acids and possesses bestial combat instincts. In the event that we cannot procure proper warding against these powers before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause widespread destruction.  It is imperative that we do not let <?=player:him_her()?> deploy acid pools near our troops; furthermore, trying to surround or trap <?=player:him_her()?> will be entirely ineffective, as <?=player:he_she()?> can transform into acidic mist. That sounds absurd, but no cage or troop formation will be able to hold them. We will need to deploy a large squad of impish artillery to harry and distract <?=player:him_her()?> while a tactical squad of dúathedlen sneak up on <?=player:him_her()?>.  We may lose a couple of dozen imps, but in the time it takes <?=player:him_her()?> to realize our ruse, our assassins should be able to cut <?=player:him_her()?> down.
+
+Above all else, remember: despite <?=player:his_her()?> caustic powers and great agility, this is a pitiful, inferior Eyalite who only got this far on sheer luck.lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use their powersit properly, and does not have the countless years of experience with it that we do.  We have numbers, experience,familiarity, a carefully laid plan tactics, and the blessing of Urh'Rok himself.  Treat this like a drill.; i If we stay calm and focused, it is unlikely we will see any casualties.
+]], [[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impacts that allowed enabled <?=player:his_her()?> to escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment. Doubling the exposure time should make sure they don’t escape again.This time, we’ll double the exposure time to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we approach this carefullykeep proper tactics in mind.  Having been infused with wretch essence, <?=player:he_she()?> has control over devastating acids and possesses bestial combat instincts. In the event that we cannot procure proper warding against these powers before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause widespread destruction.  It is imperative that we do not let <?=player:him_her()?> deploy acid pools near our troops; furthermore, trying to surround or trap <?=player:him_her()?> will be entirely ineffective, as <?=player:he_she()?> can transform into acidic mist. That sounds absurd, but no cage or troop formation will be able to hold them. We will need to deploy a large squad of impish artillery to harry and distract <?=player:him_her()?> while a tactical squad of dúathedlen sneak up on <?=player:him_her()?>.  We may lose a couple of dozen imps, but in the time it takes <?=player:him_her()?> to realize our ruse, our assassins should be able to cut <?=player:him_her()?> down.
+
+Above all else, remember: despite <?=player:his_her()?> caustic powers and great agility, this is a pitiful, inferior Eyalite who only got this far on sheer luck.lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use their powersit properly, and does not have the countless years of experience with it that we do.  We have numbers, experience,familiarity, a carefully laid plan tactics, and the blessing of Urh'Rok himself.  Treat this like a drill.; i If we stay calm and focused, it is unlikely we will see any casualties.
+]], "_t")
+t("singed paper scrap", "singed paper scrap", "_t")
+t([[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions come to you:#{normal}#
+	
+		A small, green-skinned demon seems to be directing some larger demons. They are carrying a large vat brimming with bright green liquid. It hisses and spits as bubbles burst on its surface. The small demon looks nervous and is urging the others to move more cautiously. The vision shifts, and you can see the demons are bringing the vat towards a large stone slab. As they move closer, you see a much smaller figure lashed to the stone slab, screaming and struggling against their bonds. The demons near the slab, and the smaller demon waves its arms in the air, frantically trying to get their attention. His warning comes too late One of the large demons stumbles and the vat tips, spilling its entire contents on the stone slab. The small demon flies into a rage, but you are fixated on the pile of sizzling bones and red sludge that must have once been an Eyalite.
+	
+	#{italic}#As nausea quickly overtakes you, the vision is gone, and the paper scrap hisses and crackles as it disappears in a puff of acrid mist. You shudder and move on.#{normal}#]], [[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions come to you:#{normal}#
+	
+		A small, green-skinned demon seems to be directing some larger demons. They are carrying a large vat brimming with bright green liquid. It hisses and spits as bubbles burst on its surface. The small demon looks nervous and is urging the others to move more cautiously. The vision shifts, and you can see the demons are bringing the vat towards a large stone slab. As they move closer, you see a much smaller figure lashed to the stone slab, screaming and struggling against their bonds. The demons near the slab, and the smaller demon waves its arms in the air, frantically trying to get their attention. His warning comes too late One of the large demons stumbles and the vat tips, spilling its entire contents on the stone slab. The small demon flies into a rage, but you are fixated on the pile of sizzling bones and red sludge that must have once been an Eyalite.
+	
+	#{italic}#As nausea quickly overtakes you, the vision is gone, and the paper scrap hisses and crackles as it disappears in a puff of acrid mist. You shudder and move on.#{normal}#]], "_t")
+t([[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions come to you:#{normal}#
+	
+		A small, green-skinned demon is standing over a human, or maybe an elf, strapped down to a stone slab. Next to the slab is a large vat of hissing, bubbling green liquid. The demon grumbles an incantation and the liquid starts pulsing with an eerie light. Thick wisps of vapour curl off the liquid’s undulating surface as the demon chants louder. The figured tied to  the slab looks more terrified by the instant and fights against their bonds. The vapours slither through the air, coming closer and closer.  They gasp for air, perhaps to scream, as the vapour comes within inches of their face. Suddenly, the vapour rushes into their nose and mouth, their chest heaves as far as their tethers allow. A sinister green light starts shining from their eyes. For a moment the demon, who has stopped chanting and is frantically scribbling on a scroll, looks quite pleased. But then their subject collapses back onto the slab, their body limp and the light extinguished from their eyes. You are vaguely aware of the demon as it flies into a rage, smashing vials and all manner of arcana on the shelves and tables around him, but your attention is fixed on the figure on the slab. You see small wisps of green vapour rise from their chest. Slowly, its skin peels apart and sloughs off, exposing the raw, red organs beneath.  
+	
+	#{italic}#You feel quite ill, but mercifully the vision fades, and the paper scrap hisses and crackles as it disappears in a puff of acrid mist. You shudder and move on.#{normal}#]], [[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions come to you:#{normal}#
+	
+		A small, green-skinned demon is standing over a human, or maybe an elf, strapped down to a stone slab. Next to the slab is a large vat of hissing, bubbling green liquid. The demon grumbles an incantation and the liquid starts pulsing with an eerie light. Thick wisps of vapour curl off the liquid’s undulating surface as the demon chants louder. The figured tied to  the slab looks more terrified by the instant and fights against their bonds. The vapours slither through the air, coming closer and closer.  They gasp for air, perhaps to scream, as the vapour comes within inches of their face. Suddenly, the vapour rushes into their nose and mouth, their chest heaves as far as their tethers allow. A sinister green light starts shining from their eyes. For a moment the demon, who has stopped chanting and is frantically scribbling on a scroll, looks quite pleased. But then their subject collapses back onto the slab, their body limp and the light extinguished from their eyes. You are vaguely aware of the demon as it flies into a rage, smashing vials and all manner of arcana on the shelves and tables around him, but your attention is fixed on the figure on the slab. You see small wisps of green vapour rise from their chest. Slowly, its skin peels apart and sloughs off, exposing the raw, red organs beneath.  
+	
+	#{italic}#You feel quite ill, but mercifully the vision fades, and the paper scrap hisses and crackles as it disappears in a puff of acrid mist. You shudder and move on.#{normal}#]], "_t")
+t([[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions comes to you:#{normal}#
+	
+		A small, green-skinned demon is watching a halfling bound to a stone slab. A ring of small, green vials surround the minute figure. Bright vapours seem to be reaching out from each one, almost like they’re caressing the halfling. The demon makes some notes and shuffles away. The vision dims and then returns, the same scene repeating before your eyes. The victim on the slab looks different, somehow. There is a strange tint to its skin. Again, the vision dims as the demon scratches on the scroll, and again the scene repeats, but now the halfling is most definitely altered. Their hands have mutated into vicious claws which seem to flex and scratch of their own volition. The demon looks very pleased as it scrawls on the scroll. When the vision fades again, you expect it to repeat, but instead you see the halfling trapped in a cage, surrounded by large, ferocious looking demons. The small green demon gestures toward the halfling while gibbering on and on to the others. Suddenly, the large demons stop looking at their smaller brethren and shift their attention to the cage. You can see why. The halfling looks oddly faint, almost ethereal, and then it transforms into a cloud of bright, green vapour. It swiftly rushes out of the cage, and flies away from the demons. The small demon stares in slack-jawed disbelief, but quickly snaps out of it as the large demons turn their attention back to it, snarling with a terrifying rage. You violently shake your head, trying to force the vision to fade away.
+	
+	#{italic}#Mercifully, it does fade, and the paper scrap hisses and crackles as it disappears in a puff of acrid mist. You shudder and move on.#{normal}#]], [[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions comes to you:#{normal}#
+	
+		A small, green-skinned demon is watching a halfling bound to a stone slab. A ring of small, green vials surround the minute figure. Bright vapours seem to be reaching out from each one, almost like they’re caressing the halfling. The demon makes some notes and shuffles away. The vision dims and then returns, the same scene repeating before your eyes. The victim on the slab looks different, somehow. There is a strange tint to its skin. Again, the vision dims as the demon scratches on the scroll, and again the scene repeats, but now the halfling is most definitely altered. Their hands have mutated into vicious claws which seem to flex and scratch of their own volition. The demon looks very pleased as it scrawls on the scroll. When the vision fades again, you expect it to repeat, but instead you see the halfling trapped in a cage, surrounded by large, ferocious looking demons. The small green demon gestures toward the halfling while gibbering on and on to the others. Suddenly, the large demons stop looking at their smaller brethren and shift their attention to the cage. You can see why. The halfling looks oddly faint, almost ethereal, and then it transforms into a cloud of bright, green vapour. It swiftly rushes out of the cage, and flies away from the demons. The small demon stares in slack-jawed disbelief, but quickly snaps out of it as the large demons turn their attention back to it, snarling with a terrifying rage. You violently shake your head, trying to force the vision to fade away.
+	
+	#{italic}#Mercifully, it does fade, and the paper scrap hisses and crackles as it disappears in a puff of acrid mist. You shudder and move on.#{normal}#]], "_t")
+t([[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions comes to you:#{normal}#
+	
+		You are now quite familiar with the small green demon who appears in these visions. It seems to be back in its laboratory, but this time, the subject on its stone slab is a much larger, muscle-bound, jade-skinned demon. Around the table are several large vats of noxious, green liquid, and the small demon quickly darts between them, chanting louder and faster. Thick vapours rise from the vats as the demon gestures. They swirl in the air above his test subject. The vapours bob and weave as the demon gestures, turning this way and that, dipping and rising, creating ever more intricate patterns as the demon waves its claws more wildly. Suddenly, the vapours glow with an intense light as they whirl into a vortex above the large demon. Then they swirl down towards the figure's head, rushing into its mouth as it inhales deeply. The small demon falls still and silently watches. At first nothing seems to happen, but then the large demon's body pulses and ripples. It starts swelling, first one claw and then the other, then its chest, and then all of it at once. It snarls and thrashes, rising from the slab as it grows in size, its claws dripping with a vile fluid that hisses and smokes as it hits the stone floor. The smaller demon looks ecstatic as it quickly jots down line after line on its scroll. Then the large demon shudders violently. It bursts into a cloud of incandescent green mist. It rushes through the laboratory, dissolving everything it touches. You don't need to shift your focus to the smaller demon to know that it is stomping its feet and shaking its clawed fists in rage.
+	
+	#{italic}#You almost smile thinking of the tiny green demon stomping around like an angry child, but then the colossal form of its transformed subject returns to your mind. A heavy weight settles in the pit of your stomach. You shudder and move on.#{normal}#]], [[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions comes to you:#{normal}#
+	
+		You are now quite familiar with the small green demon who appears in these visions. It seems to be back in its laboratory, but this time, the subject on its stone slab is a much larger, muscle-bound, jade-skinned demon. Around the table are several large vats of noxious, green liquid, and the small demon quickly darts between them, chanting louder and faster. Thick vapours rise from the vats as the demon gestures. They swirl in the air above his test subject. The vapours bob and weave as the demon gestures, turning this way and that, dipping and rising, creating ever more intricate patterns as the demon waves its claws more wildly. Suddenly, the vapours glow with an intense light as they whirl into a vortex above the large demon. Then they swirl down towards the figure's head, rushing into its mouth as it inhales deeply. The small demon falls still and silently watches. At first nothing seems to happen, but then the large demon's body pulses and ripples. It starts swelling, first one claw and then the other, then its chest, and then all of it at once. It snarls and thrashes, rising from the slab as it grows in size, its claws dripping with a vile fluid that hisses and smokes as it hits the stone floor. The smaller demon looks ecstatic as it quickly jots down line after line on its scroll. Then the large demon shudders violently. It bursts into a cloud of incandescent green mist. It rushes through the laboratory, dissolving everything it touches. You don't need to shift your focus to the smaller demon to know that it is stomping its feet and shaking its clawed fists in rage.
+	
+	#{italic}#You almost smile thinking of the tiny green demon stomping around like an angry child, but then the colossal form of its transformed subject returns to your mind. A heavy weight settles in the pit of your stomach. You shudder and move on.#{normal}#]], "_t")
+t("lightly singed scroll", "lightly singed scroll", "_t")
+t([[#{italic}#The shifting runes on this scroll swim before your eyes and strange visions comes to you:#{normal}#
+	
+		You see the small demon again. This time, it appears to be in conversation with one of the larger demons that was present during the halfling experiment. The scene around them is much different. Instead of barren stone and a pervasive orange glow, they are surrounded by green trees dappled with sunlight, a scene you might expect to find in the wilds of Maj'Eyal. A strange, carven archway stands out behind them, glowing with an otherworldly light. Whatever magic is at work here seems better preserved on the scroll, and while the language of the demon still sounds harsh and unfamiliar, you vaguely understand the meaning behind it. The small demon is telling the larger how they found the halfling later, devouring an unsuspecting imp. Knowing that it must have re-formed after turning into a cloud of mist, it reasons the same would hold true for the wretch titan altered by its experiments. The mist had been seen rushing into an invasion portal, shortly after it liquified the small demon's laboratory. Demons stationed on the other end of the portal observed a cloud of green vapour rush out of the portal before rapidly rising into the sky. While it has not been seen since, the small demon estimated that if the mist continued to rise, then it would condense when it got high enough into the atmosphere. As though on cue, a bright flash of green light appears high in the sky and streaks towards the ground. The two demons exchange a quick glance before rushing into strange archway, which you judge must be the portal the small demon had mentioned before. 
+	
+	#{italic}#Whether the small demon and his companion arrived here before or after the giant wretch crashed to the ground, you can't be sure, but there is certainly no sign of them now. It would be best if you move on before its ilk arrive to investigate.#{normal}#]], [[#{italic}#The shifting runes on this scroll swim before your eyes and strange visions comes to you:#{normal}#
+	
+		You see the small demon again. This time, it appears to be in conversation with one of the larger demons that was present during the halfling experiment. The scene around them is much different. Instead of barren stone and a pervasive orange glow, they are surrounded by green trees dappled with sunlight, a scene you might expect to find in the wilds of Maj'Eyal. A strange, carven archway stands out behind them, glowing with an otherworldly light. Whatever magic is at work here seems better preserved on the scroll, and while the language of the demon still sounds harsh and unfamiliar, you vaguely understand the meaning behind it. The small demon is telling the larger how they found the halfling later, devouring an unsuspecting imp. Knowing that it must have re-formed after turning into a cloud of mist, it reasons the same would hold true for the wretch titan altered by its experiments. The mist had been seen rushing into an invasion portal, shortly after it liquified the small demon's laboratory. Demons stationed on the other end of the portal observed a cloud of green vapour rush out of the portal before rapidly rising into the sky. While it has not been seen since, the small demon estimated that if the mist continued to rise, then it would condense when it got high enough into the atmosphere. As though on cue, a bright flash of green light appears high in the sky and streaks towards the ground. The two demons exchange a quick glance before rushing into strange archway, which you judge must be the portal the small demon had mentioned before. 
+	
+	#{italic}#Whether the small demon and his companion arrived here before or after the giant wretch crashed to the ground, you can't be sure, but there is certainly no sign of them now. It would be best if you move on before its ilk arrive to investigate.#{normal}#]], "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/quests/re-abducted.lua"
@@ -664,7 +774,7 @@ t("#LIGHT_GREEN#* You have found your way out of the primary ambush.#WHITE#", "#
 t("#LIGHT_GREEN#* You have destroyed Rogroth the Eater of Souls and made your escape possible. Flee!#WHITE#", "#LIGHT_GREEN#* 영혼을 먹는 자 로그로스를 처치했고, 이제 탈출할 수 있습니다. 도망치세요!#WHITE#", "_t")
 t("#SLATE#* Find a way back to Eyal.#WHITE#", "#SLATE#* 에이알로 돌아갈 방법을 찾으세요.#WHITE#", "_t")
 t("#LIGHT_GREEN#* You have escaped the Anteroom of Agony.#WHITE#", "#LIGHT_GREEN#* 고문 대기장에서 탈출했습니다.#WHITE#", "_t")
--- untranslated text
+-- new text
 --[==[
 t("#LIGHT_GREEN#* #WHITE#", "#LIGHT_GREEN#* #WHITE#", "_t")
 --]==]
@@ -741,6 +851,73 @@ t([[You revel in the heat of battle. Whenever an enemy damages you within melee 
 		하나의 대상에 대한 반격 확률 판정은 한 턴에 한 번만 일어납니다.]], "tformat")
 
 ------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/caustic-controller.lua"
+
+
+-- new text
+--[==[
+t("Vile Splash", "Vile Splash", "talent name")
+t([[Launch a bubble of acid toward a tile within range %d where it will burst, dealing %0.2f acid damage to any creature on the tile and then creating #GREEN#acid pools#LAST# on up to 2 adjacent, acid-free tiles. These #GREEN#acid pools#LAST# will last for %d turns.
+		
+		Damage improves with Spellpower.]], [[Launch a bubble of acid toward a tile within range %d where it will burst, dealing %0.2f acid damage to any creature on the tile and then creating #GREEN#acid pools#LAST# on up to 2 adjacent, acid-free tiles. These #GREEN#acid pools#LAST# will last for %d turns.
+		
+		Damage improves with Spellpower.]], "tformat")
+t("Awakened Acid", "Awakened Acid", "talent name")
+t([[Your acid is empowered to the point that it has become nearly sentient. When a foe attempts to use an activated talent while adjacent to at least one #GREEN#acid pool#LAST# there is a %d%% chance an adjacent #GREEN#acid pool#LAST# will rise up and leap upon them, dealing %0.2f acid damage and disrupting the talent, causing it to fail and go on cooldown for %d turns. If there is already an #GREEN#acid pool#LAST# on the foe's tile you will #DARK_GREEN#absorb#LAST# whichever of the two pools has the least duration and the other will remain on the target's tile. This effect has a fixed cooldown (%d). The chance is checked for each adjacent pool, but the effect can trigger only once before the cooldown begins.
+		]], [[Your acid is empowered to the point that it has become nearly sentient. When a foe attempts to use an activated talent while adjacent to at least one #GREEN#acid pool#LAST# there is a %d%% chance an adjacent #GREEN#acid pool#LAST# will rise up and leap upon them, dealing %0.2f acid damage and disrupting the talent, causing it to fail and go on cooldown for %d turns. If there is already an #GREEN#acid pool#LAST# on the foe's tile you will #DARK_GREEN#absorb#LAST# whichever of the two pools has the least duration and the other will remain on the target's tile. This effect has a fixed cooldown (%d). The chance is checked for each adjacent pool, but the effect can trigger only once before the cooldown begins.
+		]], "tformat")
+t("Caustic Invoker", "Caustic Invoker", "talent name")
+t([[You learn to fine-tune your ability to create acid. The range of Caustic Shift is increased by %d and when cast on a tile you cannot move to (non-adjacent or occupied), the talent will be instant and will not go on cooldown until it has been cast 4 times, cast on a tile you can move to, or you take any other action, and the duration of the #GREEN#acid pool#LAST# is increased by %d. 
+		]], [[You learn to fine-tune your ability to create acid. The range of Caustic Shift is increased by %d and when cast on a tile you cannot move to (non-adjacent or occupied), the talent will be instant and will not go on cooldown until it has been cast 4 times, cast on a tile you can move to, or you take any other action, and the duration of the #GREEN#acid pool#LAST# is increased by %d. 
+		]], "tformat")
+t("Corrossive Cascade", "Corrossive Cascade", "talent name")
+t([[Whenever creating an #GREEN#acid pool#LAST# would cause there to be 4 or more within a radius 1 area, all #GREEN#acid pools#LAST# in this area will burst, dealing %0.2f acid damage in a radius of 1 around each. All affected pools will be #DARK_GREEN#absorbed#LAST# and the cooldown of Caustic Shift will be reduced by %d. 
+		
+		This effect has a cooldown (%d). Damage improves with spellpower.
+		]], [[Whenever creating an #GREEN#acid pool#LAST# would cause there to be 4 or more within a radius 1 area, all #GREEN#acid pools#LAST# in this area will burst, dealing %0.2f acid damage in a radius of 1 around each. All affected pools will be #DARK_GREEN#absorbed#LAST# and the cooldown of Caustic Shift will be reduced by %d. 
+		
+		This effect has a cooldown (%d). Damage improves with spellpower.
+		]], "tformat")
+--]==]
+
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/corrosive-assault.lua"
+
+t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
+t("%s resists the disarm!", "%s 무장해제에 저항했다!", "logSeen", nil, {"가"})
+-- new text
+--[==[
+t("Claw Crush", "Claw Crush", "talent name")
+t([[Send a surge of power into your claws and crush a foe between them, dealing an unarmed strike for %d%% damage as acid and attempting to stun them %s for %d turns.
+		If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to strike twice.
+		]], [[Send a surge of power into your claws and crush a foe between them, dealing an unarmed strike for %d%% damage as acid and attempting to stun them %s for %d turns.
+		If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to strike twice.
+		]], "tformat")
+t("Noxious Blow", "Noxious Blow", "talent name")
+t([[Smash your foe with your claws, dealiing %d%% unarmed damage. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to convert the damage type of the attack to acid and to attempt to disarm the target %s for %d turns if the attack hits.
+		]], [[Smash your foe with your claws, dealiing %d%% unarmed damage. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to convert the damage type of the attack to acid and to attempt to disarm the target %s for %d turns if the attack hits.
+		]], "tformat")
+t("Pooling Corruption", "Pooling Corruption", "talent name")
+t([[When you land an unarmed attack as acid damage against a foe you have a %d%% chance to create an #GREEN#acid pool#LAST# underneath them. If this triggers and there is already a pool under them, there is a %d%% chance to create a pool on an adjacent, acid-free tile. This can create up to %d #GREEN#acid pools#LAST# per turn at most. Additionally, foes standing on your #GREEN#acid pools#LAST# will have their spell, mental, and physical saves reduced by %d .
+		
+		Save reduction improves with Magic.
+		]], [[When you land an unarmed attack as acid damage against a foe you have a %d%% chance to create an #GREEN#acid pool#LAST# underneath them. If this triggers and there is already a pool under them, there is a %d%% chance to create a pool on an adjacent, acid-free tile. This can create up to %d #GREEN#acid pools#LAST# per turn at most. Additionally, foes standing on your #GREEN#acid pools#LAST# will have their spell, mental, and physical saves reduced by %d .
+		
+		Save reduction improves with Magic.
+		]], "tformat")
+t("Foul Eruption", "Foul Eruption", "talent name")
+t([[When you perform a critical spell, every #GREEN#acid pool#LAST# within %d tiles will erupt, dealing %d%% unarmed damage as acid to any foe standing on a pool and displacing them randomly one tile. This has a cooldown (%d). Passively, your acid resistance penetration is increased by %d%%.
+		
+		Random displacement checks knockback resistance.
+		]], [[When you perform a critical spell, every #GREEN#acid pool#LAST# within %d tiles will erupt, dealing %d%% unarmed damage as acid to any foe standing on a pool and displacing them randomly one tile. This has a cooldown (%d). Passively, your acid resistance penetration is increased by %d%%.
+		
+		Random displacement checks knockback resistance.
+		]], "tformat")
+--]==]
+
+
+------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/corruptions.lua"
 
 t("corruption", "타락", "talent category")
@@ -773,6 +950,30 @@ t("Infuse your body with the power of Demons.", "악마의 힘으로 신체를 �
 t("Oppression", "억압", "talent type")
 t("Make your blows terrify your foes and manipulate their fear.", "공격을 가해 적들을 공포에 질리게 하고, 그 공포를 이용합니다.", "_t")
 t("Demon", "악마", "_t")
+t("something", "무언가", "_t")
+-- new text
+--[==[
+t("corrosive assault", "corrosive assault", "_t")
+t("Assault your foes with acid-dripping claws. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "Assault your foes with acid-dripping claws. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "_t")
+t("killing instinct", "killing instinct", "_t")
+t("The hunting instinct of the Wretch guides you. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "The hunting instinct of the Wretch guides you. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "_t")
+t("noxious vapours", "noxious vapours", "_t")
+t("Invoke corrosive mists.", "Invoke corrosive mists.", "_t")
+t("solvent vim", "solvent vim", "_t")
+t("Your life force has become a caustic solution.", "Your life force has become a caustic solution.", "_t")
+t("emerald nature", "emerald nature", "_t")
+t("Your essence has been fused with that of the Children of Emerald.", "Your essence has been fused with that of the Children of Emerald.", "_t")
+t("unstable mutation", "unstable mutation", "_t")
+t("Your being is altered, the changes sometimes accelerating beyond your control. Claw attacks require flexibility and are not possible in massive armor.", "Your being is altered, the changes sometimes accelerating beyond your control. Claw attacks require flexibility and are not possible in massive armor.", "_t")
+t("wretched brethren", "wretched brethren", "_t")
+t("Take control of the corruption to call your wretched brethren to your aide.", "Take control of the corruption to call your wretched brethren to your aide.", "_t")
+t("caustic controller", "caustic controller", "_t")
+t("Your control of acid grows absolute.", "Your control of acid grows absolute.", "_t")
+t("fiend", "fiend", "_t")
+t("Your hands have mutated into noxious talons. These abilities require flexibility and are not possible without empty hands or in massive armor.", "Your hands have mutated into noxious talons. These abilities require flexibility and are not possible without empty hands or in massive armor.", "_t")
+t("#GREEN#%s absorbs acid!#LAST#", "#GREEN#%s absorbs acid!#LAST#", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
@@ -791,11 +992,6 @@ t([[You cover your weapon in acid, turning all melee damage into acid.
 		All melee attacks also gain %d armor penetration.]], [[무기에 산성 물질을 발라 모든 근접 공격을 산성 속성으로 바꿉니다.
 		또한 모든 근접 공격에 방어력 관통이 %d 만큼 적용됩니다.]], "tformat")
 t("Acidic Bath", "산성 세례", "talent name")
-t([[You spawn a pool of acid in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
-		You also gain 40%% acid resistance and %d%% acid affinity.
-		The damage scales with your Spellpower.]], [[시전자 주변 반경 4 칸에 %d 턴 동안 지속되는 산성 웅덩이를 만들어, 시전자를 포함한 모든 개체에게 %0.2f 산성 피해를 줍니다.
-		또한 시전자는 산성 저항 40%% 와 산성 속성 친화 %d%% 를 얻게 됩니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blighted Path", "황폐화된 길", "talent name")
 t("Blighted Path", "황폐화된 길", "_t")
 t("Select a use for the %s charge(s):", "%s 중첩을 사용 시 발생하는 효과:", "tformat")
@@ -904,13 +1100,6 @@ t([[Fire a blast of frostfire in radius %d, doing %0.2f fire damage and freezing
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Fetid Breath", "역겨운 숨결", "talent name")
 t("@Source@ breathes fetid matter!", "@Source2@ 역겨운 분출물을 뿜어낸다!", "_t")
-t([[You breathe a mix of darkness and flight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
-		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
-		The damage will increase with your Spellpower.
-		]], [[반경 %d 칸의 원뿔 범위 내에 어둠의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 어둠/황폐 피해를 받습니다.
-		추가로, 시전자가 물리 공격을 가하면 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어냅니다.
-		피해량은 주문력에 비례하여 증가합니다.
-		]], "tformat")
 t("Blood Drinker", "피를 마시는 자", "talent name")
 t([[Deal a blight-enhanced melee blow, dealing %d%% blight damage.
 		If the attack hits and %s the creature dies in the next 2 turns you drink its essence which makes you regenerate 7 vim per turn and gain 40%% chance to evade attacks for the next %d turns.
@@ -955,11 +1144,50 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		매 턴 화산은 %0.2f 화염 피해와 %0.2f 물리 피해를 주는 2 개의 불타는 암석을 분출합니다.
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
--- untranslated text
+t("something", "무언가", "_t")
+-- new text
 --[==[
+t([[You spawn a cloud of acid vapor in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
+		You also gain 40%% acid resistance and %d%% acid affinity.
+		The damage scales with your Spellpower.]], [[You spawn a cloud of acid vapor in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
+		You also gain 40%% acid resistance and %d%% acid affinity.
+		The damage scales with your Spellpower.]], "tformat")
+t([[You breathe a mix of darkness and blight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
+		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
+		The damage will increase with your Spellpower.
+		]], [[You breathe a mix of darkness and blight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
+		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
+		The damage will increase with your Spellpower.
+		]], "tformat")
 t("", "", "log")
+t("Caustic Core", "Caustic Core", "talent name")
+t("#GREEN#%s creates an acid pool!#LAST#", "#GREEN#%s creates an acid pool!#LAST#", "_t")
+t([[You are filled with caustic power. Whenever you take direct damage, there is a %d%% chance you will create an #GREEN#acid pool#LAST# on a random tile within radius 4 which will last 4 turns.
+		Whenever you deal acid damage, there is a %d%% chance to create an #GREEN#acid pool#LAST# on the target's tile or a random tile adjacent to it which will last 4 turns.
+		You can create at most 3 #GREEN#acid pools#LAST# per turn and will only create them while in combat. An #GREEN#acid pool#LAST# will not be created if the tile chosen contains impassable terrain.
+		Passively, for each #GREEN#acid pool#LAST# within 4 tiles of yourself (up to 8 pools at most), you gain %0.1f Physical Power, Spellpower, and Accuracy, as well as %0.1f%% increased acid damage and acid resistance penetration.
+		Any foe standing on one of your #GREEN#acid pools#LAST# will have their Physical Power, Spellpower, Mindpower, Accuracy, Physical Save, Spell Save, Mental Save and Defense all reduced by %d.
+		]], [[You are filled with caustic power. Whenever you take direct damage, there is a %d%% chance you will create an #GREEN#acid pool#LAST# on a random tile within radius 4 which will last 4 turns.
+		Whenever you deal acid damage, there is a %d%% chance to create an #GREEN#acid pool#LAST# on the target's tile or a random tile adjacent to it which will last 4 turns.
+		You can create at most 3 #GREEN#acid pools#LAST# per turn and will only create them while in combat. An #GREEN#acid pool#LAST# will not be created if the tile chosen contains impassable terrain.
+		Passively, for each #GREEN#acid pool#LAST# within 4 tiles of yourself (up to 8 pools at most), you gain %0.1f Physical Power, Spellpower, and Accuracy, as well as %0.1f%% increased acid damage and acid resistance penetration.
+		Any foe standing on one of your #GREEN#acid pools#LAST# will have their Physical Power, Spellpower, Mindpower, Accuracy, Physical Save, Spell Save, Mental Save and Defense all reduced by %d.
+		]], "tformat")
 --]==]
 
+-- old translated text
+t([[You spawn a pool of acid in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
+		You also gain 40%% acid resistance and %d%% acid affinity.
+		The damage scales with your Spellpower.]], [[시전자 주변 반경 4 칸에 %d 턴 동안 지속되는 산성 웅덩이를 만들어, 시전자를 포함한 모든 개체에게 %0.2f 산성 피해를 줍니다.
+		또한 시전자는 산성 저항 40%% 와 산성 속성 친화 %d%% 를 얻게 됩니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t([[You breathe a mix of darkness and flight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
+		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
+		The damage will increase with your Spellpower.
+		]], [[반경 %d 칸의 원뿔 범위 내에 어둠의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 어둠/황폐 피해를 받습니다.
+		추가로, 시전자가 물리 공격을 가하면 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어냅니다.
+		피해량은 주문력에 비례하여 증가합니다.
+		]], "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
@@ -1047,6 +1275,20 @@ t([[Teleports you randomly within a small range of up to %d grids with %d precis
 t("Doom Concordat", "파멸의 협약", "talent name")
 t("#CRIMSON#Your %s is healed!", "#CRIMSON#당신의 %s 회복됐다!", "logPlayer", nil, {"는"})
 t("#CRIMSON#Your %s is brought back to life!", "#CRIMSON#당신의 %s 소생됐다!", "logPlayer", nil, {"는"})
+-- new text
+--[==[
+t([[You use your demon seeds to the fullest of their potential.
+		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if no other summoned demon is from Doom Concordat.
+		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
+		In addition you feed of the arrival, departure or death of your demons, each time healing yourself for %d life.
+		The healing is based on your Spellpower.]], [[You use your demon seeds to the fullest of their potential.
+		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if no other summoned demon is from Doom Concordat.
+		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
+		In addition you feed of the arrival, departure or death of your demons, each time healing yourself for %d life.
+		The healing is based on your Spellpower.]], "tformat")
+--]==]
+
+-- old translated text
 t([[You use your demon seeds to the fullest of their potential.
 		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if not other summoned demon is from Doom Concordat.
 		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
@@ -1157,6 +1399,47 @@ t([[Your shield is infused with a powerful blight. Anytime you block and apply a
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/emerald-nature.lua"
+
+
+-- new text
+--[==[
+t("Demonhide", "Demonhide", "talent name")
+t([[Your body becomes more like that of the Wretch. You gain %d increased max life and %d armor. While standing on an #GREEN#acid pool#LAST# you will gain %0.1f life regeneration. Additionally, whenever you take damage in combat, you have a chance to create an #GREEN#acid pool#LAST# on a random tile within range 4, up to once per turn. The chance is 100%%, reduced by 25%% for each #GREEN#acid pool#LAST# within range 4. However, a pool will not be created if the chosen tile contains impassable terrain.
+		
+		Life and armor values improve with Strength. Life regeneration improves with Magic.
+		]], [[Your body becomes more like that of the Wretch. You gain %d increased max life and %d armor. While standing on an #GREEN#acid pool#LAST# you will gain %0.1f life regeneration. Additionally, whenever you take damage in combat, you have a chance to create an #GREEN#acid pool#LAST# on a random tile within range 4, up to once per turn. The chance is 100%%, reduced by 25%% for each #GREEN#acid pool#LAST# within range 4. However, a pool will not be created if the chosen tile contains impassable terrain.
+		
+		Life and armor values improve with Strength. Life regeneration improves with Magic.
+		]], "tformat")
+t("Blinding Splash", "Blinding Splash", "talent name")
+t([[When you move onto an #GREEN#acid pool#LAST#, you release a surge of power into it, creating a radius %d splash of acid which deals %0.2f damage and has a chance to blind foes %s for %d turns.
+		
+		Damage improves with spellpower. You cannot trigger this effect for three turns after it has triggered.
+		]], [[When you move onto an #GREEN#acid pool#LAST#, you release a surge of power into it, creating a radius %d splash of acid which deals %0.2f damage and has a chance to blind foes %s for %d turns.
+		
+		Damage improves with spellpower. You cannot trigger this effect for three turns after it has triggered.
+		]], "tformat")
+t("Caustic Link", "Caustic Link", "talent name")
+t([[Your connection to acid grows stronger, and you empower your #GREEN#acid pools#LAST# in turn. Foes standing on an #GREEN#acid pool#LAST# will have their spell, mind, and physical power all reduced by %d. Additionally, you gain %d stealth and invisibility detection and %d infravision range for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most.
+		
+		Power reduction improves with Magic.
+		]], [[Your connection to acid grows stronger, and you empower your #GREEN#acid pools#LAST# in turn. Foes standing on an #GREEN#acid pool#LAST# will have their spell, mind, and physical power all reduced by %d. Additionally, you gain %d stealth and invisibility detection and %d infravision range for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most.
+		
+		Power reduction improves with Magic.
+		]], "tformat")
+t("Emerald Resonance", "Emerald Resonance", "talent name")
+t([[The Wretch essence within resonates with nearby #GREEN#acid pools#LAST#. You gain %d accuracy and spellpower and %d%% increased acid damage for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% resistance to all damage for 2 turns.
+		
+		Damage resistance improves with Magic.
+		]], [[The Wretch essence within resonates with nearby #GREEN#acid pools#LAST#. You gain %d accuracy and spellpower and %d%% increased acid damage for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% resistance to all damage for 2 turns.
+		
+		Damage resistance improves with Magic.
+		]], "tformat")
+--]==]
+
+
+------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/fearfire.lua"
 
 t("Fearscape Shift", "공포의 영역 전환", "talent name")
@@ -1181,6 +1464,63 @@ t("Maw of Urh'rok", "울흐'록의 아가리", "talent name")
 t([[Your body becomes a nexus for the Fearscape, causing you to drag enemies towards you in a cone with a radius of %d, dealing %0.2f fire damage every turn.
 		The damage will increase with your Spellpower.]], [[신체가 공포의 영역으로의 교차점으로 변해, 반경 %d 칸의 원뿔 범위 내의 적들을 끌어당기고 매 턴 %0.2f 화염 피해를 줍니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/fiend.lua"
+
+
+-- new text
+--[==[
+t("Fiendish Mutation", "Fiendish Mutation", "talent name")
+t([[Your have developed fiendish, acid-dripping claws
+		Increases physical power by %d and damage by %d%% with unarmed attacks and causes your unarmed hits to deal %d acid damage.
+		Additionally, your hand gear will use Magic in place of Cunning as a damage modifier.
+		
+		Note that Fiends naturally gain 0.5 physical power per character level and attack 20%% faster while unarmed. 
+		Acid damage improves with Spellpower.
+		]], [[Your have developed fiendish, acid-dripping claws
+		Increases physical power by %d and damage by %d%% with unarmed attacks and causes your unarmed hits to deal %d acid damage.
+		Additionally, your hand gear will use Magic in place of Cunning as a damage modifier.
+		
+		Note that Fiends naturally gain 0.5 physical power per character level and attack 20%% faster while unarmed. 
+		Acid damage improves with Spellpower.
+		]], "tformat")
+t("Corrupt Parry", "Corrupt Parry", "talent name")
+t("%s(%d #LAST#parried %s)#LAST#", "%s(%d #LAST#parried %s)#LAST#", "tformat")
+t([[With corrupt power and your fiendish claws, you are able to parry the blades, spells, and other assaults of your foes. You reduce incoming damage by %d%%, up to %d damage. 
+		When you regain Vim while in combat, you restore power to this effect based on the Vim gained. While resting out of combat, you restore 10%% of the maximum value per turn. 
+		The power restored is equal to %d%% of the Vim regained at 0 Fatigue, and is reduced by twice your Fatigue (currently: %d%%).
+		
+		Maximum damage absorption improves with your Spellpower. This can only trigger while unarmed and wearing armor lighter than massive.
+		]], [[With corrupt power and your fiendish claws, you are able to parry the blades, spells, and other assaults of your foes. You reduce incoming damage by %d%%, up to %d damage. 
+		When you regain Vim while in combat, you restore power to this effect based on the Vim gained. While resting out of combat, you restore 10%% of the maximum value per turn. 
+		The power restored is equal to %d%% of the Vim regained at 0 Fatigue, and is reduced by twice your Fatigue (currently: %d%%).
+		
+		Maximum damage absorption improves with your Spellpower. This can only trigger while unarmed and wearing armor lighter than massive.
+		]], "tformat")
+t("Acid Claws", "Acid Claws", "talent name")
+t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s's %s is disrupted by acid!#LAST#", "logSeen")
+t([[Your claws grow stronger and the acid dripping from them grows in corrupt potency. Your passively gain %d armor penetration while unarmed and if your target is on an #GREEN#acid pool#LAST#, your unarmed hits have a %d%% chance to place 1 of the their activated talents on cooldown for 2 turns, at most once per target per turn.
+		
+		Armor penetration improves with Strength.
+		]], [[Your claws grow stronger and the acid dripping from them grows in corrupt potency. Your passively gain %d armor penetration while unarmed and if your target is on an #GREEN#acid pool#LAST#, your unarmed hits have a %d%% chance to place 1 of the their activated talents on cooldown for 2 turns, at most once per target per turn.
+		
+		Armor penetration improves with Strength.
+		]], "tformat")
+t("Wretched Rage", "Wretched Rage", "talent name")
+t([[The rage of the Wretch fills your being, passively increasing your stun and pin immunities by %d%%. As your Vim builds, the rage overtakes you, causing your unarmed attacks to have a %d%% chance to trigger another unarmed attack dealing %d%% damage as the same type (physical, acid, etc.). 
+		
+		Each such attack requires and consumes %d Vim.
+		
+		Extra attack chance improves with your Dexterity, increases above 50%% Vim to double at 100%% Vim, and falls to 0%% as your Vim is depleted. Further, the chance for each successive hit in a turn is diminshed by one quarter after each attack. These attacks will only occur while unarmed and wearing armor lighter than massive.
+		]], [[The rage of the Wretch fills your being, passively increasing your stun and pin immunities by %d%%. As your Vim builds, the rage overtakes you, causing your unarmed attacks to have a %d%% chance to trigger another unarmed attack dealing %d%% damage as the same type (physical, acid, etc.). 
+		
+		Each such attack requires and consumes %d Vim.
+		
+		Extra attack chance improves with your Dexterity, increases above 50%% Vim to double at 100%% Vim, and falls to 0%% as your Vim is depleted. Further, the chance for each successive hit in a turn is diminshed by one quarter after each attack. These attacks will only occur while unarmed and wearing armor lighter than massive.
+		]], "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua"
@@ -1237,6 +1577,88 @@ t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/killing-instinct.lua"
+
+t("The teleport fizzles!", "순간이동이 실패했다!", "logSeen")
+-- new text
+--[==[
+t("Blink Pounce", "Blink Pounce", "talent name")
+t([[With the hunting instinct of the Wretch, you pounce on your prey. Teleport to a target up to %d tiles away and then strike them for %d%% unarmed damage. Every 2 turns that this talent is not on cooldown the range will increase by 1, to a maximum range of 10 and with a base range of 4. 
+		If you are standing on an #GREEN#acid pool#LAST# when you initiate the attack, you will #DARK_GREEN#absorb#LAST# it to convert the damage type to acid.
+		]], [[With the hunting instinct of the Wretch, you pounce on your prey. Teleport to a target up to %d tiles away and then strike them for %d%% unarmed damage. Every 2 turns that this talent is not on cooldown the range will increase by 1, to a maximum range of 10 and with a base range of 4. 
+		If you are standing on an #GREEN#acid pool#LAST# when you initiate the attack, you will #DARK_GREEN#absorb#LAST# it to convert the damage type to acid.
+		]], "tformat")
+t("Phase Frenzy", "Phase Frenzy", "talent name")
+t([[A frenzy overtakes you when you pounce on your prey. While teleporting to your target with Blink Pounce, you also strike all foes within %d tiles of them for %d%% unarmed damage. Additionally, your frenzy numbs you to pain, reducing all damage taken by %d during Blink Pounce and for 4 turns after.
+		
+		Damage reduction improves with Dexterity.
+		]], [[A frenzy overtakes you when you pounce on your prey. While teleporting to your target with Blink Pounce, you also strike all foes within %d tiles of them for %d%% unarmed damage. Additionally, your frenzy numbs you to pain, reducing all damage taken by %d during Blink Pounce and for 4 turns after.
+		
+		Damage reduction improves with Dexterity.
+		]], "tformat")
+t("Demonic Reflex", "Demonic Reflex", "talent name")
+t([[The corruption within you is bolstered by nearby #GREEN#acid pools#LAST#. You gain %d physical power and %d%% movement speed for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. 
+		Addtionally, when you enter combat and %d%% of the time when taking a hit of 8%% of your maximum life or more, you gain the Demonic Reflex effect for 4 turns, granting a %d%% chance to avoid incoming damage. This has a cooldown (%d). 
+		
+		Chance to avoid damage and chance to trigger the effect from taking damage both improve with Dexterity.
+		]], [[The corruption within you is bolstered by nearby #GREEN#acid pools#LAST#. You gain %d physical power and %d%% movement speed for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. 
+		Addtionally, when you enter combat and %d%% of the time when taking a hit of 8%% of your maximum life or more, you gain the Demonic Reflex effect for 4 turns, granting a %d%% chance to avoid incoming damage. This has a cooldown (%d). 
+		
+		Chance to avoid damage and chance to trigger the effect from taking damage both improve with Dexterity.
+		]], "tformat")
+t("Corrupt Reach", "Corrupt Reach", "talent name")
+t("The pin was resisted!", "The pin was resisted!", "logSeen")
+t("The teleport fizzled!", "The teleport fizzled!", "logSeen")
+t("The teleport was resisted!", "The teleport was resisted!", "logSeen")
+t("The silence was resisted!", "The silence was resisted!", "logSeen")
+t([[With corrupt force, you bring a foe into melee range. Target a foe up to %d tiles away and teleport them to your side. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to extend the reach by 3 tiles (up to %d) and deal %0.2f acid damage to your target with a chance to silence them %s for %d turns.
+		
+		Damage improves with spellpower.
+		]], [[With corrupt force, you bring a foe into melee range. Target a foe up to %d tiles away and teleport them to your side. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to extend the reach by 3 tiles (up to %d) and deal %0.2f acid damage to your target with a chance to silence them %s for %d turns.
+		
+		Damage improves with spellpower.
+		]], "tformat")
+--]==]
+
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/noxious-vapours.lua"
+
+
+-- new text
+--[==[
+t("Rushing Mist", "Rushing Mist", "talent name")
+t([[You become a cloud of acid mist and instantly rush to an empty tile within range %d and return to your normal form. There is a %d%% chance to create an #GREEN#acid pool#LAST# lasting 4 turns on each empty tile along or adjacent to your path, up to %d at most, and you will deal %0.2f acid damage to all foes in this area.
+		
+		Damage improves with spellpower. You may use this movement while immobilized, but not if frozen, and it may pass through creatures. If you target a creature you will move to a random empty tile adjacent to them and within range of this talent.
+		]], [[You become a cloud of acid mist and instantly rush to an empty tile within range %d and return to your normal form. There is a %d%% chance to create an #GREEN#acid pool#LAST# lasting 4 turns on each empty tile along or adjacent to your path, up to %d at most, and you will deal %0.2f acid damage to all foes in this area.
+		
+		Damage improves with spellpower. You may use this movement while immobilized, but not if frozen, and it may pass through creatures. If you target a creature you will move to a random empty tile adjacent to them and within range of this talent.
+		]], "tformat")
+t("Vapour Burst", "Vapour Burst", "talent name")
+t([[Release a burst of acid vapour in a radius %d cone. All foes in the area will be knocked back 2 tiles and become dazed %s for %d turns. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to intensify the acid, causing the burst to deal %0.2f acid damage which may confuse foes (50%% power) %s rather than daze them.
+		
+		Damage improves with spellpower. Allies in the area are spared from the status effects.
+		]], [[Release a burst of acid vapour in a radius %d cone. All foes in the area will be knocked back 2 tiles and become dazed %s for %d turns. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to intensify the acid, causing the burst to deal %0.2f acid damage which may confuse foes (50%% power) %s rather than daze them.
+		
+		Damage improves with spellpower. Allies in the area are spared from the status effects.
+		]], "tformat")
+t("Gathering Mist", "Gathering Mist", "talent name")
+t([[Acrid vapours begin to swirl about your #GREEN#acid pools#LAST#, causing foes standing on them to have their accuracy and defense reduced by %d . Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# the cooldown of Rushing Mist will be reset and this talent will go on cooldown for %d turns before it can reset Rushing Mist again. Passively, you gain %d Vim when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST#, at most once per turn.  
+		
+		Vim gain improves with spellpower. Accuracy and defense reduction improve with Magic.
+		]], [[Acrid vapours begin to swirl about your #GREEN#acid pools#LAST#, causing foes standing on them to have their accuracy and defense reduced by %d . Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# the cooldown of Rushing Mist will be reset and this talent will go on cooldown for %d turns before it can reset Rushing Mist again. Passively, you gain %d Vim when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST#, at most once per turn.  
+		
+		Vim gain improves with spellpower. Accuracy and defense reduction improve with Magic.
+		]], "tformat")
+t("Dissolve Affliction", "Dissolve Affliction", "talent name")
+t([[Each turn while standing on an #GREEN#acid pool#LAST#, negative effects on you will have their duration reduced by an extra %d turns. This will apply to 1 effect for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most (excluding type "other").
+		]], [[Each turn while standing on an #GREEN#acid pool#LAST#, negative effects on you will have their duration reduced by an extra %d turns. This will apply to 1 effect for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most (excluding type "other").
+		]], "tformat")
+--]==]
+
+
+------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/npcs.lua"
 
 t("Soul Eater", "영혼 포식자", "talent name")
@@ -1279,6 +1701,51 @@ t("Hope Wanes", "흩어지는 희망", "talent name")
 t([[You crush the spirit of a target with at least %d fear stacks, consuming all stacks and making it unable to act for %d turns.
 		This talent ignores saves and immunities.]], [[적어도 %d 중첩 이상을 가진 적의 영혼을 파쇄합니다. 중첩을 전부 소모하여 %d 턴 동안 행동할 수 없게 합니다.
 		이 기술은 모든 내성과 면역을 무시합니다.]], "tformat")
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/solvent-vim.lua"
+
+
+-- new text
+--[==[
+t("Caustic Shift", "Caustic Shift", "talent name")
+t([[Create an #GREEN#acid pool#LAST# within range %d lasting 4 turns. If you create the pool on an empty, adjacent tile, you will also move to the location. Additionally, while on an #GREEN#acid pool#LAST# you deal %0.2f Acid damage to all adjacent foes each turn and gain %d%% critical damage multiplier.
+		
+		Acid damage improves with spellpower.
+		]], [[Create an #GREEN#acid pool#LAST# within range %d lasting 4 turns. If you create the pool on an empty, adjacent tile, you will also move to the location. Additionally, while on an #GREEN#acid pool#LAST# you deal %0.2f Acid damage to all adjacent foes each turn and gain %d%% critical damage multiplier.
+		
+		Acid damage improves with spellpower.
+		]], "tformat")
+t("Wretched Vigor", "Wretched Vigor", "talent name")
+t([[For 2 turns after you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you will gain %0.1f Vim for each unarmed attack that lands, up to %0.1f Vim per turn at most. Passively, you gain %d%% spell critical chance.
+		
+		Vim gain on hit improves with spellpower. Spell crit chance improves with accuracy.
+		]], [[For 2 turns after you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you will gain %0.1f Vim for each unarmed attack that lands, up to %0.1f Vim per turn at most. Passively, you gain %d%% spell critical chance.
+		
+		Vim gain on hit improves with spellpower. Spell crit chance improves with accuracy.
+		]], "tformat")
+t("Acid Reservoir", "Acid Reservoir", "talent name")
+t([[When you are afflicted with a negative status effect while in combat, you have a %d%% chance to create an #GREEN#acid pool#LAST# lasting %d turns on your own tile or an empty, adjacent, acid-free tile. This has a cooldown (%d).
+		
+		Passively, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you have a %d%% chance to create a new pool on the same tile with a duration of one turn less than the pool that was absorbed, at a cost of 8 Vim.
+		]], [[When you are afflicted with a negative status effect while in combat, you have a %d%% chance to create an #GREEN#acid pool#LAST# lasting %d turns on your own tile or an empty, adjacent, acid-free tile. This has a cooldown (%d).
+		
+		Passively, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you have a %d%% chance to create a new pool on the same tile with a duration of one turn less than the pool that was absorbed, at a cost of 8 Vim.
+		]], "tformat")
+t("Vile Infusion", "Vile Infusion", "talent name")
+t([[When you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% increased damage and %d%% increased healing modifier for 1 turn. 
+		
+		Additionally, you will be healed for %d when you move onto an #GREEN#acid pool#LAST#. You will not be able to heal from this effect for three turns after if has triggered.
+		
+		All values improve with spellpower.
+		]], [[When you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% increased damage and %d%% increased healing modifier for 1 turn. 
+		
+		Additionally, you will be healed for %d when you move onto an #GREEN#acid pool#LAST#. You will not be able to heal from this effect for three turns after if has triggered.
+		
+		All values improve with spellpower.
+		]], "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua"
@@ -1342,6 +1809,41 @@ t([[Your strikes are imbued with a vile power that extends your victim's sufferi
 		이 효과는 하나의 대상에 대해 6 턴마다 1 번씩 발동합니다.]], "tformat")
 
 ------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/unstable-mutation.lua"
+
+
+-- new text
+--[==[
+t("Titan Strike", "Titan Strike", "talent name")
+t("Channel the brute force of a Wretch Titan and slash a large area, devastating foes and terrain alike. Deals %d%% unarmed damage as blight to all targets in a radius 4 cone. Any diggable terrain in the area will be destroyed and you will create an #GREEN#acid pool#LAST# lasting 4 turns on destroyed terrain, up to %d pools at most.", "Channel the brute force of a Wretch Titan and slash a large area, devastating foes and terrain alike. Deals %d%% unarmed damage as blight to all targets in a radius 4 cone. Any diggable terrain in the area will be destroyed and you will create an #GREEN#acid pool#LAST# lasting 4 turns on destroyed terrain, up to %d pools at most.", "tformat")
+t("Noxious Overload", "Noxious Overload", "talent name")
+t([[When you land an unarmed critical hit, all #GREEN#acid pools#LAST# within 4 tiles will release a noxious burst dealing %d blight damage in a radius of %d, at most once per turn. Additionally, while standing on an #GREEN#acid pool#LAST# you gain %d%% physical critical chance and your unarmed strikes will deal %0.2f blight damage.
+
+			Burst damage and on-hit damage both improve with spellpower.
+		]], [[When you land an unarmed critical hit, all #GREEN#acid pools#LAST# within 4 tiles will release a noxious burst dealing %d blight damage in a radius of %d, at most once per turn. Additionally, while standing on an #GREEN#acid pool#LAST# you gain %d%% physical critical chance and your unarmed strikes will deal %0.2f blight damage.
+
+			Burst damage and on-hit damage both improve with spellpower.
+		]], "tformat")
+t("Corrupt Reaction", "Corrupt Reaction", "talent name")
+t([[Foes standing on one of your #GREEN#acid pools#LAST# will take %0.2f blight damage each turn with a %d%% chance to extend the duration of all negative effects you have placed on them by 1 turn (excludes type "other"). Additionally, you gain %d defense while standing on an #GREEN#acid pool#LAST#. Finally, at talent level 5 or above, your increased blight damage and resistance penetration will match your increased acid damage and resistance penetration, if not already higher.
+		
+			Blight damage improves with spellpower.
+		]], [[Foes standing on one of your #GREEN#acid pools#LAST# will take %0.2f blight damage each turn with a %d%% chance to extend the duration of all negative effects you have placed on them by 1 turn (excludes type "other"). Additionally, you gain %d defense while standing on an #GREEN#acid pool#LAST#. Finally, at talent level 5 or above, your increased blight damage and resistance penetration will match your increased acid damage and resistance penetration, if not already higher.
+		
+			Blight damage improves with spellpower.
+		]], "tformat")
+t("Blighted Catalyzation", "Blighted Catalyzation", "talent name")
+t([[When you land an unarmed attack as acid damage you will deal %0.2f blight damage in a radius of 2 centered on your target, at most once per turn. The damage is increased by 20%% for each negative effect you have placed on the target, up to 10, for a maximum of 300%% damage total (%0.2f). Additionally, any time you deal blight damage to an enemy you attempt to afflict them %s with a stacking %d%% talent failure chance for 2 turns, with new stacks refreshing the duration. There is no stack limit, but the effect is removed when a talent failure occurs. Finally, you gain %d spell, mental, and physical saves for 4 turns when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST#.
+		
+		Blight damage improves with spellpower. Save bonuses improve with Magic.
+		]], [[When you land an unarmed attack as acid damage you will deal %0.2f blight damage in a radius of 2 centered on your target, at most once per turn. The damage is increased by 20%% for each negative effect you have placed on the target, up to 10, for a maximum of 300%% damage total (%0.2f). Additionally, any time you deal blight damage to an enemy you attempt to afflict them %s with a stacking %d%% talent failure chance for 2 turns, with new stacks refreshing the duration. There is no stack limit, but the effect is removed when a talent failure occurs. Finally, you gain %d spell, mental, and physical saves for 4 turns when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST#.
+		
+		Blight damage improves with spellpower. Save bonuses improve with Magic.
+		]], "tformat")
+--]==]
+
+
+------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
 
 t("Obliterating Smash", "소멸의 강타", "talent name")
@@ -1365,6 +1867,30 @@ t([[Your blade drinks in death. Whenever you score a kill with this talent off c
 		Additionally, you gain an extra %d vim per kill.]], [[칼날이 죽음을 삼킵니다. 적을 쓰러뜨렸을 때, 이 기술이 재사용 대기 상태가 아니라면, 6 턴 동안 다음 %d 번의 근접 공격이 언제나 치명타를 유발합니다. 또한 지속시간 동안 치명타 피해량이 %d%% 증가합니다.
 		추가로, 적을 쓰러뜨렸을 때 원기를 %d 추가로 획득합니다.]], "tformat")
 t("Destroyer", "파괴자", "talent name")
+-- new text
+--[==[
+t([[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your size by 2, your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
+		The physical power, stamina regen, and status resistances increase with your spellpower.
+		Your other talents also gain a variety of bonuses:
+		-Draining Assault: Reduces cooldown by %d.
+		-Reckless Strike: Gain %d%% resistance penetration for all elements for %d turns.
+		-Obliterating Smash: Increases range by %d.
+		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
+		-Incinerating Blows: Increases chance of bonus damage to %d%%.
+		-Fearfeast: Gain %0.1f vim per stack.
+		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your size by 2, your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
+		The physical power, stamina regen, and status resistances increase with your spellpower.
+		Your other talents also gain a variety of bonuses:
+		-Draining Assault: Reduces cooldown by %d.
+		-Reckless Strike: Gain %d%% resistance penetration for all elements for %d turns.
+		-Obliterating Smash: Increases range by %d.
+		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
+		-Incinerating Blows: Increases chance of bonus damage to %d%%.
+		-Fearfeast: Gain %0.1f vim per stack.
+		-Maw of Urh'rok: Increases cone width by %d degrees.]], "tformat")
+--]==]
+
+-- old translated text
 t([[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
 		The physical power, stamina regen, and status resistances increase with your spellpower.
 		Your other talents also gain a variety of bonuses:
@@ -1384,6 +1910,43 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 		-소각의 타격: 추가 피해를 가할 확률이 %d%% 로 증가합니다.
 		-공포 포식: 중첩 당 원기를 %0.1f 회복합니다.
 		-울흐'록의 아가리: 원뿔 범위 각도가 %d 도 증가합니다.]], "tformat", {1,2,3,4,6,5,7,8,9,10,11})
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/talents/corruptions/wretched-brethren.lua"
+
+
+-- new text
+--[==[
+t("Wretched Link", "Wretched Link", "talent name")
+t("Connects wretches to their summoner.", "Connects wretches to their summoner.", "tformat")
+t("Wretchlings", "Wretchlings", "talent name")
+t([[Your connection to the Children of Emerald allows you to call them to your service in battle. When you enter combat, you summon %d wretchling(s) near yourself, fighting until they die or you leave combat. If a wretchling dies, you will call another after %d turns.
+		The wretchlings will know Blink Pounce and Pooling Corruption at talent level %d and their attacks will always deal acid damage. Any #GREEN#acid pools#LAST# created by the wretchlings will count as your own.
+		Strength, Dexterity and Magic stats will be set to %d (based on your Magic stat), and life rating increased by %d. Many other stats will scale with your level. Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited by your wretchlings. Acid damage dealt to you by your wretchlings will be negated.
+		If you are more than 10 tiles from a wretchling or it loses line of sight of you for more than 3 turns, it will vanish.]], [[Your connection to the Children of Emerald allows you to call them to your service in battle. When you enter combat, you summon %d wretchling(s) near yourself, fighting until they die or you leave combat. If a wretchling dies, you will call another after %d turns.
+		The wretchlings will know Blink Pounce and Pooling Corruption at talent level %d and their attacks will always deal acid damage. Any #GREEN#acid pools#LAST# created by the wretchlings will count as your own.
+		Strength, Dexterity and Magic stats will be set to %d (based on your Magic stat), and life rating increased by %d. Many other stats will scale with your level. Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited by your wretchlings. Acid damage dealt to you by your wretchlings will be negated.
+		If you are more than 10 tiles from a wretchling or it loses line of sight of you for more than 3 turns, it will vanish.]], "tformat")
+t("Wretched Influence", "Wretched Influence", "talent name")
+t([[Your influence over your summoned wretchlings grows stronger. They will learn the Demonhide talent at level %d and gain %d%% global speed. Additionally, you will grant them the Demonic Reflex effect for %d turns when summoned, granting a %d%% chance to avoid incoming damage. 
+		
+		Wretchlings will count your acid pools when determining whether one will spawn from their Demonhide.]], [[Your influence over your summoned wretchlings grows stronger. They will learn the Demonhide talent at level %d and gain %d%% global speed. Additionally, you will grant them the Demonic Reflex effect for %d turns when summoned, granting a %d%% chance to avoid incoming damage. 
+		
+		Wretchlings will count your acid pools when determining whether one will spawn from their Demonhide.]], "tformat")
+t("Wretched Mists", "Wretched Mists", "talent name")
+t([[You empower your wretchlings to control acidic mists. They will learn the Rushing Mist talent at level %d and begin to release acidic mists from their bodies, dealing %0.2f acid damage each turn to all adjacent enemies. Additionally, the acrid fumes are so strong that melee hits from your wretchlings have a %d%% chance to cause the foe to forget their target. 
+		
+		Damage dealt by the acidic mists improves with your Spellpower and can crit. Chance to forget target improves with your Magic.
+		If you know Gathering Mist and it resets the cooldown of your own Rushing Mist, it will reset the cooldown of Rushing Mist for your summoned wretchlings as well, if it is on cooldown.]], [[You empower your wretchlings to control acidic mists. They will learn the Rushing Mist talent at level %d and begin to release acidic mists from their bodies, dealing %0.2f acid damage each turn to all adjacent enemies. Additionally, the acrid fumes are so strong that melee hits from your wretchlings have a %d%% chance to cause the foe to forget their target. 
+		
+		Damage dealt by the acidic mists improves with your Spellpower and can crit. Chance to forget target improves with your Magic.
+		If you know Gathering Mist and it resets the cooldown of your own Rushing Mist, it will reset the cooldown of Rushing Mist for your summoned wretchlings as well, if it is on cooldown.]], "tformat")
+t("Wretch", "Wretch", "talent name")
+t("You must have at least one summoned wretchling!", "You must have at least one summoned wretchling!", "logSeen")
+t("Not enough space to call a wretch!", "Not enough space to call a wretch!", "logPlayer")
+t("Banish your wretchlings to call a mighty Wretch to fight for you for %d turns. The Wretch will know Corrupt Parry and Wretched Rage at talent level %d, as well as gaining all talents and effects your wretchlings gain from spells in this talent line. Additionally, the Wretch has %d bonus life per wretchling, %d%% absolute damage resistance, and will taunt all foes in a radius of 10 at the begining of each game turn.", "Banish your wretchlings to call a mighty Wretch to fight for you for %d turns. The Wretch will know Corrupt Parry and Wretched Rage at talent level %d, as well as gaining all talents and effects your wretchlings gain from spells in this talent line. Additionally, the Wretch has %d bonus life per wretchling, %d%% absolute damage resistance, and will taunt all foes in a radius of 10 at the begining of each game turn.", "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/misc/races.lua"
@@ -1421,9 +1984,72 @@ t([[Your original invisibility talent was corrupted and twisted.
 		- 변신할 때, 몰락한 자의 신속함과 냉혹함의 재사용 대기시간이 초기화됩니다.
 		]], "tformat")
 t("Pitiless", "냉혹함", "talent name")
+-- new text
+--[==[
+t([[You launch a mental assault on the target %s.
+		The assault increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[You launch a mental assault on the target %s.
+		The assault increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], "tformat")
+--]==]
+
+-- old translated text
 t([[You launch a mental assault on the target %s.
 		The assult increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[대상에게 정신적으로 맹공을 가합니다 %s.
 		맹공은 이미 재사용 대기시간 중인 %d 개의 기술의 재사용 대기시간을 연장합니다. 또한 모든 부정적인 마법, 물리, 정신 효과의 지속시간을 %d 턴 연장하고, (최대 4 배까지 연장 가능합니다) 모든 이로운 마법, 물리, 정신 효과의 지속시간을 %d 턴 단축합니다.]], "tformat")
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/talents/uber/mag.lua"
+
+
+-- new text
+--[==[
+t("Wretchkin", "Wretchkin", "talent name")
+t("Absorb 300 or more acid pools.", "Absorb 300 or more acid pools.", "_t")
+t([[You embrace your connection to the Emerald and become a powerful Wretchkin, gaining the following benefits:
+	  - +1.2 mastery level to #GOLD#Emerald Nature#LAST# and #GOLD#Wretched Bretheren#LAST#
+	  - When you summon a wretchling it has a #GOLD#30%% chance to become a Wretch instead#LAST# (these Wretches do not taunt or gain the absolute resistance bonus)
+	  - Manually summoning a Wretch will #GOLD#no longer banish other wretches#LAST# (life bonus is still granted)
+	  - A manually summoned Wretch will learn #GOLD#Giant Leap#LAST# and #GOLD#Flexible Combat#LAST#
+	  - All of your wretches learn #GOLD#Claw Crush#LAST# and #GOLD#Noxious Blow#LAST# at level 5
+	  - All of your wretchches gain #GOLD#25 defense, 25%% resistance to all damage, #LAST#and#GOLD# 25%% reduction to negative effect duration#LAST# for 4 turns after a teleport
+	  - When you use an unarmed attack talent that your wretches also know, they will #GOLD#use the talent on the same target#LAST# if in range and not on cooldown. If their talent is on cooldown, the remaining cooldown is reduced by half, roudned up.
+
+	   ]], [[You embrace your connection to the Emerald and become a powerful Wretchkin, gaining the following benefits:
+	  - +1.2 mastery level to #GOLD#Emerald Nature#LAST# and #GOLD#Wretched Bretheren#LAST#
+	  - When you summon a wretchling it has a #GOLD#30%% chance to become a Wretch instead#LAST# (these Wretches do not taunt or gain the absolute resistance bonus)
+	  - Manually summoning a Wretch will #GOLD#no longer banish other wretches#LAST# (life bonus is still granted)
+	  - A manually summoned Wretch will learn #GOLD#Giant Leap#LAST# and #GOLD#Flexible Combat#LAST#
+	  - All of your wretches learn #GOLD#Claw Crush#LAST# and #GOLD#Noxious Blow#LAST# at level 5
+	  - All of your wretchches gain #GOLD#25 defense, 25%% resistance to all damage, #LAST#and#GOLD# 25%% reduction to negative effect duration#LAST# for 4 turns after a teleport
+	  - When you use an unarmed attack talent that your wretches also know, they will #GOLD#use the talent on the same target#LAST# if in range and not on cooldown. If their talent is on cooldown, the remaining cooldown is reduced by half, roudned up.
+
+	   ]], "tformat")
+t("Acrid Evoker", "Acrid Evoker", "talent name")
+t("Create 450 or more acid pools.", "Create 450 or more acid pools.", "_t")
+t([[You dedicate yourself entirely to the creation and manipulation of acid and enhance your vile power by using your bare claws as an arcane focus. While empty-handed and not weaing gloves, gauntlets, or massive armor, you gain the following benefits:
+	  - Base damage modifier changes from 100%% Strength to #GOLD#50%% Strength, 50%% Dexterity #LAST#and#GOLD# 50%% Magic#LAST#
+	  - + #GOLD#%d spellpower#LAST# based on your combined Strength and Dexterity
+	  - A #GOLD#%d%% chance#LAST# when a non-melee spell deals damage to cast #GOLD#Claw Crush#LAST# on the target (ignoring cooldown and hitting up to range 10)
+	  - A #GOLD#%d%% chance#LAST# when a non-melee spell deals damage to cast #GOLD#Noxious Blow#LAST# on the target (ignoring cooldown and hitting up to range 10)
+	  - #GOLD#Corrupt Reach#LAST# will #GOLD#pin enemies for 4 turns#LAST# instead of teleporting them
+	  - #GOLD#Blink Pounce#LAST# can target an #GOLD#empty tile#LAST# at range 4 or less
+	  - Cooldown of #GOLD#Vile Splash#LAST# is #GOLD#reduced by 10#LAST# and #GOLD#range increased by 4#LAST# while standing on an acid pool
+	  - #GOLD#Demonhide#LAST# will create acid pools #GOLD#on your tile#LAST# or an adjacent tile if possible and automatically create an acid pool when you enter combat
+	  - Acid pool limit for #GOLD#Caustic Link, Emerald Resonance, Demonic Reflex#LAST#, and #GOLD#Dissolve Affliction#LAST# is #GOLD#increased by 2#LAST# and the #GOLD#radius is increased to 10#LAST#
+	  - + #GOLD#8%% acid resistance penetration#LAST# for each acid pool in radius 10, up to 6 at most
+	   ]], [[You dedicate yourself entirely to the creation and manipulation of acid and enhance your vile power by using your bare claws as an arcane focus. While empty-handed and not weaing gloves, gauntlets, or massive armor, you gain the following benefits:
+	  - Base damage modifier changes from 100%% Strength to #GOLD#50%% Strength, 50%% Dexterity #LAST#and#GOLD# 50%% Magic#LAST#
+	  - + #GOLD#%d spellpower#LAST# based on your combined Strength and Dexterity
+	  - A #GOLD#%d%% chance#LAST# when a non-melee spell deals damage to cast #GOLD#Claw Crush#LAST# on the target (ignoring cooldown and hitting up to range 10)
+	  - A #GOLD#%d%% chance#LAST# when a non-melee spell deals damage to cast #GOLD#Noxious Blow#LAST# on the target (ignoring cooldown and hitting up to range 10)
+	  - #GOLD#Corrupt Reach#LAST# will #GOLD#pin enemies for 4 turns#LAST# instead of teleporting them
+	  - #GOLD#Blink Pounce#LAST# can target an #GOLD#empty tile#LAST# at range 4 or less
+	  - Cooldown of #GOLD#Vile Splash#LAST# is #GOLD#reduced by 10#LAST# and #GOLD#range increased by 4#LAST# while standing on an acid pool
+	  - #GOLD#Demonhide#LAST# will create acid pools #GOLD#on your tile#LAST# or an adjacent tile if possible and automatically create an acid pool when you enter combat
+	  - Acid pool limit for #GOLD#Caustic Link, Emerald Resonance, Demonic Reflex#LAST#, and #GOLD#Dissolve Affliction#LAST# is #GOLD#increased by 2#LAST# and the #GOLD#radius is increased to 10#LAST#
+	  - + #GOLD#8%% acid resistance penetration#LAST# for each acid pool in radius 10, up to 6 at most
+	   ]], "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/timed_effects.lua"
@@ -1642,6 +2268,26 @@ t("demon", "악마", "effect subtype")
 t("seismic", "여진", "effect subtype")
 t("Volcanic Skin", "용암 피부", "_t")
 t("%d charges.", "%d 중첩.", "tformat")
+t("acid", "산성", "effect subtype")
+t("magical", "마법적 효과", "effect subtype")
+t("phase", "위상", "effect subtype")
+t("frenzy", "광란", "effect subtype")
+-- new text
+--[==[
+t("The target is drawing strength from Acid.%s", "The target is drawing strength from Acid.%s", "tformat")
+t("The target is suffering from Acid afflictions.%s", "The target is suffering from Acid afflictions.%s", "tformat")
+t("The target has recently healed from moving onto an acid pool and cannot do so again.", "The target has recently healed from moving onto an acid pool and cannot do so again.", "tformat")
+t("The target has recently created a blinding splash from moving onto an acid pool and cannot do so again.", "The target has recently created a blinding splash from moving onto an acid pool and cannot do so again.", "tformat")
+t("The target is infused with vile energy, gaining %d%% increased damage and %d%% healing modifier.", "The target is infused with vile energy, gaining %d%% increased damage and %d%% healing modifier.", "tformat")
+t("The target is infused with blighted energy, gaining %d increased Spell, Mind and Physical Saves.", "The target is infused with blighted energy, gaining %d increased Spell, Mind and Physical Saves.", "tformat")
+t("The target is filled with wretched vigor, gaining %0.1f Vim for each unarmed attack that lands, up to %d Vim per turn at most.", "The target is filled with wretched vigor, gaining %0.1f Vim for each unarmed attack that lands, up to %d Vim per turn at most.", "tformat")
+t("The target has a %d%% chance to fail any talent use. This effect is removed when a talent failure occurs.", "The target has a %d%% chance to fail any talent use. This effect is removed when a talent failure occurs.", "tformat")
+t("The range of Blink Pounce is increased by %d.", "The range of Blink Pounce is increased by %d.", "tformat")
+t("All damage taken reduced by %d.", "All damage taken reduced by %d.", "tformat")
+t("%d%% increased damage resistance.", "%d%% increased damage resistance.", "tformat")
+t("%d%% chance to negate incoming damage.", "%d%% chance to negate incoming damage.", "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/anteroom-agony/grids.lua"
@@ -1667,8 +2313,14 @@ t("quasit squad leader", "콰짓 지휘관", "entity name")
 t("A small, heavily armoured demon, rushing toward you.", "중무장을 한 작은 악마입니다. 당신을 향해 달려가고 있습니다.", "_t")
 t("Rogroth, Eater of Souls", "영혼을 먹는 자 로그로스", "entity name")
 t("major", "고위", "entity subtype")
-t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "거미와 비슷한 어두운 금속 피부를 가진 악마입니다. 화염과 황폐의 마법이 마구잡이로 쇄도하고 있습니다. 뚜렷하게 보이는 머리는 없지만 몸뚱이에 거대한 입이 하나 뚫려 있습니다.", "_t")
 t("and raised as a demonic husk", "그리고 악마의 하수인으로 되살아났습니다.", "_t")
+-- new text
+--[==[
+t("Fire and blight arcane surges randomly appear on its spider-like dark metallic skin. There is no definite head but a single huge mouth on its body.", "Fire and blight arcane surges randomly appear on its spider-like dark metallic skin. There is no definite head but a single huge mouth on its body.", "_t")
+--]==]
+
+-- old translated text
+t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "거미와 비슷한 어두운 금속 피부를 가진 악마입니다. 화염과 황폐의 마법이 마구잡이로 쇄도하고 있습니다. 뚜렷하게 보이는 머리는 없지만 몸뚱이에 거대한 입이 하나 뚫려 있습니다.", "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/anteroom-agony/objects.lua"
@@ -1683,6 +2335,41 @@ t("A pile of crystalline tablets.", "수정으로 된 비문 더미입니다.", 
 section "tome-ashes-urhrok/data/zones/anteroom-agony/zone.lua"
 
 t("Anteroom of Agony", "고문 대기장", "_t")
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/zones/caustic-crater/npcs.lua"
+
+t("demon", "악마", "entity type")
+t("major", "고위", "entity subtype")
+-- new text
+--[==[
+t("Etomae, Wretch Colossus", "Etomae, Wretch Colossus", "entity name")
+t("This demon towers over everything around. Wisps of noxious vapour curl off its body. Its skin is slick with a vile liquid that hisses and smokes as it drips on the ground.", "This demon towers over everything around. Wisps of noxious vapour curl off its body. Its skin is slick with a vile liquid that hisses and smokes as it drips on the ground.", "_t")
+t("and dissolved into a pool of sludge", "and dissolved into a pool of sludge", "_t")
+--]==]
+
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/zones/caustic-crater/objects.lua"
+
+
+-- new text
+--[==[
+t("rune-scrawled paper scrap", "rune-scrawled paper scrap", "entity name")
+t("A paper scrap, heavily singed and scrawled with shifting runes.", "A paper scrap, heavily singed and scrawled with shifting runes.", "_t")
+--]==]
+
+
+------------------------------------------------
+section "tome-ashes-urhrok/data/zones/caustic-crater/zone.lua"
+
+
+-- new text
+--[==[
+t("Caustic Crater", "Caustic Crater", "_t")
+t("Mysterious Crater", "Mysterious Crater", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
@@ -1829,6 +2516,44 @@ As you recover, and your platform of searing earth splits from the main continen
 ------------------------------------------------
 section "tome-ashes-urhrok/overload/data/texts/unlock-corrupter_demonologist.lua"
 
+
+-- new text
+--[==[
+t("New Class: #LIGHT_GREEN#Demonologist (Defiler)", "New Class: #LIGHT_GREEN#Demonologist (Defiler)", "_t")
+t([[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
+Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
+Some have managed to escape their programming and chose to follow their own desires instead.
+
+You have defeated countless demons, seen how their essence work, witnessed how to bind demons to your own purpose and can now create new characters with the #LIGHT_GREEN#Demonologist class#WHITE#.
+
+Demonologists blend magic with shield techniques in melee combat.
+Class features:#YELLOW#
+- Infect your foes with demonic seeds.
+- Bind demonic seeds to your equipment to enhance them.
+- Summon and control demons to do your bidding.
+- Blend corrupted magic with a martial shield training to protect yourself and ruin your foes.#WHITE#
+
+Demonologists use "vim" to power their special abilities.
+Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
+]], [[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
+Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
+Some have managed to escape their programming and chose to follow their own desires instead.
+
+You have defeated countless demons, seen how their essence work, witnessed how to bind demons to your own purpose and can now create new characters with the #LIGHT_GREEN#Demonologist class#WHITE#.
+
+Demonologists blend magic with shield techniques in melee combat.
+Class features:#YELLOW#
+- Infect your foes with demonic seeds.
+- Bind demonic seeds to your equipment to enhance them.
+- Summon and control demons to do your bidding.
+- Blend corrupted magic with a martial shield training to protect yourself and ruin your foes.#WHITE#
+
+Demonologists use "vim" to power their special abilities.
+Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
+]], "_t")
+--]==]
+
+-- old translated text
 t("New Class: #LIGHT_GREEN#Corruptor (Demonologist)", "새로운 직업: #LIGHT_GREEN#악마학자 (모독자)", "_t")
 t([[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
 Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
@@ -1863,6 +2588,47 @@ Vim is the life force of all beings. It does not regenerate, and can only be sto
 
 또한 악마학자는 기력 또한 사용합니다.
 ]], "_t")
+
+------------------------------------------------
+section "tome-ashes-urhrok/overload/data/texts/unlock-corrupter_fiend.lua"
+
+
+-- new text
+--[==[
+t("New Class: #LIGHT_GREEN#Fiend (Defiler)", "New Class: #LIGHT_GREEN#Fiend (Defiler)", "_t")
+t([[Demons in their invasion of Eyal have abducted natives of the planet and subjected them to wicked experiments.
+Infused with the essence of the demons, these prisoners have been warped and twisted.
+Many die in the process, some are used as slaves, and a rare few manage to escape from thier captors.
+
+You have defeated the wretch colossus, seen how it can manipulate acid pools and leap around the battle field, and can now create new characters with the #LIGHT_GREEN#Fiend class#WHITE#.
+
+Fiends are unarmed fighters with spellcasting support.
+Class features:#YELLOW#
+- Create acid pools to disable your foes and enhance yourself.
+- Absorb acid pools to empower your capabilities and further disable your enemies.
+- Summon wretchlings, refine your control over your acid pools, or give in to your mutation to gain blighted strength.
+- Blend corrupted magic with the might of your fiendish claws to defend yourself and shred your foes.#WHITE#
+
+Fiends use "vim" to power their special abilities.
+Vim is the life force of all beings. It does not regenerate, and can be stolen from your foes or generated through some abilities.
+]], [[Demons in their invasion of Eyal have abducted natives of the planet and subjected them to wicked experiments.
+Infused with the essence of the demons, these prisoners have been warped and twisted.
+Many die in the process, some are used as slaves, and a rare few manage to escape from thier captors.
+
+You have defeated the wretch colossus, seen how it can manipulate acid pools and leap around the battle field, and can now create new characters with the #LIGHT_GREEN#Fiend class#WHITE#.
+
+Fiends are unarmed fighters with spellcasting support.
+Class features:#YELLOW#
+- Create acid pools to disable your foes and enhance yourself.
+- Absorb acid pools to empower your capabilities and further disable your enemies.
+- Summon wretchlings, refine your control over your acid pools, or give in to your mutation to gain blighted strength.
+- Blend corrupted magic with the might of your fiendish claws to defend yourself and shred your foes.#WHITE#
+
+Fiends use "vim" to power their special abilities.
+Vim is the life force of all beings. It does not regenerate, and can be stolen from your foes or generated through some abilities.
+]], "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/overload/data/texts/unlock-cosmetic_doomhorns.lua"
@@ -1918,6 +2684,11 @@ Race features:#YELLOW#
 section "tome-ashes-urhrok/overload/mod/class/DemonologistsDLC.lua"
 
 t("Shadow Power: ", "그림자의 힘: ", "_t")
+-- new text
+--[==[
+t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s's %s is disrupted by acid!#LAST#", "logSeen")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/superload/mod/class/Actor.lua"
@@ -1931,12 +2702,17 @@ section "tome-ashes-urhrok/superload/mod/class/Game.lua"
 t("Class: Demonologist", "직업: 악마학자", "_t")
 t("Cosmetic: demonic horns", "외형: 악마의 뿔", "_t")
 t("Cosmetic: red skin", "외형: 붉은 피부", "_t")
+-- new text
+--[==[
+t("Class: Fiend", "Class: Fiend", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/superload/mod/class/Object.lua"
 
 
--- untranslated text
+-- new text
 --[==[
 t("[%s] (%d, %s)", "[%s] (%d, %s)", "tformat")
 --]==]
@@ -1958,7 +2734,7 @@ Have fun crushing your foes!
 적들을 으깨버리면서, 재밌게 즐기세요!
 ]], "tformat")
 t(" or ", " 또는 ", "_t")
--- untranslated text
+-- new text
 --[==[
 t(", ", ", ", "_t")
 --]==]

@@ -176,7 +176,7 @@ t("#{italic}##GREY#The presence shirks back sadly, but you feel like it has resp
 t("[die]", "[죽는다]", "_t")
 t("#{italic}##GREY#You do not want to die. Without a second thought, you accept its offer. Happily, the presence begins to do... something. You start to wake up and you feel life returning to your limbs. However, you have a splitting headache and your neck won't stop hurting. Just what did the presence do to bring you back from the brink?#{normal}#", "#{italic}##GREY#당신은 죽고 싶지 않습니다. 더 생각할 것도 없이, 그 존재의 제안을 받아들였습니다. 기쁘게도, 그 존재는... 뭔가를 하기 시작했습니다. 의식이 깨어나기 시작하고, 자신의 생명이 사지로 돌아오는 것이 느껴졌습니다. 하지만, 깨지는 듯한 두통이 느껴지고 목 쪽의 고통도 잦아들질 않습니다. 당신을 죽음에서 건져내기 위해 그 존재는 무엇을 한 걸까요?#{normal}#", "_t")
 t("#CRIMSON#Strange... You're pretty sure you died, but you're still here. It does feel like something important is missing, however. Your neck also feels incredibly sore and you have a splitting headache. Somehow, you get the subtle impression that you shouldn't look in a mirror anytime soon.", "#CRIMSON#이상하다... 당신은 확실히 죽었지만, 아직도 여기에 있다. 하지만 뭔가 중요한 게 없어진 느낌이 든다. 목 부분도 미칠듯이 아프고 깨질 듯한 두통도 느껴진다. 왠지 모르게, 당분간 거울을 봐서는 안 된다는 미묘한 생각이 들었다.", "log")
--- untranslated text
+-- new text
 --[==[
 t("...", "...", "_t")
 --]==]
@@ -830,17 +830,19 @@ t("As you combine the two pair of shoes you make something marvelous: %s", "두 
 t("Rod of Entropy", "엔트로피의 장대", "entity name")
 t("light sucking rod", "빛을 흡수하는 장대", "_t")
 t("This rod seems to make light die around it. You feel tired just looking at it.", "이 장대는 주변의 빛을 죽여버리는 것 같습니다. 보는 것만으로도 피곤해집니다.", "_t")
-t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복량의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법 능력치에 비례하여 증가합니다.", "tformat")
 t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 꿈틀대는 촉수 덩어리는 마석을 감염시켜, 자연물과 비자연물의 기묘한 융합을 이루고 있습니다. 한때 깨끗했던 보석은 이제 채찍 같은 촉수가 달린 검은 흑요석 조각에 더 가까워 보입니다. 이 공포체가 자연 그 자체와 융합할 수 있다고는 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 분출을 대상에게 시전합니다", "_t")
--- untranslated text
+-- new text
 --[==[
 t("%s: \"%s\"", "%s: \"%s\"", "tformat")
+t("temporarily cause the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "temporarily cause the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "tformat")
 --]==]
 
+-- old translated text
+t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복량의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법 능력치에 비례하여 증가합니다.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/general/stores/cults.lua"
@@ -2834,6 +2836,28 @@ t([[Your face melts, exploding in a targeted gush of blood and gore dealing %0.2
 		매 턴 대상이 걸린 질병 당 %0.2f 황폐 피해를 추가로 가합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Writhing Hairs", "뒤틀린 머리카락", "talent name")
+t("Glimpse of True Horror", "진정한 공포의 편린", "talent name")
+t([[Whenever you use a disfigured face power you show a glimpse of what True Horror is.
+		The affected targets become frightened for 2 turns %s, giving them a %d%% chances to fail using talents.
+		When a target becomes afraid it bolsters you to see their anguish, increasing your darkness and blight damage penetration by %d%% for 2 turns.
+		The values will increase with your Spellpower.]], [[문드러진 얼굴 계열의 기술을 사용할 때마다 적에게 진정한 공포가 무엇인지 조금 보여줍니다.
+		효과를 받는 대상들은 2 턴 동안 겁에 질려 %s %d%% 의 확률로 기술 시전을 실패합니다.
+		적들이 겁에 질리게 되면 시전자는 그들의 괴로움을 더욱 잘 볼 수 있게 되어, 어둠 저항 관통력 및 황폐 저항 관통력이 2 턴 동안 %d%% 상승합니다.
+		상승량은 주문력에 비례하여 상승합니다.]], "tformat")
+-- new text
+--[==[
+t([[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
+		You use those eyes to gaze upon a target area of radius %d, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
+		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
+		This cannot be saved against.
+		]], [[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
+		You use those eyes to gaze upon a target area of radius %d, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
+		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
+		This cannot be saved against.
+		]], "tformat")
+--]==]
+
+-- old translated text
 t([[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
 		You use those eyes to gaze upon a target area, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
 		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
@@ -2843,14 +2867,6 @@ t([[For a brief moment horrific hairs grow on your head, each of them ending wit
 		부서지게 쉽게 된 대상은 35%% 의 확률로 %d%% 만큼 추가 피해를 입습니다.
 		이 효과는 저항할 수 없습니다.
 		]], "tformat")
-t("Glimpse of True Horror", "진정한 공포의 편린", "talent name")
-t([[Whenever you use a disfigured face power you show a glimpse of what True Horror is.
-		The affected targets become frightened for 2 turns %s, giving them a %d%% chances to fail using talents.
-		When a target becomes afraid it bolsters you to see their anguish, increasing your darkness and blight damage penetration by %d%% for 2 turns.
-		The values will increase with your Spellpower.]], [[문드러진 얼굴 계열의 기술을 사용할 때마다 적에게 진정한 공포가 무엇인지 조금 보여줍니다.
-		효과를 받는 대상들은 2 턴 동안 겁에 질려 %s %d%% 의 확률로 기술 시전을 실패합니다.
-		적들이 겁에 질리게 되면 시전자는 그들의 괴로움을 더욱 잘 볼 수 있게 되어, 어둠 저항 관통력 및 황폐 저항 관통력이 2 턴 동안 %d%% 상승합니다.
-		상승량은 주문력에 비례하여 상승합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/doom.lua"
@@ -3150,6 +3166,14 @@ t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		시전자의 신체가 거대하게 성장하여 몸집 크기가 2 증가하고, 벽을 뚫고 이동할 수 있게 됩니다. 또한 시전자가 가하는 모든 피해량이 %d%% 증가하고 모든 저항력이 %d%% 증가합니다.
 		거대화한 상태로 이동할 때마다 작은 지진을 일으켜 주위 지형을 파괴하거나 재배열합니다.]], "tformat")
 t("Writhing One", "뒤틀린 자", "talent name")
+-- new text
+--[==[
+t([[At last you unlock the true power of your mutated body!
+		You gain %d%% stun immunity, %d%% critical shrug off, and your darkness and blight damage are increased by %d%%.]], [[At last you unlock the true power of your mutated body!
+		You gain %d%% stun immunity, %d%% critical shrug off, and your darkness and blight damage are increased by %d%%.]], "tformat")
+--]==]
+
+-- old translated text
 t([[At last you unlock the true power of your mutated body!
 		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[마침내 변이된 육체의 진정한 힘을 일깨웠습니다!
 		기절 면역력이 %d%%, 치명타 무시 확률이 %d%%, 어둠과 황폐 피해량이 %d%% 증가합니다.]], "tformat")
@@ -3408,7 +3432,7 @@ t([[Infects the target with a very contagious disease, doing %0.2f damage per tu
 		이 질병에 감염된 적들은 생명력 회복 효율이 %d%% 감소하며, 질병 면역력이 %d%% 감소합니다.
 		이 질병은 무시무시하게 강력하기 때문에 대상의 질병 면역력을 완전히 무시합니다.
 		피해량은 주문력에 비례하여 증가하고, 전염될 확률은 대상에게 가한 황폐 속성 피해량의 영향을 받아 증가합니다.]], "tformat")
--- untranslated text
+-- new text
 --[==[
 t("Mutated Hereragegand", "Mutated Hereragegand", "talent name")
 t([[		Also increases Physical Power by %d, and increases weapon damage by %d%% for your tentacles attacks.
@@ -4232,7 +4256,7 @@ Thoughts treasured when they are alone.
 생각은 홀로 있을 때 보물이 된다.
 
 #RED#읽으면 5턴에 걸쳐 빨려들어간다.]], "_t")
--- untranslated text
+-- new text
 --[==[
 t("..", "..", "entity name")
 --]==]
@@ -4890,7 +4914,7 @@ t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 �
 t("The protagonist of the story is dead.", "이야기의 주인공이 죽었습니다.", "_t")
 t("#PURPLE#%s starts to crumble to dust, it will be gone once you exit it!", "#PURPLE#%s 무너지기 시작한다, 한 번 나가면 완전히 사라질 것이다!", "log", nil, {"가"})
 t("%s of the Blightspawn", "황폐의 %s", "tformat")
--- untranslated text
+-- new text
 --[==[
 t("#AQUAMARINE#%s", "#AQUAMARINE#%s", "log")
 --]==]
@@ -4976,7 +5000,7 @@ t("#RED#You can't enter a Forbidden Tome from here!#LAST#", "#RED#이곳에선 �
 t("You feel this book is extremely dangerous for you. Proceed?", "이 책은 엄청나게 위험한 것 같습니다. 계속합니까?", "_t")
 t("Cancel", "취소", "_t")
 t("Read Tome", "고서를 읽는다", "_t")
--- untranslated text
+-- new text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5054,7 +5078,7 @@ t([[You may empower the chosen prophecy with Grand Oration, causing it to spread
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Grand Oration.", "위대한 기도문으로 강화 가능한 예언들입니다.", "_t")
--- untranslated text
+-- new text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5070,7 +5094,7 @@ t([[You may empower the chosen prophecy with Revelation, causing it to grant you
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Revelation.", "계시로 강화 가능한 예언들입니다.", "_t")
--- untranslated text
+-- new text
 --[==[
 t("", "", "_t")
 --]==]
@@ -5086,7 +5110,7 @@ t([[You may empower the chosen prophecy with Twofold Curse, causing it to apply 
 t("Talent", "기술", "_t")
 t("#{bold}#Choose a talent#{normal}#", "#{bold}#기술을 선택하세요#{normal}#", "_t")
 t("All prophecies that can be used with Twofold Curse.", "이중 저주로 강화 가능한 예언들입니다.", "_t")
--- untranslated text
+-- new text
 --[==[
 t("", "", "_t")
 --]==]
