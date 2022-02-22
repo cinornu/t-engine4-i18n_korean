@@ -2690,7 +2690,7 @@ t("You subtly alter the course of events to cause your foes further misfortune. 
 t("Luckdrinker", "행운 포식자", "talent name")
 t([[Each time you apply Jinx to an enemy, you have a %d%% chance to siphon some of their luck for yourself for 5 turns. This stacks up to 10 times, increasing saves and defense by %0.2f and critical strike chance by %0.2f%%.
 		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[적에게 불운을 부여할 때마다 %d%% 의 확률로 적들의 행운을 흡수합니다. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 시전자의 내성과 회피도가 %0.2f, 치명타 확률이 %0.2f%% 씩 증가합니다.
-		운명 예지를 이미 배운 경우, 행운 포식자가 6 중첩 이상일 시 %d%% 확률로 받은 피해를 완전히 무효화 합니다.]], "tformat")
+		운명 예지를 이미 배운 경우, 행운 포식자가 6 중첩 이상일 시 %d%% 확률로 받은 피해를 완전히 무효화합니다.]], "tformat")
 t("Fatebreaker", "운명 파괴자", "talent name")
 t([[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
 		As long as your target remains alive this redirects all damage you take to it as temporal and darkness damage for 1 turn.

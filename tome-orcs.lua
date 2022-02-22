@@ -4942,7 +4942,7 @@ t([[Using a huge amount of steam, you temporarily supercharge your tinkers and o
 t("Last Engineer Standing", "최후의 공학자", "talent name")
 t([[Sometimes, being a master tinker requires taking risks; yours are more calculated than others.
 		Gain %d cunning, %d physical save, %d%% resistance to self-inflicted damage, and %d%% chance to avoid being critically hit.]], [[최고의 발명가가 되기 위해서는 위험을 감수해야 할 때도 있습니다만, 남들보다 정교하게 계산을 한다면 그럴 필요가 없지요.
-		교활이 %d, 물리 내성이 %d, 자기 자신에게 가하는 피해 저항이 %d%%, 치명타 무효화 확률이 %d%% 상승합니다.]], "tformat")
+		교활이 %d, 물리 내성이 %d, 자기 자신에게 가하는 피해 저항이 %d%% 상승하고 치명타에 맞을 확률이 %d%% 감소합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/furnace.lua"
