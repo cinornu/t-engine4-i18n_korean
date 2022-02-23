@@ -835,14 +835,8 @@ t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 꿈틀대는 촉수 덩어리는 마석을 감염시켜, 자연물과 비자연물의 기묘한 융합을 이루고 있습니다. 한때 깨끗했던 보석은 이제 채찍 같은 촉수가 달린 검은 흑요석 조각에 더 가까워 보입니다. 이 공포체가 자연 그 자체와 융합할 수 있다고는 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 분출을 대상에게 시전합니다", "_t")
--- new text
---[==[
 t("%s: \"%s\"", "%s: \"%s\"", "tformat")
-t("temporarily cause the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "temporarily cause the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "tformat")
---]==]
-
--- old translated text
-t("temporarily causes the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복량의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법 능력치에 비례하여 증가합니다.", "tformat")
+t("temporarily cause the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복량의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법 능력치에 비례하여 증가합니다.", "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/general/stores/cults.lua"
@@ -2844,26 +2838,12 @@ t([[Whenever you use a disfigured face power you show a glimpse of what True Hor
 		효과를 받는 대상들은 2 턴 동안 겁에 질려 %s %d%% 의 확률로 기술 시전을 실패합니다.
 		적들이 겁에 질리게 되면 시전자는 그들의 괴로움을 더욱 잘 볼 수 있게 되어, 어둠 저항 관통력 및 황폐 저항 관통력이 2 턴 동안 %d%% 상승합니다.
 		상승량은 주문력에 비례하여 상승합니다.]], "tformat")
--- new text
---[==[
 t([[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
 		You use those eyes to gaze upon a target area of radius %d, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
-		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
-		This cannot be saved against.
-		]], [[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
-		You use those eyes to gaze upon a target area of radius %d, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
-		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
-		This cannot be saved against.
-		]], "tformat")
---]==]
-
--- old translated text
-t([[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
-		You use those eyes to gaze upon a target area, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
 		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
 		This cannot be saved against.
 		]], [[무시무시한 눈알이 달린 끔찍한 머리카락이 잠시 동안 머리에서 자라납니다.
-		이 눈알은 지정한 지역을 응시하여, 범위 내 대상은 부분적으로 돌로 변해 7 턴 동안 이동속도가 %d%% 감소하고, 부서지기 쉽게 됩니다.
+		이 눈알로 %d 칸 범위의 지정한 지역을 응시하여, 범위 내 대상을 부분적으로 석화시켜 7 턴 동안 이동속도를 %d%% 감소시키고, 부서지기 쉽게 만듭니다.
 		부서지게 쉽게 된 대상은 35%% 의 확률로 %d%% 만큼 추가 피해를 입습니다.
 		이 효과는 저항할 수 없습니다.
 		]], "tformat")
@@ -3166,17 +3146,9 @@ t([[You trigger a cascade of rapidly mutating cells in your body for %d turns.
 		시전자의 신체가 거대하게 성장하여 몸집 크기가 2 증가하고, 벽을 뚫고 이동할 수 있게 됩니다. 또한 시전자가 가하는 모든 피해량이 %d%% 증가하고 모든 저항력이 %d%% 증가합니다.
 		거대화한 상태로 이동할 때마다 작은 지진을 일으켜 주위 지형을 파괴하거나 재배열합니다.]], "tformat")
 t("Writhing One", "뒤틀린 자", "talent name")
--- new text
---[==[
 t([[At last you unlock the true power of your mutated body!
-		You gain %d%% stun immunity, %d%% critical shrug off, and your darkness and blight damage are increased by %d%%.]], [[At last you unlock the true power of your mutated body!
-		You gain %d%% stun immunity, %d%% critical shrug off, and your darkness and blight damage are increased by %d%%.]], "tformat")
---]==]
-
--- old translated text
-t([[At last you unlock the true power of your mutated body!
-		You gain %d%% stun immunity, %d%% chances to ignore critical strikes and your darkness and blight damage are increased by %d%%.]], [[마침내 변이된 육체의 진정한 힘을 일깨웠습니다!
-		기절 면역력이 %d%%, 치명타 무시 확률이 %d%%, 어둠과 황폐 피해량이 %d%% 증가합니다.]], "tformat")
+		You gain %d%% stun immunity, %d%% critical shrug off, and your darkness and blight damage are increased by %d%%.]], [[마침내 변이된 육체의 진정한 힘을 일깨웠습니다!
+		기절 면역력이 %d%%, 치명타 피해 감쇄가 %d%%, 어둠과 황폐 피해량이 %d%% 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/rift.lua"
@@ -3188,7 +3160,7 @@ t([[The sheer power of your entropy tears holes through spacetime, opening this 
 On casting a Demented spell you have a 30%% chance of creating a void rift lasting %d turns in a nearby tile, which will launch void blasts each turn at a random enemy in range 7, dealing %0.2f darkness and %0.2f temporal damage.
 
 You may activate this talent to forcibly destabilize spacetime, spawning %d void rifts around you.]], [[엔트로피의 힘으로 시공간을 찢어 공허로 통하는 구멍을 엽니다.
-광기 계통 주문을 시전할 때마다 30%% 확률로 %d 턴 동안 지속되는 공허의 틈을 인접한 칸에 생성합니다. 공허의 틈은 7 칸 범위 내의 무작위한 적에게 %0.2f 어둠 피해와 %0.2f 시간 피해를 입히는 공허 폭발을 발사합니다.
+광기 계통 주문을 시전할 때마다 30%% 확률로 %d 턴 동안 지속되는 공허의 틈을 근처 칸에 생성합니다. 공허의 틈은 7 칸 범위 내의 무작위한 적에게 %0.2f 어둠 피해와 %0.2f 시간 피해를 입히는 공허 폭발을 발사합니다.
 
 이 기술을 사용하면 강제로 시공간을 불안정하게 만들어, 주변에 %d 개의 공허의 틈을 생성합니다.]], "tformat")
 t("Quantum Tunnelling", "양자 터널링", "talent name")
