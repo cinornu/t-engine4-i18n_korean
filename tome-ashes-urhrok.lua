@@ -835,32 +835,28 @@ t([[You revel in the heat of battle. Whenever an enemy damages you within melee 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/caustic-controller.lua"
 
-
--- new text
---[==[
-t("Vile Splash", "Vile Splash", "talent name")
+t("Vile Splash", "역겨운 물보라", "talent name")
 t([[Launch a bubble of acid toward a tile within range %d where it will burst, dealing %0.2f acid damage to any creature on the tile and then creating #GREEN#acid pools#LAST# on up to 2 adjacent, acid-free tiles. These #GREEN#acid pools#LAST# will last for %d turns.
 		
-		Damage improves with Spellpower.]], [[Launch a bubble of acid toward a tile within range %d where it will burst, dealing %0.2f acid damage to any creature on the tile and then creating #GREEN#acid pools#LAST# on up to 2 adjacent, acid-free tiles. These #GREEN#acid pools#LAST# will last for %d turns.
+		Damage improves with Spellpower.]], [[반경 %d 칸 내 한 지점에 산성 방울을 쏘아 지점에 있던 개체에 %0.2f 산성 피해를 가하고, 인접한 칸들 중 2 칸에 #GREEN#산성액 웅덩이#LAST#를 만들어냅니다 (웅덩이가 이미 있는 칸은 제외). #GREEN#산성액 웅덩이#LAST#는 %d 턴 동안 유지됩니다.
 		
-		Damage improves with Spellpower.]], "tformat")
-t("Awakened Acid", "Awakened Acid", "talent name")
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+t("Awakened Acid", "살아있는 산성액", "talent name")
 t([[Your acid is empowered to the point that it has become nearly sentient. When a foe attempts to use an activated talent while adjacent to at least one #GREEN#acid pool#LAST# there is a %d%% chance an adjacent #GREEN#acid pool#LAST# will rise up and leap upon them, dealing %0.2f acid damage and disrupting the talent, causing it to fail and go on cooldown for %d turns. If there is already an #GREEN#acid pool#LAST# on the foe's tile you will #DARK_GREEN#absorb#LAST# whichever of the two pools has the least duration and the other will remain on the target's tile. This effect has a fixed cooldown (%d). The chance is checked for each adjacent pool, but the effect can trigger only once before the cooldown begins.
-		]], [[Your acid is empowered to the point that it has become nearly sentient. When a foe attempts to use an activated talent while adjacent to at least one #GREEN#acid pool#LAST# there is a %d%% chance an adjacent #GREEN#acid pool#LAST# will rise up and leap upon them, dealing %0.2f acid damage and disrupting the talent, causing it to fail and go on cooldown for %d turns. If there is already an #GREEN#acid pool#LAST# on the foe's tile you will #DARK_GREEN#absorb#LAST# whichever of the two pools has the least duration and the other will remain on the target's tile. This effect has a fixed cooldown (%d). The chance is checked for each adjacent pool, but the effect can trigger only once before the cooldown begins.
+		]], [[산성액이 거의 지성을 갖춘 수준까지 강화됩니다. 적이 #GREEN#산성액 웅덩이#LAST#에 인접한 상태에서 기술을 사용하면 %d%% 확률로 #GREEN#산성액 웅덩이#LAST# 하나가 솟아올라 적을 덮쳐 %0.2f 산성 피해를 가하고, 해당 기술 시전을 실패시킨 후 %d 턴 동안 재사용 대기 상태로 만듭니다. 만약 적이 #GREEN#산성액 웅덩이#LAST# 위에 있었다면, 시전자는 두 웅덩이 중 남은 지속시간이 더 적은 것을 #DARK_GREEN#흡수#LAST#하고 남은 웅덩이는 적의 위치에 남게 됩니다. 이 효과는 고정된 재사용 대기시간이 있습니다 (%d 턴). 효과 발동은 인접한 웅덩이 하나하나마다 확률 판정을 거치지만, 재사용 대기 상태가 되기 전까지 한 번만 일어날 수 있습니다.
 		]], "tformat")
-t("Caustic Invoker", "Caustic Invoker", "talent name")
+t("Caustic Invoker", "부식술사", "talent name")
 t([[You learn to fine-tune your ability to create acid. The range of Caustic Shift is increased by %d and when cast on a tile you cannot move to (non-adjacent or occupied), the talent will be instant and will not go on cooldown until it has been cast 4 times, cast on a tile you can move to, or you take any other action, and the duration of the #GREEN#acid pool#LAST# is increased by %d. 
-		]], [[You learn to fine-tune your ability to create acid. The range of Caustic Shift is increased by %d and when cast on a tile you cannot move to (non-adjacent or occupied), the talent will be instant and will not go on cooldown until it has been cast 4 times, cast on a tile you can move to, or you take any other action, and the duration of the #GREEN#acid pool#LAST# is increased by %d. 
+		]], [[산성액을 만들어내는 능력을 세밀하게 조정합니다. 부식성 전이 기술의 사거리가 %d 칸 늘어나고, 해당 기술을 시전자가 움직일 수 없는 칸 (인접하지 않은 칸/다른 개체가 있는 칸) 에 사용하게 되면 시전 시간이 즉발로 바뀌며 재사용 대기 상태가 되지 않습니다. 이 효과는 4 번 시전하거나, 움직일 수 있는 칸에 시전하거나, 그 외 다른 행동을 하게 되면 사라집니다. 또한 #GREEN#산성액 웅덩이#LAST#의 지속시간이 %d 턴 늘어납니다. 
 		]], "tformat")
-t("Corrossive Cascade", "Corrossive Cascade", "talent name")
+t("Corrossive Cascade", "산성 쇄도", "talent name")
 t([[Whenever creating an #GREEN#acid pool#LAST# would cause there to be 4 or more within a radius 1 area, all #GREEN#acid pools#LAST# in this area will burst, dealing %0.2f acid damage in a radius of 1 around each. All affected pools will be #DARK_GREEN#absorbed#LAST# and the cooldown of Caustic Shift will be reduced by %d. 
 		
 		This effect has a cooldown (%d). Damage improves with spellpower.
-		]], [[Whenever creating an #GREEN#acid pool#LAST# would cause there to be 4 or more within a radius 1 area, all #GREEN#acid pools#LAST# in this area will burst, dealing %0.2f acid damage in a radius of 1 around each. All affected pools will be #DARK_GREEN#absorbed#LAST# and the cooldown of Caustic Shift will be reduced by %d. 
+		]], [[#GREEN#산성액 웅덩이#LAST#가 만들어질 때 그 주변 반경 1 칸 내에 웅덩이가 4 개 이상 존재한다면, 반경 내 모든 #GREEN#산성액 웅덩이#LAST#가 일제히 폭발하여 각각 주변 1 칸에 %0.2f 산성 피해를 가합니다. 이 효과로 폭발한 모든 웅덩이들은 #DARK_GREEN#흡수#LAST#되고 부식성 전이 기술의 재사용 대기시간이 %d 턴 감소합니다. 
 		
-		This effect has a cooldown (%d). Damage improves with spellpower.
+		이 효과는 재사용 대기시간이 존재합니다 (%d 턴). 피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -868,35 +864,32 @@ section "tome-ashes-urhrok/data/talents/corruptions/corrosive-assault.lua"
 
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
 t("%s resists the disarm!", "%s 무장해제에 저항했다!", "logSeen", nil, {"가"})
--- new text
---[==[
-t("Claw Crush", "Claw Crush", "talent name")
+t("Claw Crush", "발톱 파쇄", "talent name")
 t([[Send a surge of power into your claws and crush a foe between them, dealing an unarmed strike for %d%% damage as acid and attempting to stun them %s for %d turns.
 		If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to strike twice.
-		]], [[Send a surge of power into your claws and crush a foe between them, dealing an unarmed strike for %d%% damage as acid and attempting to stun them %s for %d turns.
-		If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to strike twice.
-		]], "tformat")
-t("Noxious Blow", "Noxious Blow", "talent name")
+		]], [[발톱에 힘을 모은 뒤 적을 양쪽에서 눌러 으스러뜨립니다. %d%% 맨손 피해를 가하고 %d 턴 동안 기절시킵니다 %s.
+		시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있다면 #DARK_GREEN#흡수#LAST#하고 한 번 더 공격합니다.
+		]], "tformat", {1,3,2})
+t("Noxious Blow", "해로운 강타", "talent name")
 t([[Smash your foe with your claws, dealiing %d%% unarmed damage. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to convert the damage type of the attack to acid and to attempt to disarm the target %s for %d turns if the attack hits.
-		]], [[Smash your foe with your claws, dealiing %d%% unarmed damage. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to convert the damage type of the attack to acid and to attempt to disarm the target %s for %d turns if the attack hits.
-		]], "tformat")
-t("Pooling Corruption", "Pooling Corruption", "talent name")
+		]], [[발톱으로 적을 강타하여 %d%% 맨손 피해를 가합니다. 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있다면 #DARK_GREEN#흡수#LAST#하고 산성 피해로 변하며, 명중 시 대상을 %d 턴 동안 무장해제시킵니다 %s.
+		]], "tformat", {1,3,2})
+t("Pooling Corruption", "고이는 타락", "talent name")
 t([[When you land an unarmed attack as acid damage against a foe you have a %d%% chance to create an #GREEN#acid pool#LAST# underneath them. If this triggers and there is already a pool under them, there is a %d%% chance to create a pool on an adjacent, acid-free tile. This can create up to %d #GREEN#acid pools#LAST# per turn at most. Additionally, foes standing on your #GREEN#acid pools#LAST# will have their spell, mental, and physical saves reduced by %d .
 		
 		Save reduction improves with Magic.
-		]], [[When you land an unarmed attack as acid damage against a foe you have a %d%% chance to create an #GREEN#acid pool#LAST# underneath them. If this triggers and there is already a pool under them, there is a %d%% chance to create a pool on an adjacent, acid-free tile. This can create up to %d #GREEN#acid pools#LAST# per turn at most. Additionally, foes standing on your #GREEN#acid pools#LAST# will have their spell, mental, and physical saves reduced by %d .
+		]], [[시전자가 맨손 공격으로 산성 피해를 가하게 되면 %d%% 확률로 대상들의 발밑에 #GREEN#산성액 웅덩이#LAST#를 만들어냅니다. 만약 이 효과가 발동했을 때 대상의 발밑에 이미 웅덩이가 있다면, %d%% 확률로 인접한 (웅덩이가 없는) 칸에 만들어냅니다. 이 효과로 만들어낼 수 있는 #GREEN#산성액 웅덩이#LAST#는 한 턴에 최대 %d 개 까지입니다. 거기에 더해서 시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적은 물리/주문/정신 내성이 %d 만큼 감소합니다.
 		
-		Save reduction improves with Magic.
+		내성 감소량은 마법 능력치에 비례해 증가합니다.
 		]], "tformat")
-t("Foul Eruption", "Foul Eruption", "talent name")
+t("Foul Eruption", "역겨운 분출", "talent name")
 t([[When you perform a critical spell, every #GREEN#acid pool#LAST# within %d tiles will erupt, dealing %d%% unarmed damage as acid to any foe standing on a pool and displacing them randomly one tile. This has a cooldown (%d). Passively, your acid resistance penetration is increased by %d%%.
 		
 		Random displacement checks knockback resistance.
-		]], [[When you perform a critical spell, every #GREEN#acid pool#LAST# within %d tiles will erupt, dealing %d%% unarmed damage as acid to any foe standing on a pool and displacing them randomly one tile. This has a cooldown (%d). Passively, your acid resistance penetration is increased by %d%%.
+		]], [[시전자가 주문을 치명타로 시전하면 반경 %d 칸 내의 #GREEN#산성액 웅덩이#LAST#들이 모두 분출하여 그 위에 서 있던 적들에게 %d%% 산성 맨손 피해를 가하고 무작위한 지점으로 밀어냅니다. 이 효과는 재사용 대기시간이 있습니다 (%d 턴). 또한 이 기술을 배우면 시전자의 산성 저항 관통이 %d%% 상승합니다.
 		
-		Random displacement checks knockback resistance.
+		밀어내는 효과는 밀어내기 저항 판정을 거칩니다.
 		]], "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -933,28 +926,25 @@ t("Oppression", "억압", "talent type")
 t("Make your blows terrify your foes and manipulate their fear.", "공격을 가해 적들을 공포에 질리게 하고, 그 공포를 이용합니다.", "_t")
 t("Demon", "악마", "_t")
 t("something", "무언가", "_t")
--- new text
---[==[
-t("corrosive assault", "corrosive assault", "_t")
-t("Assault your foes with acid-dripping claws. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "Assault your foes with acid-dripping claws. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "_t")
-t("killing instinct", "killing instinct", "_t")
-t("The hunting instinct of the Wretch guides you. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "The hunting instinct of the Wretch guides you. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "_t")
-t("noxious vapours", "noxious vapours", "_t")
-t("Invoke corrosive mists.", "Invoke corrosive mists.", "_t")
-t("solvent vim", "solvent vim", "_t")
-t("Your life force has become a caustic solution.", "Your life force has become a caustic solution.", "_t")
-t("emerald nature", "emerald nature", "_t")
-t("Your essence has been fused with that of the Children of Emerald.", "Your essence has been fused with that of the Children of Emerald.", "_t")
-t("unstable mutation", "unstable mutation", "_t")
-t("Your being is altered, the changes sometimes accelerating beyond your control. Claw attacks require flexibility and are not possible in massive armor.", "Your being is altered, the changes sometimes accelerating beyond your control. Claw attacks require flexibility and are not possible in massive armor.", "_t")
-t("wretched brethren", "wretched brethren", "_t")
-t("Take control of the corruption to call your wretched brethren to your aide.", "Take control of the corruption to call your wretched brethren to your aide.", "_t")
-t("caustic controller", "caustic controller", "_t")
-t("Your control of acid grows absolute.", "Your control of acid grows absolute.", "_t")
-t("fiend", "fiend", "_t")
-t("Your hands have mutated into noxious talons. These abilities require flexibility and are not possible without empty hands or in massive armor.", "Your hands have mutated into noxious talons. These abilities require flexibility and are not possible without empty hands or in massive armor.", "_t")
-t("#GREEN#%s absorbs acid!#LAST#", "#GREEN#%s absorbs acid!#LAST#", "_t")
---]==]
+t("corrosive assault", "부식성 맹공", "_t")
+t("Assault your foes with acid-dripping claws. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "산성액이 뚝뚝 떨어지는 발톱으로 적들에게 맹공을 가합니다. 발톱 공격은 유연함이 필요하기 때문에 손으로 뭘 들고 있거나 무거운 갑옷을 입고 있다면 사용할 수 없습니다.", "_t")
+t("killing instinct", "살해 본능", "_t")
+t("The hunting instinct of the Wretch guides you. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "렛치의 사냥 본능이 당신을 인도합니다. 발톱 공격은 유연함이 필요하기 때문에 손으로 뭘 들고 있거나 무거운 갑옷을 입고 있다면 사용할 수 없습니다.", "_t")
+t("noxious vapours", "독성 증기", "_t")
+t("Invoke corrosive mists.", "부식성 안개를 불러일으킵니다.", "_t")
+t("solvent vim", "원기 용해", "_t")
+t("Your life force has become a caustic solution.", "생명력을 산성액으로 바꿉니다.", "_t")
+t("emerald nature", "에메랄드의 본성", "_t")
+t("Your essence has been fused with that of the Children of Emerald.", "당신의 정수는 에메랄드의 자손들의 것과 융합된 상태입니다.", "_t")
+t("unstable mutation", "불안정한 변이", "_t")
+t("Your being is altered, the changes sometimes accelerating beyond your control. Claw attacks require flexibility and are not possible in massive armor.", "당신은 변이했습니다. 그런데 가끔씩 스스로 제어하지 못할 정도로 빠르게 변할 때가 있습니다. 발톱 공격은 유연함이 필요하기 때문에 손으로 뭘 들고 있거나 무거운 갑옷을 입고 있다면 사용할 수 없습니다.", "_t")
+t("wretched brethren", "렛치 형제들", "_t")
+t("Take control of the corruption to call your wretched brethren to your aide.", "타락을 제어하여 렛치 형제들을 아군으로 불러냅니다.", "_t")
+t("caustic controller", "산 조작사", "_t")
+t("Your control of acid grows absolute.", "산성액 제어 능력이 완벽해집니다.", "_t")
+t("fiend", "악귀", "_t")
+t("Your hands have mutated into noxious talons. These abilities require flexibility and are not possible without empty hands or in massive armor.", "당신의 손은 산성액을 품은 갈퀴손으로 변했습니다. 이 능력들은 유연함이 필요하기 때문에 손으로 뭘 들고 있거나 무거운 갑옷을 입고 있다면 사용할 수 없습니다.", "_t")
+t("#GREEN#%s absorbs acid!#LAST#", "#GREEN#%s 산성액을 흡수한다!#LAST#", "_t", nil, {"가"})
 
 
 ------------------------------------------------
@@ -1127,48 +1117,31 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("something", "무언가", "_t")
--- new text
---[==[
 t([[You spawn a cloud of acid vapor in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
 		You also gain 40%% acid resistance and %d%% acid affinity.
-		The damage scales with your Spellpower.]], [[You spawn a cloud of acid vapor in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
-		You also gain 40%% acid resistance and %d%% acid affinity.
-		The damage scales with your Spellpower.]], "tformat")
+		The damage scales with your Spellpower.]], [[시전자 주변 반경 4 칸에 %d 턴 동안 지속되는 산성 증기 구름을 만들어, 시전자를 포함한 모든 개체에게 %0.2f 산성 피해를 줍니다.
+		또한 시전자는 산성 저항 40%% 와 산성 속성 친화 %d%% 를 얻게 됩니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t([[You breathe a mix of darkness and blight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
 		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
 		The damage will increase with your Spellpower.
-		]], [[You breathe a mix of darkness and blight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
-		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
-		The damage will increase with your Spellpower.
+		]], [[반경 %d 칸의 원뿔 범위 내에 어둠과 황폐의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 어둠/황폐 피해를 받습니다.
+		추가로, 시전자가 물리 공격을 가하면 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어냅니다.
+		피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
 t("", "", "log")
-t("Caustic Core", "Caustic Core", "talent name")
-t("#GREEN#%s creates an acid pool!#LAST#", "#GREEN#%s creates an acid pool!#LAST#", "_t")
+t("Caustic Core", "부식성 핵", "talent name")
+t("#GREEN#%s creates an acid pool!#LAST#", "#GREEN#%s 산성액 웅덩이를 만들었다!#LAST#", "_t", nil, {"가"})
 t([[You are filled with caustic power. Whenever you take direct damage, there is a %d%% chance you will create an #GREEN#acid pool#LAST# on a random tile within radius 4 which will last 4 turns.
 		Whenever you deal acid damage, there is a %d%% chance to create an #GREEN#acid pool#LAST# on the target's tile or a random tile adjacent to it which will last 4 turns.
 		You can create at most 3 #GREEN#acid pools#LAST# per turn and will only create them while in combat. An #GREEN#acid pool#LAST# will not be created if the tile chosen contains impassable terrain.
 		Passively, for each #GREEN#acid pool#LAST# within 4 tiles of yourself (up to 8 pools at most), you gain %0.1f Physical Power, Spellpower, and Accuracy, as well as %0.1f%% increased acid damage and acid resistance penetration.
 		Any foe standing on one of your #GREEN#acid pools#LAST# will have their Physical Power, Spellpower, Mindpower, Accuracy, Physical Save, Spell Save, Mental Save and Defense all reduced by %d.
-		]], [[You are filled with caustic power. Whenever you take direct damage, there is a %d%% chance you will create an #GREEN#acid pool#LAST# on a random tile within radius 4 which will last 4 turns.
-		Whenever you deal acid damage, there is a %d%% chance to create an #GREEN#acid pool#LAST# on the target's tile or a random tile adjacent to it which will last 4 turns.
-		You can create at most 3 #GREEN#acid pools#LAST# per turn and will only create them while in combat. An #GREEN#acid pool#LAST# will not be created if the tile chosen contains impassable terrain.
-		Passively, for each #GREEN#acid pool#LAST# within 4 tiles of yourself (up to 8 pools at most), you gain %0.1f Physical Power, Spellpower, and Accuracy, as well as %0.1f%% increased acid damage and acid resistance penetration.
-		Any foe standing on one of your #GREEN#acid pools#LAST# will have their Physical Power, Spellpower, Mindpower, Accuracy, Physical Save, Spell Save, Mental Save and Defense all reduced by %d.
-		]], "tformat")
---]==]
-
--- old translated text
-t([[You spawn a pool of acid in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
-		You also gain 40%% acid resistance and %d%% acid affinity.
-		The damage scales with your Spellpower.]], [[시전자 주변 반경 4 칸에 %d 턴 동안 지속되는 산성 웅덩이를 만들어, 시전자를 포함한 모든 개체에게 %0.2f 산성 피해를 줍니다.
-		또한 시전자는 산성 저항 40%% 와 산성 속성 친화 %d%% 를 얻게 됩니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t([[You breathe a mix of darkness and flight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
-		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
-		The damage will increase with your Spellpower.
-		]], [[반경 %d 칸의 원뿔 범위 내에 어둠의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 어둠/황폐 피해를 받습니다.
-		추가로, 시전자가 물리 공격을 가하면 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어냅니다.
-		피해량은 주문력에 비례하여 증가합니다.
+		]], [[산성의 힘이 충만합니다. 시전자가 직접 피해를 받게 되면 %d%% 확률로 반경 4 칸 이내 한 지점에 4 턴 동안 유지되는 #GREEN#산성액 웅덩이#LAST#를 하나 만들어냅니다.
+		시전자가 산성 피해를 가할 때마다 %d%% 확률로 대상의 발밑이나 그 지점에 인접한 무작위 칸 하나에 4 턴 동안 유지되는 #GREEN#산성액 웅덩이#LAST#를 하나 만들어냅니다.
+		한 턴에 만들어낼 수 있는 #GREEN#산성액 웅덩이#LAST#는 최대 3 개 까지이며 전투 중일 때만 만들어낼 수 있습니다. #GREEN#산성액 웅덩이#LAST#는 이동이 불가능한 칸에는 생성되지 않습니다.
+		지속 효과로써 시전자 주변 반경 4 칸 안에 있는 #GREEN#산성액 웅덩이#LAST# 하나 당 물리력/주문력/정확도를 %0.1f 얻고 산성 피해와 산성 저항 관통이 %0.1f%% 상승합니다 (웅덩이는 최대 8 개 까지 계산).
+		시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적은 물리력/주문력/정신력/정확도/물리 내성/주문 내성/정신 내성/회피도가 %d 만큼 감소합니다.
 		]], "tformat")
 
 ------------------------------------------------
@@ -1690,7 +1663,7 @@ section "tome-ashes-urhrok/data/talents/corruptions/solvent-vim.lua"
 
 -- new text
 --[==[
-t("Caustic Shift", "Caustic Shift", "talent name")
+t("Caustic Shift", "부식성 전이", "talent name")
 t([[Create an #GREEN#acid pool#LAST# within range %d lasting 4 turns. If you create the pool on an empty, adjacent tile, you will also move to the location. Additionally, while on an #GREEN#acid pool#LAST# you deal %0.2f Acid damage to all adjacent foes each turn and gain %d%% critical damage multiplier.
 		
 		Acid damage improves with spellpower.
