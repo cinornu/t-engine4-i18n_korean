@@ -1230,26 +1230,12 @@ t([[Teleports you randomly within a small range of up to %d grids with %d precis
 t("Doom Concordat", "파멸의 협약", "talent name")
 t("#CRIMSON#Your %s is healed!", "#CRIMSON#당신의 %s 회복됐다!", "logPlayer", nil, {"는"})
 t("#CRIMSON#Your %s is brought back to life!", "#CRIMSON#당신의 %s 소생됐다!", "logPlayer", nil, {"는"})
--- new text
---[==[
 t([[You use your demon seeds to the fullest of their potential.
 		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if no other summoned demon is from Doom Concordat.
-		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
-		In addition you feed of the arrival, departure or death of your demons, each time healing yourself for %d life.
-		The healing is based on your Spellpower.]], [[You use your demon seeds to the fullest of their potential.
-		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if no other summoned demon is from Doom Concordat.
-		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
-		In addition you feed of the arrival, departure or death of your demons, each time healing yourself for %d life.
-		The healing is based on your Spellpower.]], "tformat")
---]==]
-
--- old translated text
-t([[You use your demon seeds to the fullest of their potential.
-		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if not other summoned demon is from Doom Concordat.
 		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
 		In addition you feed of the arrival, departure or death of your demons, each time healing yourself for %d life.
 		The healing is based on your Spellpower.]], [[악마의 씨앗의 잠재력을 최대한 끌어냅니다.
-		전투에 돌입할 때마다 자동으로 결합 중인 악마 씨앗에서 무작위한 악마 하나를 %d 턴 동안 소환합니다. 파멸의 협약으로 소환된 악마가 이미 있으면 소환되지 않으며, 생명력이 70%% 이상인 악마 씨앗만이 소환 대상이 됩니다.
+		전투에 돌입할 때마다 자동으로 결합 중인 악마 씨앗들 중 하나를 무작위로 골라 악마를 %d 턴 동안 소환합니다. 파멸의 협약으로 소환된 악마가 이미 있으면 소환되지 않으며, 생명력이 70%% 이상인 악마 씨앗만이 소환 대상이 됩니다.
 		시전자가 적을 살해하면 생명력이 100%% 미만인, 결합 중인 무작위 악마 하나의 생명력을 %d%% 회복합니다. 살해한 대상이 정예 등급 이상일 경우 악마의 씨앗이 부활합니다.
 		추가로, 악마가 소환되거나, 지속시간이 다 되어 사라지거나, 또는 죽을 때 시전자의 생명력이 %d 회복됩니다.
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -1356,42 +1342,38 @@ t([[Your shield is infused with a powerful blight. Anytime you block and apply a
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/emerald-nature.lua"
 
-
--- new text
---[==[
-t("Demonhide", "Demonhide", "talent name")
+t("Demonhide", "악마가죽", "talent name")
 t([[Your body becomes more like that of the Wretch. You gain %d increased max life and %d armor. While standing on an #GREEN#acid pool#LAST# you will gain %0.1f life regeneration. Additionally, whenever you take damage in combat, you have a chance to create an #GREEN#acid pool#LAST# on a random tile within range 4, up to once per turn. The chance is 100%%, reduced by 25%% for each #GREEN#acid pool#LAST# within range 4. However, a pool will not be created if the chosen tile contains impassable terrain.
 		
 		Life and armor values improve with Strength. Life regeneration improves with Magic.
-		]], [[Your body becomes more like that of the Wretch. You gain %d increased max life and %d armor. While standing on an #GREEN#acid pool#LAST# you will gain %0.1f life regeneration. Additionally, whenever you take damage in combat, you have a chance to create an #GREEN#acid pool#LAST# on a random tile within range 4, up to once per turn. The chance is 100%%, reduced by 25%% for each #GREEN#acid pool#LAST# within range 4. However, a pool will not be created if the chosen tile contains impassable terrain.
+		]], [[몸이 좀 더 렛치와 비슷하게 변합니다. 최대 생명력이 %d, 방어력이 %d 상승합니다. 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있으면 생명력 재생을 %0.1f 얻습니다. 또한 시전자가 전투 중에 피해를 받게 되면 한 턴에 한 번만, 확률적으로 반경 4 칸 내에 #GREEN#산성액 웅덩이#LAST#를 하나 만들어냅니다. 확률은 기본 100%%로, 반경 4 칸 내에 존재하는 #GREEN#산성액 웅덩이#LAST#가 하나 당 25%%씩 감소합니다. 이때 웅덩이가 생성될 칸이 이동할 수 없는 칸이라면 생성되지 않습니다.
 		
-		Life and armor values improve with Strength. Life regeneration improves with Magic.
+		생명력과 방어력 상승치는 힘 능력치에 비례해 증가합니다. 생명력 재생 상승치는 마법 능력치에 비례해 상승합니다.
 		]], "tformat")
-t("Blinding Splash", "Blinding Splash", "talent name")
+t("Blinding Splash", "실명 물보라", "talent name")
 t([[When you move onto an #GREEN#acid pool#LAST#, you release a surge of power into it, creating a radius %d splash of acid which deals %0.2f damage and has a chance to blind foes %s for %d turns.
 		
 		Damage improves with spellpower. You cannot trigger this effect for three turns after it has triggered.
-		]], [[When you move onto an #GREEN#acid pool#LAST#, you release a surge of power into it, creating a radius %d splash of acid which deals %0.2f damage and has a chance to blind foes %s for %d turns.
+		]], [[시전자가 #GREEN#산성액 웅덩이#LAST#로 이동하면, 웅덩이에 힘을 쏟아부어 반경 %d 칸의 산성 물보라를 만들어내고 %0.2f 산성 피해를 가한 뒤 %d 턴 동안 실명시킵니다 %s.
 		
-		Damage improves with spellpower. You cannot trigger this effect for three turns after it has triggered.
-		]], "tformat")
-t("Caustic Link", "Caustic Link", "talent name")
+		피해량은 주문력에 비례하여 증가합니다. 이 효과는 3 턴의 재사용 대기시간이 존재합니다.
+		]], "tformat", {1,2,4,3})
+t("Caustic Link", "부식성 연결", "talent name")
 t([[Your connection to acid grows stronger, and you empower your #GREEN#acid pools#LAST# in turn. Foes standing on an #GREEN#acid pool#LAST# will have their spell, mind, and physical power all reduced by %d. Additionally, you gain %d stealth and invisibility detection and %d infravision range for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most.
 		
 		Power reduction improves with Magic.
-		]], [[Your connection to acid grows stronger, and you empower your #GREEN#acid pools#LAST# in turn. Foes standing on an #GREEN#acid pool#LAST# will have their spell, mind, and physical power all reduced by %d. Additionally, you gain %d stealth and invisibility detection and %d infravision range for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most.
+		]], [[산성액과의 연결이 강해지면서 #GREEN#산성액 웅덩이#LAST#를 강화할 수 있게 됩니다. #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적들은 물리/주문/정신력이 %d 만큼 감소합니다. 거기에 더해서 반경 %d 칸 내에 있는 #GREEN#산성액 웅덩이#LAST# 하나 당 시전자의 은신/투명 탐지력이 %d, 적외선 시야 반경이 %d 칸 증가합니다 (웅덩이는 최대 %d 개까지 계산).
 		
-		Power reduction improves with Magic.
-		]], "tformat")
-t("Emerald Resonance", "Emerald Resonance", "talent name")
+		위력 감소량은 마법 능력치에 비례하여 증가합니다.
+		]], "tformat", {1,4,2,3,5})
+t("Emerald Resonance", "에메랄드의 공명", "talent name")
 t([[The Wretch essence within resonates with nearby #GREEN#acid pools#LAST#. You gain %d accuracy and spellpower and %d%% increased acid damage for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% resistance to all damage for 2 turns.
 		
 		Damage resistance improves with Magic.
-		]], [[The Wretch essence within resonates with nearby #GREEN#acid pools#LAST#. You gain %d accuracy and spellpower and %d%% increased acid damage for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% resistance to all damage for 2 turns.
+		]], [[내면의 렛치의 정수가 근처 #GREEN#산성액 웅덩이#LAST#들과 공명합니다. 반경 %d 칸 내에 있는 #GREEN#산성액 웅덩이#LAST# 하나 당 시전자의 정확도와 주문력이 %d, 산성 피해가 %d%% 상승합니다 (웅덩이는 최대 %d 개까지 계산). 또한 시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 2 턴 동안 모든 속성 저항이 %d%% 상승합니다.
 		
-		Damage resistance improves with Magic.
-		]], "tformat")
---]==]
+		저항 상승량은 마법 능력치에 비례하여 증가합니다.
+		]], "tformat", {3,1,2,4,5})
 
 
 ------------------------------------------------
@@ -1423,58 +1405,54 @@ t([[Your body becomes a nexus for the Fearscape, causing you to drag enemies tow
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/fiend.lua"
 
-
--- new text
---[==[
-t("Fiendish Mutation", "Fiendish Mutation", "talent name")
+t("Fiendish Mutation", "악귀의 변이", "talent name")
 t([[Your have developed fiendish, acid-dripping claws
 		Increases physical power by %d and damage by %d%% with unarmed attacks and causes your unarmed hits to deal %d acid damage.
 		Additionally, your hand gear will use Magic in place of Cunning as a damage modifier.
 		
 		Note that Fiends naturally gain 0.5 physical power per character level and attack 20%% faster while unarmed. 
 		Acid damage improves with Spellpower.
-		]], [[Your have developed fiendish, acid-dripping claws
-		Increases physical power by %d and damage by %d%% with unarmed attacks and causes your unarmed hits to deal %d acid damage.
-		Additionally, your hand gear will use Magic in place of Cunning as a damage modifier.
+		]], [[손이 산성액이 뚝뚝 떨어지는 악마의 갈퀴손으로 변했습니다.
+		물리력이 %d 상승하고 맨손 공격의 피해량도 %d%% 상승하며, 맨손 공격이 %d 산성 피해를 추가로 가하게 됩니다.
+		또한 장갑의 피해량을 계산할 때 교활 대신 마법을 사용하게 됩니다.
 		
-		Note that Fiends naturally gain 0.5 physical power per character level and attack 20%% faster while unarmed. 
-		Acid damage improves with Spellpower.
+		알림: 악귀들은 무기를 들고 있지 않다면 자연적으로 캐릭터 레벨 당 0.5 의 물리력을 추가로 얻으며 공격 속도가 20%% 더 빨라집니다. 
+		산성 피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
-t("Corrupt Parry", "Corrupt Parry", "talent name")
-t("%s(%d #LAST#parried %s)#LAST#", "%s(%d #LAST#parried %s)#LAST#", "tformat")
+t("Corrupt Parry", "타락한 쳐내기", "talent name")
+t("%s(%d #LAST#parried %s)#LAST#", "%s(%d #LAST#쳐냄 %s)#LAST#", "tformat")
 t([[With corrupt power and your fiendish claws, you are able to parry the blades, spells, and other assaults of your foes. You reduce incoming damage by %d%%, up to %d damage. 
 		When you regain Vim while in combat, you restore power to this effect based on the Vim gained. While resting out of combat, you restore 10%% of the maximum value per turn. 
 		The power restored is equal to %d%% of the Vim regained at 0 Fatigue, and is reduced by twice your Fatigue (currently: %d%%).
 		
 		Maximum damage absorption improves with your Spellpower. This can only trigger while unarmed and wearing armor lighter than massive.
-		]], [[With corrupt power and your fiendish claws, you are able to parry the blades, spells, and other assaults of your foes. You reduce incoming damage by %d%%, up to %d damage. 
-		When you regain Vim while in combat, you restore power to this effect based on the Vim gained. While resting out of combat, you restore 10%% of the maximum value per turn. 
-		The power restored is equal to %d%% of the Vim regained at 0 Fatigue, and is reduced by twice your Fatigue (currently: %d%%).
+		]], [[타락의 힘과 악마의 발톱을 이용해 적들의 검이나 주문, 그 외 다른 공격들을 쳐낼 수 있게 됩니다. 받는 피해를 %d%%, 최대 %d 만큼 줄입니다. 
+		시전자가 전투 중에 원기를 얻게 되면 획득한 양에 비례하여 이 기술을 충전합니다. 휴식 중일 때에는 매 턴 최대치의 10%% 씩 충전합니다. 
+		피로도 0 기준으로 회복한 원기의 %d%% 만큼 충전되며, 피로도의 2 배 만큼 충전량이 감소합니다 (현재: %d%%).
 		
-		Maximum damage absorption improves with your Spellpower. This can only trigger while unarmed and wearing armor lighter than massive.
+		최대 피해 흡수량은 주문력에 비례하여 증가합니다. 이 기술이 발동하려면 양손이 비어 있어야 하며, 경갑보다 무거운 갑옷을 입어서는 안 됩니다.
 		]], "tformat")
-t("Acid Claws", "Acid Claws", "talent name")
-t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s's %s is disrupted by acid!#LAST#", "logSeen")
+t("Acid Claws", "산성 발톱", "talent name")
+t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s의 %s 산성액 때문에 방해받았다!#LAST#", "logSeen", nil, {nil,"은"})
 t([[Your claws grow stronger and the acid dripping from them grows in corrupt potency. Your passively gain %d armor penetration while unarmed and if your target is on an #GREEN#acid pool#LAST#, your unarmed hits have a %d%% chance to place 1 of the their activated talents on cooldown for 2 turns, at most once per target per turn.
 		
 		Armor penetration improves with Strength.
-		]], [[Your claws grow stronger and the acid dripping from them grows in corrupt potency. Your passively gain %d armor penetration while unarmed and if your target is on an #GREEN#acid pool#LAST#, your unarmed hits have a %d%% chance to place 1 of the their activated talents on cooldown for 2 turns, at most once per target per turn.
+		]], [[발톱이 더 강해지고 떨어지는 산성액은 타락의 힘을 뿜어내게 됩니다. 양손이 비어 있다면 방어력 관통을 %d 얻습니다. 또한 맨손 공격의 대상이 #GREEN#산성액 웅덩이#LAST# 위에 있다면 %d%% 확률로 대상의 기술 중 하나를 2 턴 동안 재사용 대기 상태로 만듭니다. 이 효과는 각 대상마다 한 턴에 한 번씩만 일어납니다.
 		
-		Armor penetration improves with Strength.
+		방어력 관통량은 힘 능력치에 비례하여 증가합니다.
 		]], "tformat")
-t("Wretched Rage", "Wretched Rage", "talent name")
+t("Wretched Rage", "렛치의 분노", "talent name")
 t([[The rage of the Wretch fills your being, passively increasing your stun and pin immunities by %d%%. As your Vim builds, the rage overtakes you, causing your unarmed attacks to have a %d%% chance to trigger another unarmed attack dealing %d%% damage as the same type (physical, acid, etc.). 
 		
 		Each such attack requires and consumes %d Vim.
 		
 		Extra attack chance improves with your Dexterity, increases above 50%% Vim to double at 100%% Vim, and falls to 0%% as your Vim is depleted. Further, the chance for each successive hit in a turn is diminshed by one quarter after each attack. These attacks will only occur while unarmed and wearing armor lighter than massive.
-		]], [[The rage of the Wretch fills your being, passively increasing your stun and pin immunities by %d%%. As your Vim builds, the rage overtakes you, causing your unarmed attacks to have a %d%% chance to trigger another unarmed attack dealing %d%% damage as the same type (physical, acid, etc.). 
+		]], [[렛치의 분노가 온몸 가득 차오릅니다. 지속 효과로써 기절 저항과 속박 저항이 %d%% 상승합니다. 원기가 쌓일수록 시전자는 분노에 집어삼켜져, 모든 맨손 공격이 %d%% 확률로 똑같은 속성의 맨손 공격을 추가로 가해 %d%% 피해를 가하게 됩니다. 
 		
-		Each such attack requires and consumes %d Vim.
+		이러한 추가 공격은 원기를 %d 만큼 소모하며, 원기가 부족하면 일어나지 않습니다.
 		
-		Extra attack chance improves with your Dexterity, increases above 50%% Vim to double at 100%% Vim, and falls to 0%% as your Vim is depleted. Further, the chance for each successive hit in a turn is diminshed by one quarter after each attack. These attacks will only occur while unarmed and wearing armor lighter than massive.
+		추가 공격 확률은 민첩 능력치에 비례하여 상승합니다. 또한 원기가 50%% 이상일 때 추가로 상승하며 100%% 일 때 2 배가 되고, 원기가 바닥나면 0%%가 됩니다. 여기에 더해서, 한 턴에 추가 공격이 여러 번 일어날 경우에는 두 번째부터 확률이 1/4씩 감소합니다. 추가 공격을 가하려면 양손이 비어 있어야 하며, 경갑보다 무거운 갑옷을 입어서는 안 됩니다.
 		]], "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -2639,10 +2617,7 @@ Race features:#YELLOW#
 section "tome-ashes-urhrok/overload/mod/class/DemonologistsDLC.lua"
 
 t("Shadow Power: ", "그림자의 힘: ", "_t")
--- new text
---[==[
-t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s's %s is disrupted by acid!#LAST#", "logSeen")
---]==]
+t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s의 %s 산성액 때문에 방해받았다!#LAST#", "logSeen", nil, {nil,"은"})
 
 
 ------------------------------------------------
