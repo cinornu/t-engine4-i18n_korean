@@ -878,7 +878,7 @@ t("Pooling Corruption", "고이는 타락", "talent name")
 t([[When you land an unarmed attack as acid damage against a foe you have a %d%% chance to create an #GREEN#acid pool#LAST# underneath them. If this triggers and there is already a pool under them, there is a %d%% chance to create a pool on an adjacent, acid-free tile. This can create up to %d #GREEN#acid pools#LAST# per turn at most. Additionally, foes standing on your #GREEN#acid pools#LAST# will have their spell, mental, and physical saves reduced by %d .
 		
 		Save reduction improves with Magic.
-		]], [[시전자가 맨손 공격으로 산성 피해를 가하게 되면 %d%% 확률로 대상들의 발밑에 #GREEN#산성액 웅덩이#LAST#를 만들어냅니다. 만약 이 효과가 발동했을 때 대상의 발밑에 이미 웅덩이가 있다면, %d%% 확률로 인접한 (웅덩이가 없는) 칸에 만들어냅니다. 이 효과로 만들어낼 수 있는 #GREEN#산성액 웅덩이#LAST#는 한 턴에 최대 %d 개 까지입니다. 거기에 더해서 시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적은 물리/주문/정신 내성이 %d 만큼 감소합니다.
+		]], [[시전자가 맨손 공격으로 산성 피해를 가하게 되면 %d%% 확률로 대상들의 발밑에 #GREEN#산성액 웅덩이#LAST#를 만들어냅니다. 만약 이 효과가 발동했을 때 대상의 발밑에 이미 웅덩이가 있다면, %d%% 확률로 인접한 (웅덩이가 없는) 칸에 만들어냅니다. 이 효과로 만들어낼 수 있는 #GREEN#산성액 웅덩이#LAST#는 한 턴에 최대 %d 개까지입니다. 거기에 더해서 시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적은 물리/주문/정신 내성이 %d 만큼 감소합니다.
 		
 		내성 감소량은 마법 능력치에 비례해 증가합니다.
 		]], "tformat")
@@ -1139,8 +1139,8 @@ t([[You are filled with caustic power. Whenever you take direct damage, there is
 		Any foe standing on one of your #GREEN#acid pools#LAST# will have their Physical Power, Spellpower, Mindpower, Accuracy, Physical Save, Spell Save, Mental Save and Defense all reduced by %d.
 		]], [[산성의 힘이 충만합니다. 시전자가 직접 피해를 받게 되면 %d%% 확률로 반경 4 칸 이내 한 지점에 4 턴 동안 유지되는 #GREEN#산성액 웅덩이#LAST#를 하나 만들어냅니다.
 		시전자가 산성 피해를 가할 때마다 %d%% 확률로 대상의 발밑이나 그 지점에 인접한 무작위 칸 하나에 4 턴 동안 유지되는 #GREEN#산성액 웅덩이#LAST#를 하나 만들어냅니다.
-		한 턴에 만들어낼 수 있는 #GREEN#산성액 웅덩이#LAST#는 최대 3 개 까지이며 전투 중일 때만 만들어낼 수 있습니다. #GREEN#산성액 웅덩이#LAST#는 이동이 불가능한 칸에는 생성되지 않습니다.
-		지속 효과로써 시전자 주변 반경 4 칸 안에 있는 #GREEN#산성액 웅덩이#LAST# 하나 당 물리력/주문력/정확도를 %0.1f 얻고 산성 피해와 산성 저항 관통이 %0.1f%% 상승합니다 (웅덩이는 최대 8 개 까지 계산).
+		한 턴에 만들어낼 수 있는 #GREEN#산성액 웅덩이#LAST#는 최대 3 개까지이며 전투 중일 때만 만들어낼 수 있습니다. #GREEN#산성액 웅덩이#LAST#는 이동이 불가능한 칸에는 생성되지 않습니다.
+		지속 효과로써 시전자 주변 반경 4 칸 안에 있는 #GREEN#산성액 웅덩이#LAST# 하나 당 물리력/주문력/정확도를 %0.1f 얻고 산성 피해와 산성 저항 관통이 %0.1f%% 상승합니다 (웅덩이는 최대 8 개까지 계산).
 		시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적은 물리력/주문력/정신력/정확도/물리 내성/주문 내성/정신 내성/회피도가 %d 만큼 감소합니다.
 		]], "tformat")
 
@@ -1513,82 +1513,74 @@ t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d
 section "tome-ashes-urhrok/data/talents/corruptions/killing-instinct.lua"
 
 t("The teleport fizzles!", "순간이동이 실패했다!", "logSeen")
--- new text
---[==[
-t("Blink Pounce", "Blink Pounce", "talent name")
+t("Blink Pounce", "찰나의 강습", "talent name")
 t([[With the hunting instinct of the Wretch, you pounce on your prey. Teleport to a target up to %d tiles away and then strike them for %d%% unarmed damage. Every 2 turns that this talent is not on cooldown the range will increase by 1, to a maximum range of 10 and with a base range of 4. 
 		If you are standing on an #GREEN#acid pool#LAST# when you initiate the attack, you will #DARK_GREEN#absorb#LAST# it to convert the damage type to acid.
-		]], [[With the hunting instinct of the Wretch, you pounce on your prey. Teleport to a target up to %d tiles away and then strike them for %d%% unarmed damage. Every 2 turns that this talent is not on cooldown the range will increase by 1, to a maximum range of 10 and with a base range of 4. 
-		If you are standing on an #GREEN#acid pool#LAST# when you initiate the attack, you will #DARK_GREEN#absorb#LAST# it to convert the damage type to acid.
+		]], [[렛치의 사냥 본능을 불러일으켜 사냥감을 덮칩니다. 반경 %d 칸 이내에 있는 대상 하나에게 순간이동하며 %d%% 맨손 피해를 가합니다. 이 기술이 사용 가능한 상태에서 2 턴이 지나갈 때마다 사거리가 1 칸씩 늘어납니다 (기본 사거리는 4 칸, 최대 10 칸까지). 
+		이 기술을 시전할 때 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 있다면, 웅덩이를 #DARK_GREEN#흡수#LAST#하고 산성 피해로 변합니다.
 		]], "tformat")
-t("Phase Frenzy", "Phase Frenzy", "talent name")
+t("Phase Frenzy", "위상 광란", "talent name")
 t([[A frenzy overtakes you when you pounce on your prey. While teleporting to your target with Blink Pounce, you also strike all foes within %d tiles of them for %d%% unarmed damage. Additionally, your frenzy numbs you to pain, reducing all damage taken by %d during Blink Pounce and for 4 turns after.
 		
 		Damage reduction improves with Dexterity.
-		]], [[A frenzy overtakes you when you pounce on your prey. While teleporting to your target with Blink Pounce, you also strike all foes within %d tiles of them for %d%% unarmed damage. Additionally, your frenzy numbs you to pain, reducing all damage taken by %d during Blink Pounce and for 4 turns after.
+		]], [[사냥감을 덮칠 때 광란 상태에 빠지게 됩니다. 찰나의 강습 기술로 대상에게 순간이동할 때, 대상 주변 반경 %d 칸 이내의 모든 적에게 %d%% 맨손 피해를 추가로 가합니다. 또한 광란으로 인해 고통을 잘 못 느끼게 되어, 찰나의 강습이 끝난 뒤 4 턴 동안 받는 모든 피해가 %d 감소합니다.
 		
-		Damage reduction improves with Dexterity.
+		피해 감소량은 민첩 능력치에 비례하여 증가합니다.
 		]], "tformat")
-t("Demonic Reflex", "Demonic Reflex", "talent name")
+t("Demonic Reflex", "악마의 반사신경", "talent name")
 t([[The corruption within you is bolstered by nearby #GREEN#acid pools#LAST#. You gain %d physical power and %d%% movement speed for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. 
 		Addtionally, when you enter combat and %d%% of the time when taking a hit of 8%% of your maximum life or more, you gain the Demonic Reflex effect for 4 turns, granting a %d%% chance to avoid incoming damage. This has a cooldown (%d). 
 		
 		Chance to avoid damage and chance to trigger the effect from taking damage both improve with Dexterity.
-		]], [[The corruption within you is bolstered by nearby #GREEN#acid pools#LAST#. You gain %d physical power and %d%% movement speed for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. 
-		Addtionally, when you enter combat and %d%% of the time when taking a hit of 8%% of your maximum life or more, you gain the Demonic Reflex effect for 4 turns, granting a %d%% chance to avoid incoming damage. This has a cooldown (%d). 
+		]], [[내면의 타락의 힘이 근처의 #GREEN#산성액 웅덩이#LAST#들 덕분에 강화됩니다. 반경 %d 칸 내에 있는 #GREEN#산성액 웅덩이#LAST# 하나마다 물리력이 %d, 이동 속도가 %d%% 상승합니다 (웅덩이는 최대 %d 개까지 계산). 
+		또한 전투 중에, 최대 생명력의 8%% 이상의 피해를 받게 되면 %d%% 확률로 4 턴간 악마의 반사신경 효과를 얻어, %d%% 확률로 받는 피해를 완전히 무시합니다. 이 효과는 재사용 대기시간이 있습니다 (%d 턴). 
 		
-		Chance to avoid damage and chance to trigger the effect from taking damage both improve with Dexterity.
-		]], "tformat")
-t("Corrupt Reach", "Corrupt Reach", "talent name")
-t("The pin was resisted!", "The pin was resisted!", "logSeen")
-t("The teleport fizzled!", "The teleport fizzled!", "logSeen")
-t("The teleport was resisted!", "The teleport was resisted!", "logSeen")
-t("The silence was resisted!", "The silence was resisted!", "logSeen")
+		효과 발생 확률과 피해 무시 확률은 민첩 능력치에 비례하여 증가합니다.
+		]], "tformat", {3,1,2,4,5,6,7})
+t("Corrupt Reach", "사악한 소환", "talent name")
+t("The pin was resisted!", "대상이 속박에 저항했다!", "logSeen")
+t("The teleport fizzled!", "순간이동이 실패했다!", "logSeen")
+t("The teleport was resisted!", "대상이 순간이동에 저항했다!", "logSeen")
+t("The silence was resisted!", "대상이 침묵에 저항했다!", "logSeen")
 t([[With corrupt force, you bring a foe into melee range. Target a foe up to %d tiles away and teleport them to your side. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to extend the reach by 3 tiles (up to %d) and deal %0.2f acid damage to your target with a chance to silence them %s for %d turns.
 		
 		Damage improves with spellpower.
-		]], [[With corrupt force, you bring a foe into melee range. Target a foe up to %d tiles away and teleport them to your side. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to extend the reach by 3 tiles (up to %d) and deal %0.2f acid damage to your target with a chance to silence them %s for %d turns.
+		]], [[타락의 힘으로 적 하나를 가까운 곳으로 끌고 옵니다. 반경 %d 칸 이내의 대상 하나를 시전자 바로 옆 칸에 순간이동시킵니다. 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있다면 웅덩이를 #DARK_GREEN#흡수#LAST#하고 사거리가 3 칸 늘어나며 (최대 %d 칸) 대상에게 %0.2f 산성 피해를 가하고, %d 턴 동안 침묵시킵니다 %s.
 		
-		Damage improves with spellpower.
-		]], "tformat")
---]==]
-
+		피해량은 주문력에 비례하여 증가합니다.
+		]], "tformat", {1,2,3,5,4})
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/noxious-vapours.lua"
 
-
--- new text
---[==[
-t("Rushing Mist", "Rushing Mist", "talent name")
+t("Rushing Mist", "안개 돌진", "talent name")
 t([[You become a cloud of acid mist and instantly rush to an empty tile within range %d and return to your normal form. There is a %d%% chance to create an #GREEN#acid pool#LAST# lasting 4 turns on each empty tile along or adjacent to your path, up to %d at most, and you will deal %0.2f acid damage to all foes in this area.
 		
 		Damage improves with spellpower. You may use this movement while immobilized, but not if frozen, and it may pass through creatures. If you target a creature you will move to a random empty tile adjacent to them and within range of this talent.
-		]], [[You become a cloud of acid mist and instantly rush to an empty tile within range %d and return to your normal form. There is a %d%% chance to create an #GREEN#acid pool#LAST# lasting 4 turns on each empty tile along or adjacent to your path, up to %d at most, and you will deal %0.2f acid damage to all foes in this area.
+		]], [[산성 안개로 변신한 뒤 반경 %d 칸 내의 한 지점으로 돌진하고, 원래 형태로 돌아옵니다. %d%% 확률로 이동 경로나 그에 인접한 칸에 4 턴간 유지되는 #GREEN#산성액 웅덩이#LAST#를 만들어내고 (최대 %d 개까지), 이 범위 내에 있는 모든 적들에게 %0.2f 산성 피해를 가합니다.
 		
-		Damage improves with spellpower. You may use this movement while immobilized, but not if frozen, and it may pass through creatures. If you target a creature you will move to a random empty tile adjacent to them and within range of this talent.
+		피해량은 주문력에 비례하여 증가합니다. 움직일 수 없는 상태 (단, 빙결 제외) 에서도 이 기술은 사용할 수 있으며, 생명체를 통과할 수 있습니다. 지정한 칸이 비어 있지 않을 경우, 이 기술의 사거리 내에서 해당 칸에 인접한 무작위 위치로 이동합니다.
 		]], "tformat")
-t("Vapour Burst", "Vapour Burst", "talent name")
+t("Vapour Burst", "증기 폭발", "talent name")
 t([[Release a burst of acid vapour in a radius %d cone. All foes in the area will be knocked back 2 tiles and become dazed %s for %d turns. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to intensify the acid, causing the burst to deal %0.2f acid damage which may confuse foes (50%% power) %s rather than daze them.
 		
 		Damage improves with spellpower. Allies in the area are spared from the status effects.
-		]], [[Release a burst of acid vapour in a radius %d cone. All foes in the area will be knocked back 2 tiles and become dazed %s for %d turns. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to intensify the acid, causing the burst to deal %0.2f acid damage which may confuse foes (50%% power) %s rather than daze them.
+		]], [[반경 %d 칸의 원뿔 범위에 산성 증기 폭발을 일으킵니다. 범위 내의 모든 적들은 2 칸 밀려나고 %d 턴 동안 혼절합니다 %s. 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있다면 웅덩이를 #DARK_GREEN#흡수#LAST#하고 증기의 산성을 강화합니다. 증기 폭발이 %0.2f 산성 피해를 가하고, 혼절시키는 대신에 혼란시킵니다 (위력 50%%) %s.
 		
-		Damage improves with spellpower. Allies in the area are spared from the status effects.
-		]], "tformat")
-t("Gathering Mist", "Gathering Mist", "talent name")
+		피해량은 주문력에 비례하여 증가합니다. 범위 내의 아군에게는 상태이상을 걸지 않습니다.
+		]], "tformat", {1,3,2,4,5})
+t("Gathering Mist", "안개 모으기", "talent name")
 t([[Acrid vapours begin to swirl about your #GREEN#acid pools#LAST#, causing foes standing on them to have their accuracy and defense reduced by %d . Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# the cooldown of Rushing Mist will be reset and this talent will go on cooldown for %d turns before it can reset Rushing Mist again. Passively, you gain %d Vim when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST#, at most once per turn.  
 		
 		Vim gain improves with spellpower. Accuracy and defense reduction improve with Magic.
-		]], [[Acrid vapours begin to swirl about your #GREEN#acid pools#LAST#, causing foes standing on them to have their accuracy and defense reduced by %d . Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# the cooldown of Rushing Mist will be reset and this talent will go on cooldown for %d turns before it can reset Rushing Mist again. Passively, you gain %d Vim when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST#, at most once per turn.  
+		]], [[독한 증기가 시전자의 #GREEN#산성액 웅덩이#LAST#들에서 피어올라, 그 위에 서 있는 적들의 정확도와 회피도를 %d 만큼 낮춥니다. 또한 시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 안개 돌진 기술의 재사용 대기시간이 초기화됩니다. 이 효과는 재사용 대기시간이 있습니다 (%d 턴). 지속 효과로써 시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 한 턴에 한 번만 원기를 %d 얻습니다.  
 		
-		Vim gain improves with spellpower. Accuracy and defense reduction improve with Magic.
+		원기 획득량은 주문력에 비례하여 증가합니다. 정확도와 회피도 감소량은 마법 능력치에 비례하여 증가합니다.
 		]], "tformat")
-t("Dissolve Affliction", "Dissolve Affliction", "talent name")
+t("Dissolve Affliction", "고통 용해", "talent name")
 t([[Each turn while standing on an #GREEN#acid pool#LAST#, negative effects on you will have their duration reduced by an extra %d turns. This will apply to 1 effect for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most (excluding type "other").
-		]], [[Each turn while standing on an #GREEN#acid pool#LAST#, negative effects on you will have their duration reduced by an extra %d turns. This will apply to 1 effect for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most (excluding type "other").
+		]], [[#GREEN#산성액 웅덩이#LAST# 위에 서 있으면 매 턴마다 시전자에게 걸린 부정적인 효과 1 개의 지속시간이 %d 턴 추가로 감소합니다. 시전자 주변 반경 %d 칸 내의 #GREEN#산성액 웅덩이#LAST# 하나마다 감소하는 효과의 개수가 하나씩 늘어나며, 최대 %d 개까지 적용됩니다 (단, 유형이 "기타" 인 효과는 제외).
 		]], "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -1638,46 +1630,42 @@ t([[You crush the spirit of a target with at least %d fear stacks, consuming all
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/solvent-vim.lua"
 
-
--- new text
---[==[
 t("Caustic Shift", "부식성 전이", "talent name")
 t([[Create an #GREEN#acid pool#LAST# within range %d lasting 4 turns. If you create the pool on an empty, adjacent tile, you will also move to the location. Additionally, while on an #GREEN#acid pool#LAST# you deal %0.2f Acid damage to all adjacent foes each turn and gain %d%% critical damage multiplier.
 		
 		Acid damage improves with spellpower.
-		]], [[Create an #GREEN#acid pool#LAST# within range %d lasting 4 turns. If you create the pool on an empty, adjacent tile, you will also move to the location. Additionally, while on an #GREEN#acid pool#LAST# you deal %0.2f Acid damage to all adjacent foes each turn and gain %d%% critical damage multiplier.
+		]], [[반경 %d 칸 이내 한 지점에 4 턴 동안 유지되는 #GREEN#산성액 웅덩이#LAST#를 만들어냅니다. 인접한 아무것도 없는 칸에 웅덩이를 만들어내면 시전자는 그 위치로 이동합니다. 또한 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 동안에는 치명타 피해량이 %d%% 상승하며, 매 턴마다 인접한 적들에게 %0.2f 산성 피해를 가합니다.
 		
-		Acid damage improves with spellpower.
-		]], "tformat")
-t("Wretched Vigor", "Wretched Vigor", "talent name")
+		산성 피해량은 주문력에 비례하여 증가합니다.
+		]], "tformat", {1,3,2})
+t("Wretched Vigor", "렛치의 활력", "talent name")
 t([[For 2 turns after you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you will gain %0.1f Vim for each unarmed attack that lands, up to %0.1f Vim per turn at most. Passively, you gain %d%% spell critical chance.
 		
 		Vim gain on hit improves with spellpower. Spell crit chance improves with accuracy.
-		]], [[For 2 turns after you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you will gain %0.1f Vim for each unarmed attack that lands, up to %0.1f Vim per turn at most. Passively, you gain %d%% spell critical chance.
+		]], [[시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 2 턴 동안 맨손 공격을 할 때마다 %0.1f 원기를 획득합니다 (한 턴에 최대 %0.1f 까지). 지속 효과로써 시전자의 주문 치명타 확률이 %d%% 상승합니다.
 		
-		Vim gain on hit improves with spellpower. Spell crit chance improves with accuracy.
+		원기 획득량은 주문력에 비례하여 증가합니다. 주문 치명타 확률은 정확도에 비례하여 증가합니다.
 		]], "tformat")
-t("Acid Reservoir", "Acid Reservoir", "talent name")
+t("Acid Reservoir", "산성액 비축", "talent name")
 t([[When you are afflicted with a negative status effect while in combat, you have a %d%% chance to create an #GREEN#acid pool#LAST# lasting %d turns on your own tile or an empty, adjacent, acid-free tile. This has a cooldown (%d).
 		
 		Passively, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you have a %d%% chance to create a new pool on the same tile with a duration of one turn less than the pool that was absorbed, at a cost of 8 Vim.
-		]], [[When you are afflicted with a negative status effect while in combat, you have a %d%% chance to create an #GREEN#acid pool#LAST# lasting %d turns on your own tile or an empty, adjacent, acid-free tile. This has a cooldown (%d).
+		]], [[전투 중에 시전자가 부정적인 상태 효과에 걸리게 되면 %d%% 확률로 %d 턴 동안 유지되는 #GREEN#산성액 웅덩이#LAST#를 발밑에, 또는 웅덩이가 없는 인접한 빈 칸에 만들어냅니다. 이 효과는 재사용 대기시간이 존재합니다 (%d 턴).
 		
-		Passively, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you have a %d%% chance to create a new pool on the same tile with a duration of one turn less than the pool that was absorbed, at a cost of 8 Vim.
+		지속 효과로써 시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 %d%% 확률로 같은 칸에 새로운 웅덩이를 만들어냅니다. 이때 지속시간은 흡수된 웅덩이보다 1 턴 짧으며, 원기를 8 만큼 소모합니다.
 		]], "tformat")
-t("Vile Infusion", "Vile Infusion", "talent name")
+t("Vile Infusion", "역겨운 주입", "talent name")
 t([[When you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% increased damage and %d%% increased healing modifier for 1 turn. 
 		
 		Additionally, you will be healed for %d when you move onto an #GREEN#acid pool#LAST#. You will not be able to heal from this effect for three turns after if has triggered.
 		
 		All values improve with spellpower.
-		]], [[When you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% increased damage and %d%% increased healing modifier for 1 turn. 
+		]], [[시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 1 턴간 모든 피해량이 %d%%, 회복 효율이 %d%% 상승합니다. 
 		
-		Additionally, you will be healed for %d when you move onto an #GREEN#acid pool#LAST#. You will not be able to heal from this effect for three turns after if has triggered.
+		또한 시전자가 #GREEN#산성액 웅덩이#LAST#로 이동하면 생명력이 %d 만큼 회복됩니다. 생명력 회복 효과는 3 턴의 재사용 대기시간이 있습니다.
 		
-		All values improve with spellpower.
+		모든 수치는 주문력에 비례하여 증가합니다.
 		]], "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -1744,36 +1732,32 @@ t([[Your strikes are imbued with a vile power that extends your victim's sufferi
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/unstable-mutation.lua"
 
-
--- new text
---[==[
-t("Titan Strike", "Titan Strike", "talent name")
-t("Channel the brute force of a Wretch Titan and slash a large area, devastating foes and terrain alike. Deals %d%% unarmed damage as blight to all targets in a radius 4 cone. Any diggable terrain in the area will be destroyed and you will create an #GREEN#acid pool#LAST# lasting 4 turns on destroyed terrain, up to %d pools at most.", "Channel the brute force of a Wretch Titan and slash a large area, devastating foes and terrain alike. Deals %d%% unarmed damage as blight to all targets in a radius 4 cone. Any diggable terrain in the area will be destroyed and you will create an #GREEN#acid pool#LAST# lasting 4 turns on destroyed terrain, up to %d pools at most.", "tformat")
-t("Noxious Overload", "Noxious Overload", "talent name")
+t("Titan Strike", "타이탄의 강타", "talent name")
+t("Channel the brute force of a Wretch Titan and slash a large area, devastating foes and terrain alike. Deals %d%% unarmed damage as blight to all targets in a radius 4 cone. Any diggable terrain in the area will be destroyed and you will create an #GREEN#acid pool#LAST# lasting 4 turns on destroyed terrain, up to %d pools at most.", "렛치 타이탄의 막강한 힘으로 넓은 범위를 휩쓸어 적들을 지형 째로 분쇄합니다. 반경 4 칸의 원뿔 범위 내 모든 대상에게 %d%% 황폐 맨손 피해를 가합니다. 범위 내의 굴착 가능한 지형은 전부 파괴되며, 파괴된 칸에는 4 턴간 유지되는 #GREEN#산성액 웅덩이#LAST#가 최대 %d 개까지 만들어집니다.", "tformat")
+t("Noxious Overload", "부패한 범람", "talent name")
 t([[When you land an unarmed critical hit, all #GREEN#acid pools#LAST# within 4 tiles will release a noxious burst dealing %d blight damage in a radius of %d, at most once per turn. Additionally, while standing on an #GREEN#acid pool#LAST# you gain %d%% physical critical chance and your unarmed strikes will deal %0.2f blight damage.
 
 			Burst damage and on-hit damage both improve with spellpower.
-		]], [[When you land an unarmed critical hit, all #GREEN#acid pools#LAST# within 4 tiles will release a noxious burst dealing %d blight damage in a radius of %d, at most once per turn. Additionally, while standing on an #GREEN#acid pool#LAST# you gain %d%% physical critical chance and your unarmed strikes will deal %0.2f blight damage.
+		]], [[시전자가 맨손 치명타를 가하게 되면 반경 4 칸 내의 모든 #GREEN#산성액 웅덩이#LAST#들이 폭발하여 반경 %d 칸 내에 %d 황폐 피해를 가합니다. 이 효과는 한 턴에 한 번만 일어납니다. 또한 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있으면 물리 치명타 확률이 %d%% 상승하고 맨손 공격이 %0.2f 황폐 피해를 추가로 가하게 됩니다.
 
-			Burst damage and on-hit damage both improve with spellpower.
-		]], "tformat")
-t("Corrupt Reaction", "Corrupt Reaction", "talent name")
+			폭발 피해량과 황폐 추가 피해량은 주문력에 비례하여 증가합니다.
+		]], "tformat", {2,1,3,4})
+t("Corrupt Reaction", "타락한 반발", "talent name")
 t([[Foes standing on one of your #GREEN#acid pools#LAST# will take %0.2f blight damage each turn with a %d%% chance to extend the duration of all negative effects you have placed on them by 1 turn (excludes type "other"). Additionally, you gain %d defense while standing on an #GREEN#acid pool#LAST#. Finally, at talent level 5 or above, your increased blight damage and resistance penetration will match your increased acid damage and resistance penetration, if not already higher.
 		
 			Blight damage improves with spellpower.
-		]], [[Foes standing on one of your #GREEN#acid pools#LAST# will take %0.2f blight damage each turn with a %d%% chance to extend the duration of all negative effects you have placed on them by 1 turn (excludes type "other"). Additionally, you gain %d defense while standing on an #GREEN#acid pool#LAST#. Finally, at talent level 5 or above, your increased blight damage and resistance penetration will match your increased acid damage and resistance penetration, if not already higher.
+		]], [[시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적들은 매 턴마다 %0.2f 황폐 피해를 받고, 각종 부정적인 효과들의 지속시간이 1 턴 늘어나게 됩니다 (단, 유형이 "기타" 인 효과는 제외). 또한 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있으면 회피도가 %d 상승합니다. 마지막으로 기술 레벨 5 부터, 시전자의 황폐 피해 증가량이 산성 피해 증가량보다 낮다면 동일한 값까지 상승하며, 황폐 저항 관통 역시 산성 저항 관통과 비교하여 동일해집니다.
 		
-			Blight damage improves with spellpower.
+			황폐 피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
-t("Blighted Catalyzation", "Blighted Catalyzation", "talent name")
+t("Blighted Catalyzation", "황폐의 촉매", "talent name")
 t([[When you land an unarmed attack as acid damage you will deal %0.2f blight damage in a radius of 2 centered on your target, at most once per turn. The damage is increased by 20%% for each negative effect you have placed on the target, up to 10, for a maximum of 300%% damage total (%0.2f). Additionally, any time you deal blight damage to an enemy you attempt to afflict them %s with a stacking %d%% talent failure chance for 2 turns, with new stacks refreshing the duration. There is no stack limit, but the effect is removed when a talent failure occurs. Finally, you gain %d spell, mental, and physical saves for 4 turns when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST#.
 		
 		Blight damage improves with spellpower. Save bonuses improve with Magic.
-		]], [[When you land an unarmed attack as acid damage you will deal %0.2f blight damage in a radius of 2 centered on your target, at most once per turn. The damage is increased by 20%% for each negative effect you have placed on the target, up to 10, for a maximum of 300%% damage total (%0.2f). Additionally, any time you deal blight damage to an enemy you attempt to afflict them %s with a stacking %d%% talent failure chance for 2 turns, with new stacks refreshing the duration. There is no stack limit, but the effect is removed when a talent failure occurs. Finally, you gain %d spell, mental, and physical saves for 4 turns when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST#.
+		]], [[시전자가 산성 맨손 공격을 가하게 되면 한 턴에 한 번, 대상을 중심으로 반경 2 칸 범위에 %0.2f 황폐 피해를 가합니다. 대상에게 걸려 있는 부정적인 효과 하나 당 피해량이 20%% 씩 상승하며, 최대 10 개까지 계산합니다. 즉, 최대 피해량은 기본의 300%% 입니다 (%0.2f). 또한 시전자가 적에게 황폐 피해를 가할 때마다 2 턴간 유지되는 %d%% 기술 시전 실패 효과를 하나 중첩시키며 %s, 새로 중첩될 때마다 지속시간을 갱신하게 됩니다. 중첩은 무제한으로 가능하지만 한 번 기술 시전 실패가 일어나면 중첩은 즉시 사라집니다. 마지막으로 시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 4 턴간 물리/주문/정신 내성이 %d 상승합니다.
 		
-		Blight damage improves with spellpower. Save bonuses improve with Magic.
-		]], "tformat")
---]==]
+		황폐 피해량은 주문력에 비례하여 증가합니다. 내성 상승량은 마법 능력치에 비례하여 증가합니다.
+		]], "tformat", {1,2,4,3,5})
 
 
 ------------------------------------------------
@@ -1800,8 +1784,6 @@ t([[Your blade drinks in death. Whenever you score a kill with this talent off c
 		Additionally, you gain an extra %d vim per kill.]], [[칼날이 죽음을 삼킵니다. 적을 쓰러뜨렸을 때, 이 기술이 재사용 대기 상태가 아니라면, 6 턴 동안 다음 %d 번의 근접 공격이 언제나 치명타를 유발합니다. 또한 지속시간 동안 치명타 피해량이 %d%% 증가합니다.
 		추가로, 적을 쓰러뜨렸을 때 원기를 %d 추가로 획득합니다.]], "tformat")
 t("Destroyer", "파괴자", "talent name")
--- new text
---[==[
 t([[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your size by 2, your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
 		The physical power, stamina regen, and status resistances increase with your spellpower.
 		Your other talents also gain a variety of bonuses:
@@ -1811,29 +1793,7 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
 		-Incinerating Blows: Increases chance of bonus damage to %d%%.
 		-Fearfeast: Gain %0.1f vim per stack.
-		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your size by 2, your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
-		The physical power, stamina regen, and status resistances increase with your spellpower.
-		Your other talents also gain a variety of bonuses:
-		-Draining Assault: Reduces cooldown by %d.
-		-Reckless Strike: Gain %d%% resistance penetration for all elements for %d turns.
-		-Obliterating Smash: Increases range by %d.
-		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
-		-Incinerating Blows: Increases chance of bonus damage to %d%%.
-		-Fearfeast: Gain %0.1f vim per stack.
-		-Maw of Urh'rok: Increases cone width by %d degrees.]], "tformat")
---]==]
-
--- old translated text
-t([[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
-		The physical power, stamina regen, and status resistances increase with your spellpower.
-		Your other talents also gain a variety of bonuses:
-		-Draining Assault: Reduces cooldown by %d.
-		-Reckless Strike: Gain %d%% resistance penetration for all elements for %d turns.
-		-Obliterating Smash: Increases range by %d.
-		-Abduction: If it hits, get an additional %d attacks at 35%% weapon damage.
-		-Incinerating Blows: Increases chance of bonus damage to %d%%.
-		-Fearfeast: Gain %0.1f vim per stack.
-		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[육체에서 공포의 영역의 두려운 힘이 흘러넘쳐, %d 턴 동안 강력한 악마로 변신할 수 있게 됩니다. 물리력과 기력 재생이 %d 증가하고, 기절과 무장 해제 면역력이 %d%% 증가합니다.
+		-Maw of Urh'rok: Increases cone width by %d degrees.]], [[육체에서 공포의 영역의 두려운 힘이 흘러넘쳐, %d 턴 동안 강력한 악마로 변신할 수 있게 됩니다. 몸집 크기가 2 단계 커지고 물리력과 기력 재생이 %d 증가하며, 기절과 무장 해제 면역력이 %d%% 증가합니다.
 		물리력, 기력 재생, 상태 면역력은 주문력에 비례하여 증가합니다.
 		또한 다른 기술들도 이 기술에 영향을 받아 보다 강력해집니다.
 		-흡수의 맹공: 재사용 대기시간이 %d 턴 단축됩니다.
@@ -1847,38 +1807,34 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/wretched-brethren.lua"
 
-
--- new text
---[==[
-t("Wretched Link", "Wretched Link", "talent name")
-t("Connects wretches to their summoner.", "Connects wretches to their summoner.", "tformat")
-t("Wretchlings", "Wretchlings", "talent name")
+t("Wretched Link", "렛치 연결", "talent name")
+t("Connects wretches to their summoner.", "렛치들과 소환자를 연결합니다.", "tformat")
+t("Wretchlings", "렛츨링", "talent name")
 t([[Your connection to the Children of Emerald allows you to call them to your service in battle. When you enter combat, you summon %d wretchling(s) near yourself, fighting until they die or you leave combat. If a wretchling dies, you will call another after %d turns.
 		The wretchlings will know Blink Pounce and Pooling Corruption at talent level %d and their attacks will always deal acid damage. Any #GREEN#acid pools#LAST# created by the wretchlings will count as your own.
 		Strength, Dexterity and Magic stats will be set to %d (based on your Magic stat), and life rating increased by %d. Many other stats will scale with your level. Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited by your wretchlings. Acid damage dealt to you by your wretchlings will be negated.
-		If you are more than 10 tiles from a wretchling or it loses line of sight of you for more than 3 turns, it will vanish.]], [[Your connection to the Children of Emerald allows you to call them to your service in battle. When you enter combat, you summon %d wretchling(s) near yourself, fighting until they die or you leave combat. If a wretchling dies, you will call another after %d turns.
-		The wretchlings will know Blink Pounce and Pooling Corruption at talent level %d and their attacks will always deal acid damage. Any #GREEN#acid pools#LAST# created by the wretchlings will count as your own.
-		Strength, Dexterity and Magic stats will be set to %d (based on your Magic stat), and life rating increased by %d. Many other stats will scale with your level. Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited by your wretchlings. Acid damage dealt to you by your wretchlings will be negated.
-		If you are more than 10 tiles from a wretchling or it loses line of sight of you for more than 3 turns, it will vanish.]], "tformat")
-t("Wretched Influence", "Wretched Influence", "talent name")
+		If you are more than 10 tiles from a wretchling or it loses line of sight of you for more than 3 turns, it will vanish.]], [[에메랄드의 자손들과의 연결을 통해 그들을 아군으로 불러낼 수 있게 됩니다. 시전자가 전투에 돌입하면 우호적인 렛츨링을 %d 마리 소환하여 죽을 때까지, 또는 전투가 끝날 때까지 싸우게 합니다. 렛츨링이 죽게 되면 %d 턴 뒤 다시 소환합니다.
+		렛츨링들은 %d 레벨 찰나의 강습 기술과 고이는 타락 기술을 알고 있으며 모든 공격이 산성 피해로 전환됩니다. 렛츨링이 만들어낸 #GREEN#산성액 웅덩이#LAST#는 시전자의 것으로 간주됩니다.
+		렛츨링의 힘/민첩/마법 능력치는 %d (시전자의 마법 능력치 기반) 이고 생명력 증가량이 %d 상승합니다. 그 외 다른 능력치들은 시전자의 레벨에 비례하여 증가합니다. 시전자의 각종 피해량 변동치, 저항 관통, 치명타 확률, 치명타 피해량은 렛츨링에게 계승됩니다. 렛츨링들은 시전자가 가하는 산성 피해에 면역입니다.
+		렛츨링이 시전자에게서 10 칸 이상 떨어지거나 시야 범위 내에서 사라질 경우, 렛츨링은 사라집니다.]], "tformat")
+t("Wretched Influence", "렛치의 영향력", "talent name")
 t([[Your influence over your summoned wretchlings grows stronger. They will learn the Demonhide talent at level %d and gain %d%% global speed. Additionally, you will grant them the Demonic Reflex effect for %d turns when summoned, granting a %d%% chance to avoid incoming damage. 
 		
-		Wretchlings will count your acid pools when determining whether one will spawn from their Demonhide.]], [[Your influence over your summoned wretchlings grows stronger. They will learn the Demonhide talent at level %d and gain %d%% global speed. Additionally, you will grant them the Demonic Reflex effect for %d turns when summoned, granting a %d%% chance to avoid incoming damage. 
+		Wretchlings will count your acid pools when determining whether one will spawn from their Demonhide.]], [[시전자가 렛츨링들에게 미치는 영향력이 렛츨링들을 더 강하게 만듭니다. 렛츨링들이 %d 레벨 악마가죽 기술을 배우고 전체 속도 %d%% 를 얻게 됩니다. 또한 렛츨링들이 소환되었을 때 %d 턴간 악마의 반사신경 효과를 받게 되며, 이 효과로 %d%% 확률로 받는 피해를 무시할 수 있습니다. 
 		
-		Wretchlings will count your acid pools when determining whether one will spawn from their Demonhide.]], "tformat")
-t("Wretched Mists", "Wretched Mists", "talent name")
+		렛츨링들이 악마가죽 기술로 산성액 웅덩이를 소환할 확률은 시전자의 웅덩이 개수에 영향을 받습니다.]], "tformat")
+t("Wretched Mists", "렛치 안개", "talent name")
 t([[You empower your wretchlings to control acidic mists. They will learn the Rushing Mist talent at level %d and begin to release acidic mists from their bodies, dealing %0.2f acid damage each turn to all adjacent enemies. Additionally, the acrid fumes are so strong that melee hits from your wretchlings have a %d%% chance to cause the foe to forget their target. 
 		
 		Damage dealt by the acidic mists improves with your Spellpower and can crit. Chance to forget target improves with your Magic.
-		If you know Gathering Mist and it resets the cooldown of your own Rushing Mist, it will reset the cooldown of Rushing Mist for your summoned wretchlings as well, if it is on cooldown.]], [[You empower your wretchlings to control acidic mists. They will learn the Rushing Mist talent at level %d and begin to release acidic mists from their bodies, dealing %0.2f acid damage each turn to all adjacent enemies. Additionally, the acrid fumes are so strong that melee hits from your wretchlings have a %d%% chance to cause the foe to forget their target. 
+		If you know Gathering Mist and it resets the cooldown of your own Rushing Mist, it will reset the cooldown of Rushing Mist for your summoned wretchlings as well, if it is on cooldown.]], [[렛츨링들이 산성 안개를 다룰 수 있도록 강화합니다. 렛츨링들이 %d 레벨 안개 돌진 기술을 배우고, 몸에서 산성 안개를 뿜어내어 인접한 적들에게 매 턴 %0.2f 산성 피해를 가하게 됩니다. 또한 독한 증기가 너무 강해져서 렛츨링들의 근접 공격이 %d%% 확률로 대상이 목표를 잊어버리게 만듭니다. 
 		
-		Damage dealt by the acidic mists improves with your Spellpower and can crit. Chance to forget target improves with your Magic.
-		If you know Gathering Mist and it resets the cooldown of your own Rushing Mist, it will reset the cooldown of Rushing Mist for your summoned wretchlings as well, if it is on cooldown.]], "tformat")
-t("Wretch", "Wretch", "talent name")
-t("You must have at least one summoned wretchling!", "You must have at least one summoned wretchling!", "logSeen")
-t("Not enough space to call a wretch!", "Not enough space to call a wretch!", "logPlayer")
-t("Banish your wretchlings to call a mighty Wretch to fight for you for %d turns. The Wretch will know Corrupt Parry and Wretched Rage at talent level %d, as well as gaining all talents and effects your wretchlings gain from spells in this talent line. Additionally, the Wretch has %d bonus life per wretchling, %d%% absolute damage resistance, and will taunt all foes in a radius of 10 at the begining of each game turn.", "Banish your wretchlings to call a mighty Wretch to fight for you for %d turns. The Wretch will know Corrupt Parry and Wretched Rage at talent level %d, as well as gaining all talents and effects your wretchlings gain from spells in this talent line. Additionally, the Wretch has %d bonus life per wretchling, %d%% absolute damage resistance, and will taunt all foes in a radius of 10 at the begining of each game turn.", "tformat")
---]==]
+		산성 안개의 피해량은 시전자의 주문력에 비례하여 증가하며 치명타가 일어날 수 있습니다. 목표를 잊어버릴 확률은 시전자의 마법 능력치에 비례하여 증가합니다.
+		만약 시전자가 안개 모으기 기술을 알고 있고, 해당 기술의 효과로 안개 돌진의 재사용 대기시간을 초기화한다면, 렛츨링들의 안개 돌진도 함께 초기화시킵니다.]], "tformat")
+t("Wretch", "렛치", "talent name")
+t("You must have at least one summoned wretchling!", "렛츨링이 하나는 소환되어 있어야 한다!", "logSeen")
+t("Not enough space to call a wretch!", "렛치를 소환할 공간이 없다!", "logPlayer")
+t("Banish your wretchlings to call a mighty Wretch to fight for you for %d turns. The Wretch will know Corrupt Parry and Wretched Rage at talent level %d, as well as gaining all talents and effects your wretchlings gain from spells in this talent line. Additionally, the Wretch has %d bonus life per wretchling, %d%% absolute damage resistance, and will taunt all foes in a radius of 10 at the begining of each game turn.", "렛츨링 전부를 제물로 막강한 렛치를 아군으로 불러내어 %d 턴 동안 싸우게 합니다. 렛치는 레벨 %d 타락한 쳐내기 기술과 렛치의 분노 기술을 알고 있으며, 시전자의 렛츨링들이 배우고 있는 다른 모든 기술 또한 알고 있습니다. 또한 렛치는 제물로 사용한 렛츨링 한 마리 당 생명력 보너스를 %d, 절대 피해 저항을 %d%% 얻으며 매 턴이 시작할 때마다 반경 10 칸 이내의 적들을 도발합니다.", "tformat")
 
 
 ------------------------------------------------
@@ -1917,26 +1873,15 @@ t([[Your original invisibility talent was corrupted and twisted.
 		- 변신할 때, 몰락한 자의 신속함과 냉혹함의 재사용 대기시간이 초기화됩니다.
 		]], "tformat")
 t("Pitiless", "냉혹함", "talent name")
--- new text
---[==[
 t([[You launch a mental assault on the target %s.
-		The assault increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[You launch a mental assault on the target %s.
-		The assault increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], "tformat")
---]==]
-
--- old translated text
-t([[You launch a mental assault on the target %s.
-		The assult increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[대상에게 정신적으로 맹공을 가합니다 %s.
-		맹공은 이미 재사용 대기시간 중인 %d 개의 기술의 재사용 대기시간을 연장합니다. 또한 모든 부정적인 마법, 물리, 정신 효과의 지속시간을 %d 턴 연장하고, (최대 4 배까지 연장 가능합니다) 모든 이로운 마법, 물리, 정신 효과의 지속시간을 %d 턴 단축합니다.]], "tformat")
+		The assault increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[대상에게 정신적인 맹공을 가합니다 %s.
+		맹공은 재사용 대기 상태인 기술들의 대기시간을 %d 턴 연장시킵니다. 또한 모든 부정적인 물리/마법/정신 효과의 지속시간을 %d 턴 연장시키고 (최대 4 배까지), 모든 이로운 물리/마법/정신 효과의 지속시간을 %d 턴 단축시킵니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/uber/mag.lua"
 
-
--- new text
---[==[
-t("Wretchkin", "Wretchkin", "talent name")
-t("Absorb 300 or more acid pools.", "Absorb 300 or more acid pools.", "_t")
+t("Wretchkin", "렛치킨", "talent name")
+t("Absorb 300 or more acid pools.", "산성액 웅덩이를 300개 이상 흡수할 것.", "_t")
 t([[You embrace your connection to the Emerald and become a powerful Wretchkin, gaining the following benefits:
 	  - +1.2 mastery level to #GOLD#Emerald Nature#LAST# and #GOLD#Wretched Bretheren#LAST#
 	  - When you summon a wretchling it has a #GOLD#30%% chance to become a Wretch instead#LAST# (these Wretches do not taunt or gain the absolute resistance bonus)
@@ -1946,18 +1891,18 @@ t([[You embrace your connection to the Emerald and become a powerful Wretchkin, 
 	  - All of your wretchches gain #GOLD#25 defense, 25%% resistance to all damage, #LAST#and#GOLD# 25%% reduction to negative effect duration#LAST# for 4 turns after a teleport
 	  - When you use an unarmed attack talent that your wretches also know, they will #GOLD#use the talent on the same target#LAST# if in range and not on cooldown. If their talent is on cooldown, the remaining cooldown is reduced by half, roudned up.
 
-	   ]], [[You embrace your connection to the Emerald and become a powerful Wretchkin, gaining the following benefits:
-	  - +1.2 mastery level to #GOLD#Emerald Nature#LAST# and #GOLD#Wretched Bretheren#LAST#
-	  - When you summon a wretchling it has a #GOLD#30%% chance to become a Wretch instead#LAST# (these Wretches do not taunt or gain the absolute resistance bonus)
-	  - Manually summoning a Wretch will #GOLD#no longer banish other wretches#LAST# (life bonus is still granted)
-	  - A manually summoned Wretch will learn #GOLD#Giant Leap#LAST# and #GOLD#Flexible Combat#LAST#
-	  - All of your wretches learn #GOLD#Claw Crush#LAST# and #GOLD#Noxious Blow#LAST# at level 5
-	  - All of your wretchches gain #GOLD#25 defense, 25%% resistance to all damage, #LAST#and#GOLD# 25%% reduction to negative effect duration#LAST# for 4 turns after a teleport
-	  - When you use an unarmed attack talent that your wretches also know, they will #GOLD#use the talent on the same target#LAST# if in range and not on cooldown. If their talent is on cooldown, the remaining cooldown is reduced by half, roudned up.
+	   ]], [[에메랄드의 자손들과의 상관관계를 받아들이고 강력한 렛치킨이 됩니다. 다음 효과들을 받게 됩니다:
+	  - #GOLD#에메랄드의 본성#LAST# 기술 계열과 #GOLD#렛치 형제들#LAST# 기술 계열의 숙련도 레벨 +1.2
+	  - 렛츨링을 소환할 때 #GOLD#30%% 확률로 렛치가 대신 나오게 됨#LAST# (이렇게 나온 렛치는 도발을 하지 않으며 절대 저항도 얻지 않음)
+	  - 직접 렛치를 소환할 때 #GOLD#다른 렛치들을 제물로 쓰지 않게 됨#LAST# (생명력 보너스는 여전히 받음)
+	  - 직접 소환한 렛치가 특수 기술 #GOLD#대약진#LAST#과 #GOLD#유연한 전투기술#LAST#을 배우게 됨
+	  - 모든 렛치들이 5 레벨 #GOLD#발톱 파쇄#LAST# 기술과 #GOLD#해로운 강타#LAST# 기술을 배우게 됨
+	  - 모든 렛치들이 순간이동 후 4 턴 동안 #GOLD#회피도 25, 모든 속성 저항 25%%,#LAST##GOLD# 부정적인 효과 지속시간 25%% 감소#LAST# 효과를 받게 됨
+	  - 시전자가 렛치들도 알고 있는 맨손 공격 기술을 사용하면, 범위 내의 렛치가 #GOLD#같은 대상에게 해당 기술을 함께 사용하게 됨#LAST#. 만약 렛치들의 기술이 재사용 대기 상태라면 남은 대기시간을 절반으로 줄임
 
 	   ]], "tformat")
-t("Acrid Evoker", "Acrid Evoker", "talent name")
-t("Create 450 or more acid pools.", "Create 450 or more acid pools.", "_t")
+t("Acrid Evoker", "산성소각사", "talent name")
+t("Create 450 or more acid pools.", "산성액 웅덩이를 450개 이상 만들어낼 것.", "_t")
 t([[You dedicate yourself entirely to the creation and manipulation of acid and enhance your vile power by using your bare claws as an arcane focus. While empty-handed and not weaing gloves, gauntlets, or massive armor, you gain the following benefits:
 	  - Base damage modifier changes from 100%% Strength to #GOLD#50%% Strength, 50%% Dexterity #LAST#and#GOLD# 50%% Magic#LAST#
 	  - + #GOLD#%d spellpower#LAST# based on your combined Strength and Dexterity
@@ -1969,19 +1914,18 @@ t([[You dedicate yourself entirely to the creation and manipulation of acid and 
 	  - #GOLD#Demonhide#LAST# will create acid pools #GOLD#on your tile#LAST# or an adjacent tile if possible and automatically create an acid pool when you enter combat
 	  - Acid pool limit for #GOLD#Caustic Link, Emerald Resonance, Demonic Reflex#LAST#, and #GOLD#Dissolve Affliction#LAST# is #GOLD#increased by 2#LAST# and the #GOLD#radius is increased to 10#LAST#
 	  - + #GOLD#8%% acid resistance penetration#LAST# for each acid pool in radius 10, up to 6 at most
-	   ]], [[You dedicate yourself entirely to the creation and manipulation of acid and enhance your vile power by using your bare claws as an arcane focus. While empty-handed and not weaing gloves, gauntlets, or massive armor, you gain the following benefits:
-	  - Base damage modifier changes from 100%% Strength to #GOLD#50%% Strength, 50%% Dexterity #LAST#and#GOLD# 50%% Magic#LAST#
-	  - + #GOLD#%d spellpower#LAST# based on your combined Strength and Dexterity
-	  - A #GOLD#%d%% chance#LAST# when a non-melee spell deals damage to cast #GOLD#Claw Crush#LAST# on the target (ignoring cooldown and hitting up to range 10)
-	  - A #GOLD#%d%% chance#LAST# when a non-melee spell deals damage to cast #GOLD#Noxious Blow#LAST# on the target (ignoring cooldown and hitting up to range 10)
-	  - #GOLD#Corrupt Reach#LAST# will #GOLD#pin enemies for 4 turns#LAST# instead of teleporting them
-	  - #GOLD#Blink Pounce#LAST# can target an #GOLD#empty tile#LAST# at range 4 or less
-	  - Cooldown of #GOLD#Vile Splash#LAST# is #GOLD#reduced by 10#LAST# and #GOLD#range increased by 4#LAST# while standing on an acid pool
-	  - #GOLD#Demonhide#LAST# will create acid pools #GOLD#on your tile#LAST# or an adjacent tile if possible and automatically create an acid pool when you enter combat
-	  - Acid pool limit for #GOLD#Caustic Link, Emerald Resonance, Demonic Reflex#LAST#, and #GOLD#Dissolve Affliction#LAST# is #GOLD#increased by 2#LAST# and the #GOLD#radius is increased to 10#LAST#
-	  - + #GOLD#8%% acid resistance penetration#LAST# for each acid pool in radius 10, up to 6 at most
+	   ]], [[산성액을 만들고 다루는 데에 전념하고, 악마의 발톱을 마법의 집중접으로 사용함으로써 스스로의 사악한 힘을 강화합니다. 양손을 비운 채로 장갑류 방어구와 중갑을 입고 있지 않을 때, 다음 효과들을 받게 됩니다:
+	  - 기본 피해 능력치 계수가 힘 100%% 에서 #GOLD#힘 50%%, 민첩 50%%, 마법 50%%#LAST# 로 변하게 됨
+	  - #GOLD#주문력 +%d#LAST#, 힘과 민첩 비례
+	  - 근접 공격이 아닌 공격 주문이 #GOLD#%d%% 확률#LAST#로 대상에게 #GOLD#발톱 파쇄#LAST# 기술을 추가로 시전하게 됨 (재사용 대기 상태를 무시, 최대 사거리 10 칸)
+	  - 근접 공격이 아닌 공격 주문이 #GOLD#%d%% 확률#LAST#로 대상에게 #GOLD#해로운 강타#LAST# 기술을 추가로 시전하게 됨 (재사용 대기 상태를 무시, 최대 사거리 10 칸)
+	  - #GOLD#사악한 소환#LAST# 기술이 적을 순간이동시키는 대신에 #GOLD#4 턴간 속박시키게 됨#LAST#
+	  - #GOLD#찰나의 강습#LAST# 기술이 반경 4 칸 이내의 #GOLD#빈 칸#LAST#을 대상으로 시전할 수 있게 됨
+	  - 산성액 웅덩이 위에 서 있을 때 #GOLD#역겨운 물보라#LAST# 기술의 재사용 대기시간이 #GOLD#10 턴 단축#LAST#되고 #GOLD#사거리가 4 칸 늘어남#LAST#
+	  - #GOLD#악마가죽#LAST# 기술이 #GOLD#시전자의 발밑에#LAST#, 또는 인접한 칸에 산성액 웅덩이를 만들게 되며, 전투가 시작되면 자동으로 웅덩이를 하나 만들게 됨
+	  - #GOLD#부식성 연결, 에메랄드의 공명, 악마의 반사신경, 고통 용해#LAST# 기술의 산성액 웅덩이 한계치가 #GOLD#2 만큼 늘어나고#LAST# #GOLD#반경 또한 10 칸으로 늘어남#LAST#
+	  - 반경 10 칸 내의 산성액 웅덩이 하나 당 #GOLD#산성 저항 관통 8%% 상승#LAST#, 최대 웅덩이 6 개까지
 	   ]], "tformat")
---]==]
 
 
 ------------------------------------------------
@@ -2205,21 +2149,18 @@ t("acid", "산성", "effect subtype")
 t("magical", "마법적 효과", "effect subtype")
 t("phase", "위상", "effect subtype")
 t("frenzy", "광란", "effect subtype")
--- new text
---[==[
-t("The target is drawing strength from Acid.%s", "The target is drawing strength from Acid.%s", "tformat")
-t("The target is suffering from Acid afflictions.%s", "The target is suffering from Acid afflictions.%s", "tformat")
-t("The target has recently healed from moving onto an acid pool and cannot do so again.", "The target has recently healed from moving onto an acid pool and cannot do so again.", "tformat")
-t("The target has recently created a blinding splash from moving onto an acid pool and cannot do so again.", "The target has recently created a blinding splash from moving onto an acid pool and cannot do so again.", "tformat")
-t("The target is infused with vile energy, gaining %d%% increased damage and %d%% healing modifier.", "The target is infused with vile energy, gaining %d%% increased damage and %d%% healing modifier.", "tformat")
-t("The target is infused with blighted energy, gaining %d increased Spell, Mind and Physical Saves.", "The target is infused with blighted energy, gaining %d increased Spell, Mind and Physical Saves.", "tformat")
-t("The target is filled with wretched vigor, gaining %0.1f Vim for each unarmed attack that lands, up to %d Vim per turn at most.", "The target is filled with wretched vigor, gaining %0.1f Vim for each unarmed attack that lands, up to %d Vim per turn at most.", "tformat")
-t("The target has a %d%% chance to fail any talent use. This effect is removed when a talent failure occurs.", "The target has a %d%% chance to fail any talent use. This effect is removed when a talent failure occurs.", "tformat")
-t("The range of Blink Pounce is increased by %d.", "The range of Blink Pounce is increased by %d.", "tformat")
-t("All damage taken reduced by %d.", "All damage taken reduced by %d.", "tformat")
-t("%d%% increased damage resistance.", "%d%% increased damage resistance.", "tformat")
-t("%d%% chance to negate incoming damage.", "%d%% chance to negate incoming damage.", "tformat")
---]==]
+t("The target is drawing strength from Acid.%s", "산성액에서 힘을 끌어내고 있음.%s", "tformat")
+t("The target is suffering from Acid afflictions.%s", "산성액에 고통받고 있음.%s", "tformat")
+t("The target has recently healed from moving onto an acid pool and cannot do so again.", "최근에 산성액 웅덩이로 이동하여 생명력을 회복했고, 당분간은 다시 그러지 못함.", "tformat")
+t("The target has recently created a blinding splash from moving onto an acid pool and cannot do so again.", "최근에 산성액 웅덩이로 이동하여 실명시키는 물보라를 일으켰고, 당분간은 다시 그러지 못함.", "tformat")
+t("The target is infused with vile energy, gaining %d%% increased damage and %d%% healing modifier.", "역겨운 에너지가 주입됨: 피해량 +%d%% / 회복 효율 +%d%%.", "tformat")
+t("The target is infused with blighted energy, gaining %d increased Spell, Mind and Physical Saves.", "황폐의 에너지가 주입됨: 물리, 주문, 정신 내성 +%d.", "tformat")
+t("The target is filled with wretched vigor, gaining %0.1f Vim for each unarmed attack that lands, up to %d Vim per turn at most.", "렛치의 활력이 충만함: 맨손 공격 시 원기 %0.1f 획득, 턴 당 최대 %d 까지.", "tformat")
+t("The target has a %d%% chance to fail any talent use. This effect is removed when a talent failure occurs.", "%d%% 확률로 기술 시전 실패. 기술 실패가 일어나면 이 효과는 사라짐.", "tformat")
+t("The range of Blink Pounce is increased by %d.", "찰나의 강습의 사거리가 %d 칸 증가함.", "tformat")
+t("All damage taken reduced by %d.", "받는 피해 -%d.", "tformat")
+t("%d%% increased damage resistance.", "모든 속성 저항 +%d%%.", "tformat")
+t("%d%% chance to negate incoming damage.", "%d%% 확률로 받는 피해 무시.", "tformat")
 
 
 ------------------------------------------------
@@ -2247,13 +2188,7 @@ t("A small, heavily armoured demon, rushing toward you.", "중무장을 한 작�
 t("Rogroth, Eater of Souls", "영혼을 먹는 자 로그로스", "entity name")
 t("major", "고위", "entity subtype")
 t("and raised as a demonic husk", "그리고 악마의 하수인으로 되살아났습니다.", "_t")
--- new text
---[==[
-t("Fire and blight arcane surges randomly appear on its spider-like dark metallic skin. There is no definite head but a single huge mouth on its body.", "Fire and blight arcane surges randomly appear on its spider-like dark metallic skin. There is no definite head but a single huge mouth on its body.", "_t")
---]==]
-
--- old translated text
-t("Fire and blight arcane surges randomly appear on this spider-like dark metallic skin. There are no definite head but a single huge mouth onto its body.", "거미와 비슷한 어두운 금속 피부를 가진 악마입니다. 화염과 황폐의 마법이 마구잡이로 쇄도하고 있습니다. 뚜렷하게 보이는 머리는 없지만 몸뚱이에 거대한 입이 하나 뚫려 있습니다.", "_t")
+t("Fire and blight arcane surges randomly appear on its spider-like dark metallic skin. There is no definite head but a single huge mouth on its body.", "거미와 비슷한 어둡고 광택이 있는 피부를 가진 악마입니다. 화염과 황폐의 마법이 마구잡이로 쇄도하고 있습니다. 뚜렷하게 보이는 머리는 없지만 몸뚱이에 거대한 입이 하나 뚫려 있습니다.", "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/anteroom-agony/objects.lua"
@@ -2274,34 +2209,22 @@ section "tome-ashes-urhrok/data/zones/caustic-crater/npcs.lua"
 
 t("demon", "악마", "entity type")
 t("major", "고위", "entity subtype")
--- new text
---[==[
-t("Etomae, Wretch Colossus", "Etomae, Wretch Colossus", "entity name")
-t("This demon towers over everything around. Wisps of noxious vapour curl off its body. Its skin is slick with a vile liquid that hisses and smokes as it drips on the ground.", "This demon towers over everything around. Wisps of noxious vapour curl off its body. Its skin is slick with a vile liquid that hisses and smokes as it drips on the ground.", "_t")
-t("and dissolved into a pool of sludge", "and dissolved into a pool of sludge", "_t")
---]==]
+t("Etomae, Wretch Colossus", "렛치 거인 에토마에", "entity name")
+t("This demon towers over everything around. Wisps of noxious vapour curl off its body. Its skin is slick with a vile liquid that hisses and smokes as it drips on the ground.", "이 악마는 주변의 다른 무엇보다도 훨씬 더 큽니다. 독한 증기 가닥들이 몸뚱이에 휘감겨 있습니다. 피부는 역겨운 액체로 번들거리고 있고, 땅에 방울져 떨어지자 쉭쉭거리는 소리와 함께 연기가 피어오릅니다.", "_t")
+t("and dissolved into a pool of sludge", "그리고 그 시체는 완전히 녹아 진흙 웅덩이가 되었습니다.", "_t")
 
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/caustic-crater/objects.lua"
 
-
--- new text
---[==[
-t("rune-scrawled paper scrap", "rune-scrawled paper scrap", "entity name")
-t("A paper scrap, heavily singed and scrawled with shifting runes.", "A paper scrap, heavily singed and scrawled with shifting runes.", "_t")
---]==]
-
+t("rune-scrawled paper scrap", "룬이 휘갈겨진 종잇조각", "entity name")
+t("A paper scrap, heavily singed and scrawled with shifting runes.", "움직이는 룬이 그려져 있는, 심하게 그슬린 종잇조각입니다.", "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/caustic-crater/zone.lua"
 
-
--- new text
---[==[
-t("Caustic Crater", "Caustic Crater", "_t")
-t("Mysterious Crater", "Mysterious Crater", "_t")
---]==]
+t("Caustic Crater", "부식성 크레이터", "_t")
+t("Mysterious Crater", "불가사의한 크레이터", "_t")
 
 
 ------------------------------------------------
@@ -2449,10 +2372,7 @@ As you recover, and your platform of searing earth splits from the main continen
 ------------------------------------------------
 section "tome-ashes-urhrok/overload/data/texts/unlock-corrupter_demonologist.lua"
 
-
--- new text
---[==[
-t("New Class: #LIGHT_GREEN#Demonologist (Defiler)", "New Class: #LIGHT_GREEN#Demonologist (Defiler)", "_t")
+t("New Class: #LIGHT_GREEN#Demonologist (Defiler)", "새로운 직업: #LIGHT_GREEN#악마학자 (모독자)", "_t")
 t([[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
 Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
 Some have managed to escape their programming and chose to follow their own desires instead.
@@ -2467,41 +2387,6 @@ Class features:#YELLOW#
 - Blend corrupted magic with a martial shield training to protect yourself and ruin your foes.#WHITE#
 
 Demonologists use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], [[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
-Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
-Some have managed to escape their programming and chose to follow their own desires instead.
-
-You have defeated countless demons, seen how their essence work, witnessed how to bind demons to your own purpose and can now create new characters with the #LIGHT_GREEN#Demonologist class#WHITE#.
-
-Demonologists blend magic with shield techniques in melee combat.
-Class features:#YELLOW#
-- Infect your foes with demonic seeds.
-- Bind demonic seeds to your equipment to enhance them.
-- Summon and control demons to do your bidding.
-- Blend corrupted magic with a martial shield training to protect yourself and ruin your foes.#WHITE#
-
-Demonologists use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
-]], "_t")
---]==]
-
--- old translated text
-t("New Class: #LIGHT_GREEN#Corruptor (Demonologist)", "새로운 직업: #LIGHT_GREEN#악마학자 (모독자)", "_t")
-t([[Demons in their invasion of Eyal have abducted natives of the planet and mindwiped them to serve as double agents.
-Trained in the use of the demon's own forces they have created many dark cults to spread fear and terror.
-Some have managed to escape their programming and chose to follow their own desires instead.
-
-You have defeated countless demons, seen how their essence work, witnessed how to bind demons to your own purpose and can now create new characters with the #LIGHT_GREEN#Demonologist class#WHITE#.
-
-Corruptors are spellcasters, ranged attackers using magic.
-Class features:#YELLOW#
-- Infect your foes with demonic seeds.
-- Bind demonic seeds to your equipment to enhance them.
-- Summon and control demons to do your binding.
-- Blend corrupted magic with a martial shield training to protect yourself and ruin your foes.#WHITE#
-
-Corruptors use "vim" to power their special abilities.
 Vim is the life force of all beings. It does not regenerate, and can only be stolen from your foes.
 ]], [[에이알을 침공했던 악마들은 그 행성의 생명 몇몇을 납치, 세뇌하여 자신들의 이중 첩자로 이용했습니다.
 그들은 악마의 힘을 사용할 수 있도록 훈련받았고, 공포를 퍼뜨리기 위해 수많은 암흑 종교를 창시했습니다.
@@ -2509,7 +2394,7 @@ Vim is the life force of all beings. It does not regenerate, and can only be sto
 
 당신은 수많은 악마를 처치하고 그들의 정수가 어떤 식으로 작동하는지 보았으며, 악마들을 원하는 대로 속박하는 법을 마주하였습니다. 따라서 이제부터 #LIGHT_GREEN#악마학자 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
 
-악마학자들은 마법을 사용하는 근접 전사들로, 화염과 어둠의 비를 불러내고 적들의 두개골을 방패로 깨부숩니다.
+악마학자들은 근접전을 벌이며 마법을 방패 기술에 섞어 넣습니다.
 직업 특징:#YELLOW#
 - 악마의 씨앗으로 적들을 감염시킨다.
 - 악마의 씨앗을 장비에 예속시켜 강화한다.
@@ -2518,17 +2403,12 @@ Vim is the life force of all beings. It does not regenerate, and can only be sto
 
 악마학자들은 "원기" 를 원천으로 삼습니다.
 원기는 모든 존재의 생명력입니다. 원기는 저절로 회복되지 않으며, 적들에게서 빼앗아야만 회복됩니다.
-
-또한 악마학자는 기력 또한 사용합니다.
 ]], "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/overload/data/texts/unlock-corrupter_fiend.lua"
 
-
--- new text
---[==[
-t("New Class: #LIGHT_GREEN#Fiend (Defiler)", "New Class: #LIGHT_GREEN#Fiend (Defiler)", "_t")
+t("New Class: #LIGHT_GREEN#Fiend (Defiler)", "새로운 직업: #LIGHT_GREEN#악귀 (모독자)", "_t")
 t([[Demons in their invasion of Eyal have abducted natives of the planet and subjected them to wicked experiments.
 Infused with the essence of the demons, these prisoners have been warped and twisted.
 Many die in the process, some are used as slaves, and a rare few manage to escape from thier captors.
@@ -2544,23 +2424,22 @@ Class features:#YELLOW#
 
 Fiends use "vim" to power their special abilities.
 Vim is the life force of all beings. It does not regenerate, and can be stolen from your foes or generated through some abilities.
-]], [[Demons in their invasion of Eyal have abducted natives of the planet and subjected them to wicked experiments.
-Infused with the essence of the demons, these prisoners have been warped and twisted.
-Many die in the process, some are used as slaves, and a rare few manage to escape from thier captors.
+]], [[에이알 침공에 나선 악마들은 에이알의 토착민들을 납치하여 사악한 실험의 피험체로 사용했습니다.
+악마들의 정수가 주입된 그들의 죄수들은 뒤틀리고 변형되었지요.
+대부분은 다 죽게 되었고, 몇몇은 살아남아 노예가 되었지만, 악마들의 손아귀에서 간신히 탈출한 극소수의 피험체들도 있었습니다.
 
-You have defeated the wretch colossus, seen how it can manipulate acid pools and leap around the battle field, and can now create new characters with the #LIGHT_GREEN#Fiend class#WHITE#.
+당신은 렛치 거인을 쓰러뜨렸고, 그가 산성액 웅덩이를 다루는 법과 전장을 뛰어다니는 법을 보았습니다. 따라서 이제부터 #LIGHT_GREEN#악귀 직업#WHITE#의 캐릭터를 생성할 수 있습니다.
 
-Fiends are unarmed fighters with spellcasting support.
-Class features:#YELLOW#
-- Create acid pools to disable your foes and enhance yourself.
-- Absorb acid pools to empower your capabilities and further disable your enemies.
-- Summon wretchlings, refine your control over your acid pools, or give in to your mutation to gain blighted strength.
-- Blend corrupted magic with the might of your fiendish claws to defend yourself and shred your foes.#WHITE#
+악귀는 주문을 보조로 사용하며 맨손으로 싸우는 전사들입니다.
+직업 특징:#YELLOW#
+- 산성액 웅덩이를 만들어 적들을 무력화시키고 자신을 강화한다.
+- 산성액 웅덩이를 흡수하여 능력을 강화하고 적들을 더욱 무력화시킨다.
+- 렛츨링을 소환하거나, 산성액 웅덩이를 더 세세하게 다루거나, 변이를 받아들이고 황폐의 힘을 손에 넣는다.
+- 타락의 마법을 악마의 발톱에 섞어 넣어 스스로를 보호하고 적들을 찢어버린다.#WHITE#
 
-Fiends use "vim" to power their special abilities.
-Vim is the life force of all beings. It does not regenerate, and can be stolen from your foes or generated through some abilities.
+악귀들은 "원기" 를 원천으로 삼습니다.
+원기는 모든 존재의 생명력입니다. 원기는 저절로 회복되지 않으며, 적들에게서 빼앗거나 특정 기술을 사용해 얻어야만 합니다.
 ]], "_t")
---]==]
 
 
 ------------------------------------------------
@@ -2632,10 +2511,7 @@ section "tome-ashes-urhrok/superload/mod/class/Game.lua"
 t("Class: Demonologist", "직업: 악마학자", "_t")
 t("Cosmetic: demonic horns", "외형: 악마의 뿔", "_t")
 t("Cosmetic: red skin", "외형: 붉은 피부", "_t")
--- new text
---[==[
-t("Class: Fiend", "Class: Fiend", "_t")
---]==]
+t("Class: Fiend", "직업: 악귀", "_t")
 
 
 ------------------------------------------------
