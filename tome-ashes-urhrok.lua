@@ -42,8 +42,6 @@ t("Demonologists are melee fighters, bashing their foes skulls with their shield
 t("#LIGHT_BLUE# * +3 Strength, +0 Dexterity, +2 Constitution", "#LIGHT_BLUE# * +3 힘, +0 민첩, +2 체격", "_t")
 t("#LIGHT_BLUE# * +4 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +4 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# +2", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# +2", "_t")
-t("#LIGHT_BLUE# * +3 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 힘, +3 민첩, +0 체격", "_t")
-t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +0 교활", "_t")
 t("Fiend", "악귀", "birth descriptor name")
 t("Wretched form and vile power, escaped from demons in darkest hour. Twisted body and caustic might, powerful weapons for the fight. Tortured slave not any longer, what they tried to break made only stronger!", "끔찍한 몸뚱이와 역겨운 힘이 악마들의 손아귀에서 몰래 탈출했다. 뒤틀린 몸과 산성의 힘은 강력한 무기가 되리라. 고통받던 노예는 이제 없다. 놈들이 부수고자 했던 자는 더 강해졌을 뿐이다!", "_t")
 t("The Fiend is a quick and agile fighter, infused with vile Wretch essence.", "악귀는 산성의 악마의 역겨운 정수를 주입받은 신속하고 재빠른 전사입니다.", "_t")
@@ -51,8 +49,9 @@ t("They create acid pools from their corrupted blood and use them in a number of
 t("They have developed fiendish, acid-dripping claws, and caustic powers.", "또한 이들은 산성액이 뚝뚝 떨어지는 악마의 발톱과 같은 다양한 산성의 능력을 가지고 있습니다.", "_t")
 t("Fiends are unarmed combatants, shredding foes with their demonic claws and corrupt magic.", "악귀들은 맨손으로 싸우는 전사들로, 악마의 발톱과 타락 마법으로 적들을 찢어버립니다.", "_t")
 t("Their most important stats are: Magic, Dexterity, and Strength", "그들에게 가장 중요한 능력치는 마법과 민첩, 그리고 힘입니다.", "_t")
+t("#LIGHT_BLUE# * +3 Strength, +3 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +3 힘, +3 민첩, +0 체격", "_t")
+t("#LIGHT_BLUE# * +3 Magic, +0 Willpower, +0 Cunning", "#LIGHT_BLUE# * +3 마법, +0 의지, +0 교활", "_t")
 t("#GOLD#Life per level:#LIGHT_BLUE# 0", "#GOLD#레벨 당 생명력:#LIGHT_BLUE# 0", "_t")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/birth/doomelf.lua"
@@ -269,7 +268,6 @@ t("A strange orb of demonic origins. It glows with a surreal red light.", "악�
 t("Jaw of Rogroth", "로그로스의 턱", "entity name")
 t("tooth lined belt", "이빨이 줄지은 허리띠", "_t")
 t("Rogroth's mouth happened to be about the same size as your waist. Interesting.", "로그로스의 아가리는 허리 크기와 비슷합니다. 흥미롭네요.", "_t")
-t("", "", "_t")
 t("deals darkness damage equal to 350% of your spellpower to a target, and, if it kills the target, restores 15% of your max hp and all resources (except paradox and equilibrium)", "착용자의 주문력의 350% 에 해당하는 어둠 피해를 대상에게 가해, 대상이 죽으면 생명력과 모든 원천력을 최대치의 15% 만큼 회복합니다 (괴리와 평정 제외)", "_t")
 t("Wretch Hide Buckler", "렛치 가죽 버클러", "entity name")
 t("green hide buckler", "녹색 가죽 버클러", "_t")
@@ -281,6 +279,11 @@ t("Caustic Lash", "산성 채찍", "entity name")
 t("caustic whip", "산성 채찍", "_t")
 t("A sinuous length of green leather with a noxious bite.", "해로운 물질을 품고 있는 구불구불한 녹색 가죽끈입니다.", "_t")
 t("Granted talents give each acid pool you create a chance to summon a wretchling to fight for you. Vile Splash will attempt to create 2 acid pools each time it triggers.", "착용함으로써 얻게 되는 기술들은 착용자가 만들어낸 산성액 웅덩이가 우호적인 렛츨링을 소환할 확률을 추가합니다. 역겨운 물보라 기술은 산성액 웅덩이를 2 개 만듭니다.", "_t")
+-- new text
+--[==[
+t("", "", "_t")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/lore/demon.lua"
@@ -451,6 +454,22 @@ Above all else, remember: despite <?=player:his_her()?> brute strength, this is 
 그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  <?=player:he_she()?>는 우리의 개조 마법에 노출되어 근접전에서 가공할만한 파괴력을 선보일 것이며, <?=player:he_she()?>가 도착하기 전까지 그 마법에 맞설 적절한 방어 수단을 구하지 못한다면, 일이 잘못됐을 때 상당한 피해를 입을 수 있다.  그 어떤 상황에도 <?=player:he_she()?>가 우리의 후방에서 날뛰도록 두어서는 안 된다. 더욱이, 만약 우리가 별 생각 없이 <?=player:him_her()?>를 좁은 통로로 끌어들인다면, 우리는 충분한 화력을 낼 수 없게 될 것이고 <?=player:he_she()?>가 돌파하는 것을 저지할 수 없을 것이다.  그렇게 하는 대신에, 우리는 개활지에 마법사 부대를 미리 배치해 두고 그 전방은 렛츨링들이, 후방은 콰짓들이 보호하도록 한 다음, 마울로타우르스 (또는 우리가 배치 허가를 받아낼 수 있는 전면 고화력 전투원이라면 무엇이든지) 의 지원을 받는 기습 부대를 이용해서 <?=player:him_her()?>를 그곳으로 몰 것이다.  이 작전에서 최전방에서 싸우는 전사들은 아마 죽게 될 것이다. 그러나 <?=player:he_she()?>가 전사들을 뚫고 지나가는 동안 시간이 적잖게 소요될 것이니, 우리의 마법으로 <?=player:him_her()?>를 만신창이로 만들어야만 한다.
 
 무엇보다, 기억하라: 비록 <?=player:he_she()?>는 짐승 같은 힘을 가지고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다.  녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
+]], "_t")
+t("orbital base: battle plan (fiend)", "궤도 기지: 작전 방침 (악귀)", "_t")
+t([[Engagement Briefing on <?=player.name?>:
+
+This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impacts that allowed enabled <?=player:his_her()?> to escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment. Doubling the exposure time should make sure they don’t escape again.This time, we’ll double the exposure time to regain <?=player:his_her()?> servitude.
+
+That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we approach this carefullykeep proper tactics in mind.  Having been infused with wretch essence, <?=player:he_she()?> has control over devastating acids and possesses bestial combat instincts. In the event that we cannot procure proper warding against these powers before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause widespread destruction.  It is imperative that we do not let <?=player:him_her()?> deploy acid pools near our troops; furthermore, trying to surround or trap <?=player:him_her()?> will be entirely ineffective, as <?=player:he_she()?> can transform into acidic mist. That sounds absurd, but no cage or troop formation will be able to hold them. We will need to deploy a large squad of impish artillery to harry and distract <?=player:him_her()?> while a tactical squad of dúathedlen sneak up on <?=player:him_her()?>.  We may lose a couple of dozen imps, but in the time it takes <?=player:him_her()?> to realize our ruse, our assassins should be able to cut <?=player:him_her()?> down.
+
+Above all else, remember: despite <?=player:his_her()?> caustic powers and great agility, this is a pitiful, inferior Eyalite who only got this far on sheer luck.lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use their powersit properly, and does not have the countless years of experience with it that we do.  We have numbers, experience,familiarity, a carefully laid plan tactics, and the blessing of Urh'Rok himself.  Treat this like a drill.; i If we stay calm and focused, it is unlikely we will see any casualties.
+]], [[대 <?=player.name?> 교전 브리핑:
+
+이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace, "birth descriptor name")?> 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다. 다만 이번에는 노출 시간을 두 배로 늘려 두 번 다시는 탈출하지 않도록 만들어라.
+
+그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  렛치의 정수가 주입된 탓에 녀석은 막강한 수준의 산성액을 다룰 수 있게 되었고, 짐승 같은 전투 본능을 가지게 되었다. <?=player:his_her()?>가 도착하기 전까지 적절한 보호 수단을 마련하지 못한다면 엄청난 피해를 입게 될 것이다.  가장 먼저, <?=player:him_her()?>가 우리의 병력 근처에 산성액 웅덩이를 만들게 두어서는 안 된다. 또한 <?=player:him_her()?>를 포위하거나 가두는 것은 아무런 효과가 없을 것이다. 녀석은 산성을 띤 안개로 변신할 수 있기 때문이다. 터무니없는 소리로 들리겠지만 어떤 우리를 쓰든, 어떤 식으로 진형을 짜든 간에 녀석을 붙잡아 둘 수는 없을 것이다. 따라서 우리는 임프 포병대를 대규모로 배치하여 <?=player:him_her()?>를 교란시키고, 임프들이 시간을 버는 동안 듀아세들렌 분대를 몰래 접근시킨다.  임프를 많이 잃게 되겠지만 <?=player:him_her()?>가 우리의 계략을 눈치채기까지 충분히 시간이 끌릴 것이고, 덕분에 우리의 암살자들은 녀석을 쓰러뜨릴 수 있을 것이다.
+
+무엇보다, 기억하라: 비록 <?=player:he_she()?>는 산성의 능력과 엄청난 민첩성을 가지고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다. 녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
 ]], "_t")
 t("orbital base: battle plan (demonologist)", "궤도 기지: 작전 방침 (악마학자)", "_t")
 t([[Engagement Briefing on <?=player.name?>:
@@ -673,22 +692,6 @@ t("demon statue: Corrupted Daelach", "악마상: 오염된 댈라크", "_t")
 t("One of the problems with making daelach is the inherent instability that comes from creating something that is almost entirely made of magic.  If ambient levels of blight are even slightly too high, it can set off a chain reaction that at best destroys the daelach, and at worst destroys most of the mages who were building it.  Daelach production is thus theoretically cheap, but in practice involves great expense, and usually a blighted daelach has to be immediately put down lest it cause tremendous damage.  One specimen, though, adapted to the blight in a very interesting way, sprouting wings and bolstering its usual firestorms with blight, but otherwise remaining perfectly balanced and controllable.  We'll try to recreate this happy accident however we can, but in the meantime, it will prove effective on the surface of Eyal.", "댈라크를 만들 때의 애로사항 중 하나는 본질적인 불안정함인데, 이는 무언가를 거의 순수한 마법으로 구성하려 할 때에 흔히 일어나는 문제이다.  주변의 황폐화 정도가 기준치를 아주 살짝만 넘어도 연쇄 반응이 일어나 일단 댈라크는 완전히 파괴되며, 최악의 경우에는 그걸 만들고 있던 마법사들까지 가루가 될 수도 있다.  그렇기 때문에 댈라크의 생산은 이론적으로는 비용이 싸지만, 실제로는 결코 싸지 않으며 일반적으로 댈라크가 황폐화된다면 즉시 처분하여 막대한 피해가 발생하는 것을 막아야 한다.  하지만 예외도 있는데, 어떤 댈라크들은 매우 흥미로운 방식으로 황폐에 적응하면서 날개가 돋아났고, 그들이 원래 일으키던 화염폭풍에는 황폐의 힘이 실리게 되었다. 게다가 완벽하게 안정적인 상태를 유지하고 있고, 우리가 제어하는 것도 가능하다.  우리는 이 기적과도 같은 상황을 재현하기 위해서 온 힘을 다할 것이다. 하지만 그러는 동안에, 그 댈라크들은 에이알의 표면에서 자신들의 힘을 입증해 보일 것이다.", "_t")
 t("demon statue: Harkor'Zun", "악마상: 하코르'준", "_t")
 t("Of the anomalies and phenomena we've noticed in our studies of the shield protecting Eyal, none have frustrated us so much as meteors.  Certain powerful Eyalite spellcasters can pull a large meteor into low orbit, passing it through the shield relatively unharmed, aside from being split into predictably-sized chunks, which are then called to the surface one-by-one in a series of devastating meteoric crashes.  While we have not yet found a way to reverse-engineer these spells to protect our standard troops from disintegration, we have had some limited success in making a construct that closely resembles a meteor in composition and appearance.  Harkor'Zun, a being made mostly of stone, was simply dropped from our platform; the shield shattered him as expected, but we had designed him to survive this, the fragments merging back into their completed form once he reached the surface.  It would seem, though, that either we made him to be too sturdy, or the shield envelops incoming objects in a sort of anti-magic coating, as he has been unable to start the second stage of this process, wherein he merges these fragments back into a completed form.  Should an Eyalite stumble upon him and attempt to destroy the fragments, Harkor'Zun will be able to re-combine and \"thank\" whoever granted him his ascension.", "우리가 에이알을 둘러싸고 있는 보호막에 대해 연구하면서 알게 된 수많은 현상들과 이상한 일들 중에서, 유성만큼 우릴 좌절시킨 것이 없을 것이다.  강력한 힘을 가진 에이알의 주문시전자 몇몇은 거대한 운석을 저궤도로 끌어들이고, 보호막을 뚫고 지표면으로 낙하시켜 어마어마한 유성 충돌을 일으킨다. 물론 보호막을 돌파하는 과정에서 운석이 부서지긴 하지만 완전히 산산조각나지는 않으며, 놈들은 적당한 크기로 나누어진 운석 덩어리들을 하나하나 쏘아내는 것이다.  우리는 그런 마법들을 역설계하여 우리의 병력들이 산산조각나는 것을 방지하려 하지만 연구가 쉽지 않다.  하지만 운석의 성분과 외견을 흉내낸 병기를 만들어내는 데에는 성공했다.  우리는 육체 대부분이 암석으로 이루어진 하코르'준을 우리 정거장에서 에이알로 낙하시켰다. 예상했던 대로 보호막이 그를 산산조각냈지만, 우린 그가 살아남을 수 있도록 수를 써 두었다. 그가 에이알의 지표면에 도달한 뒤에, 부서진 조각들이 하나의 형체로 합쳐질 수 있도록.  하지만 우리가 그를 너무 튼튼하게 만든 것인지, 아니면 행성 보호막이 통과하는 물체에다 반마법 도금 처리 같은 것이라도 하는 것인지, 그는 제2단계 - 조각들이 합쳐져서 부활하는 수순을 밟지 못하고 있다.  만약 어떤 에이알인이 그를 마주치게 되어서 그 조각들을 파괴하려 한다면, 하코르'준은 다시 하나로 합쳐질 수 있게 될 것이고, 그는 자신이 부활할 수 있게 해 준 녀석에게 \"감사\"할 것이다.", "_t")
-t("orbital base: battle plan (fiend)", "궤도 기지: 작전 방침 (악귀)", "_t")
-t([[Engagement Briefing on <?=player.name?>:
-
-This slippery little <?=_t(player.descriptor.subrace, "birth descriptor name")?> has proven to be a thorn in our side so far.  We've reinforced our wards to better protect against the sort of fluke meteor impacts that allowed enabled <?=player:his_her()?> to escape, but the crystal <?=player:he_she()?> smashed on <?=player:his_her()?> way out prevented us from keeping track of <?=player:his_her()?> location directly.  No matter - the brands and marks we've imbued <?=player:him_her()?> with have nonetheless allowed us to monitor magical energy signals affecting <?=player:him_her()?>, and our scryers have noted that there appears to be a particular pattern that teleports <?=player:him_her()?>, possibly of Sher'Tul origin.  We've sent out a signal of our own to intercept this, and redirect it to our platform, where <?=player:he_she()?> will be safely secured, punished for <?=player:his_her()?> disobedience, then once again exposed to a Tablet of Enlightenment. Doubling the exposure time should make sure they don’t escape again.This time, we’ll double the exposure time to regain <?=player:his_her()?> servitude.
-
-That said, given that <?=player:he_she()?> has increased dramatically in power since <?=player:his_her()?> escape, it is crucial that we approach this carefullykeep proper tactics in mind.  Having been infused with wretch essence, <?=player:he_she()?> has control over devastating acids and possesses bestial combat instincts. In the event that we cannot procure proper warding against these powers before <?=player:his_her()?> arrival, <?=player:he_she()?> can cause widespread destruction.  It is imperative that we do not let <?=player:him_her()?> deploy acid pools near our troops; furthermore, trying to surround or trap <?=player:him_her()?> will be entirely ineffective, as <?=player:he_she()?> can transform into acidic mist. That sounds absurd, but no cage or troop formation will be able to hold them. We will need to deploy a large squad of impish artillery to harry and distract <?=player:him_her()?> while a tactical squad of dúathedlen sneak up on <?=player:him_her()?>.  We may lose a couple of dozen imps, but in the time it takes <?=player:him_her()?> to realize our ruse, our assassins should be able to cut <?=player:him_her()?> down.
-
-Above all else, remember: despite <?=player:his_her()?> caustic powers and great agility, this is a pitiful, inferior Eyalite who only got this far on sheer luck.lucked <?=player:his_her()?> way into obtaining some of our superior power.  <?=player:he_she():capitalize()?> does not know how to use their powersit properly, and does not have the countless years of experience with it that we do.  We have numbers, experience,familiarity, a carefully laid plan tactics, and the blessing of Urh'Rok himself.  Treat this like a drill.; i If we stay calm and focused, it is unlikely we will see any casualties.
-]], [[대 <?=player.name?> 교전 브리핑:
-
-이 약삭빠르고 비열한 <?=_t(player.descriptor.subrace, "birth descriptor name")?> 녀석은 매우 거슬리는 눈엣가시다.  우리는 <?=player:his_her()?>를 도망칠 수 있게 해 주었던 우연찮은 운석 충돌 같은 것들에 보다 잘 대비하기 위해 보호막을 강화했다.  그러나 <?=player:he_she()?>가 탈출하면서 수정을 부숴버렸기에 우리는 <?=player:his_her()?>의 위치를 직접 추적할 수 없게 됐다.  상관없다 - 우리가 <?=player:him_her()?>에게 새겨왔던 낙인과 표식으로 <?=player:him_her()?>에게 영향을 미치는 마법 에너지 신호를 추적할 수 있었고, 점술가들의 말로는 <?=player:him_her()?>를 순간이동시키는 특정한 패턴이 나타나고 있다고 한다. 아마 쉐르'툴이 그 출처일 것이다.  우리는 이를 가로채는 신호를 보냈고, 그 신호는 <?=player:him_her()?>를 우리 정거장으로 재전송할 것이다. 이제 <?=player:he_she()?>를 안전히 확보하여 불복종에 대한 처벌을 내리고, 계몽의 비문에 한 번 더 노출시켜 다시 예속 상태로 만들면 된다. 다만 이번에는 노출 시간을 두 배로 늘려 두 번 다시는 탈출하지 않도록 만들어라.
-
-그렇긴 하지만, <?=player:he_she()?>가 탈출한 이후로 그 힘이 극적으로 성장하였다는 것을 고려하면 적절한 전술을 염두에 두는 것이 중요하다.  렛치의 정수가 주입된 탓에 녀석은 막강한 수준의 산성액을 다룰 수 있게 되었고, 짐승 같은 전투 본능을 가지게 되었다. <?=player:his_her()?>가 도착하기 전까지 적절한 보호 수단을 마련하지 못한다면 엄청난 피해를 입게 될 것이다.  가장 먼저, <?=player:him_her()?>가 우리의 병력 근처에 산성액 웅덩이를 만들게 두어서는 안 된다. 또한 <?=player:him_her()?>를 포위하거나 가두는 것은 아무런 효과가 없을 것이다. 녀석은 산성을 띤 안개로 변신할 수 있기 때문이다. 터무니없는 소리로 들리겠지만 어떤 우리를 쓰든, 어떤 식으로 진형을 짜든 간에 녀석을 붙잡아 둘 수는 없을 것이다. 따라서 우리는 임프 포병대를 대규모로 배치하여 <?=player:him_her()?>를 교란시키고, 임프들이 시간을 버는 동안 듀아세들렌 분대를 몰래 접근시킨다.  임프를 많이 잃게 되겠지만 <?=player:him_her()?>가 우리의 계략을 눈치채기까지 충분히 시간이 끌릴 것이고, 덕분에 우리의 암살자들은 녀석을 쓰러뜨릴 수 있을 것이다.
-
-무엇보다, 기억하라: 비록 <?=player:he_she()?>는 산성의 능력과 엄청난 민첩성을 가지고 있지만, 녀석은 요행으로 우리의 우월한 힘의 일부를 얻게 되었을 뿐, 그 본질은 그저 한심하고 열등한 에이알인이다. 녀석은 이 힘을 적절하게 사용하는 법을 전혀 알지 못하며, 우리처럼 영겁의 세월 동안 사용해 본 경험이 있는 것도 아니다.  우리는 수적으로 우위이고, 힘에 익숙하며, 적절한 전술도 있다. 무엇보다도 우리는 울흐'록의 축복을 받는다.  이번 작전을 훈련이라고 생각하라. 우리가 평정심과 집중을 유지하는 한 희생자가 나오는 일은 없을 것이다.
-]], "_t")
 t("singed paper scrap", "그슬린 종잇조각", "_t")
 t([[#{italic}#The shifting runes on this singed paper swim before your eyes and strange visions come to you:#{normal}#
 	
@@ -858,19 +861,18 @@ t([[Whenever creating an #GREEN#acid pool#LAST# would cause there to be 4 or mor
 		이 효과는 재사용 대기시간이 존재합니다 (%d 턴). 피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
 
-
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/corrosive-assault.lua"
 
-t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
-t("%s resists the disarm!", "%s 무장해제에 저항했다!", "logSeen", nil, {"가"})
 t("Claw Crush", "발톱 파쇄", "talent name")
+t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
 t([[Send a surge of power into your claws and crush a foe between them, dealing an unarmed strike for %d%% damage as acid and attempting to stun them %s for %d turns.
 		If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to strike twice.
 		]], [[발톱에 힘을 모은 뒤 적을 양쪽에서 눌러 으스러뜨립니다. %d%% 맨손 피해를 가하고 %d 턴 동안 기절시킵니다 %s.
 		시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있다면 #DARK_GREEN#흡수#LAST#하고 한 번 더 공격합니다.
 		]], "tformat", {1,3,2})
 t("Noxious Blow", "해로운 강타", "talent name")
+t("%s resists the disarm!", "%s 무장해제에 저항했다!", "logSeen", nil, {"가"})
 t([[Smash your foe with your claws, dealiing %d%% unarmed damage. If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to convert the damage type of the attack to acid and to attempt to disarm the target %s for %d turns if the attack hits.
 		]], [[발톱으로 적을 강타하여 %d%% 맨손 피해를 가합니다. 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있다면 #DARK_GREEN#흡수#LAST#하고 산성 피해로 변하며, 명중 시 대상을 %d 턴 동안 무장해제시킵니다 %s.
 		]], "tformat", {1,3,2})
@@ -890,7 +892,6 @@ t([[When you perform a critical spell, every #GREEN#acid pool#LAST# within %d ti
 		
 		밀어내는 효과는 밀어내기 저항 판정을 거칩니다.
 		]], "tformat")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/corruptions.lua"
@@ -924,8 +925,6 @@ t("demonic strength", "악마의 힘", "talent type")
 t("Infuse your body with the power of Demons.", "악마의 힘으로 신체를 강화합니다.", "_t")
 t("Oppression", "억압", "talent type")
 t("Make your blows terrify your foes and manipulate their fear.", "공격을 가해 적들을 공포에 질리게 하고, 그 공포를 이용합니다.", "_t")
-t("Demon", "악마", "_t")
-t("something", "무언가", "_t")
 t("corrosive assault", "부식성 맹공", "_t")
 t("Assault your foes with acid-dripping claws. Claw attacks require flexibility and are not possible without empty hands or in massive armor.", "산성액이 뚝뚝 떨어지는 발톱으로 적들에게 맹공을 가합니다. 발톱 공격은 유연함이 필요하기 때문에 손으로 뭘 들고 있거나 무거운 갑옷을 입고 있다면 사용할 수 없습니다.", "_t")
 t("killing instinct", "살해 본능", "_t")
@@ -944,8 +943,9 @@ t("caustic controller", "산 조작사", "_t")
 t("Your control of acid grows absolute.", "산성액 제어 능력이 완벽해집니다.", "_t")
 t("fiend", "악귀", "_t")
 t("Your hands have mutated into noxious talons. These abilities require flexibility and are not possible without empty hands or in massive armor.", "당신의 손은 산성액을 품은 갈퀴손으로 변했습니다. 이 능력들은 유연함이 필요하기 때문에 손으로 뭘 들고 있거나 무거운 갑옷을 입고 있다면 사용할 수 없습니다.", "_t")
+t("Demon", "악마", "_t")
 t("#GREEN#%s absorbs acid!#LAST#", "#GREEN#%s 산성액을 흡수한다!#LAST#", "_t", nil, {"가"})
-
+t("something", "무언가", "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
@@ -964,6 +964,11 @@ t([[You cover your weapon in acid, turning all melee damage into acid.
 		All melee attacks also gain %d armor penetration.]], [[무기에 산성 물질을 발라 모든 근접 공격을 산성 속성으로 바꿉니다.
 		또한 모든 근접 공격에 방어력 관통이 %d 만큼 적용됩니다.]], "tformat")
 t("Acidic Bath", "산성 세례", "talent name")
+t([[You spawn a cloud of acid vapor in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
+		You also gain 40%% acid resistance and %d%% acid affinity.
+		The damage scales with your Spellpower.]], [[시전자 주변 반경 4 칸에 %d 턴 동안 지속되는 산성 증기 구름을 만들어, 시전자를 포함한 모든 개체에게 %0.2f 산성 피해를 줍니다.
+		또한 시전자는 산성 저항 40%% 와 산성 속성 친화 %d%% 를 얻게 됩니다.
+		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blighted Path", "황폐화된 길", "talent name")
 t("Blighted Path", "황폐화된 길", "_t")
 t("Select a use for the %s charge(s):", "%s 중첩을 사용 시 발생하는 효과:", "tformat")
@@ -1072,6 +1077,13 @@ t([[Fire a blast of frostfire in radius %d, doing %0.2f fire damage and freezing
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Fetid Breath", "역겨운 숨결", "talent name")
 t("@Source@ breathes fetid matter!", "@Source2@ 역겨운 분출물을 뿜어낸다!", "_t")
+t([[You breathe a mix of darkness and blight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
+		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
+		The damage will increase with your Spellpower.
+		]], [[반경 %d 칸의 원뿔 범위 내에 어둠과 황폐의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 어둠/황폐 피해를 받습니다.
+		추가로, 시전자가 물리 공격을 가하면 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어냅니다.
+		피해량은 주문력에 비례하여 증가합니다.
+		]], "tformat")
 t("Blood Drinker", "피를 마시는 자", "talent name")
 t([[Deal a blight-enhanced melee blow, dealing %d%% blight damage.
 		If the attack hits and %s the creature dies in the next 2 turns you drink its essence which makes you regenerate 7 vim per turn and gain 40%% chance to evade attacks for the next %d turns.
@@ -1116,22 +1128,9 @@ t([[For every turn where you take damage you have a %d%% chance to store a seism
 		매 턴 화산은 %0.2f 화염 피해와 %0.2f 물리 피해를 주는 2 개의 불타는 암석을 분출합니다.
 		전투에서 벗어나면 중첩은 빠르게 사라집니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t("something", "무언가", "_t")
-t([[You spawn a cloud of acid vapor in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
-		You also gain 40%% acid resistance and %d%% acid affinity.
-		The damage scales with your Spellpower.]], [[시전자 주변 반경 4 칸에 %d 턴 동안 지속되는 산성 증기 구름을 만들어, 시전자를 포함한 모든 개체에게 %0.2f 산성 피해를 줍니다.
-		또한 시전자는 산성 저항 40%% 와 산성 속성 친화 %d%% 를 얻게 됩니다.
-		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
-t([[You breathe a mix of darkness and blight in a frontal cone of radius %d. Any target caught in the area will take %0.2f darkness/blight damage.
-		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
-		The damage will increase with your Spellpower.
-		]], [[반경 %d 칸의 원뿔 범위 내에 어둠과 황폐의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 어둠/황폐 피해를 받습니다.
-		추가로, 시전자가 물리 공격을 가하면 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어냅니다.
-		피해량은 주문력에 비례하여 증가합니다.
-		]], "tformat")
-t("", "", "log")
 t("Caustic Core", "부식성 핵", "talent name")
 t("#GREEN#%s creates an acid pool!#LAST#", "#GREEN#%s 산성액 웅덩이를 만들었다!#LAST#", "_t", nil, {"가"})
+t("something", "무언가", "_t")
 t([[You are filled with caustic power. Whenever you take direct damage, there is a %d%% chance you will create an #GREEN#acid pool#LAST# on a random tile within radius 4 which will last 4 turns.
 		Whenever you deal acid damage, there is a %d%% chance to create an #GREEN#acid pool#LAST# on the target's tile or a random tile adjacent to it which will last 4 turns.
 		You can create at most 3 #GREEN#acid pools#LAST# per turn and will only create them while in combat. An #GREEN#acid pool#LAST# will not be created if the tile chosen contains impassable terrain.
@@ -1143,6 +1142,11 @@ t([[You are filled with caustic power. Whenever you take direct damage, there is
 		지속 효과로써 시전자 주변 반경 4 칸 안에 있는 #GREEN#산성액 웅덩이#LAST# 하나 당 물리력/주문력/정확도를 %0.1f 얻고 산성 피해와 산성 저항 관통이 %0.1f%% 상승합니다 (웅덩이는 최대 8 개까지 계산).
 		시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적은 물리력/주문력/정신력/정확도/물리 내성/주문 내성/정신 내성/회피도가 %d 만큼 감소합니다.
 		]], "tformat")
+-- new text
+--[==[
+t("", "", "log")
+--]==]
+
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/demonic-pact.lua"
@@ -1375,7 +1379,6 @@ t([[The Wretch essence within resonates with nearby #GREEN#acid pools#LAST#. You
 		저항 상승량은 마법 능력치에 비례하여 증가합니다.
 		]], "tformat", {3,1,2,4,5})
 
-
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/fearfire.lua"
 
@@ -1433,7 +1436,7 @@ t([[With corrupt power and your fiendish claws, you are able to parry the blades
 		최대 피해 흡수량은 주문력에 비례하여 증가합니다. 이 기술이 발동하려면 양손이 비어 있어야 하며, 경갑보다 무거운 갑옷을 입어서는 안 됩니다.
 		]], "tformat")
 t("Acid Claws", "산성 발톱", "talent name")
-t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s의 %s 산성액 때문에 방해받았다!#LAST#", "logSeen", nil, {nil,"은"})
+t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s의 %s 산성액 때문에 방해받았다!#LAST#", "logSeen", nil, {[2]="은"})
 t([[Your claws grow stronger and the acid dripping from them grows in corrupt potency. Your passively gain %d armor penetration while unarmed and if your target is on an #GREEN#acid pool#LAST#, your unarmed hits have a %d%% chance to place 1 of the their activated talents on cooldown for 2 turns, at most once per target per turn.
 		
 		Armor penetration improves with Strength.
@@ -1453,7 +1456,6 @@ t([[The rage of the Wretch fills your being, passively increasing your stun and 
 		
 		추가 공격 확률은 민첩 능력치에 비례하여 상승합니다. 또한 원기가 50%% 이상일 때 추가로 상승하며 100%% 일 때 2 배가 되고, 원기가 바닥나면 0%%가 됩니다. 여기에 더해서, 한 턴에 추가 공격이 여러 번 일어날 경우에는 두 번째부터 확률이 1/4씩 감소합니다. 추가 공격을 가하려면 양손이 비어 있어야 하며, 경갑보다 무거운 갑옷을 입어서는 안 됩니다.
 		]], "tformat")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/heart-of-fire.lua"
@@ -1512,8 +1514,8 @@ t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/killing-instinct.lua"
 
-t("The teleport fizzles!", "순간이동이 실패했다!", "logSeen")
 t("Blink Pounce", "찰나의 강습", "talent name")
+t("The teleport fizzles!", "순간이동이 실패했다!", "logSeen")
 t([[With the hunting instinct of the Wretch, you pounce on your prey. Teleport to a target up to %d tiles away and then strike them for %d%% unarmed damage. Every 2 turns that this talent is not on cooldown the range will increase by 1, to a maximum range of 10 and with a base range of 4. 
 		If you are standing on an #GREEN#acid pool#LAST# when you initiate the attack, you will #DARK_GREEN#absorb#LAST# it to convert the damage type to acid.
 		]], [[렛치의 사냥 본능을 불러일으켜 사냥감을 덮칩니다. 반경 %d 칸 이내에 있는 대상 하나에게 순간이동하며 %d%% 맨손 피해를 가합니다. 이 기술이 사용 가능한 상태에서 2 턴이 지나갈 때마다 사거리가 1 칸씩 늘어납니다 (기본 사거리는 4 칸, 최대 10 칸까지). 
@@ -1581,7 +1583,6 @@ t("Dissolve Affliction", "고통 용해", "talent name")
 t([[Each turn while standing on an #GREEN#acid pool#LAST#, negative effects on you will have their duration reduced by an extra %d turns. This will apply to 1 effect for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most (excluding type "other").
 		]], [[#GREEN#산성액 웅덩이#LAST# 위에 서 있으면 매 턴마다 시전자에게 걸린 부정적인 효과 1 개의 지속시간이 %d 턴 추가로 감소합니다. 시전자 주변 반경 %d 칸 내의 #GREEN#산성액 웅덩이#LAST# 하나마다 감소하는 효과의 개수가 하나씩 늘어나며, 최대 %d 개까지 적용됩니다 (단, 유형이 "기타" 인 효과는 제외).
 		]], "tformat")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/npcs.lua"
@@ -1667,7 +1668,6 @@ t([[When you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% in
 		모든 수치는 주문력에 비례하여 증가합니다.
 		]], "tformat")
 
-
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/spellblaze.lua"
 
@@ -1746,7 +1746,7 @@ t("Corrupt Reaction", "타락한 반발", "talent name")
 t([[Foes standing on one of your #GREEN#acid pools#LAST# will take %0.2f blight damage each turn with a %d%% chance to extend the duration of all negative effects you have placed on them by 1 turn (excludes type "other"). Additionally, you gain %d defense while standing on an #GREEN#acid pool#LAST#. Finally, at talent level 5 or above, your increased blight damage and resistance penetration will match your increased acid damage and resistance penetration, if not already higher.
 		
 			Blight damage improves with spellpower.
-		]], [[시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적들은 매 턴마다 %0.2f 황폐 피해를 받고, 각종 부정적인 효과들의 지속시간이 1 턴 늘어나게 됩니다 (단, 유형이 "기타" 인 효과는 제외). 또한 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있으면 회피도가 %d 상승합니다. 마지막으로 기술 레벨 5 부터, 시전자의 황폐 피해 증가량이 산성 피해 증가량보다 낮다면 동일한 값까지 상승하며, 황폐 저항 관통 역시 산성 저항 관통과 비교하여 동일해집니다.
+		]], [[시전자의 #GREEN#산성액 웅덩이#LAST# 위에 서 있는 적들은 매 턴마다 %0.2f 황폐 피해를 받고, %d%% 확률로 각종 부정적인 효과들의 지속시간이 1 턴 늘어나게 됩니다 (단, 유형이 "기타" 인 효과는 제외). 또한 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있으면 회피도가 %d 상승합니다. 마지막으로 기술 레벨 5 부터, 시전자의 황폐 피해 증가량이 산성 피해 증가량보다 낮다면 동일한 값까지 상승하며, 황폐 저항 관통 역시 산성 저항 관통과 비교하여 동일해집니다.
 		
 			황폐 피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
@@ -1758,7 +1758,6 @@ t([[When you land an unarmed attack as acid damage you will deal %0.2f blight da
 		
 		황폐 피해량은 주문력에 비례하여 증가합니다. 내성 상승량은 마법 능력치에 비례하여 증가합니다.
 		]], "tformat", {1,2,4,3,5})
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/wrath.lua"
@@ -1835,7 +1834,6 @@ t("Wretch", "렛치", "talent name")
 t("You must have at least one summoned wretchling!", "렛츨링이 하나는 소환되어 있어야 한다!", "logSeen")
 t("Not enough space to call a wretch!", "렛치를 소환할 공간이 없다!", "logPlayer")
 t("Banish your wretchlings to call a mighty Wretch to fight for you for %d turns. The Wretch will know Corrupt Parry and Wretched Rage at talent level %d, as well as gaining all talents and effects your wretchlings gain from spells in this talent line. Additionally, the Wretch has %d bonus life per wretchling, %d%% absolute damage resistance, and will taunt all foes in a radius of 10 at the begining of each game turn.", "렛츨링 전부를 제물로 막강한 렛치를 아군으로 불러내어 %d 턴 동안 싸우게 합니다. 렛치는 레벨 %d 타락한 쳐내기 기술과 렛치의 분노 기술을 알고 있으며, 시전자의 렛츨링들이 배우고 있는 다른 모든 기술 또한 알고 있습니다. 또한 렛치는 제물로 사용한 렛츨링 한 마리 당 생명력 보너스를 %d, 절대 피해 저항을 %d%% 얻으며 매 턴이 시작할 때마다 반경 10 칸 이내의 적들을 도발합니다.", "tformat")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/misc/races.lua"
@@ -1926,7 +1924,6 @@ t([[You dedicate yourself entirely to the creation and manipulation of acid and 
 	  - #GOLD#부식성 연결, 에메랄드의 공명, 악마의 반사신경, 고통 용해#LAST# 기술의 산성액 웅덩이 한계치가 #GOLD#2 만큼 늘어나고#LAST# #GOLD#반경 또한 10 칸으로 늘어남#LAST#
 	  - 반경 10 칸 내의 산성액 웅덩이 하나 당 #GOLD#산성 저항 관통 8%% 상승#LAST#, 최대 웅덩이 6 개까지
 	   ]], "tformat")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/timed_effects.lua"
@@ -2146,22 +2143,21 @@ t("seismic", "여진", "effect subtype")
 t("Volcanic Skin", "용암 피부", "_t")
 t("%d charges.", "%d 중첩.", "tformat")
 t("acid", "산성", "effect subtype")
-t("magical", "마법적 효과", "effect subtype")
-t("phase", "위상", "effect subtype")
-t("frenzy", "광란", "effect subtype")
 t("The target is drawing strength from Acid.%s", "산성액에서 힘을 끌어내고 있음.%s", "tformat")
 t("The target is suffering from Acid afflictions.%s", "산성액에 고통받고 있음.%s", "tformat")
+t("magical", "마법적 효과", "effect subtype")
 t("The target has recently healed from moving onto an acid pool and cannot do so again.", "최근에 산성액 웅덩이로 이동하여 생명력을 회복했고, 당분간은 다시 그러지 못함.", "tformat")
 t("The target has recently created a blinding splash from moving onto an acid pool and cannot do so again.", "최근에 산성액 웅덩이로 이동하여 실명시키는 물보라를 일으켰고, 당분간은 다시 그러지 못함.", "tformat")
 t("The target is infused with vile energy, gaining %d%% increased damage and %d%% healing modifier.", "역겨운 에너지가 주입됨: 피해량 +%d%% / 회복 효율 +%d%%.", "tformat")
 t("The target is infused with blighted energy, gaining %d increased Spell, Mind and Physical Saves.", "황폐의 에너지가 주입됨: 물리, 주문, 정신 내성 +%d.", "tformat")
 t("The target is filled with wretched vigor, gaining %0.1f Vim for each unarmed attack that lands, up to %d Vim per turn at most.", "렛치의 활력이 충만함: 맨손 공격 시 원기 %0.1f 획득, 턴 당 최대 %d 까지.", "tformat")
 t("The target has a %d%% chance to fail any talent use. This effect is removed when a talent failure occurs.", "%d%% 확률로 기술 시전 실패. 기술 실패가 일어나면 이 효과는 사라짐.", "tformat")
+t("phase", "위상", "effect subtype")
 t("The range of Blink Pounce is increased by %d.", "찰나의 강습의 사거리가 %d 칸 증가함.", "tformat")
+t("frenzy", "광란", "effect subtype")
 t("All damage taken reduced by %d.", "받는 피해 -%d.", "tformat")
 t("%d%% increased damage resistance.", "모든 속성 저항 +%d%%.", "tformat")
 t("%d%% chance to negate incoming damage.", "%d%% 확률로 받는 피해 무시.", "tformat")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/anteroom-agony/grids.lua"
@@ -2187,8 +2183,8 @@ t("quasit squad leader", "콰짓 지휘관", "entity name")
 t("A small, heavily armoured demon, rushing toward you.", "중무장을 한 작은 악마입니다. 당신을 향해 달려가고 있습니다.", "_t")
 t("Rogroth, Eater of Souls", "영혼을 먹는 자 로그로스", "entity name")
 t("major", "고위", "entity subtype")
-t("and raised as a demonic husk", "그리고 악마의 하수인으로 되살아났습니다.", "_t")
 t("Fire and blight arcane surges randomly appear on its spider-like dark metallic skin. There is no definite head but a single huge mouth on its body.", "거미와 비슷한 어둡고 광택이 있는 피부를 가진 악마입니다. 화염과 황폐의 마법이 마구잡이로 쇄도하고 있습니다. 뚜렷하게 보이는 머리는 없지만 몸뚱이에 거대한 입이 하나 뚫려 있습니다.", "_t")
+t("and raised as a demonic husk", "그리고 악마의 하수인으로 되살아났습니다.", "_t")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/anteroom-agony/objects.lua"
@@ -2213,7 +2209,6 @@ t("Etomae, Wretch Colossus", "렛치 거인 에토마에", "entity name")
 t("This demon towers over everything around. Wisps of noxious vapour curl off its body. Its skin is slick with a vile liquid that hisses and smokes as it drips on the ground.", "이 악마는 주변의 다른 무엇보다도 훨씬 더 큽니다. 독한 증기 가닥들이 몸뚱이에 휘감겨 있습니다. 피부는 역겨운 액체로 번들거리고 있고, 땅에 방울져 떨어지자 쉭쉭거리는 소리와 함께 연기가 피어오릅니다.", "_t")
 t("and dissolved into a pool of sludge", "그리고 그 시체는 완전히 녹아 진흙 웅덩이가 되었습니다.", "_t")
 
-
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/caustic-crater/objects.lua"
 
@@ -2225,7 +2220,6 @@ section "tome-ashes-urhrok/data/zones/caustic-crater/zone.lua"
 
 t("Caustic Crater", "부식성 크레이터", "_t")
 t("Mysterious Crater", "불가사의한 크레이터", "_t")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/zones/searing-halls/grids.lua"
@@ -2441,7 +2435,6 @@ Vim is the life force of all beings. It does not regenerate, and can be stolen f
 원기는 모든 존재의 생명력입니다. 원기는 저절로 회복되지 않으며, 적들에게서 빼앗거나 특정 기술을 사용해 얻어야만 합니다.
 ]], "_t")
 
-
 ------------------------------------------------
 section "tome-ashes-urhrok/overload/data/texts/unlock-cosmetic_doomhorns.lua"
 
@@ -2496,8 +2489,7 @@ Race features:#YELLOW#
 section "tome-ashes-urhrok/overload/mod/class/DemonologistsDLC.lua"
 
 t("Shadow Power: ", "그림자의 힘: ", "_t")
-t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s의 %s 산성액 때문에 방해받았다!#LAST#", "logSeen", nil, {nil,"은"})
-
+t("#GREEN#%s's %s is disrupted by acid!#LAST#", "#GREEN#%s의 %s 산성액 때문에 방해받았다!#LAST#", "logSeen", nil, {[2]="은"})
 
 ------------------------------------------------
 section "tome-ashes-urhrok/superload/mod/class/Actor.lua"
@@ -2509,10 +2501,9 @@ t("dragon", "용", "_t")
 section "tome-ashes-urhrok/superload/mod/class/Game.lua"
 
 t("Class: Demonologist", "직업: 악마학자", "_t")
+t("Class: Fiend", "직업: 악귀", "_t")
 t("Cosmetic: demonic horns", "외형: 악마의 뿔", "_t")
 t("Cosmetic: red skin", "외형: 붉은 피부", "_t")
-t("Class: Fiend", "직업: 악귀", "_t")
-
 
 ------------------------------------------------
 section "tome-ashes-urhrok/superload/mod/class/Object.lua"

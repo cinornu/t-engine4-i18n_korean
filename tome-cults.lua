@@ -830,13 +830,17 @@ t("As you combine the two pair of shoes you make something marvelous: %s", "두 
 t("Rod of Entropy", "엔트로피의 장대", "entity name")
 t("light sucking rod", "빛을 흡수하는 장대", "_t")
 t("This rod seems to make light die around it. You feel tired just looking at it.", "이 장대는 주변의 빛을 죽여버리는 것 같습니다. 보는 것만으로도 피곤해집니다.", "_t")
+t("temporarily cause the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복량의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법 능력치에 비례하여 증가합니다.", "tformat")
 t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
 t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 꿈틀대는 촉수 덩어리는 마석을 감염시켜, 자연물과 비자연물의 기묘한 융합을 이루고 있습니다. 한때 깨끗했던 보석은 이제 채찍 같은 촉수가 달린 검은 흑요석 조각에 더 가까워 보입니다. 이 공포체가 자연 그 자체와 융합할 수 있다고는 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 분출을 대상에게 시전합니다", "_t")
+-- new text
+--[==[
 t("%s: \"%s\"", "%s: \"%s\"", "tformat")
-t("temporarily cause the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복량의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법 능력치에 비례하여 증가합니다.", "tformat")
+--]==]
+
 
 ------------------------------------------------
 section "tome-cults/data/general/stores/cults.lua"
@@ -2830,14 +2834,6 @@ t([[Your face melts, exploding in a targeted gush of blood and gore dealing %0.2
 		매 턴 대상이 걸린 질병 당 %0.2f 황폐 피해를 추가로 가합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Writhing Hairs", "뒤틀린 머리카락", "talent name")
-t("Glimpse of True Horror", "진정한 공포의 편린", "talent name")
-t([[Whenever you use a disfigured face power you show a glimpse of what True Horror is.
-		The affected targets become frightened for 2 turns %s, giving them a %d%% chances to fail using talents.
-		When a target becomes afraid it bolsters you to see their anguish, increasing your darkness and blight damage penetration by %d%% for 2 turns.
-		The values will increase with your Spellpower.]], [[문드러진 얼굴 계열의 기술을 사용할 때마다 적에게 진정한 공포가 무엇인지 조금 보여줍니다.
-		효과를 받는 대상들은 2 턴 동안 겁에 질려 %s %d%% 의 확률로 기술 시전을 실패합니다.
-		적들이 겁에 질리게 되면 시전자는 그들의 괴로움을 더욱 잘 볼 수 있게 되어, 어둠 저항 관통력 및 황폐 저항 관통력이 2 턴 동안 %d%% 상승합니다.
-		상승량은 주문력에 비례하여 상승합니다.]], "tformat")
 t([[For a brief moment horrific hairs grow on your head, each of them ending with a creepy eye.
 		You use those eyes to gaze upon a target area of radius %d, creatures caught inside partially turn to stone reducing their movement speed by %d%% and making them brittle for 7 turns.
 		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
@@ -2847,6 +2843,14 @@ t([[For a brief moment horrific hairs grow on your head, each of them ending wit
 		부서지게 쉽게 된 대상은 35%% 의 확률로 %d%% 만큼 추가 피해를 입습니다.
 		이 효과는 저항할 수 없습니다.
 		]], "tformat")
+t("Glimpse of True Horror", "진정한 공포의 편린", "talent name")
+t([[Whenever you use a disfigured face power you show a glimpse of what True Horror is.
+		The affected targets become frightened for 2 turns %s, giving them a %d%% chances to fail using talents.
+		When a target becomes afraid it bolsters you to see their anguish, increasing your darkness and blight damage penetration by %d%% for 2 turns.
+		The values will increase with your Spellpower.]], [[문드러진 얼굴 계열의 기술을 사용할 때마다 적에게 진정한 공포가 무엇인지 조금 보여줍니다.
+		효과를 받는 대상들은 2 턴 동안 겁에 질려 %s %d%% 의 확률로 기술 시전을 실패합니다.
+		적들이 겁에 질리게 되면 시전자는 그들의 괴로움을 더욱 잘 볼 수 있게 되어, 어둠 저항 관통력 및 황폐 저항 관통력이 2 턴 동안 %d%% 상승합니다.
+		상승량은 주문력에 비례하여 상승합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-cults/data/talents/demented/doom.lua"
