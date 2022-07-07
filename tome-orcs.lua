@@ -1054,14 +1054,14 @@ t("ornate gun", "화려하게 장식된 총기", "_t")
 t("It's said that Talosis never lost an argument. Now you know why.", "탈로시스는 말싸움에서 진 적이 없다고 합니다. 그 비결은 말 안 해도 알겠죠?", "_t")
 t("The Twisted Blade", "뒤틀린 칼날", "entity name")
 t("vile, twisted steamsaw", "악랄하게 뒤틀린 증기톱", "_t")
-t("You see flecks of gold in this vile mass of twisted steel, implying a once great origin. Whatever glory it once had is long gone, replaced by something far more sinister...", "이 끔찍하게 뒤틀린 강철 덩어리에는 금도금의 흔적이 남아 있어, 한때 굉장한 걸작이었음을 알 수 있습니다. 이제 그 영광은 온데간데없이 사라지고, 사악한 무엇인가가 그 자리를 대신 채웠습니다...", "_t")
+t("You see flecks of gold in this vile mass of twisted steel, implying a once great origin. Whatever glory it once had is long gone, replaced by something far more sinister...", "이 끔찍하게 뒤틀린 강철 덩어리에는 금도금의 흔적이 남아 있어, 한때 굉장한 걸작이었음을 알 수 있습니다. 이제 그 영광은 온데간데없고, 사악한 무엇인가가 그 자리를 대신 채웠습니다...", "_t")
 t("Fully heal yourself. (15 turn cooldown)", "생명력을 완전히 회복합니다. (재사용 대기시간 15 턴)", "_t")
 t("Sunstone", "태양석", "entity name")
 t("warm stone", "따뜻한 돌", "_t")
 t("This strange stone shines with the heat of the Sun. Perhaps it could be used to generate more steam?", "이 기이한 돌은 태양의 열기를 발하며 빛납니다. 더 많은 증기를 생성하는데 쓸 수 있지 않을까요?", "_t")
 t("Overseer", "감독관", "entity name")
 t("cracked mindstar", "금이 간 마석", "_t")
-t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "마인드월의 힘의 조각이 아직도 이 금이 간 오래된 보석에 남아있습니다.", "_t")
+t("Fragments of the Mindwall's power still inhabit this cracked, ancient gem.", "마인드월의 힘의 조각이 아직도 이 금이 간 오래된 보석에 남아 있습니다.", "_t")
 t("reduces mental save", "정신 내성 감소", "_t")
 t("either mentally dominate or psychically stun (depending on immunities) a nearby target within range %d for %d turns (success depends on Mindpower)", "반경 %d 칸 내의 한 대상을 %d 턴 동안 정신적으로 지배하거나, 물리적으로 기절시킵니다 (대상의 면역력에 영향을 받고, 성공률은 정신력에 비례)", "tformat")
 t("#Source# psychically dominates #target# through %s %s!", "#Source1# %s %s 통해 #target3# 물리적으로 지배했다!", "logCombat", nil, {[2]="를"})
@@ -1071,10 +1071,10 @@ t("crystallized drake heart", "결정화된 용족의 심장", "_t")
 t("This cracked gemstone fell from the remains of the dead Ureslak. It appears to have been turned into a vibrant crystal in whatever process reanimated him.", "이 부서진 보석은 죽은 우르슬락의 시체에서 떨어져 나왔습니다. 그 용이 어떻게 되살아났던 간에, 소생 과정 중에 그 심장이 강렬한 빛을 발하는 결정으로 변한 것 같습니다.", "_t")
 t("Starcaller", "별부르미", "entity name")
 t("black staff", "검은 지팡이", "_t")
-t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "스트랄라이트와 보석으로 세공된 빛의 지팡이입니다. 대낮에도 별빛을 비추는 것 같습니다.", "_t")
+t("A light staff covered in stralite and gems. It seems to reflect the light of the stars even in daylight.", "스트랄라이트와 보석으로 세공된 가벼운 지팡이입니다. 대낮에도 별빛을 비추는 것 같습니다.", "_t")
 t("Liquid Metal Cloak", "액체 금속 망토", "entity name")
 t("shiny metallic cloak", "빛나는 금속 망토", "_t")
-t("This strange sheet of metal flows with the wind just like a normal cloak. Whoever crafted it was a true master.", "이 이상한 금속 천은 평범한 망토처럼 바람에 흩날립니다. 누가 만들었건, 그는 필히 진정한 장인일 것입니다.", "_t")
+t("This strange sheet of metal flows with the wind just like a normal cloak. Whoever crafted it was a true master.", "이 이상한 금속 천은 평범한 망토처럼 바람에 흩날립니다. 누가 만들었건, 그는 필시 진정한 장인일 것입니다.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/general/objects/egos/steamgun.lua"
@@ -1480,7 +1480,7 @@ If you're very careful.]], [[이 장화는, 어... 자기 스스로를 공중으
 어찌되건 작동은 하는 것 같습니다.
 아마도요.
 매우 조심한다면 말입니다.]], "_t")
-t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "이 장화는 %d%% 확률로 작동에 실패합니다 (교활에 반비례).", "tformat")
+t("These boots have a %d%% chance to fail to operate properly (reduced by Cunning).", "이 장화는 %d%% 확률로 작동에 실패합니다 (교활 능력치에 반비례).", "tformat")
 t("jump to a nearby location within range %d, blasting everything within radius 2 (%d burning fire damage, 2 tile knockback) of the jump point and within radius 3 (%d burning fire damage, 3 tile knockback) of the landing point (damage based on Cunning)", "반경 %d 칸의 범위 내의 원하는 지점으로 도약합니다. 도약 전의 위치에는 반경 2 칸의 폭발을 일으키고, (%d 불타는 화염 피해, 2 칸 밀쳐냄) 도약 후의 위치에는 반경 3 칸의 폭발을 일으킵니다 (%d 불타는 화염 피해, 3 칸 밀쳐냄) (피해량은 교활 능력치에 비례)", "tformat")
 t("#LIGHT_RED#You see no place to land near there.", "#LIGHT_RED#그 근처에는 착륙할 곳이 없다.", "logPlayer")
 t("#Source# ignites %s %s, creating a #LIGHT_RED#blast of fire#LAST# that %s!", "#Source2# %s %s에 불을 붙여, #LIGHT_RED#화염 폭발#LAST#을 일으켜 %s!", "logCombat")
@@ -1489,7 +1489,7 @@ t("launches %s in the air", "%s 하늘로 띄웠다", "tformat", nil, {"를"})
 t("#Source# lands in a #LIGHT_RED#firey explosion#LAST#!", "#Source1# #LIGHT_RED#화염 폭발#LAST#을 일으키며 착지했다!", "logCombat")
 t("Assassin's Surprise", "암살자의 깜짝 선물", "entity name")
 t("glistening steel gauntlets", "섬광의 강철 전투장갑", "_t")
-t("These steel gauntlets feature a hidden contraption embedded in the left index finger that fires poisonous bolts.", "이 강철 전투장갑은 왼쪽 집게 손가락에 숨겨진 기계 장치가 장착되어 있어 독화살을 발사할 수 있습니다.", "_t")
+t("These steel gauntlets feature a hidden contraption embedded in the left index finger that fires poisonous bolts.", "이 강철 전투장갑은 왼손 집게손가락 쪽에 독화살을 쏠 수 있는 기계 장치가 숨겨져 있습니다.", "_t")
 t("fire a poisonous bolt out to range %d that deals %d nature damage and afflicts the target with crippling poison (%d%% fail chance) that deals %d addition nature damage over %d turns (damage based on Cunning)", "사거리 %d 칸의 독화살을 발사해 %d 자연 피해를 가하고, 대상을 무력화 독에 중독시킵니다. (실패확률 %d%%) 독으로 인해 %d 턴에 걸쳐 %d 자연 피해를 받습니다 (피해량은 교활 능력치에 비례)", "tformat", {1,2,3,5,4})
 t("#Source# fires a bolt of #GREEN#poison#LAST# at #target# from %s %s!", "#Source1# %s %s #GREEN#독화살#LAST#을 #target#에게 발사한다 from !", "logCombat", nil, {[2]="으로"})
 t("something", "무언가", "_t")
@@ -1517,7 +1517,7 @@ t("S.H. Spear", "S.H. 스피어", "entity name")
 t("engraved steamgun", "각인된 총기", "_t")
 t([[This gun is engraved with a strange material which focuses mental powers.
 It seems like your mind will operate even faster with this equipped.]], [[이 총에는 정신력을 집중시키는 기이한 물질로 이루어진 각인이 새겨져 있습니다.
-이 총을 들고 있으면 두뇌 회전이 빨라지는 것 같습니다.]], "_t")
+이 총을 들고만 있어도 두뇌 회전이 빨라지는 것 같습니다.]], "_t")
 t("Dreamweaver", "꿈 재단사", "entity name")
 t("shimmering steamgun", "빛으로 일렁이는 총", "_t")
 t("This isn't so much a gun, as it is the idea of a gun.  You'll be able to remember it pretty easily if you lose it.", "이건 그냥 총이 아니라, 총이라는 개념 그 자체입니다.  잃어버린다 해도 떠올리기는 쉬울 겁니다.", "_t")
@@ -1598,7 +1598,7 @@ t("This elegant gun is rumoured to have belonged to the infamous assassin wizard
 t("every third hit always crits.", "매 3 번째 공격은 무조건 치명타를 일으킵니다.", "_t")
 t("Cautery Sword", "소작절개검", "entity name")
 t("searing sword", "불타는 칼", "_t")
-t("This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "이 칼에는 불타는 핵이 장착되어 있어, 상처에 고통을 조금 더해줍니다.", "_t")
+t("This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "이 칼에는 불타는 핵이 장착되어 있어, 상처에 약간의 고통을 더해줍니다.", "_t")
 t("inflict fire damage based on steampower", "증기력에 비례한 화염 피해를 가합니다", "_t")
 t("Stimulus", "자극제", "entity name")
 t("injector", "주사기", "entity subtype")
@@ -1640,7 +1640,7 @@ t("heavy lined cloak", "무거운, 안감을 댄 망토", "_t")
 t("This cloak hides and protects a series of powerful steam compressors.", "이 망토는 수많은 강력한 증기 압축기를 숨기고, 보호하고 있습니다.", "_t")
 t("Eastern Wood Hat", "극동의 나무 모자", "entity name")
 t("worn leather hat", "해진 가죽 모자", "_t")
-t("This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "이 모자는 오래전에 이름이 잊혀진 어떤 극동의 숲에서 나는 물질들로 만들어졌습니다. 최초의 총잡이들이 쓰고 다녔다고 전해집니다.", "_t")
+t("This hat was made from materials from a forest whose name is long since lost, far in the east. It is said to have belonged to one of the first gunslingers.", "이 모자는 오래전에 이름이 잊혀진 어떤 극동의 숲에서 나는 재료들로 만들어졌습니다. 최초의 총잡이들이 쓰고 다녔다고 전해집니다.", "_t")
 t("Steamcatcher", "증기 수집기", "entity name")
 t("pipe coated leather hat", "도관으로 둘러싸인 가죽 모자", "_t")
 t("There's an old saying that most of your body heat escapes through your head. It's not true of body heat, but strangely, is actually true of steam.", "옛 사람들이 말하길, 체온은 대부분 머리를 통해 빠져나간다고 합니다. 이건 틀린 말이지만, 기묘하게도 체온이 아니라 증기면 맞는 말입니다.", "_t")
@@ -1659,10 +1659,10 @@ t("rusted steamsaw", "녹슨 증기톱", "_t")
 t("This aged looking saw is very rusty, and you think you see a thin layer of... something... on its blades.", "오래되어 보이는 이 증기톱은 심각하게 녹이 슬었습니다. 그리고 톱날 위의 얇은... 뭔가의 층을... 본 것 같습니다.", "_t")
 t("may infect the target with a random disease", "확률적으로 공격 대상을 무작위한 질병에 감염시킵니다", "_t")
 t("Mirrorazor", "거울칼날", "entity name")
-t("rippling portal", "파문이 이는 관문", "_t")
+t("rippling portal", "파문이 이는 차원문", "_t")
 t([[The experiment of a mad chronomancer, this strange device is a portal into a backwards universe!
 That is, everything there spins the opposite direction.
-I guess it probably grinds things pretty well.]], [[어떤 미친 시공술사의 실험으로 만들어진 이 괴상한 도구는 역전된 우주로의 차원문입니다!
+I guess it probably grinds things pretty well.]], [[어떤 미친 시공술사의 실험으로 탄생한 이 괴상한 도구는 역전된 우주로의 차원문입니다!
 말인 즉슨, 저 너머에선 모든 것이 반대쪽으로 회전한다는 뜻입니다.
 음, 아마 뭔가를 갈아버리는 데 참 좋을 것 같네요.]], "_t")
 t("scroll", "두루마리", "_t")
@@ -1691,7 +1691,7 @@ t("\"Have you ever thought your steamsaws were just too slow? Well, have I got t
 t("Increases the speed bonus from Saw Wheels by 25%.", "톱날바퀴의 이동력 상승치가 25% 증가합니다.", "_t")
 t("Whipsnap", "애송이", "entity name")
 t("spring loaded steamsaw", "용수철이 장착된 전기톱", "_t")
-t("\"Sick of your pesky enemies hitting you with weapons? Well, with the new spring loaded Whipsnap, you can quickly put a stop to that!\"", "\"별 거 아닌 무기로 당신의 속을 긁어대는 적들에게 지치셨습니까? 좋습니다, 이 새로운 용수철이 장착된 애송이로, 신속하게 끝장낼 수 있습니다!\"", "_t")
+t("\"Sick of your pesky enemies hitting you with weapons? Well, with the new spring loaded Whipsnap, you can quickly put a stop to that!\"", "\"별 거 아닌 무기로 당신의 속을 긁어대는 적들에게 지치셨습니까? 자, 새로운 용수철이 장착된 이 애송이로, 신속하게 끝장낼 수 있습니다!\"", "_t")
 t("Pinwheel", "속박바퀴", "entity name")
 t("spike tipped steamsaw", "송곳이 달린 증기톱", "_t")
 t("\"Create new, exciting connections in other people's lives, such as between their feet and the floor!\"", "\"다른 사람들과 새롭고, 흥분되는 관계를 만들어 보세요! 마치 발과 땅바닥 같은 관계를 말입니다!\"", "_t")
@@ -1700,8 +1700,8 @@ t("Frostbite", "동상", "entity name")
 t("icy steamsaw", "얼음같이 차가운 증기톱", "_t")
 t("Fashioned from magical ice, and perfect for carving ice - especially ice with someone else inside it.", "마법적인 얼음으로 만들어져, 얼음을 완벽하게 깎아냅니다 - 특히 누군가가 안에 있는 얼음을요.", "_t")
 t("The Lumberator", "벌목기", "entity name")
-t("vined coated steamsaw", "덩굴덮힌 증기톱", "_t")
-t("\"Spread the wonders of nature even quicker than ever with this seed injecting steamsaw! Your former enemies will be freshly grown trees before you even know it!\"", "\"이 씨앗이 주입된 증기톱과 함께라면 자연의 경이로움을 그 어떤 방식보다도 빠르게 퍼뜨릴 수 있습니다! 적들은 당신이 눈치 채기도 전에 한 그루의 나무가 되어 쑥쑥 자랄걸요?!\"", "_t")
+t("vined coated steamsaw", "덩굴로 덮인 증기톱", "_t")
+t("\"Spread the wonders of nature even quicker than ever with this seed injecting steamsaw! Your former enemies will be freshly grown trees before you even know it!\"", "\"씨앗을 심어대는 이 증기톱과 함께라면 자연의 경이로움을 그 어떤 방식보다도 빠르게 퍼뜨릴 수 있습니다! 적들은 당신이 눈치 채기도 전에 한 그루의 나무가 되어 쑥쑥 자랄걸요?!\"", "_t")
 t("summon a treant (5 turn cooldown)", "나무 정령을 소환합니다 (재사용 대기시간 5 턴)", "_t")
 t("You cannot summon; you are suppressed!", "방해를 받고 있어 사용할 수 없다!", "logPlayer")
 t("Not enough space to invoke!", "불러내기 위한 공간이 부족하다!", "logPlayer")
@@ -1721,7 +1721,7 @@ There were ...side effects.]], [[고전 물리학의 벽을 넘기 위해, 몇�
 부작용이 좀... 있었습니다.]], "_t")
 t("Attack speed increases with paradox, up to 250% at 1000 paradox.", "공격 속도가 괴리에 비례하여 증가합니다. 괴리 수치가 1000일 때 250%가 됩니다.", "_t")
 t("increase paradox by a random amount", "괴리가 무작위한 수치로 증가합니다", "_t")
-t("increase paradox by a drastic amount with a chance to do an anomaly (%d%% chance). If anomaly triggers, halve paradox.", "괴리 수치를 극적으로 상승시키지만 %d%% 확률로 이상현상이 일어납니다. 이상 현상이 일어난 경우, 괴리 수치가 절반이 됩니다.", "tformat")
+t("increase paradox by a drastic amount with a chance to do an anomaly (%d%% chance). If anomaly triggers, halve paradox.", "괴리 수치를 극적으로 상승시키지만 %d%% 확률로 이상 현상이 일어납니다. 이상 현상이 일어난 경우, 괴리 수치가 절반이 됩니다.", "tformat")
 t("Heartrend", "심장파열", "entity name")
 t([[There is an attached note.
  
@@ -1739,24 +1739,24 @@ t("fiery steamsaw", "맹렬한 증기톱", "_t")
 t([[Grushgore the Destroyer was absolutely enthralled when he discovered steamsaws. He immediately kidnapped several tinkerers and forced them to create this for him.
 His naming skills have not improved.]], [[파괴자 그루쉬고어는 증기톱을 발견하고 그것에 완전히 매료되었습니다. 그루쉬고어는 그 즉시 발명가들을 몇 명 납치해 자신을 위한 증기톱을 만들라고 강요했습니다.
 이름 짓는 능력은 여전히 발전하지 않았습니다.]], "_t")
-t("deal a melee attack against all other enemies in a circle around you", "공격 시 인접한 적들을 모두 공격합니다", "_t")
+t("deal a melee attack against all other enemies in a circle around you", "공격 시 착용자에 인접한 적들을 모두 공격합니다", "_t")
 t("Galen's Flowing Robe", "갈렌의 흩날리는 로브", "entity name")
 t("ample robe", "부푼 로브", "_t")
-t("This robe was worn by the Technomancer Galen, infused with technomancy enchantments it is said to react to techno-spells!", "마도공학자 갈렌이 입던 로브입니다. 마도공학적으로 부여가 되어, 마도공학 주문에 반응한다고 합니다!", "_t")
+t("This robe was worn by the Technomancer Galen, infused with technomancy enchantments it is said to react to techno-spells!", "마도공학자 갈렌이 입던 로브입니다. 마도공학을 통해 몇 가지 주문이 부여되어 있어, 마도공학 주문에 반응한다고 합니다!", "_t")
 t([[20% chance when casting a technomancy spell (or 10% chance when casting a normal spell) to power-up the internal defense circuits of the robe.
 The circuit will do one of:
 #AQUAMARINE#if more than one foe is in melee range#LAST#: teleport away all foes
 #AQUAMARINE#if below 50% life#LAST#: increase all resistances by 20% for 5 turns
 #AQUAMARINE#if below 20 steam#LAST#: supercharge the arcane dynamo to produce 4 more steam per 10 mana spent for 5 turns
 #AQUAMARINE#otherwise#LAST#: reset the cooldown of the spell with the highest remaining cooldown
-]], [[마도공학 주문을 시전할 때 20% 확률로 (또는 일반기술을 시전할 때 10% 확률로) 로브 내부의 방어 회로를 강화합니다.
-회로는 다음과 같은 효과를 발생시킵니다:
+]], [[마도공학 주문을 시전할 때 20% 확률로 (또는 평범한 주문을 시전할 때 10% 확률로) 로브 내부의 방어 회로들을 동작시킵니다.
+회로는 다음과 같은 효과들 중 한 가지를 일으킵니다:
 #AQUAMARINE#하나 이상의 적이 인접한 경우#LAST#: 모든 적을 멀리 순간이동시킵니다.
 #AQUAMARINE#생명력이 50% 이하일 경우#LAST#: 모든 저항이 5 턴 동안 20% 증가합니다.
-#AQUAMARINE#증기가 20 이하일 경우#LAST#: 비전 발전기를 과부화시켜 5 턴 동안 마나 10 소모당 증기 생성량을 4 증가시킵니다.
-#AQUAMARINE#이외의 경우#LAST#: 가장 긴 재사용 대기시간을 가진 주문 하나의 대기시간을 초기화합니다.
+#AQUAMARINE#증기가 20 이하일 경우#LAST#: 비전 발전기를 과부하시켜 5 턴 동안 마나 10 소모 당 증기 생성량을 4 증가시킵니다.
+#AQUAMARINE#그 외의 경우#LAST#: 재사용 대기 상태인 주문들 중 대기시간이 가장 긴 주문 하나를 즉시 사용 가능하게 만듭니다.
 ]], "_t")
-t("#PURPLE#%s activates and teleports away all nearby creatures!", "#PURPLE#%s 발동해 근처의 적들을 순간이동 시켰다!", "logSeen", nil, {"가"})
+t("#PURPLE#%s activates and teleports away all nearby creatures!", "#PURPLE#%s 발동해 근처의 적들을 순간이동시켰다!", "logSeen", nil, {"가"})
 t("#PURPLE#%s activates and increases %s's resistances!", "#PURPLE#%s 발동해 %s의 저항을 증가시킨다!", "logSeen", nil, {"가"})
 t("#PURPLE#%s activates and increases %s's arcane dynamo power!", "#PURPLE#%s 발동해 %s의 비전 발전기를 강화했다!", "logSeen", nil, {"가"})
 t("#PURPLE#%s activates and resets %s's %s cooldown!", "#PURPLE#%s 발동해 %s의 %s 재사용 대기시간을 초기화했다!", "logSeen", nil, {"가"})
@@ -1778,7 +1778,7 @@ t("How do these even work?", "이건 또 어떻게 작동하는 거죠?", "_t")
 t("see everything. EVERYTHING. For 5 turns, anyway", "모든 걸 봅니다. '모든 걸'요. 아무튼 5 턴 동안 지속됩니다", "_t")
 t("Laser Powered Giant Smasher", "레이저 작동식 거인 파괴자", "entity name")
 t("radiant hammer", "광휘의 망치", "_t")
-t("The Laser Powered Giant Smasher, nicknamed the Gloryhammer. You can feel it vibrating with untold power in your hands.", "레이저 작동식 거인 파괴자, 별명 글로리해머. 손에 쥐자 진동하며, 형용할 수 없는 강력한 힘을 느낄 수 있습니다.", "_t")
+t("The Laser Powered Giant Smasher, nicknamed the Gloryhammer. You can feel it vibrating with untold power in your hands.", "레이저 작동식 거인 파괴자, 일명 글로리해머. 손에 쥐자 진동하며, 형용할 수 없는 강력한 힘을 느낄 수 있습니다.", "_t")
 t("#PURPLE#You feel the power of the Gloryhammer course through you! It has become fully empowered!", "#PURPLE#글로리해머의 힘이 몸을 타고 흐릅니다! 완전히 강화되었습니다!", "logPlayer")
 -- new text
 --[==[
@@ -2169,7 +2169,7 @@ t("If anyone finds this, tell the Jarsovi brothers their father lov", "누가 �
 t("Too many of them.  Couldn't pull more Atmos back in, wasn't safe, couldn't tell them from the others.  Hope we've got enough fuel to get us to the surface.", "너무 많아. 아트모스 사람들을 더 데리고 나올 수도 없었어, 안전하지 않았어, 놈들이랑 구분이 되지 않았어. 연료가 지상까지 갈 수 있을 만큼 충분하기를.", "_t")
 t("What have we done...  why didn't I stop it?", "우리가 무슨 짓을 한 거지...  난 왜 그걸 보고만 있었던 거야?", "_t")
 t("nothing living should have that many", "어떻게 저런 게 그렇게 많을 수가", "_t")
-t("so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "그게 저것들처럼 생겼다는 거지. 저것들의 모습이. 이제서야 그들의 묘사가 대부분 파괴된 이유를 알겠다", "_t")
+t("so that's what it looks like.  what THEY look like.  now I see why so many depictions were destroyed", "그러니까 저것들처럼 생겼다는 거지. 그들의 모습이. 이제서야 그들을 묘사한 것들이 대부분 파괴된 이유를 알겠다", "_t")
 -- new text
 --[==[
 t("G.E.M", "G.E.M", "newLore category")
@@ -2323,7 +2323,7 @@ PS: If any mention of this is made to your superiors, I'll make sure they also k
 
 -가르사매
 
-추신: 만약에 네 상사들이 이 이야기에 대해 알게 된다면, 그 상사들은 네가 아트모스산 압생트들을 밀수해다가 여기 숨겨 놓았다는 것도 알게 될 거다.]], "_t")
+추신: 만약에 네 상사들이 이 이야기에 대해 알게 된다면, 그 상사들은 네가 아트모스산 압생트를 밀수해다가 여기 숨겨 놓았다는 것도 알게 될 거다.]], "_t")
 t("internment camp correspondence (4)", "수용소 서신 (4)", "_t")
 t([[#{italic}#To: Guard Captain Galsamae
 From: Administrator Quellop#{normal}#
@@ -2646,9 +2646,9 @@ We will miss their company, their ancient wisdom, and their cautious kindness.  
 
 우린 아트모스 사람들에게 이 이야기를 전했고, 그러자 그들은 그냥 설득을 해 보라고 말했다. 외적에게 공격을 받아 본 적이 없는 게 확실했다!  그들에게선 전혀 도움을 받지 못했다... 심지어 그들이 우리의 유일한 희망이 되었을 때 조차도.  그 대신, 위대한 설계자 크룩이 자신이 직접 만들어낸 설계도들을 보여 주었다. 그동안 아트모스 사람들도 보게 될까 봐 두려워 차마 보여줄 수 없었던 것들이었는데, 바로 편리한 증기 장치들을 끔찍하리만치 효과적인 무기들로 바꾸는 방법들이었다.  거대한 벌목용 회전톱을 무기로 쓸 수 있게 해 주는 장비에, 아트모스 사람들처럼 파이프나 호스 없이 기계에 동력을 공급할 수 있게 해 주는 휴대용 증기 발생기, 못총의 안전장치를 제거하고 총열을 교체하여 투석구의 탄환을 엄청난 속도로 쏘아낼 수 있도록 만드는 방법에, 아트모스 사람들에게서 받은 보석 도금 장치를 거대화해서 수많은 적들을 단번에 구워 죽일 수 있도록 하는 등...
 
-다른 긍지들의 군대가 도착했을 땐 우린 만반의 준비를 마친 상태였고, 우린 그들이 생전 처음 보는 무기를 들고 싸웠다. 그들이 치료법을 모르는 상처를 입히고, 그들로서는 이해할 수가 없는 힘을 휘두르며, 홀로 맞서 싸웠다.  적들의 갑옷을 가르고 사지를 잘라내는 톱날의 시끄러운 소음, 거대 갈고리에 걸려 땅으로 끌어내려진 고르뱃의 용 기수들이 지르는 비명, 번개와 증기 분출에 맞아 안쪽까지 구워지는 오크 살점의 냄새, 그리고 전장을 시체 밭으로 만드는 증기총 소리 - 아트모스 사람들과 다른 긍지의 이들에겐 지금까지도 머릿속에서 떠나지 않는 악몽과도 같겠지만, 우리에겐 승리와 안전을 상징하는 달콤한 소리이고, 광경이고, 냄새였다.  우린 승리했고, 사상자는 손에 꼽을 정도였다.  크룩 긍지는 그 누구에게도 굴복하지 않을 것이다.
+다른 긍지들의 군대가 도착했을 땐 우린 만반의 준비를 마친 상태였고, 우린 그들이 생전 처음 보는 무기를 들고 싸웠다. 그들이 치료법을 모르는 상처를 입히고, 그들로서는 이해할 수가 없는 힘을 휘두르며, 홀로 맞서 싸웠다.  적들의 갑옷을 가르고 사지를 잘라내는 톱날의 시끄러운 소음, 거대 갈고리에 걸려 땅으로 끌어내려진 고르뱃의 용 기수들이 지르는 비명, 번개와 증기에 맞아 안쪽까지 구워지는 오크 살점의 냄새, 그리고 전장을 시체 밭으로 만드는 증기총 소리 - 아트모스 사람들과 다른 긍지의 이들에겐 지금까지도 머릿속에서 떠나지 않는 악몽과도 같겠지만, 우리에겐 승리와 안전을 상징하는 달콤한 소리였고, 광경이었고, 냄새였다.  우린 승리했고, 사상자는 손에 꼽을 정도였다.  크룩 긍지는 그 누구에게도 굴복하지 않을 것이다.
 
-하지만 아트모스의 사람들은, 우리가 처해 있었던 끔찍한 상황을 이해하지 못했다.  그자들은 우리가 마주했던 위협에 대해 이해하지 못했고, 사실 우리 긍지의 위대한 설계자가 모두 다 이야기했더라도, 그걸 들어주기나 했을지도 의문스럽다.  그들이 본 건 그저, 자신들의 창조의 도구가 파괴 무기로 사용되었다는 것과, 자신들의 아름다운 발명품들이 뭔가 끔찍한 것을 위해 사용되었다는 것, 그리고 자신들의 사랑스럽고 영리한 "아이들" 이 이제까지 봤던 것보다 수백 배는 더한, 피비린내나는 대학살을 일으켰다는 것. 오직 그것뿐이었다.  그들은 우릴 맹렬하게 비난했고, 우리와 어울리기 시작했던 자들은 곧바로 산으로 돌아갔다.  우린 이제 그들의 기술을 사용하는 것은 물론이고, 아마 그 산 근처에 사는 것도 환영받지 못할 것이다.
+하지만 아트모스의 사람들은, 우리가 처해 있었던 끔찍한 상황을 이해하지 못했다.  그자들은 우리가 마주했던 위협에 대해 이해하지 못했고, 사실 우리 긍지의 위대한 설계자가 모두 다 이야기했더라도 그걸 들어주기나 했을지도 의문스럽다.  그들이 본 건 그저, 자신들의 창조의 도구가 파괴 무기로 사용되었다는 것과 자신들의 아름다운 발명품들이 뭔가 끔찍한 것을 위해 사용되었다는 것, 그리고 자신들의 사랑스럽고 영리한 "아이들" 이 이제까지 봤던 것보다 수백 배는 더한, 피비린내나는 대학살을 일으켰다는 것. 오직 그것뿐이었다.  그들은 우릴 맹렬하게 비난했고, 우리와 어울리기 시작했던 자들은 곧바로 산으로 돌아갔다.  우린 이제 그들의 기술을 사용하는 것은 물론이고, 아마 그 산 근처에 사는 것도 환영받지 못할 것이다.
 
 그들이 그리울 것이다. 그들이 가진 고대의 지혜도, 조심스러운 친절도.  그들이 보여주었던 어처구니없는 순진함과 거만하기까지 한 독선은 빼고.]], "_t")
 
@@ -3034,7 +3034,7 @@ Of course, a character like that can't simply be thrown away.  The story may be 
 <? if not Lore.pocket_time_winner.sacrifice then ?>
 그러고 나선?  전장을 휘어잡는 자는, 전투에서 승리하고 나면 딱히 할 일이 없다.  <?=Lore.pocket_time_winner.HeShe?>는 더 강한 적들을 찾아 나설 수도 있겠지만, 결국 <?=Lore.pocket_time_winner.heshe?>가 찾아내게 되는 건 굳이 상대할 가치도 없는 놈이거나, 에이알의 시민들이나 좀 피해를 볼 만한 수준일 것이다. 그런 것들은 이야기에 아무런 도움이 되지 않는다.  에이돌론이 <?=Lore.pocket_time_winner.himher?>를 완전히 박살낼 수 있을 정도로 강한 적을 내려줄 수도 있겠지만, 뭔 놈의 결말이 그따위인가?  그래서 에이돌론은 그렇게 하는 대신에, 주인공의 역할이 끝난 뒤에는 <?=Lore.pocket_time_winner.heshe?>가 마음대로 살게 놔 두기로 했다...  무한의 던전으로 내려가서 피할 수 없는 파멸을 맞이하든지, 아타마쏜이나 리나니일같은 말도 안 되는 적들을 쓰러뜨리려 시도하든지, 아니면 그냥 은퇴해서 남은 인생을 쉐르'툴 요새의 주인으로 보내든지, 아무튼 <?=Lore.pocket_time_winner.heshe?>가 선택한 대로 살도록 내버려 두었다.  어떻게 되든 간에, 이야기는 끝이 났다. <?=Lore.pocket_time_winner.name?>의 여생에 뭔가 더 다룰 여지 같은 건 없었다.<? end ?>
 
-물론, 그런 등장인물을 그냥 내버릴 수는 없다.  이야기는 끝이 났지만, 그 이야기는 다시 이야기되고, 또다시, 또다시, 계속해서 이야기될 수는 있다. 그리고 그 이야기를 들을 때마다 사람들은 제각기 다른 인물상을 상상할 테니, 그 이야기를 듣는 사람들의 수만큼 수많은 마즈'에이알의 영웅들이 생겨나게 되는 것이다.  심지어 "작가" 자신도 마즈'에이알의 영웅을 위한 상황을 더 많이 떠올려내고, 항상 궁금해한다 - "이 최고의 전사에게 딱 알맞은 적수를 찾게 되면 어떻게 할까?  내가 <?=Lore.pocket_time_winner.himher?>에게 <?=Lore.pocket_time_winner.heshe?>가 싸우고 싶어서 안달이 날 만한 전투를, <?=Lore.pocket_time_winner.heshe?>가 그렇게나 간절히 바라던 도전이라는 보상을 아직 안 내려주지 않았던가?  그런 결투라면 충분히 써내려갈 가치가 있지 않을까?"  그리하여, 그것은 <?=Lore.pocket_time_winner.name?>에게 약속을 하였다.  자신이 <?=Lore.pocket_time_winner.himher?>를 상대할 만한 가치가 있는 자를 찾아내거나, 만들어내게 된다면, <?=Lore.pocket_time_winner.himher?>를 떠올리겠노라고.
+물론, 그런 등장인물을 그냥 내버릴 수는 없다.  이야기는 끝이 났지만, 그 이야기는 다시 이야기되고, 또다시, 또다시, 계속해서 이야기될 수는 있다. 그리고 그 이야기를 들을 때마다 사람들은 제각기 다른 인물상을 상상할 테니, 그 이야기를 듣는 사람들의 수만큼 수많은 마즈'에이알의 영웅들이 생겨나게 되는 것이다.  심지어 "작가" 자신도 마즈'에이알의 영웅을 위한 상황을 더 많이 떠올려내고, 항상 궁금해한다 - "이 최고의 전사에게 딱 알맞은 적수를 찾게 되면 어떻게 할까?  내가 <?=Lore.pocket_time_winner.himher?>에게 싸우고 싶어서 안달이 날 만한 전투를, <?=Lore.pocket_time_winner.heshe?>가 그렇게나 간절히 바라던 도전이라는 보상을 아직 안 내려주지 않았던가?  그런 결투라면 충분히 써내려갈 가치가 있지 않을까?"  그리하여, 그것은 <?=Lore.pocket_time_winner.name?>에게 약속을 하였다.  자신이 <?=Lore.pocket_time_winner.himher?>를 상대할 만한 가치가 있는 자를 찾아내거나, 만들어내게 된다면, <?=Lore.pocket_time_winner.himher?>를 떠올리겠노라고.
 
 [b]<?=player.name?>[/b], 너 또한 <?=Lore.pocket_time_winner.heshe?>만큼이나 호적수와의 싸움을, 그것으로부터 느낄 긴장감과 전율을 갈구하고 있다.  내가 그 기회를 지금 살아있는 너에게, 그리고 <?=Lore.pocket_time_winner.hisher?>에게... 전설 속의 "서쪽에서 온 재앙" 에게 내려주마. 내가 너희에게 바라는 건 오직 하나뿐이다. 후에 에이알의 사람들이 노래할 만한 훌륭한 전투를 내게 보여다오.]], "_t")
 
@@ -3443,7 +3443,7 @@ Now I see where kindness and mercy get me.]], [[난 널 감싸 주었다. 난 �
 t("hope", "희망", "_t")
 t([[You took everything from me.  You took the dawn of a beautiful future, you took the fires of hope and happiness, you took the kind, guiding light of my love Aeryn and put out the glow of the life we deserved to have together.  The light is gone...  but you have given me darkness in return.  And you're about to know that darkness very, very well.  Embracing it fully rather than shutting it out...  It's so easy to use these powers now.  I've felt them before, but I had no hate to use as their inspiration, no true misery to pour into the minds deserving, no empty void inside me to drain your hopes and confidence into.  You've fixed that for me.
 
-My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], [[넌 내게서 모든 것을 앗아갔다.  아름다운 미래, 희망과 행복의 불꽃, 그리고 날 이끌던 다정한 빛, 내 사랑 아에린. 넌 우리의 앞길을 비추던 빛을 꺼뜨렸다.  빛은 사라져 버렸다...  그리고 넌 그 대신에 내게 어둠을 선사했다. 이제 넌 어둠이 무엇인지 아주, 아주 잘 알게 될 거다.  난 어둠을 배척하는 대신에, 받아들였고... 이제 그 힘을 너무나도 손쉽게 사용할 수 있다.  이전에도 어둠을 느꼈었지만, 내겐 그 힘을 이끌어낼 증오가 없었지. 갈망하는 정신을 메울 진정한 슬픔도 없었고, 너의 희망과 자신감을 빼앗을, 공허한 가슴도 없었다.  네 덕분에, 이젠 아니다.
+My heart still beats, but you have taken my life nonetheless.  You'll understand shortly.]], [[넌 내게서 모든 것을 앗아갔다.  아름다운 미래, 희망과 행복의 불꽃, 그리고 날 이끌던 다정한 빛, 내 사랑 아에린. 넌 우리의 앞길을 비추던 빛을 꺼뜨렸다.  빛은 사라져 버렸다...  그리고 넌 그 대신에 내게 어둠을 선사했다. 이제 넌 어둠이 무엇인지 아주, 아주 잘 알게 될 거다.  난 어둠을 배척하는 대신에 받아들였고... 이제 그 힘을 너무나도 손쉽게 사용할 수 있다.  이전에도 어둠을 느꼈었지만, 내겐 그 힘을 이끌어낼 증오가 없었지. 갈망하는 정신을 메울 진정한 슬픔도 없었고, 너의 희망과 자신감을 빼앗을, 공허한 가슴도 없었다.  네 덕분에, 이젠 아니다.
 
 내 심장은 여전히 뛰고 있지만, 그래도 넌 날 죽인 것이다.  그게 무슨 뜻인지 곧 알게 될 거다.]], "_t")
 t("suffering", "고통", "_t")
@@ -3551,7 +3551,7 @@ Would you expect anything less from the physical incarnations of spiteful determ
 
 에이알에 폭풍이 한 번 불어닥치면, 갈등이 한 번 시작되면...  그 거대한 전쟁으로부터 비롯된 증오와 악의의 파도가 이 우주를 혼란스럽게 만들어, 우리의 조각들이 다시 합쳐지고 우리는 부활할 수 있을 것이다.  아니면, 신들이 전부 죽거나 미치게 되고, 그들의 분노가 잊혀지거나 무로 돌아가, 저주를 더 지속시킬 원동력이 사라지게 되면 똑같은 결과로 이어질 수도 있다.  어쩌면 저주는 이미 죽어가고 있고, 쉐르'툴의 행성 보호막이 그걸 연명시키고 있는 것일지도 모른다 - 그 보호막도 차츰 무너지고 있고, 금이 가고 있지. 그리고 말'록인들이 적극적으로 그 금을 벌리려고 하고 있다.
 
-모두 실패하더라도, 우리의 문화는 사방에 퍼져 있다.  그것들을 전부 없애지 않는 한, 우리 역시 완전히 사라지지는 않는다.  운명은 우리가 제거되어야 할 종양이라는 결정을 내렸지. 우리가 종양이라면, 우리는 사방으로 전이했다.  이제 운명은 우리가 양성인지, 말기 악성인지 결정해야 할 거다.  
+모두 실패하더라도, 우리의 문화는 사방에 퍼져 있다.  그것들을 전부 없애지 않는 한, 우리 역시 완전히 사라지지는 않는다.  운명은 우리가 제거되어야 할 종양이라는 결정을 내렸지. 우리가 종양이라면, 종양답게 사방으로 전이해 주었다.  이제 운명은 우리가 양성인지, 말기 악성인지 결정해야 할 거다.  
 
 악의를 품은 결단이 물리적으로 실체화된 존재들에게 뭘 더 기대했나?
 ]], "_t")

@@ -21,7 +21,7 @@ t("Myths of an age past", "옛 시대의 신화", "achievement name")
 t("Learned all there is to learn about the Gods and the Godslayers.", "신들과 신살자들에 대한 것을 모두 알았다.", "_t")
 t("Dethroned", "이제 네 자리 아니야", "achievement name")
 t("Vanquished the Glass Golem without letting it use the glass throne to heal.", "유리 골렘이 왕좌를 쓰지 못하게 하고 물리쳤다.", "_t")
-t("A View From The Gallery", "회랑에서 본 것", "achievement name")
+t("A View From The Gallery", "눈앞에서 본 것", "achievement name")
 t("Briefly lived as a lowly halfling during the time of the Sher'tuls.", "쉐르'툴의 시대에 살던 하찮은 하플링의 인생을 체험했다.", "_t")
 t("Entropy's End", "엔트로피의 종말", "achievement name")
 t("Destroyed the Hypostasis of Entropy.", "엔트로피의 위격을 파괴했다.", "_t")
@@ -232,7 +232,7 @@ User's biological signature matches expected species, but does not match any ide
 User added to database. I am now your personal assistant and will help you survive until further assistance can arrive. Enabling protective electromagnetic barrier and real time health monitoring.]], [[#YELLOW_GREEN##{bold}#장치가 다시 삑삑거리면서 말합니다.#{normal}##LAST#
 사용자의 생체 서명은 예상 종족과 일치하지만, 데이터베이스 내의 그 어떤 식별 기록과도 일치하지 않음. 자세한 분석을 위해 정보 전송.
 
-데이터베이스에 사용자 추가됨. 이제 난 당신의 개인 보좌관임. 그리고 더 많은 지원이 도착할 때까지 살아남도록 도와주겠음. 전자기적 보호막 활성화. 실시간 생체 모니터링 개시.]], "_t")
+데이터베이스에 사용자 추가됨. 이제 난 당신의 개인 보좌관임. 더 많은 지원이 도착할 때까지 살아남도록 도와주겠음. 전자기적 보호막 활성화. 실시간 생체 모니터링 개시.]], "_t")
 t("Expected species?", "예상 종족이라고?", "_t")
 t([[#YELLOW_GREEN##{bold}#The device beeps again and speaks.#{normal}##LAST#
 User's biological signature indicates dangerous degeneration of genome due to unknown factors. Sending information for further analysis.]], [[#YELLOW_GREEN##{bold}#장치가 다시 삑삑거리면서 말합니다.#{normal}##LAST#
@@ -734,16 +734,16 @@ t("The importance of magic (+5 magic)", "마법의 중요성 (마법 +5)", "_t")
 t("The importance of wisdom (+5 willpower)", "지혜의 중요성 (의지 +5)", "_t")
 t("The Day It Came", "그것이 온 날", "_t")
 t("This chapter has taught your some important lesson. What did you learn?", "이 장은 당신에게 중요한 교훈을 가르칠 것입니다. 배우시겠습니까?", "_t")
-t("Forbidden Tome: \"A View From The Gallery\"", "금단의 고서: \"회랑에서 본 것\"", "entity name")
+t("Forbidden Tome: \"A View From The Gallery\"", "금단의 고서: \"눈앞에서 본 것\"", "entity name")
 t("The story of Grung, a halfling separated from his tribe that is just trying to survive while a terrible war, very long ago, rages on.", "부족에서 떨어져 나와, 아주 오래 전에 벌어졌던 끔찍한 전쟁에서 살아남으려 노력하는 하플링 그룽의 이야기입니다.", "_t")
 t("It's a cold night and you did not find anything to eat during the day. Your fur pelt doesn't do much to keep the cold out either. You're about to go out to hunt, but everyone else has warned you that you must not do that. The night is dangerous and there appears to be strange lights in the sky. An ill omen, to say the least. Food has been hard to come by lately, so everyone is just as famished as you are.", "오늘 밤은 춥고 온종일 먹을 걸 하나도 찾지 못했습니다. 당신의 피부만으로는 이 한기를 버텨낼 수도 없습니다. 지금 사냥을 나가려고 하지만, 다른 이들 모두가 그러면 안 된다고 경고했었습니다. 밤은 위험하고 하늘에는 이상한 빛이 떠다닙니다. 아무리 봐도 좋은 징조는 아니지요. 최근에는 먹을거리들을 구하기가 어려워져서, 모두 다 당신처럼 배가 고픕니다.", "_t")
-t("Poor Grung. All he wanted was food, but what he found instead was death.", "가엾은 그룽. 그가 원한건 단지 먹을거리였는데, 결국엔 죽어버렸습니다.", "_t")
+t("Poor Grung. All he wanted was food, but what he found instead was death.", "가엾은 그룽. 먹을 게 필요했을 뿐인데, 결국엔 죽어버렸습니다.", "_t")
 t("Grung", "그룽", "_t")
 t("The importance of evading blows (+10 defense)", "회피의 중요성 (회피도 +10)", "_t")
 t("The importance of speed (+10% movement speed)", "속도의 중요성 (이동속도 +10%)", "_t")
 t("The importance of reflexes (+5 dexterity)", "반사신경의 중요성 (민첩 +5)", "_t")
 t("The importance of a honed mind (+5 cunning)", "연마한 마음의 중요성 (교활 +5)", "_t")
-t("A View From The Gallery", "회랑에서 본 것", "_t")
+t("A View From The Gallery", "눈앞에서 본 것", "_t")
 t("This chapter has taught your some survival tips. What did you learn?", "이 장은 당신에게 중요한 생존 전략을 가르칠 것입니다. 배우시겠습니까?", "_t")
 t("Forbidden Tome: \"The Illusory Castle\"", "금단의 고서: \"환상의 성\"", "entity name")
 t("The tome in front of you seems to be as much made of dreamstuff as it is from leather and parchment. Crystalline shards dance underneath its surface, giving you an impression of a world altering itself to the tune of some indiscernable logic.", "이 고서는 꿈에서나 볼 수 있을 것 같은 가죽과 양피지로 이루어져 있습니다. 수정 조각들이 책의 안쪽에서 춤을 추고 있어, 알 수 없는 규칙을 따라 변화하고 있는 다른 세계를 보고 있는 것 같습니다.", "_t")
@@ -755,20 +755,20 @@ Judging by the way the walls constantly shift and change themselves, you can be 
 t("misc", "도구", "entity type")
 t("gross", "역겨움", "entity subtype")
 t("Cut Drem Arm", "잘린 드렘 팔", "entity name")
-t("bloody arm", "피묻은 팔", "_t")
+t("bloody arm", "피 묻은 팔", "_t")
 t("The arm appears desiccated, but you swear that you see something wriggling underneath its ashen skin.", "이 팔은 말라 비틀어진 것 같지만, 맹세하건대, 이 잿빛 피부 밑에서 뭔가 꿈틀거린 것을 봤습니다.", "_t")
-t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "가끔 팔이 반경 5 칸 내의 적을 향해 길게 늘어지고, 촉수로 휘감이 착용자에게로 끌어당깁니다. 이 행동은 착용자의 의지대로 할 수가 없으며, 팔이 멋대로 하는 것입니다.", "_t")
+t("The arm can sometimes reach out to a foe in radius 5 and grab it to you with a tentacle pull. This action is not your own choice, it has a mind of its own.", "가끔 팔이 반경 5 칸 내의 적을 향해 길게 늘어지고, 촉수로 휘감이 착용자에게로 끌어당깁니다. 이건 착용자의 의지와는 관계없이, 팔이 멋대로 하는 것입니다.", "_t")
 t("#DARK_SEA_GREEN#The %s reaches for %s with a tentacle!", "#DARK_SEA_GREEN#%s %s 촉수 팔로 조였다!", "logSeen", nil, {"는","을"})
 t("Monolith Armour", "거석의 갑옷", "entity name")
 t("black stone armour", "흑석 갑옷", "_t")
 t("This 'armour' seems to mostly consist of chunks of a rune etched stone somehow fused with a highly flexible black mesh. The titanic pieces of stone would undoubtedly deflect any blow thrown at you, but you would need obscene strength just to move while wearing this. The glyphs and runes carved into the chunks sometimes light up of their own accord, letting out small bursts of magic.", "이 '갑옷'은 룬이 새겨진 바위와 높은 유연성을 가진 검은 그물이 어떻게 융합되어 만들어진 것 같습니다. 거석은 의심의 여지 없이 당신에게 가해지는 공격을 막아낼 테지만, 착용하고 움직이려면 말도 안 되는 힘이 필요합니다. 거석에 새겨진 문양과 룬들은 때때로 저절로 빛을 내, 조그만 마법의 폭발을 일으킵니다.", "_t")
 t([[15% chance when hit to shatter reality around you creating rifts to help you (free cast of a Reality Fracture talent, level 4). This effect has a 30 turns cooldown.
-#PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], [[피격 시 15% 확률로 주변의 현실 구조를 찢고, 균열을 만들어 적을 공격합니다. (현실 파열 기술을 턴과 원천력 소모 없이 사용합니다. 기술 레벨은 4 입니다) 이 효과는 30 턴의 재사용 대기시간이 존재합니다.
+#PURPLE#If your constitution drops below requirement while using it, it is so heavy you will automatically unequip it. Beware.#LAST#]], [[피격 시 15% 확률로 주변의 현실 구조를 찢고, 균열을 만들어 적을 공격합니다. (4 레벨 현실 파열 기술을 턴과 원천력 소모 없이 사용합니다) 이 효과는 30 턴의 재사용 대기시간이 존재합니다.
 #PURPLE#만약 착용자의 체격이 이 갑옷의 요구 조건 이하로 떨어진다면, 참을 수 없이 무거운 이 갑옷을 자동으로 장비 해제합니다. 조심하십시오.#LAST#]], "_t")
 t("#LIGHT_RED#Your %s is too heavy to carry with your punny constitution anymore. You remove it.", "#LIGHT_RED#%s 당신의 부족한 체격으로는 더 이상 장비할 수 없다. 당신은 갑옷을 벗었다.", "logPlayer", nil, {"는"})
 t("Fanged Collar", "송곳니 목줄", "entity name")
 t("a necklace with fangs", "이빨 달린 목걸이", "_t")
-t("This strange creature seems to melt around your neck, keeping its mouth open just wide enough so that its teeth do not touch you. You suspect that in the case your head somehow goes missing, the creature is going to make itself at home in your neck stump.", "이 기이한 생명체는 착용자에게 이빨이 닿지 않게끔, 그저 입을 연 채로 목에 융합한 것 같습니다. 착용자의 머리가 어떻게든 잘려나가면, 이 생명체가 목에 대신 자리잡고 새 둥지를 틀 것 같다는 꺼림칙한 생각이 듭니다.", "_t")
+t("This strange creature seems to melt around your neck, keeping its mouth open just wide enough so that its teeth do not touch you. You suspect that in the case your head somehow goes missing, the creature is going to make itself at home in your neck stump.", "이 기이한 생명체는 착용자에게 이빨이 닿지 않게끔, 그저 입을 연 채로 목에 융합한 것 같습니다. 착용자의 머리가 어떻게든 잘려나가면, 이 생명체가 목에 대신 자리잡고 새로 둥지를 틀 것 같다는 꺼림칙한 생각이 듭니다.", "_t")
 t("You have died, but that does not bother the collar at all...", "당신은 죽었다. 하지만 목줄에게는 아무 문제가 되지 않지...", "_t")
 t("Try to not die...", "죽지 마십시오...", "_t")
 t("Perseverance", "인내심", "entity name")
@@ -832,7 +832,7 @@ t("light sucking rod", "빛을 흡수하는 장대", "_t")
 t("This rod seems to make light die around it. You feel tired just looking at it.", "이 장대는 주변의 빛을 죽여버리는 것 같습니다. 보는 것만으로도 피곤해집니다.", "_t")
 t("temporarily cause the target to receive entropic backlash from any healing they receive for %d turns up to %d%% of the healing done. This effect scales with your Magic stat.", "일시적으로 적에게 엔트로피 반발을 일으켜, %d 턴 동안 대상이 받는 회복량의 최대 %d%% 만큼 피해를 입게 합니다. 이 효과는 마법 능력치에 비례하여 증가합니다.", "tformat")
 t("%s activates %s %s!", "%s %s의 %s 발동했다!", "logSeen", nil, {"는",[3]="을"})
-t("Seeds of the Black Tree", "검은 나무의 씨", "entity name")
+t("Seeds of the Black Tree", "검은 나무의 씨앗", "entity name")
 t("corrupt stone", "타락한 돌", "_t")
 t("This writhing mass of tentacles appears to have infested a mindstar, creating some bizarre fusion between natural and unnatural. The once clear gem now seems more like a shard of black obsidian with tentacles striking out from it like whips. You do not want to think of the implications of this horror being able to fuse with Nature itself.", "이 꿈틀대는 촉수 덩어리는 마석을 감염시켜, 자연물과 비자연물의 기묘한 융합을 이루고 있습니다. 한때 깨끗했던 보석은 이제 채찍 같은 촉수가 달린 검은 흑요석 조각에 더 가까워 보입니다. 이 공포체가 자연 그 자체와 융합할 수 있다고는 생각하고 싶지 않습니다.", "_t")
 t("15% chance to cast Tendrils Eruption level 3 on your target", "15% 확률로 기술 레벨 3 의 촉수 분출을 대상에게 시전합니다", "_t")
@@ -967,7 +967,7 @@ So, I know now. Even if this discovery never leaves this room, I can die content
 
 우린 방의 뒤편을 수색했고 거기에는 튜브가 아직도 많이 있었다. 놀랍게도 이 튜브들에는 완전한 육체들이 들어 있었다. 긴 수염을 가진 드워프가 튜브 안에 둥둥 떠 있었고, 그는 마치 꿈을 꾸는 듯 꿈틀거렸다. 좀 더 살펴보면서 이런 방식으로 잠든 드워프들을 많이 찾아내었다. 끔찍하게도 나아가면 나아갈수록 그 드워프들의 상태는 점점 더 기괴하게 변해갔다. 마침내 우리는 마지막 튜브까지 찾아냈고, 그 안에 있던 것은 얼굴 없는 드워프, 즉 드렘이었다. 
 
-이 알이 우리의 기원임이 틀림없다. 이 기계는 드워프를 만들어내기 위한 것이었다. 과정은 이해할 수가 없었지만, 그 결과물은 직접 보았다. 그러니까 우리 드렘은 이 기계가 고장 나서 만들어낸 기형이자 실패작인 것이다. 야생 드렘들은 알에서 만들어져 지하세계로 배출되고, 그곳에서 독자적으로 번식한다. 그리고 이 방과 관을 뒤덮은 검은 종양으로 미루어 보건대, 그 변형된 미숙아 괴물들은 기계가 고장난 채로 오랜 기간 방치된 결과일 것이다. 
+이 알이 우리의 기원임이 틀림없다. 이 기계는 드워프를 만들어내기 위한 것이었다. 과정은 이해할 수가 없었지만, 그 결과물은 직접 보았다. 그러니까 우리 드렘은 이 기계가 고장으로 만들어낸 기형이자 실패작인 것이다. 야생 드렘들은 알에서 만들어져 지하세계로 배출되고, 그곳에서 독자적으로 번식한다. 그리고 이 방과 관을 뒤덮은 검은 종양으로 미루어 보건대, 그 변형된 미숙아 괴물들은 기계가 고장난 채로 오랜 기간 방치된 결과일 것이다. 
 
 그러니까, 이제 모두 알았다. 내가 발견한 사실이 결코 이 방 밖으로 나가지 못한다 하더라도, 나는 만족하며 죽을 수 있다. 내가 망가진 기계의 산물일지라도, 그 순간을 볼 수 있어서 너무나도 행복하다. 누군가 이 쪽지를 찾아냈다면, 부디 내 동포 드렘들에게 가져다주길 바란다. 동포들도 진실을 알게 되면 분명 기뻐할 테니...]], "_t")
 t("strange picture", "기묘한 그림", "_t")
@@ -1092,7 +1092,7 @@ As the healer finished writing he handed the paper to me "The shalore and thalor
 
 고통받는 샬로레가 더 있다는 것을 알고 난 뒤, 대장은 나에게 다른 순찰대가 있다는 것을 알려주었다. 그들은 다른 정착지에 있던 피난민들을 중심 도시로 인도하려 했다고 한다. 난 샬로레들을 더 돕는 것에 딱히 관심이 있었던 것도 아니었고, 방금 치료했던 부상병들 말고도 다른 이들에게 내 주입물을 더 사용하는 건 그다지 내키지 않았다. 하지만 정찰병이 내 입장을 어느 정도 알아차리고는 나서서 거래를 주선해 주었다. 만약 그 순찰대가 가능한 한 많은 샬로레를 구하는 것을 도와준다면, 내가 찾는 답이 무엇인지 알아낼 수 있도록 돕겠다고 한 것이다. 
 
-나는 그 조건을 받아들였고, 이들과 여정을 함께 했다. 이틀간 나는 순찰대와 함께 최대한 사람들을 찾아보았다. 세 번째 날에 우리는 남쪽의 우거진 숲을 향해 출발했다. 우리가 숲의 경계를 헤쳐나가자 부자연스러운 희뿌연 연기가 멀리서 소용돌이치는 것이 보였다. 사람들은 저 연기 너머에 엘발라가 있다고 이야기했는데, 엘발라가 그들의 중심 도시 - 수도의 이름이라는 것을 그때 처음 알았다. 우리는 몇 분 동안 계속 앞으로 나아갔고, 작은 호수 근처에 도착했다. 그곳에서 갑자기 연기 속으로 터널이 하나 열렸고, 마치 안으로 들어오라고 하는 것 같았다.
+나는 그 조건을 받아들였고, 이들과 여정을 함께 했다. 이틀간 나는 순찰대와 함께 최대한 사람들을 찾아보았다. 세 번째 날에 우리는 남쪽의 우거진 숲을 향해 출발했다. 우리가 숲의 경계를 헤쳐나가자 부자연스러운 희뿌연 연기가 멀리서 소용돌이치는 것이 보였다. 사람들은 저 연기 너머에 엘발라가 있다고 이야기했는데, 엘발라가 그들의 중심 도시 - 수도의 이름이라는 것을 그때 처음 알았다. 우리는 몇 분 동안 계속 앞으로 나아갔고, 작은 호수 근처에 도착했다. 그곳에서 갑자기 연기 속으로 터널이 하나 뚫렸고, 마치 안으로 들어오라고 하는 것 같았다.
 
 터널의 안쪽은 끔찍할 정도로 어지러웠다. 새된 먼지와 바람 소리가 끔찍한 부조를 이루었다. 계속 앞으로 나아가면서, 어찌된 일인지 연기 속 깊은 곳에서 인간의 시체들도 본 것 같았다. 터널 너머 도시가 보이기 시작하자, 난 황량한 광경을 마주하게 되었다. 순찰대와 함께 거리를 걸으며 내가 볼 수 있었던 건, 다른 샬로레들의 얼굴에 띤 공허함 뿐이었다. 그들은 마치 희뿌연 안갯속을 이리저리 헤매는 듯했다. 지나가며 보이는 샬로레들 중 침착해 보이는 사람이 한 명도 없었다. 모두 묘하게 허둥지둥했다. 마치 소중한 무언가를 잃어버린 것 같았다. 
 
@@ -2217,7 +2217,7 @@ When the god slayer Branzir came for it, Ralkur came to know fear and fled. The 
 t("Researcher Dremnot's Demystification of the Gods: Chapter 5 - Gerlyk", "연구원 드렘낫의 신들에 대한 해체분석: 제5장 - 게를릭", "_t")
 t([[Gerlyk, according to some ancient myths, is the creator of humanity and interacted the most with them during those times. Its contact with humanity seems dubious, however, when other sources are consulted. It interacted with mortals on its own whims and did not seem to particularly favour any species according to these stories. It seemed to be a more curious god than others, as a handful of myths mention it making contact with mortals so it could learn more about how they lived. The myths surrounding Gerlyk are noticeably less numerous than those of other gods and there appears to be large time gaps between them, suggesting that Gerlyk simply did not interact with Eyalites for the most part. For this reason, it is seen to be a god who observed, but didn't interfere.
 
-During the Godhunt, there are no records indicating that any of the God Slayers slew Gerlyk or even found it. This suggests that the god hid somewhere even the Sher'tul could not find it.]], [[몇몇 고대 신화에 따르면, 게를릭은 인류의 창조자이며 그 시대에 그들과 가장 많이 교류했다고 전해진다. 그러나 다른 신화들과 비교할 때 그것과 인류가 접촉했다는 이야기는 다소 의심스럽다. 게를릭은 그저 변덕으로 필멸자들과 접촉했고, 이러한 이야기에 따르면 딱히 어떤 종족을 편애하는 것처럼 보이지는 않는다. 게를릭은 다른 신들보다 더 호기심이 많은 것처럼 보이는데, 몇 안 되는 신화에서 그것은 필멸자들이 어떻게 살아가는지 더 많이 알아보기 위해서 그들과 접촉했다고 언급되고 있기 때문이다. 게를릭을 둘러싼 신화는 다른 신들의 것에 비해 눈에 띄게 수가 적고, 그 사이에 시간적 간극이 크다. 이는 단순히 게를릭이 역사 속 대부분의 시기엔 에이알의 필멸자와 교류하지 않았음을 시사한다. 이 때문에 게를릭은 관찰은 했지만 간섭은 하지 않은 신으로 보인다. 
+During the Godhunt, there are no records indicating that any of the God Slayers slew Gerlyk or even found it. This suggests that the god hid somewhere even the Sher'tul could not find it.]], [[몇몇 고대 신화에 따르면, 게를릭은 인간족의 창조주이며 그 시대에 그들과 가장 많이 교류했다고 전해진다. 그러나 다른 신화들과 비교할 때 그것과 인간족이 접촉했다는 이야기는 다소 의심스럽다. 게를릭은 그저 변덕으로 필멸자들과 접촉했고, 이러한 이야기에 따르면 딱히 어떤 종족을 편애하는 것처럼 보이지는 않는다. 게를릭은 다른 신들보다 더 호기심이 많은 것처럼 보이는데, 몇 안 되는 신화에서 그것은 필멸자들이 어떻게 살아가는지 더 많이 알아보기 위해서 그들과 접촉했다고 언급되고 있기 때문이다. 게를릭을 둘러싼 신화는 다른 신들의 것에 비해 눈에 띄게 수가 적고, 그 사이에 시간적 간극이 크다. 이는 단순히 게를릭이 역사 속 대부분의 시기엔 에이알의 필멸자와 교류하지 않았음을 시사한다. 이 때문에 게를릭은 관찰은 했지만 간섭은 하지 않은 신으로 보인다. 
 
 신 사냥 시기의 기록들 중 어떤 신살자가 게를릭을 살해했다는 기록은 없으며, 심지어 발견했다는 기록도 없다. 이는 게를릭이 쉐르'툴조차 찾을 수 없는 어딘가에 숨었음을 암시한다.]], "_t")
 t("Researcher Dremnot's Demystification of the Gods: Chapter 8 - Quekorja", "연구원 드렘낫의 신들에 대한 해체분석: 제8장 - 쿠에코르자", "_t")
@@ -2599,14 +2599,14 @@ t([[I knew it. I'm not alone in here. While I was right that I'm the only living
 My treasure is stored somewhere in this castle, but I just don't care anymore. Escaping with my life will be treasure enough. When I reach the outside world again, maybe I'll drop the tome in a river and hope that no one else tries their luck with this place. I'm sure the spirits that haunt this place will rest easier knowing that there won't be any more victims.]], [[그럴 줄 알았다. 난 혼자가 아니었다. 살아 숨쉬는 게 나뿐이라는 말은 틀리지 않았지만, 이 성에는 수호자들과 하인들이 따로 있었다. 유리로 된 골렘들이 지금 나를 찾아 복도를 돌아다니고 있다. 내 요새는 더 이상 내 것이 아니고 이 벽들 안쪽에서도 더 이상 안전하지 않다. 이 책 속이든 바깥세상이든, 내가 진정으로 안전할 수 있는 곳은 찾아낼 수 없다는 걸 알고 있었다. 나는 그 골렘들이 어디서 왔는지 모른다. 어쩌면 성 자체가 나를 이 성에서 쫓아내려고 하는 것일 수도 있고, 내가 엉뚱한 방에 들어간 탓에 어떤 방어 체계를 작동시켜 버린 것일지도 모른다.
 
 보물을 이 성 어딘가에 모아 뒀지만, 그런 건 이제 어떻게 되든 상관없다. 살아남아서 탈출하기만 해도 충분하다. 바깥세상으로 다시 나가게 된다면, 난 이 고서를 강에다가 내던지고 그 누구도 이 성에 들어오지 않기를 바랄 것 같다. 이곳을 떠도는 혼령들도 더 이상 희생자가 나오지 않을 거라는 걸 알게 된다면 분명 좀 더 편하게 쉴 수 있겠지.]], "_t")
-t("Forbidden Tome: \"A View From The Gallery\"", "금단의 고서: \"회랑에서 본 것\"", "_t")
+t("Forbidden Tome: \"A View From The Gallery\"", "금단의 고서: \"눈앞에서 본 것\"", "_t")
 t("An illustrated tome!", "그림이 그려진 고서다!", "_t")
 t("Forbidden Tome: \"The Illusory Castle\"", "금단의 고서: \"환상의 성\"", "_t")
 
 ------------------------------------------------
 section "tome-cults/data/quests/grung.lua"
 
-t("A View From The Gallery", "회랑에서 본 것", "_t")
+t("A View From The Gallery", "눈앞에서 본 것", "_t")
 t([[You are Grung, a halfling from the Age of Haze. You must gather food or die but outside there is a terrible war being fought.
 A war between incomprehensible beings for incomprehensible reasons. All you can hope to do is gather food while avoiding to get crushed.]], [[당신은 아지랑이의 시대에 살던 하플링 그룽입니다. 먹을 것을 모으지 않으면 곧 죽을 지경이지만, 바깥에선 끔찍한 전쟁이 일어났습니다.
 당신의 이해를 넘어선 존재들이 이해할 수가 없는 이유로 일으킨 내전이지요. 당신은 그저 몸 성한 채로 먹을 것을 모아올 수 있기를 바랄 뿐입니다.]], "_t")
@@ -2672,7 +2672,7 @@ t([[You trigger an explosion of your chaos orbs on a target.
 t("Controlled Chaos", "혼돈 통제", "talent name")
 t([[You lean to alter chaotic forces to your advantage.
 		Your maximum negative insanity effect is reduced from 50%% to %d%%.
-		You may activate this talent to consume any Chaos Orbs you have, gaining %d insanity per orb.]], [[혼돈의 힘을 제어하여 유리하게 사용하는 법을 배웠습니다.
+		You may activate this talent to consume any Chaos Orbs you have, gaining %d insanity per orb.]], [[혼돈의 힘을 제어하여 유리하게 사용하는 법을 익혔습니다.
 		광기의 부정적인 효과가 최대 50%% 에서 %d%% 로 줄어듭니다.
 		또한 이 기술을 사용하여 혼돈의 보주를 모두 소모하고, 소모한 보주 하나 당 %d 의 광기를 획득할 수 있게 됩니다.]], "tformat")
 
@@ -2782,7 +2782,7 @@ t("Turn the insides of your body into a digesting weapon of pain!", "내장을 �
 t("disfigured face", "문드러진 얼굴", "talent type")
 t("Your face is the stuff of nightmares!", "당신의 얼굴이 그날 밤 꿈에 나오게 됩니다!", "_t")
 t("friend of the worm", "벌레의 친구", "talent type")
-t("Conjure your Worm that Walks friend!", "우호적인 걸어다니는 벌레떼를 생성합니다!", "_t")
+t("Conjure your Worm that Walks friend!", "우호적인 걸어다니는 벌레떼를 만들어냅니다!", "_t")
 t("nether", "황천", "talent type")
 t("Annihilate your foes with pure void energy.", "순수한 공허 에너지로 적들을 섬멸합니다.", "_t")
 t("madness", "광기", "talent type")
