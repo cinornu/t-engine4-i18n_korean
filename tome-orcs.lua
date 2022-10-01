@@ -1598,7 +1598,7 @@ t("This elegant gun is rumoured to have belonged to the infamous assassin wizard
 t("every third hit always crits.", "매 3 번째 공격은 무조건 치명타를 일으킵니다.", "_t")
 t("Cautery Sword", "소작절개검", "entity name")
 t("searing sword", "불타는 칼", "_t")
-t("This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "이 칼에는 불타는 핵이 장착되어 있어, 상처에 약간의 고통을 더해줍니다.", "_t")
+t("This sword is equipped with a heated core to add a bit of extra pain to the wounds.", "이 칼에는 불타는 핵이 장착되어 있어, 상처에 약간의 고통을 더해 줍니다.", "_t")
 t("inflict fire damage based on steampower", "증기력에 비례한 화염 피해를 가합니다", "_t")
 t("Stimulus", "자극제", "entity name")
 t("injector", "주사기", "entity subtype")
