@@ -538,7 +538,7 @@ section "tome-orcs/data/chats/weissi-machine.lua"
 
 t([[#LIGHT_GREEN#*Before you is an extremely old looking machine. It seems to be infused with some sort of psionic energy; impossible as this sounds.
 And it #{bold}#speaks#{normal}# to you!*#WHITE#
-Welcome @playername@. We have been waiting for you.]], [[#LIGHT_GREEN#*엄청나게 낡아 보이는 기계가 있습니다. 모종의 정신력, 또는 염동력 에너지가 깃들어 있는 모양입니다. 정말 말이 안 되는 소리긴 하지만요.
+Welcome @playername@. We have been waiting for you.]], [[#LIGHT_GREEN#*엄청나게 낡아 보이는 기계가 있습니다. 모종의 정신력, 또는 초능력 에너지가 깃들어 있는 모양입니다. 정말 말이 안 되는 소리긴 하지만요.
 그리고 이게 지금 당신에게 #{bold}#말을 걸었습니다!#{normal}#*#WHITE#
 환영한다, @playername@. 우린 널 기다리고 있었다.]], "_t")
 t("What are you?", "넌 뭐냐?", "_t")
@@ -3853,8 +3853,8 @@ section "tome-orcs/data/quests/weissi.lua"
 
 t("Mystery of the Yetis", "예티들의 수수께끼", "_t")
 t("You have found a bit of preserved yeti muscle, probably somebody somewhere will be interested.", "잘 보존된 예티 근육을 찾아냈습니다. 누군가는 이것에 관심을 보일 것입니다.", "_t")
-t("For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "예티 근육들을 잃어버린 도시의 폐허에 있는 염동력 기계에게 넘기면 엄청난 보상을 받게 될 겁니다.", "_t")
-t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* 이상한 염동력 기계를 도왔고, 모든 보상을 얻어냈습니다. 여전히 잘못된 일을 해 버린 것 같은 느낌이 듭니다...", "_t")
+t("For each yeti muscle you return to the psy-machines in the ruins of a lost city you will gain a great reward.", "예티 근육들을 잃어버린 도시의 폐허에 있는 초능력 기계에게 넘기면 엄청난 보상을 받게 될 겁니다.", "_t")
+t("#LIGHT_GREEN#* You have helped the strange psionic machines and got rewards out of them. You still feel like somehow you did wrong...", "#LIGHT_GREEN#* 이상한 초능력 기계를 도왔고, 모든 보상을 얻어냈습니다. 여전히 잘못된 일을 해 버린 것 같은 느낌이 듭니다...", "_t")
 -- new text
 --[==[
 t("", "", "_t")
@@ -5675,7 +5675,7 @@ t([[Increases weapon damage by %d%% and Physical Power by 30 when using steamgun
 		This projection requires a pure mindstar; it will not work if extended into a psiblade.
 
 		Also activable for a shot that deals %d%% weapon damage as mind damage.]], [[총기를 사용할 때 무기 피해가 %d%%, 물리력이 30 증가합니다.
-		보조무기로 마석을 장착하고 있다면, 탄환이 적에게 명중하면 무의식적으로 착탄 지점을 향해 손을 뻗어 염동력을 투사하고, 마석을 날려 %d%% 마석 공격을 가합니다. 이 공격은 빗나가지 않습니다.
+		보조무기로 마석을 장착하고 있다면, 탄환이 적에게 명중했을 때 무의식적으로 착탄 지점을 향해 손을 뻗어 염동력을 투사하고, 마석을 날려 %d%% 마석 공격을 가합니다. 이 공격은 빗나가지 않습니다.
 		마석 투사는 기본 상태 그대로의 마석을 요구합니다. 염동 칼날이 활성화되어 있다면 이 효과는 일어나지 않습니다.
 
 		또한 이 기술을 활성화하면 탄을 쏘아 %d%% 무기 피해를 정신 속성으로 가합니다.]], "tformat")
@@ -7079,7 +7079,7 @@ t([[Mindwall's will falters and reveals the truth about your surroundings.
 
 As Mindwall's body crumbles you can sense a burst of psionic forces splitting up and flying to new hosts.]], [[마인드월의 의지력이 흐트러지며 주변 풍경의 진실이 드러났습니다.
 
-마인드월의 몸이 바스러지자 엄청난 염동력이 솟구쳐 새로운 숙주에게로 날아간 것을 느낄 수 있습니다.]], "_t")
+마인드월의 몸이 바스러지자 엄청난 염력이 솟구쳐 새로운 숙주에게로 날아간 것을 느낄 수 있습니다.]], "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/kaltor-shop/grids.lua"
@@ -7162,13 +7162,13 @@ t("floor", "바닥", "entity type")
 t("sand", "모래", "entity subtype")
 t("Stair to the ruins", "폐허로 가는 계단", "entity name")
 t("Stair to the cave", "동굴로 가는 계단", "entity name")
-t("Old Psi-Machine", "오래된 염동력 기계", "entity name")
+t("Old Psi-Machine", "오래된 초능력 기계", "entity name")
 
 ------------------------------------------------
 section "tome-orcs/data/zones/lost-city/npcs.lua"
 
-t("guardian psi-ghost", "수호자 염동력의 영", "entity name")
-t("A strangely humanoid shaped-ghost, blurring in and out of existence as its form is shaken by psionic discharges.", "이상하게 사람을 닮은 유령입니다. 염동력이 방출되어 그 형체가 흔들릴 때마다 존재 자체가 흐려졌다가 다시 나타나곤 합니다.", "_t")
+t("guardian psi-ghost", "수호자 염력의 영", "entity name")
+t("A strangely humanoid shaped-ghost, blurring in and out of existence as its form is shaken by psionic discharges.", "이상하게 사람을 닮은 유령입니다. 염력이 방출되어 그 형체가 흔들릴 때마다 존재 자체가 흐려졌다가 다시 나타나곤 합니다.", "_t")
 t("Soon...", "머지않아...", "_t")
 t("The day is drawing near...", "그날이 가까워지고 있다...", "_t")
 t("They will come back...", "그들이 돌아올 것이다...", "_t")
