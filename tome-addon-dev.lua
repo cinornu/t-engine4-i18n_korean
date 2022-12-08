@@ -8,7 +8,7 @@ t("Provides tools to develop and publish addons.", "애드온을 개발하고 �
 section "tome-addon-dev/overload/engine/i18nhelper/ArrangeText.lua"
 
 t("Success", "성공", "_t")
--- new text
+-- untranslated text
 --[==[
 t([[[ERROR] format string error near '%s' of string %s
 ]], [[[ERROR] format string error near '%s' of string %s
@@ -55,7 +55,7 @@ Logs written to %s]], "tformat")
 section "tome-addon-dev/overload/engine/i18nhelper/Extractor.lua"
 
 t("Success", "성공", "_t")
--- new text
+-- untranslated text
 --[==[
 t("Luafish parse error on file %s: %s", "Luafish parse error on file %s: %s", "log")
 t("error reading file %s", "error reading file %s", "log")
@@ -71,7 +71,7 @@ t("Translation text extracted.", "Translation text extracted.", "_t")
 section "tome-addon-dev/overload/engine/i18nhelper/FSHelper.lua"
 
 
--- new text
+-- untranslated text
 --[==[
 t("Error %s", "Error %s", "log")
 t("Calculating MD5", "Calculating MD5", "_t")
@@ -152,7 +152,7 @@ section "tome-addon-dev/superload/mod/dialogs/debug/ChooseTranslationParts.lua"
 t("Finish", "끝내기", "_t")
 t("enabled", "켜짐", "_t")
 t("disabled", "꺼짐", "_t")
--- new text
+-- untranslated text
 --[==[
 t("DEBUG -- Choose game parts", "DEBUG -- Choose game parts", "_t")
 t([[Choose game parts you want to translated.
@@ -173,7 +173,7 @@ t("Flip All", "Flip All", "_t")
 section "tome-addon-dev/superload/mod/dialogs/debug/DebugMain.lua"
 
 t("Addon Developer", "애드온 개발자", "_t")
--- new text
+-- untranslated text
 --[==[
 t("Translation Tool", "Translation Tool", "_t")
 --]==]
@@ -186,7 +186,7 @@ t("Finish", "끝내기", "_t")
 t("Cancel", "취소", "_t")
 t("Failure", "실패", "_t")
 t("Success", "성공", "_t")
--- new text
+-- untranslated text
 --[==[
 t("DEBUG -- Create Translation Addon", "DEBUG -- Create Translation Addon", "_t")
 t("", "", "_t")
@@ -210,7 +210,7 @@ section "tome-addon-dev/superload/mod/dialogs/debug/ReleaseTranslation.lua"
 
 t("Failure", "실패", "_t")
 t("Success", "성공", "_t")
--- new text
+-- untranslated text
 --[==[
 t("Choose addon", "Choose addon", "_t")
 t("Choose the addon you want to copy translation file to.", "Choose the addon you want to copy translation file to.", "_t")
@@ -227,7 +227,7 @@ Logs written to %s]], "tformat")
 section "tome-addon-dev/superload/mod/dialogs/debug/TranslationTool.lua"
 
 
--- new text
+-- untranslated text
 --[==[
 t("Translation Toolkit", "Translation Toolkit", "_t")
 t("Change locale", "Change locale", "_t")
