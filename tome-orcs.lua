@@ -3944,7 +3944,7 @@ section "tome-orcs/data/talents/celestial/energies.lua"
 t("Celestial Acceleration", "천상의 가속", "talent name")
 t("Increases your movement speed by %0.2f%% per percent of positive energy and your casting speed by %0.2f%% per percent of negative energy, up to a maximum of %0.2f%% at 80%%. Sustained energy still counts toward the maximum.", "양기 1%% 당 이동속도가 %0.2f%% 증가하고, 음기 1%% 당 시전 속도가 %0.2f%% 증가합니다. 이 효과의 상한은 음기/양기 80%% 이며, 최대 속도 상승은 %0.2f%% 입니다. 유지기로 변동된 음기/양기도 계산에 영향을 미칩니다.", "tformat")
 t("Polarization", "분극화", "talent name")
-t("Whichever of your positive and negative energies is a higher percentage regenerates towards its max instead of its normal resting value (%d positive, %d negative). Your negative and positive regeneration/degeneration rates are increased to %0.2f.", "음기와 양기 중 더 높은 비율의 원천력이 최대치를 향해 빠르게 회복됩니다. 이 효과는 기존 원천력 회복값보다 우선 시됩니다. (%d 양기, %d 음기). 양기와 음기의 재생/감소 비율이 %0.2f 이 됩니다.", "tformat")
+t("Whichever of your positive and negative energies is a higher percentage regenerates towards its max instead of its normal resting value (%d positive, %d negative). Your negative and positive regeneration/degeneration rates are increased to %0.2f.", "음기와 양기 중 더 높은 비율의 원천력이 최대치를 향해 빠르게 회복됩니다. 이 효과는 기존 원천력 회복값보다 우선시됩니다. (%d 양기, %d 음기). 양기와 음기의 재생/감소 비율이 %0.2f 이 됩니다.", "tformat")
 t("Magnetic Inversion", "극성 반전", "talent name")
 t("Swap your current positive and negative energy levels. This spell takes no time to cast.", "시전자의 양기와 음기 수치를 뒤바꿉니다. 이 주문은 턴을 소모하지 않습니다.", "_t")
 t("Plasma Bolt", "플라스마 화살", "talent name")
