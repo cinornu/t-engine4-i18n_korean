@@ -5905,8 +5905,8 @@ t("Subcutaneous Metallisation", "피하 도금", "talent name")
 t([[When your life dips below 50%% of your total life an automated process turns some of your lower skin layers (or other internal organs) into a thick metallic layer for 6 turns.
 		While the effect lasts all damage done to you is reduced by a flat amount equal to 100%% of your Constitution.
 		This effect can only trigger once every %d turns.]], [[생명력이 최대 생명력의 50%% 미만으로 떨어지게 되면, 6 턴 동안 자동화 프로세서가 피하 조직과 기타 내부 장기에 두꺼운 철판을 덧댑니다.
-		지속시간 동안 받는 피해량이 현재 체격 수치만큼 고정 감소합니다.
-		이 효과는 매 %d 턴마다 1 번씩 일어납니다.]], "tformat")
+		지속시간 동안 체격 능력치와 같은 값만큼 고정 피해 감소 효과를 얻습니다.
+		이 효과는 매 %d 턴마다 1 번씩만 일어납니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/cun.lua"
@@ -5917,18 +5917,18 @@ t([[You are adept at wreaking havoc onto your foes!
 		Each time you (or any others) would try to apply a cross-tier effect to this creature, you also try to apply the other two.
 		In addition your physical, steam, spell and mind powers are increased by %d.
 		The powers increase scales of your Cunning.]], [[능숙하게 혼란을 몰고 올 수 있게 되었습니다!
-		피해를 가할 때마다 공격한 대상에게 20 턴 동안 다가오는 재앙 효과가 부여됩니다.
-		시전자가 (또는 그 밖의 개체들이) 이 개체에게 어떤 압도 효과를 걸려 할 때마다, 다른 두 압도 효과까지 같이 걸어버립니다.
+		피해를 가할 때마다 공격한 대상에게 20 턴 동안 유지되는 다가오는 재앙 효과를 겁니다.
+		시전자가 (또는 그 밖의 개체들이) 이 개체에게 어떤 압도 효과를 걸려 할 때마다, 다른 두 압도 효과까지 같이 걸게 됩니다.
 		추가로 물리력, 주문력, 정신력, 증기력이 %d 증가합니다.
-		위력은 교활 능력치에 비례하여 증가합니다.]], "tformat")
+		위력 상승량은 교활 능력치에 비례하여 증가합니다.]], "tformat")
 t("Rak'Shor's Cunning", "락'쇼르의 비술", "talent name")
-t("Quaffed the Blood of Undeath, not already undead and not antimagic.", "불사의 피를 마셨고, 현재 언데드가 아니며, 반마법 추종자가 아닐 것.", "_t")
+t("Quaffed the Blood of Undeath, not already undead and not antimagic.", "불사의 피를 마셨고, 현재 언데드가 아니며, 반마법 사용자가 아닐 것.", "_t")
 t("Rak'Shor's Cunning", "락'쇼르의 비술", "_t")
 t([[#GREY#Applying your cunning plans, you escape death by turning to undeath in an instant!
 
-#{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#자신을 위한 교활한 계획을 세워 두고, 한순간에 언데드로 변해 죽음을 피합니다!
+#{italic}#You may now choose to customize your undead appearance, this can not be changed afterwards.]], [[#GREY#미리 세워 둔 교활한 계획대로, 당신은 한순간에 언데드로 변해 죽음을 피했습니다!
 
-#{italic}#당신은 언데드가 된 캐릭터의 외형을 변경할 수 있습니다. 그렇게 변경한 외형은 이후에 변경할 수 없습니다.]], "_t")
+#{italic}#언데드가 된 캐릭터의 외형을 변경할 수 있습니다. 그렇게 변경한 외형은 이후에 변경할 수 없습니다.]], "_t")
 t("Cosmetic Options", "치장 옵션", "_t")
 t("Customize Appearance", "외형 변경", "_t")
 t("Use Default", "기본 사용", "_t")
@@ -5938,12 +5938,12 @@ t([[Set up some cunning contingency plans in case of death.
 		If you die you will have the option to raise back from the dead once, by becoming a ghoul or a skeleton (you can choose which).
 		When rising this way you will keep access to your racial tree and gain access to the ghoul or skeleton racial tree with 2 levels of each talents already learnt.
 		As undead will not able to use infusions anymore.
-		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[만에 하나 죽게 될 때를 대비해 계획을 세워둡니다.
-		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게 됩니다. 캐릭터는 구울이나 스켈레톤 종족 중 하나를 선택하여 해당 종족으로 다시 부활합니다.
-		이 특수 기술로 소생할 시, 종족 기술을 유지한 채로 구울과 스켈레톤의 종족 기술을 배울 수 있게 됩니다. 모든 스켈레톤, 구울 기술은 2 점씩 투자가 된 상태입니다.
-		언데드는 주입물을 사용하지 못하기 때문에 새겨져 있던 주입물들은 사라지게 됩니다.
-		만일 스켈레톤을 선택한 경우, 재구성 기술을 배워도 부활은 불가능합니다.]], "tformat")
-t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때마다, 증기 공학 계열의 무작위한 기술 하나를 골라 재사용 대기시간을 1 턴 단축시킵니다.", "_t")
+		If you choose to become a skeleton, the Re-assemble talent will consider that you already used your resurrection.]], [[만에 하나 죽게 될 때를 대비해서 계획을 세워둡니다.
+		만약 죽었을 경우, 죽음에서 부활할 수 있는 선택지가 나타나게 됩니다. 캐릭터는 구울이나 스켈레톤 종족 중 하나를 선택하여 그 종족으로 다시 부활합니다.
+		이 특수 기술로 부활하게 되면 원래 종족 기술을 유지한 채로 구울/스켈레톤의 종족 기술을 배울 수 있게 됩니다. 새로운 종족 기술들은 2 점씩 투자가 된 상태입니다.
+		언데드는 주입물을 사용하지 못하기 때문에 새겨 두었던 주입물들은 사라지게 됩니다.
+		만약 스켈레톤을 선택한 경우, 재구성 기술로 부활할 수는 없게 됩니다.]], "tformat")
+t("All steamtech criticals reduce the remaining cooldown of a random steamtech talent by 1.", "증기 공학 치명타를 입힐 때마다, 증기 공학 계열의 무작위한 기술 하나의 재사용 대기시간이 1 턴 단축됩니다.", "_t")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/dex.lua"
@@ -5951,8 +5951,8 @@ section "tome-orcs/data/talents/uber/dex.lua"
 t("Automated Reflex System", "자동 반사작용 시스템", "talent name")
 t("Have gained the #{italic}#Matrix Style#{normal}# achievement with this or any previous character for the current difficulty & permadeath settings.", "지금 이 캐릭터나, 과거에 어떤 캐릭터로든, 현재 난이도와 영구적 죽음 설정으로 #{italic}#매트릭스처럼!#{normal}# 업적을 달성했을 것.", "_t")
 t([[A small automatic detection system is always looking for incoming projectiles, when one is about to hit you it injects drugs into your system to boost your reactivity, granting you a free turn.
-		This effect can not happen more than once every 5 turns.]], [[작은 자동 탐지 시스템이 항상 시전자에게 다가오는 투사체를 감지합니다. 투사체가 명중하는 순간, 약품을 신경계에 주입하여 반사 신경을 극대화해 1 턴을 획득합니다.
-		이 효과는 매 5 턴마다 한 번씩 일어납니다.]], "tformat")
+		This effect can not happen more than once every 5 turns.]], [[작은 자동 탐지 시스템이 항상 시전자에게 다가오는 투사체를 감지합니다. 투사체가 명중하는 순간, 시스템이 약품을 신경계에 주입하여 반사 신경을 극대화함으로써 시전자는 1 턴을 얻습니다.
+		이 효과는 5 턴마다 한 번씩만 일어납니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/mag.lua"
@@ -5966,16 +5966,16 @@ t("arcane amplification drone", "비전 증폭 드론", "_t")
 t("Any spell damage you deal to it will ripple around in radius 4 as 160% arcane damage.", "드론에게 가해진 주문 피해가 반경 4 칸 범위에 130% 비전 피해를 가하게 됩니다.", "_t")
 t([[You create an Arcane Amplification Drone at the selected location for 3 turns.
 		When you cast a spell that damages the drone it will ripple the damage as 130%% arcane damage of the initial hit in radius 4.]], [[지정한 위치에 3 턴간 비전 증폭 드론을 배치합니다.
-		사용자가 시전한 주문에 드론이 피해를 받게 되면 드론은 주변 4 칸 범위 내에 최초로 받은 피해의 130%% 만큼의 비전 피해를 입힙니다.]], "tformat")
+		사용자가 시전한 주문에 드론이 피해를 받게 되면 드론은 주변 4 칸 범위 내에 최초로 받은 피해의 130%% 만큼의 비전 피해를 가합니다.]], "tformat")
 t("Technomancer", "마도공학자", "talent name")
 t("Unlocked the Technomancer evolution", "마도공학자 직업 진화 해금", "_t")
 t("Technomancer", "마도공학자", "_t")
 t("Occult Technomancy", "비술 마도공학", "_t")
 t("These talents focus on arcane and temporal damage, using a super-spinned steamsaw to rip holes in reality.", "이 기술들은 비전과 시간 속성에 집중합니다. 초고속으로 회전하는 증기톱을 이용해 현실 구조를 찢어 구멍을 냅니다.", "_t")
 t("Galvanic Technomancy", "전열 마도공학", "_t")
-t("These talents focus on fire and lightning damage, strategically placing galvanic rods to create fields of death and stuns.", "이 기술들은 화염과 전기 속성에 집중합니다. 전열 막대를 전략적으로 배치해 죽음과 기절의 전열 지대를 생성합니다.", "_t")
+t("These talents focus on fire and lightning damage, strategically placing galvanic rods to create fields of death and stuns.", "이 기술들은 화염과 전기 속성에 집중합니다. 전열 막대를 전략적으로 배치해 적들을 기절시키는 죽음의 전열 지대를 만들어냅니다.", "_t")
 t("Terrene Technomancy", "극지 마도공학", "_t")
-t("These talents focus on cold and physical damage, summoning micro spiderbots to harass and pin their foes or protect themselves.", "이 기술들은 물리와 냉기 피해에 집중합니다. 작은 거미봇을 소환해 적을 괴롭히고 속박하거나, 시전자를 피해에서 보호합니다.", "_t")
+t("These talents focus on cold and physical damage, summoning micro spiderbots to harass and pin their foes or protect themselves.", "이 기술들은 물리와 냉기 피해에 집중합니다. 작은 거미봇을 소환해 적을 괴롭히고 속박하거나, 시전자를 보호합니다.", "_t")
 t("Choose your free Technomancy unlock?", "어떤 마도공학을 개방하시겠습니까?", "_t")
 t([[Available talents:
 ]], [[가능한 기술들:
@@ -5994,21 +5994,21 @@ t([[Technomancers are Archmages that dabble in steam technology to enhance their
 
 		Once put in a robe, the Arcane Dynamo will regenerate Steam each time mana is spent and increase Spellpower based on current steam level.
 
-		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[마도공학자는 증기 공학에 관심을 갖는 마도사들로, 이미 가공할 위력을 가진 주문들을 더욱 더 강화합니다.
+		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[마도공학자는 이미 가공할 위력을 가진 주문들을 더욱 더 강화하기 위해서 증기 공학을 활용해 보는 마도사들입니다.
 		이 직업 진화를 선택하면 다음과 같은 것들을 얻습니다:
 		- 비전 발전기 발명품 도안
-		- 증기 공학/물리학 계열 (열림)
-		- 증기 공학/화학 계열 (잠김)
+		- 증기 공학/물리학 기술 계열 (열림)
+		- 증기 공학/화학 기술 계열 (잠김)
 		- 휴대용 자동 추출기
-		- 야금학 기술에 1 점, 기계학과 전기학 기술에 2 점을 받습니다.
+		- 야금학 기술에 1 점, 기계학 기술과 전기학 기술에 2 점을 받습니다.
 		- 주문/전열의 마도공학 계열 (잠김) - 화염과 전기를 다룬다.
 		- 주문/극지의 마도공학 계열 (잠김) - 물과 대지를 다룬다.
 		- 주문/비술의 마도공학 계열 (잠김) - 시간과 순수한 마력을 다룬다.
 		- 세 가지 마도공학 계열 중 하나를 무료로 해금합니다.
 
-		비전 발전기가 로브에 장착되면 마나가 소모될 때마다 증기를 생성하고, 현재 증기 수치에 비례하여 주문력이 상승합니다.
+		비전 발전기가 로브에 장착되면 마나를 소모할 때마다 증기를 생성하고, 현재 증기 수치에 비례하여 주문력이 상승합니다.
 
-		#{bold}#직업 진화를 선택하면, 비전 발전기를 제작하고 로브에 장착하여야 마도공학 계열 기술을 사용할 수 있게 됩니다.#{normal}#]], "tformat")
+		#{bold}#직업 진화를 선택하면, 비전 발전기를 만들어 로브에 장착하여야 마도공학 계열 기술을 사용할 수 있게 됩니다.#{normal}#]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/uber/str.lua"
@@ -6024,7 +6024,7 @@ t("Range Amplification Device", "사거리 증폭 장치", "talent name")
 t("Have a light radius of 10 or more", "광원 반경이 10 칸 이상일 것", "_t")
 t([[Activate a special focusing device that extends all your ranged spells and psionic powers range by 3 (only works on those with range 2 or more and up to 10 max).
 		The use of this device is very strenuous, increasing fatigue by 20%% while active.]], [[특별한 조준 장치를 이용해 원거리 주문이나 초능력의 사거리를 3 칸 늘립니다. (이 장치는 최소 사거리가 2 이상인 기술에만 효과가 있고, 최대 사거리 제한은 10 칸 입니다)
-		이 장치를 사용하는 것은 매우 지치기 때문에, 활성화 시 피로도가 20%% 증가합니다.]], "tformat")
+		이 장치를 사용하는 것은 매우 지치기 때문에, 활성화된 동안에는 피로도가 20%% 만큼 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents.lua"

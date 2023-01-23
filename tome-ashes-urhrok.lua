@@ -1899,7 +1899,7 @@ t([[You embrace your connection to the Emerald and become a powerful Wretchkin, 
 	  - 시전자가 렛치들도 알고 있는 맨손 공격 기술을 사용하면, 범위 내의 렛치가 #GOLD#같은 대상에게 해당 기술을 함께 사용하게 됨#LAST#. 만약 렛치들의 기술이 재사용 대기 상태라면 남은 대기시간을 절반으로 줄임
 
 	   ]], "tformat")
-t("Acrid Evoker", "산성소각사", "talent name")
+t("Acrid Evoker", "용해사", "talent name")
 t("Create 450 or more acid pools.", "산성액 웅덩이를 450개 이상 만들어낼 것.", "_t")
 t([[You dedicate yourself entirely to the creation and manipulation of acid and enhance your vile power by using your bare claws as an arcane focus. While empty-handed and not weaing gloves, gauntlets, or massive armor, you gain the following benefits:
 	  - Base damage modifier changes from 100%% Strength to #GOLD#50%% Strength, 50%% Dexterity #LAST#and#GOLD# 50%% Magic#LAST#
@@ -1912,7 +1912,7 @@ t([[You dedicate yourself entirely to the creation and manipulation of acid and 
 	  - #GOLD#Demonhide#LAST# will create acid pools #GOLD#on your tile#LAST# or an adjacent tile if possible and automatically create an acid pool when you enter combat
 	  - Acid pool limit for #GOLD#Caustic Link, Emerald Resonance, Demonic Reflex#LAST#, and #GOLD#Dissolve Affliction#LAST# is #GOLD#increased by 2#LAST# and the #GOLD#radius is increased to 10#LAST#
 	  - + #GOLD#8%% acid resistance penetration#LAST# for each acid pool in radius 10, up to 6 at most
-	   ]], [[산성액을 만들고 다루는 데에 전념하고, 악마의 발톱을 마법의 집중접으로 사용함으로써 스스로의 사악한 힘을 강화합니다. 양손을 비운 채로 장갑류 방어구와 중갑을 입고 있지 않을 때, 다음 효과들을 받게 됩니다:
+	   ]], [[산성액을 만들고 다루는 데에 전념하고, 악마의 발톱을 마법의 집중점으로 사용함으로써 스스로의 사악한 힘을 강화합니다. 양손을 비운 채로 장갑류 방어구와 중갑을 입고 있지 않을 때, 다음 효과들을 받게 됩니다:
 	  - 기본 피해 능력치 계수가 힘 100%% 에서 #GOLD#힘 50%%, 민첩 50%%, 마법 50%%#LAST# 로 변하게 됨
 	  - #GOLD#주문력 +%d#LAST#, 힘과 민첩 비례
 	  - 근접 공격이 아닌 공격 주문이 #GOLD#%d%% 확률#LAST#로 대상에게 #GOLD#발톱 파쇄#LAST# 기술을 추가로 시전하게 됨 (재사용 대기 상태를 무시, 최대 사거리 10 칸)
