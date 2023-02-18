@@ -261,7 +261,7 @@ t("#Source# drains life from #Target#!", "#Source2# #Target#의 생명력을 흡
 t("mesmerize", "최면", "damage type")
 t("obliterating void", "말살하는 공허", "damage type")
 t("aging temporal", "노화의 시간", "damage type")
-t("%s resists the blindness!", "%s 실명에 저항했다!!", "logSeen", nil, {"는"})
+t("%s resists the blindness!", "%s 실명에 저항했다!", "logSeen", nil, {"는"})
 t("%s resists the pin!", "%s 속박에 저항했다!", "logSeen", nil, {"가"})
 t("%s resists the confusion!", "%s 혼란에 저항했다!", "logSeen", nil, {"는"})
 t("decaying ground", "썩어가는 땅", "damage type")
@@ -2305,7 +2305,7 @@ Upon agreeing, the great shield Anvgrea was forged for him. He stood before the 
 
 When the Godhunt ended, Harqel returned to a quiet life. The surviving Sher'tul treated the Godslayers as heroes and each were rewarded generously, but Harqel simply requested for a hidden abode somewhere in the stars, somewhere where he would not be disturbed by anyone.]], [[신화에 따르면 하퀠은 불행하고 고통스러운 삶을 살았다고 전해진다. 신화 속에서 그는 조용하고, 굳건하며, 너그러운 자였는데, 그런 차분한 태도는 신살자가 되려는 자에게는 전혀 어울리지 않아 보였다. 이로 인해 그는 동료들로부터 수많은 박해를 당하게 되었는데, 동료들이 그에게 무슨 짓을 해도 그는 항상 동료들을 용서해 주었다. 그에게 어떤 일격이 쏟아지든, 어떤 끔찍한 상처를 입었든, 그는 항상 살아남았다. 신 사냥이 일어났을 때, 그는 신살자들과 함께 설 기회를 제공받았다. 처음에 그는 신들을 설득할 수 있을 거라 생각했지만, 신들의 무의미한 싸움에 의해 황폐화된 대지를 본 이후로 그런 것은 두 번 다시는 생각하지 않고 신 사냥의 대의에 전념했다. 
 
-그가 동의하자, 그를 위해서 위대한 방패 안브그레아가 만들어졌다. 그는 신들의 앞을 가로막고 그들의 힘에 도전했으며, 동요하지도 않았고 굽히지도 않았다. 타오르는 불길도, 얼어붙는 냉기와 썩어가는 황폐의 힘도, 살을 태우는 산성액도 그를 흔들지 못했으며 그의 전진을 멈출 수도 없었다. 그는 모두의 고통을 짊어지는 방패가 되었으며 그 덕분에 신살자들은 이 세상의 거대하고 무정한 신들을 처치할 수 있었다. 그 어떤 것도 하퀠과 그의 막강한 방패를 뚫을 수 없었다. 
+그가 신살자가 되자, 그를 위해서 위대한 방패 안브그레아가 만들어졌다. 그는 신들의 앞을 가로막고 그들의 힘에 도전했으며, 동요하지도 않았고 굽히지도 않았다. 타오르는 불길도, 얼어붙는 냉기와 썩어가는 황폐의 힘도, 살을 태우는 산성액도 그를 흔들지 못했으며 그의 전진을 멈출 수도 없었다. 그는 모두의 고통을 짊어지는 방패가 되었으며 그 덕분에 신살자들은 이 세상의 거대하고 무정한 신들을 처치할 수 있었다. 그 어떤 것도 하퀠과 그의 막강한 방패를 뚫을 수 없었다. 
 
 신 사냥이 끝나자 하퀠은 조용한 삶으로 돌아갔다. 살아남은 쉐르'툴들은 신살자들을 영웅으로 대접했고 그들은 모두 후한 보상을 받았지만, 하퀠은 그저 별들 속 어딘가에서 누구에게도 방해받지 않을 은신처를 요구했을 뿐이었다.]], "_t")
 t("Mightier than Gods: Frosat", "신보다 강한 자들: 프로사트", "_t")
@@ -2365,7 +2365,7 @@ I have #{italic}#"found"#{normal}# a strange glyph sequence that to me looks lik
 Good luck on your future #{italic}#acquisitions of properties#{normal}#.]], [[친애하는 %s,
 
 우리가 만났던 날로부터 먼 길을 걸어 왔군. 네가 자랑스럽다.
-내가 이상한 문양의 배열을 #{italic}#"찾아"#{normal}# 냈다. 내 눈엔 무슨 암호처럼 보인다만. 네가 이게 무슨 의미인지 알아낼 수 있다고 믿고 있고, 바라건대 우리의 목적을 위해 잘 써먹길 바란다.
+내가 이상한 문양의 배열을 하나 #{italic}#"찾아"#{normal}# 냈다. 내 눈엔 무슨 암호처럼 보인다만. 네가 이게 무슨 의미인지 알아낼 수 있다고 믿고 있고, 바라건대 우리의 목적을 위해 잘 써먹길 바란다.
 
 %s
 

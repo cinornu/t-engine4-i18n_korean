@@ -4358,8 +4358,8 @@ t([[Spin your saw at incredible speeds for an instant, fully breaking reality in
 		The breach is so deep that the beam will always have the maximum possible length it can.
 		The damage will increase with your Spellpower.]], [[짧은 시간 동안 톱을 믿을 수 없는 속도로 빠르게 회전시켜, 현실의 구조를 완전히 파괴하고 3 칸 두께의 광선을 쏘아냅니다.
 		광선에 맞은 개체는 %0.2f 비술 피해를 받고, 현실에서 잠시 벗어나게 되어 %s 4 턴 동안 전체 속도가 %d%% 감소합니다. 영향을 받은 적이 발사하는 투사체 속도 역시 %d%% 감소하게 됩니다.
-		기술 레벨 3 에서, 광선 안의 모든 투사체는 즉시 소멸합니다.
-		기술 레벨 5 에서, 광선은 무지막지한 힘을 발휘하게 되어, 광선을 맞은 모든 개체를 3 칸 밀쳐냅니다 %s.
+		기술 레벨 3 부터, 광선 안의 모든 투사체는 즉시 소멸합니다.
+		기술 레벨 5 부터, 광선은 무지막지한 힘을 발휘하게 되어, 광선을 맞은 모든 개체를 3 칸 밀쳐냅니다 %s.
 		현실에 발생한 균열은 너무나도 깊어, 광선은 언제나 최대 사거리로 발사됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Ethereal Steam", "에테르 증기", "talent name")
