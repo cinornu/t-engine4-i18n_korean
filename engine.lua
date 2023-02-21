@@ -321,7 +321,7 @@ t("", "", "_t")
 ------------------------------------------------
 section "engine/engine/Chat.lua"
 
-
+t("[leave]", "[떠난다]", "_t")
 -- untranslated text
 --[==[
 t("???", "???", "_t")
@@ -373,6 +373,18 @@ t("#LIGHT_RED#Keyboard input temporarily disabled.", "#LIGHT_RED#키보드 입�
 section "engine/engine/LogDisplay.lua"
 
 t("Message Log", "메시지 로그", "_t")
+
+------------------------------------------------
+section "engine/engine/Map.lua"
+
+t("north", "북쪽", "_nt")
+t("south", "남쪽", "_nt")
+t("west", "서쪽", "_nt")
+t("east", "동쪽", "_nt")
+t("northwest", "북서쪽", "_nt")
+t("northeast", "북동쪽", "_nt")
+t("southwest", "남서쪽", "_nt")
+t("southeast", "남동쪽", "_nt")
 
 ------------------------------------------------
 section "engine/engine/MicroTxn.lua"
@@ -1502,6 +1514,10 @@ t("LEVEL UP!", "레벨업!", "_t")
 ------------------------------------------------
 section "engine/modules/boot/data/birth/descriptors.lua"
 
+t("base", "기본", "birth descriptor base")
+t("Destroyer", "파괴자", "birth descriptor role")
+t("Acid-maniac", "애시드 매니아", "birth descriptor role")
+-- old translated text
 t("base", "베이스", "birth descriptor name")
 t("Destroyer", "파괴자", "birth descriptor name")
 t("Acid-maniac", "애시드 매니아", "birth descriptor name")
