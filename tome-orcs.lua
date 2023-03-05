@@ -3954,7 +3954,7 @@ t("Fires out a bolt of pure energy, dealing %0.2f light and %0.2f darkness damag
 section "tome-orcs/data/talents/celestial/reflection.lua"
 
 t("Diffraction Pulse", "회절 파동", "talent name")
-t("Create a distortion at the target tile, knocking back all projectiles and changing their direction to face away if possible.", "대상 위치를 왜곡해, 모든 투사체를 뒤로 밀쳐냅니다. 가능하다면 밀쳐낸 투사체들의 진행 방향을 반전시켜, 다시 공격자에게로 돌려줍니다.", "_t")
+t("Create a distortion at the target tile, knocking back all projectiles and changing their direction to face away if possible.", "대상 위치를 왜곡해, 모든 투사체를 뒤로 밀칩니다. 가능하다면 밀쳐낸 투사체들의 진행 방향을 반전시켜, 다시 공격자에게로 돌려줍니다.", "_t")
 t("Mirror Wall", "거울 벽", "talent name")
 t("mirror wall", "거울 벽", "_t")
 t("Creates a wall %d units long for %d turns, reflecting all projectiles that hit it and blocking sight.", "%d 턴 동안 지속되는 %d 칸의 거울 벽을 만들어냅니다. 거울 벽은 모든 투사체를 반사시키며, 시야를 가로막습니다.", "tformat", {2,1})
@@ -4103,7 +4103,7 @@ t([[Dash forward using rockets.
 		If the spot is reached and occupied, you will perform a free melee attack against the target there and knock them back 4 spaces as well as anyone else they collide with %s.
 		This attack does 180%% weapon damage.
 		You must dash from at least 2 tiles away.]], [[로켓을 이용해 돌진합니다.
-		해당 위치에 적이 있다면, 적에게 턴을 소모하지 않는 근접 공격을 가하고 4 칸 밀칩니다 %s. 밀쳐낸 적이 다른 적과 충돌하면, 그 적도 같이 밀쳐냅니다.
+		해당 위치에 적이 있다면, 적에게 턴을 소모하지 않는 근접 공격을 가하고 4 칸 밀칩니다 %s. 밀친 적이 다른 적과 충돌하면, 그 적도 같이 밀칩니다.
 		이 공격은 180%% 무기 피해를 가합니다.
 		돌진하려면 목표 지점과 적어도 2칸 이상 떨어져 있어야 합니다.]], "tformat")
 t("Laser Powered Smash", "레이저 강타", "talent name")
@@ -4359,7 +4359,7 @@ t([[Spin your saw at incredible speeds for an instant, fully breaking reality in
 		The damage will increase with your Spellpower.]], [[짧은 시간 동안 톱을 믿을 수 없는 속도로 빠르게 회전시켜, 현실의 구조를 완전히 파괴하고 3 칸 두께의 광선을 쏘아냅니다.
 		광선에 맞은 개체는 %0.2f 비술 피해를 받고, 현실에서 잠시 벗어나게 되어 %s 4 턴 동안 전체 속도가 %d%% 감소합니다. 영향을 받은 적이 발사하는 투사체 속도 역시 %d%% 감소하게 됩니다.
 		기술 레벨 3 부터, 광선 안의 모든 투사체는 즉시 소멸합니다.
-		기술 레벨 5 부터, 광선은 무지막지한 힘을 발휘하게 되어, 광선을 맞은 모든 개체를 3 칸 밀쳐냅니다 %s.
+		기술 레벨 5 부터, 광선은 무지막지한 힘을 발휘하게 되어, 광선을 맞은 모든 개체를 3 칸 밀칩니다 %s.
 		현실에 발생한 균열은 너무나도 깊어, 광선은 언제나 최대 사거리로 발사됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Ethereal Steam", "에테르 증기", "talent name")
