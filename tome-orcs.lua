@@ -4124,7 +4124,7 @@ t([[Your yeti is attuned to the cold climates.
 		While Algid Rage is up you easily pierce through iceblocks, reducing the damage they absorb by 50%%.
 		The bonus will increase with your Willpower.]], [[예티 종족은 추운 기후에 적응했습니다.
 		5 턴 동안 시전자가 가하는 모든 공격이 %d%% 확률로 대상을 3 턴 동안 얼려버립니다 %s.
-		지속시간 중, 시전자는 손쉽게 얼음을 관통할 수 있게 됩니다. 얼음덩어리의 피해 흡수량이 50%% 감소됩니다.
+		지속시간 중, 시전자는 손쉽게 얼음을 관통할 수 있게 됩니다. 얼음덩어리의 피해 흡수량이 50%% 감소합니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Thick Fur", "두꺼운 털", "talent name")
 t("Your yeti's fur acts like a shield, providing %d%% cold resistance, %d%% physical resistance and %d magical save.", "예티의 털은 방패 역할을 해, 냉기 저항을 %d%%, 물리 저항을 %d%%, 주문 내성을 %d 증가시킵니다.", "tformat")
@@ -4255,7 +4255,7 @@ t([[When you deactivate Vaporous Step, if the psychoport succeeds you inhale som
 		회복량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Psionic Fog", "초능력 안개", "talent name")
 t([[Using the steam of your generators you shape it into a psionic fog that lasts %d turns. Any foes caught inside will take %0.2f damage per turn and be seared, reducing their fire resistance by %d%% and and mind save by %d.
-		The damage will increase with your Mindpower.]], [[증기 발생기의 증기를 일부 사용하여 %d 턴 동안 지속되는 초능력 안개를 빚어냅니다. 안개 내의 모든 적은 매 턴 %0.2f 피해를 받고, 증기에 데여 화염 저항력이 %d%%, 정신 내성이 %d 감소됩니다.
+		The damage will increase with your Mindpower.]], [[증기 발생기의 증기를 일부 사용하여 %d 턴 동안 지속되는 초능력 안개를 빚어냅니다. 안개 내의 모든 적은 매 턴 %0.2f 피해를 받고, 증기에 데여 화염 저항력이 %d%%, 정신 내성이 %d 감소합니다.
 		피해량은 정신력에 비례하여 증가합니다.]], "tformat")
 t("Uncertainty Principle", "불확정성 원리", "talent name")
 t("#STEEL_BLUE#(%d quantum shifted)#LAST#", "#STEEL_BLUE#(%d 양자 왜곡)#LAST#", "tformat")
@@ -4689,7 +4689,7 @@ t([[You have lived through many battles, and your experience makes you a gritty 
 		#{italic}#Domination for all!#{normal}#]], [[수많은 전장에서 생환했고, 그 경험 덕분에 투지를 품은 베테랑이 되었습니다.
 		톱날바퀴의 효과 종료 공격의 피해량이 %d%% 증가합니다.
 		분쇄하는 보호막이 활성화되어 있다면 생명력이 -%d 에 이르러야 사망합니다.
-		징벌은 %d%% 확률로 각 효과마다 1 턴씩 재사용 대기시간이 감소됩니다.
+		징벌은 %d%% 확률로 각 효과마다 1 턴씩 재사용 대기시간이 감소합니다.
 		#{italic}#모두 다 지배하리라!#{normal}#]], "tformat")
 
 ------------------------------------------------
@@ -5440,7 +5440,7 @@ t("Viral Needlegun", "바이러스 바늘총", "talent name")
 t([[You fire a cone of blighted needles, hitting everything in a frontal cone of radius %d for %0.2f physical damage.
 		Each creature hit has a %d%% chance of being infected by a random disease, doing %0.2f blight damage and reducing either Constitution, Strength or Dexterity by %d for 20 turns.
 		The damage and disease effects increase with your Steampower.]], [[황폐성 물질이 묻은 바늘 다발을 발사하여 반경 %d 칸의 원뿔 범위 내의 모든 개체에 %0.2f 물리 피해를 가합니다.
-		영향을 받은 모든 적은 %d%% 확률로 무작위한 질병에 감염되고 %0.2f 황폐 피해를 받게 됩니다. 또한 체격, 힘, 민첩 중 하나가 20 턴 동안 %d 감소됩니다.
+		영향을 받은 모든 적은 %d%% 확률로 무작위한 질병에 감염되고 %0.2f 황폐 피해를 받게 됩니다. 또한 체격, 힘, 민첩 중 하나가 20 턴 동안 %d 감소합니다.
 		피해량과 질병 효과는 증기력에 비례하여 증가합니다.]], "tformat")
 t("Sand Shredder", "모래 굴착기", "talent name")
 t("%s shreds through sandwalls!", "%s 모래벽을 파며 나아간다!", "logSeen", nil, {"는"})
