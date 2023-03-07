@@ -4395,7 +4395,7 @@ t("You can only cast this spell after casting an other technomancy spell.", "이
 t([[After casting a technomancy spell you store some of its energies that you can then use to overload your arcane dynamo, increasing the steam it generates per 10 mana spent by 4 for 4 turns.
 		In addition the energies spills outward in radius 3, dealing %0.2f damage (damage type based on the type of technomancy spell used).
 		This spell is only usable after casting a technomancy spell and until you use any other spell or talent.
-		The damage will increase with your Spellpower.]], [[마도공학 주문을 사용한 다음에, 그 에너지 일부를 모아 비전 발전기를 과부화합니다. 4 턴 동안, 소모하는 마나 10 당 증기가 4 추가로 회복됩니다.
+		The damage will increase with your Spellpower.]], [[마도공학 주문을 사용한 다음에, 그 에너지 일부를 모아 비전 발전기를 과부하합니다. 4 턴 동안, 소모하는 마나 10 당 증기가 4 추가로 회복됩니다.
 		또한 시전자를 중심으로 반경 3 칸에 에너지를 쏟아부어 %0.2f 피해를 입힙니다 (피해 속성은 사용한 마도공학 주문에 따라 달라집니다).
 		이 주문은 마도 공학 기술을 사용한 다음에 사용할 수 있고, 다른 주문이나 기술을 사용하면 그 즉시 사용이 불가능해집니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -4769,7 +4769,7 @@ t([[Continuously swing your steamsaws around you, dealing %d%% weapon damage to 
 		#{italic}#아! 증기톱! 훌륭한 대화수단이지!#{normal}#]], "tformat")
 t("Overcharge Saws", "과충전 톱니", "talent name")
 t([[You temporarily overcharge the saw motors, increasing the effective talent level of all saw talents by %d%% for %d turns.
-		#{italic}#The pain shall never stop!#{normal}#]], [[톱의 전동기를 일시적으로 과부화시켜 모든 증기톱 기술의 실질 기술 레벨을 %d 턴 동안 %d%% 상승시킵니다.
+		#{italic}#The pain shall never stop!#{normal}#]], [[톱의 전동기를 일시적으로 과부하시켜 모든 증기톱 기술의 실질 기술 레벨을 %d 턴 동안 %d%% 상승시킵니다.
 		#{italic}#고통은 절대 끝나지 않으리!#{normal}#]], "tformat", {2,1})
 
 ------------------------------------------------
@@ -5186,7 +5186,7 @@ t([[Push your heavy weapon beyond its normal limits to trigger a powerful effect
 #AQUAMARINE#Boltgun#LAST#: Overcharge your boltgun, firing a single deadly bolt dealing %d%% steamgun damage as acid in a piercing line. For each negative physical, magical, or mental effect on the target, they take an additional %d%% damage (to a maximum of %d%%) and the duration of each negative effect is increased by %d turns.]], [[중화기를 일반적인 한계 이상으로 다루어 강력한 효과를 냅니다. 이 효과는 시전자가 든 중화기를 즉시 비활성화시키며, 남아 있는 중화기 탄환을 전부 소모합니다.
 #AQUAMARINE#화염방사기#LAST#: 연료통을 폭파하여 반경 4 칸의 대폭발을 일으키고, 시전자는 반경 %d 칸 내의 선택한 위치로 날아갑니다. 폭발에 휘말린 적은 %0.2f 화염 피해를 받고, 화염방사기로 인한 화상 피해의 %d%% 에 해당하는 피해를 추가로 받습니다.
 #AQUAMARINE#충격 지팡이#LAST#: 지팡이를 땅에 꽂아넣고 남아있는 모든 전력을 방출하여 %d%% 충격 지팡이 피해를 전기 속성으로 반경 %d 칸 내에 가합니다. 공격받은 적은 %d 칸 밀려나고, 벽에 부딪힐 경우 전자기 파장을 방출해 반경 1 칸 내에 %0.2f 전기 피해를 가하고, 파장에 휘말린 적들을 5 턴 동안 기절시킵니다.
-#AQUAMARINE#화살탄 발사기#LAST#: 화살탄 발사기를 과부화하여, %d%% 피해를 산성 속성으로 입히는 치명적인 화살탄을 단 한 발 쏘아 직선 상의 적을 꿰뚫습니다. 적들은 부정적인 물리, 마법, 정신 효과 하나마다 %d%% 피해를 추가로 받고 (최대 %d%% 까지), 모든 부정적인 효과의 지속시간이 %d 턴 연장됩니다.]], "tformat")
+#AQUAMARINE#화살탄 발사기#LAST#: 화살탄 발사기를 과부하하여, %d%% 피해를 산성 속성으로 입히는 치명적인 화살탄을 단 한 발 쏘아 직선 상의 적을 꿰뚫습니다. 적들은 부정적인 물리, 마법, 정신 효과 하나마다 %d%% 피해를 추가로 받고 (최대 %d%% 까지), 모든 부정적인 효과의 지속시간이 %d 턴 연장됩니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-orcs/data/talents/steam/inscriptions.lua"
