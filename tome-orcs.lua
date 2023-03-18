@@ -4147,7 +4147,7 @@ t("Whitehooves", "화이트후프", "talent name")
 t([[Improves your undead body, increasing Strength and Magic by %d.
 		Each time you move you gain a charge (up to %d) of death momentum, increasing your movement speed by 20%%.
 		Each turn spent not moving you lose a charge.]], [[언데드 육체를 강화하여 힘과 마법이 %d 증가합니다.
-		또한 이동할 때마다 최대 %d 번 중첩되는 죽음의 기세 중첩을 얻어, 중첩 당 이동 속도가 20%% 증가합니다.
+		또한 이동할 때마다 최대 %d 번까지 중첩되는 죽음의 기세 중첩을 얻어, 중첩 당 이동 속도가 20%% 증가합니다.
 		이동을 하지 않으면 중첩을 하나씩 잃게 됩니다.]], "tformat")
 t("Dead Hide", "죽은 가죽", "talent name")
 t("Your undead skin hardens under stress. Each charge of death momentum also increases all flat damage resistance by %d.", "언데드 가죽이 부하로 인해 경화됩니다. 죽음의 기세 중첩 당 모든 속성에 대한 고정 피해 감소 %d 를 얻습니다.", "tformat")
@@ -4194,7 +4194,7 @@ t([[Call a streak of lightning on your target, dealing %0.2f to %0.2f lightning 
 t("Negative Biofeedback", "생체 제어", "talent name")
 t([[Any time you deal damage with a psionic ability you incur a negative biofeedback in your foes, stacking up to %d times for 5 turns.
 		Each stack reduces their physical save by %d, defense and armour by %d %s.
-		This effect may only occur once per turn.]], [[시전자가 초능력 기술로 피해를 가할 때마다 적에게 음성 바이오피드백를 일으켜 제어합니다. 이는 5 턴 동안 지속되며, 최대 %d 번 중첩됩니다.
+		This effect may only occur once per turn.]], [[시전자가 초능력 기술로 피해를 가할 때마다 적에게 음성 바이오피드백를 일으켜 제어합니다. 이는 5 턴 동안 지속되며, 최대 %d 번까지 중첩됩니다.
 		매 중첩은 적의 물리 내성을 %d, 방어력과 회피도를 %d 감소시킵니다 %s.
 		이 효과는 한 턴에 한 번만 일어납니다.]], "tformat")
 
@@ -4242,7 +4242,7 @@ t([[You concentrate your will to psychoport some of the steam of your generator 
 		When you deactivate the effect you release the accumulated psionic and steam energies, instantly switching places with the target location and releasing the charges in a fiery explosion of hot wet steam in radius 4.
 		The explosion will do %0.2f fire damage, multiplied by 33%% (diminutive) for each charge and apply the wet effect %s.
 		The effect will fizzle if the charged grid is currently occupied by a creature or not in sight.
-		The damage will increase with your Steampower.]], [[의지를 집중해 증기 발생기의 증기 일부를 순간이동시킵니다. 매 턴 증기가 해당 위치에 축적되고, 최대 %d 번 중첩됩니다.
+		The damage will increase with your Steampower.]], [[의지를 집중해 증기 발생기의 증기 일부를 순간이동시킵니다. 매 턴 증기가 해당 위치에 축적되고, 최대 %d 번까지 중첩됩니다.
 		이 기술을 비활성화하면 시전자는 모아둔 초능력과 증기 에너지를 해방시켜 축적된 증기와 즉시 위치를 서로 바꾼 다음, 해당 증기를 폭발시켜 반경 4 칸의 뜨거운 수증기 폭발을 일으킵니다.
 		폭발은 %0.2f 화염 피해를 입히고 매 중첩 당 피해량이 33%%씩 상승하지만, 중첩으로 인한 피해량 증가량은 점점 감소합니다. 폭발에 휘말린 적은 젖음 상태가 됩니다 %s.
 		비활성화했을 때 축적된 증기의 위치에 누군가 있는 경우, 또는 증기가 시야 밖에 있을 경우 기술이 실패합니다.

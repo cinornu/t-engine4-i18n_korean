@@ -793,47 +793,47 @@ t([[Your actions foreshadow a bleak outcome for your foes.
 		Each time you deal darkness, fire, blight or acid damage you curse %s your foe with an effect that stacks up to %d times (this can happen only once per creature per turn).
 		The vim you get for killing the creature is increased by 100%% for every stack of Bleak Outcome.
 		The vim's worth of a creature depends on your Willpower.]], [[시전자의 행동은 적들의 암울한 결과를 암시하는 전조가 됩니다.
-		어둠, 화염, 황폐 또는 산성 피해를 가할 때마다 최대 %d 번 중첩되는 저주를 겁니다 %s. (이 효과는 하나의 적에게 한 턴에 한 번 걸립니다.)
-		적을 죽이고 얻는 원기 획득량이 적에게 걸려 있는 암울한 결과 중첩 당 100%% 씩 상승합니다.
+		어둠, 화염, 황폐, 산성 피해를 가할 때마다 최대 %d 번까지 중첩되는 저주를 겁니다 %s (이 효과는 각 적마다 한 턴에 한 번 걸립니다).
+		적을 죽이고 얻는 원기 획득량이 적에게 걸려 있는 암울한 결과 중첩당 100%% 씩 상승합니다.
 		강탈하는 원기의 양은 시전자의 의지에 비례하여 증가합니다.]], "tformat", {2,1})
 t("Weakened Soul", "약해진 영혼", "talent name")
-t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "암울한 결과로 고통받는 적들은 약화되어, 암울한 결과 중첩 당 (최대 %d 중첩까지) 모든 속성 저항이 2%%씩 감소합니다.", "tformat")
+t("For each stack of Bleak Outcome up to %d the afflicted creatures are weakened, reducing their resistances by 2%%.", "암울한 결과로 고통받는 적들은 약화되어, 암울한 결과 중첩당 (최대 %d 중첩까지) 모든 속성 저항이 2%%씩 감소합니다.", "tformat")
 t("Grim Future", "암울한 미래", "talent name")
 t([[The future looks grim indeed... for your foes.
 		You can target a creature affected by Bleak Outcome to consume up to %s stacks, dealing %0.2f darkness damage to it for every stack and increasing your Spellpower by 4 per stacks for 6 turns.
 		While powered-up you can not apply new Bleak Outcome stacks.		
 		Damage is based on your Spellpower.]], [[미래는 확실히 어두워 보입니다... 적들의 미래가 말이죠...
-		암울한 결과 효과에 걸린 적을 하나 지정하여, 최대 %s 중첩을 소모하고 소모한 중첩 당 %0.2f 어둠 피해를 주는 동시에 시전자의 주문력은 6 턴 동안 중첩 당 4 증가합니다.
+		암울한 결과 효과에 걸린 적을 하나 지정하여, 최대 %s 중첩을 소모하고 소모한 중첩당 %0.2f 어둠 피해를 주는 동시에 시전자의 주문력은 6 턴 동안 중첩당 4 증가합니다.
 		이 효과로 주문력이 상승한 동안에는 암울한 결과 중첩을 쌓을 수 없습니다.		
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Ominous Shadow", "불길한 그림자", "talent name")
 t([[By gorging yourself on up to %d stacks of Bleak Outcome from a creature, you turn into an Ominous Shadow for one turn per stack.
 		While transformed you are invisible (power %d), convert 100%% of all damage done to darkness and gain darkness resistance penetration and damage increase equal to your highest.
-		While transformed you can not apply new Bleak Outcome stacks.]], [[대상에게서 암울한 결과 중첩을 흡수해 (최대 %d 중첩까지), 중첩 당 1 턴 동안 유지되는 불길한 그림자로 변신합니다.
-		변신한 동안 시전자는 투명 상태이며 (위력 %d), 모든 피해를 어둠 속성으로 가하고, 어둠 저항 관통과 어둠 피해 변동치가 시전자의 가장 높은 저항 관통, 속성 피해 변동치와 같은 값이 됩니다.
-		변신한 동안에는 새로운 암울한 결과 중첩을 쌓을 수 없습니다.]], "tformat")
+		While transformed you can not apply new Bleak Outcome stacks.]], [[대상에게서 암울한 결과 중첩을 흡수해 (최대 %d 중첩까지), 중첩당 1 턴 동안 유지되는 불길한 그림자로 변신합니다.
+		변신한 동안 시전자는 투명 상태이며 (위력 %d), 가하는 모든 피해가 어둠 속성으로 전환되고, 어둠 저항 관통과 어둠 피해 변동치가 시전자의 가장 높은 저항 관통, 속성 피해 변동치와 같은 값이 됩니다.
+		변신한 동안에는 암울한 결과 중첩을 쌓을 수 없습니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/brutality.lua"
 
 t("Draining Assault", "흡수의 맹공", "talent name")
 t("You require a two handed weapon to use this talent.", "이 기술을 사용하려면 양손 무기를 장비해야 한다.", "logPlayer")
-t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "대상을 2번 공격하여 매 타격 당 %d%% 무기 피해를 줍니다. 시전자는 가한 피해량의 %d%% 에 해당하는 생명력을 회복하고, 또한 명중한 공격 하나 당 %d 원기를 획득합니다.", "tformat")
+t("Hits the target twice, doing %d%% weapon damage each hit. You gain life equal to %d%% of the damage dealt, and you gain %d vim for each attack that hits.", "대상을 두 번 공격하여 각 공격마다 %d%% 무기 피해를 줍니다. 시전자는 가한 피해량의 %d%% 만큼 생명력을 회복하고, 또한 공격이 명중할 때마다 %d 원기를 획득합니다.", "tformat")
 t("Fiery Grasp", "불타는 손아귀", "talent name")
 t("%s resists the silence!", "%s 침묵에 저항했다!", "logSeen", nil, {"가"})
 t("%s resists the grasp!", "%s 손아귀에 저항했다!", "logSeen", nil, {"가"})
 t([[Send out a claw of fire, striking in a line doing %0.2f damage leading to a target. The target is caught in the claw's grasp, taking %d%% weapon damage as fire damage and becoming unable to move for %d turns %s, while also taking %0.2f damage per turn.
 		Starting from talent level 4, it will also silence.
 		The beam damage and damage over time will increase with your Spellpower.]], [[화염의 발톱을 내보내어 발사 경로 상에 %0.2f 피해를 줍니다. 대상은 발톱에 붙잡혀 %d%% 무기 피해를 화염 속성으로 받고, %d 턴 동안 이동할 수 없게 됩니다 %s. 또한 매 턴 %0.2f 피해를 받습니다.
-		기술 레벨 4 부터, 침묵을 유발합니다.
+		기술 레벨 4 부터, 대상들을 침묵시킵니다.
 		발사 경로 상에 가하는 피해와 턴마다 가하는 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Reckless Strike", "난폭한 일격", "talent name")
 t("#CRIMSON#(%d reckless backlash)#LAST#", "#CRIMSON#(%d 난폭한 일격 반동)#LAST#", "tformat")
-t("Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "대상을 공격해 %d%% 무기 피해를 가합니다. 이 공격은 반드시 명중하며, 대상의 방어력과 저항을 무시합니다. 하지만 시전자 역시 가한 피해의 %d%% 에 해당하는 피해나 현재 생명력의 30%% 에 해당하는 피해 중 낮은 것을 반동으로 받습니다.", "tformat")
+t("Hits the target doing %d%% weapon damage. This attack cannot miss, and ignores all armor and resistances on the target. However, you take damage equal to %d%% of the damage dealt, or 30%% of your current HP, whichever is lower.", "대상을 공격해 %d%% 무기 피해를 가합니다. 이 공격은 반드시 명중하며, 대상의 방어력과 저항을 무시합니다. 하지만 시전자도 가한 피해의 %d%% 나 현재 생명력의 30%% 중 낮은 쪽을 반동으로 받습니다.", "tformat")
 t("Share the Pain", "고통 공유", "talent name")
 t([[You revel in the heat of battle. Whenever an enemy damages you within melee range, you have a %d%% chance to counter with an attack for %d%% weapon damage.
-		You get once chance to deal this damage to a particular target each turn.]], [[전장의 열기를 즐깁니다. 인접한 적이 시전자에게 피해를 가할 시 %d%% 확률로 반격하여 %d%% 무기 피해를 가합니다.
-		하나의 대상에 대한 반격 확률 판정은 한 턴에 한 번만 일어납니다.]], "tformat")
+		You get once chance to deal this damage to a particular target each turn.]], [[전장의 열기를 즐깁니다. 인접한 적이 시전자에게 피해를 가하면 %d%% 확률로 반격하여 %d%% 무기 피해를 가합니다.
+		각 대상에 대한 반격 확률 판정은 한 턴에 한 번만 일어납니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/caustic-controller.lua"
@@ -952,22 +952,22 @@ section "tome-ashes-urhrok/data/talents/corruptions/demon-seeds.lua"
 
 t("Flame Bolts", "화염 화살", "talent name")
 t([[Randomly (%d%% chance) hurls up to %d flame bolts dealing %0.2f fire damage to foes in sight when you hit in melee.
-		The damage will increase with your Spellpower.]], [[근접 공격을 가할 때 %d%% 확률로 시야 내의 적들에게 최대 %d 개의 화염 화살을 던져, 각각 %0.2f 화염 피해를 가합니다.
+		The damage will increase with your Spellpower.]], [[근접 공격을 가하면 %d%% 확률로 시야 내의 적들에게 최대 %d 개의 화염 화살을 던져, 각각 %0.2f 화염 피해를 가합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Fiery Cleansing", "불타는 정화", "talent name")
 t("%s is cured!", "%s 정화되었다!", "logSeen", nil, {"이"})
-t("Deals 20%% of your total life to cleanse your afflictions, removing up to %d physical, mental or magical detrimental effects.", "최대 생명력의 20%% 를 소모해 부정적인 효과들을 정화합니다. 최대 %d 개의 부정적인 물리, 정신 또는 마법 효과를 제거합니다.", "tformat")
+t("Deals 20%% of your total life to cleanse your afflictions, removing up to %d physical, mental or magical detrimental effects.", "최대 생명력의 20%% 를 소모해 부정적인 효과들을 정화합니다. 부정적인 물리, 정신, 마법 효과를 최대 %d 개까지 제거합니다.", "tformat")
 t("Farstrike", "무기 투척", "talent name")
 t("You send your weapon flying to the target, dealing %d%% weapon damage.", "대상에게 무기를 던져 %d%% 무기 피해를 가합니다.", "tformat")
 t("Corrosive Slashes", "부식의 난도질", "talent name")
 t([[You cover your weapon in acid, turning all melee damage into acid.
 		All melee attacks also gain %d armor penetration.]], [[무기에 산성 물질을 발라 모든 근접 공격을 산성 속성으로 바꿉니다.
-		또한 모든 근접 공격에 방어력 관통이 %d 만큼 적용됩니다.]], "tformat")
+		또한 모든 근접 공격에 방어력 관통이 %d 더해집니다.]], "tformat")
 t("Acidic Bath", "산성 세례", "talent name")
 t([[You spawn a cloud of acid vapor in radius 4 around you for %d turns, dealing %0.2f acid damage to all creatures, including you.
 		You also gain 40%% acid resistance and %d%% acid affinity.
 		The damage scales with your Spellpower.]], [[시전자 주변 반경 4 칸에 %d 턴 동안 지속되는 산성 증기 구름을 만들어, 시전자를 포함한 모든 개체에게 %0.2f 산성 피해를 줍니다.
-		또한 시전자는 산성 저항 40%% 와 산성 속성 친화 %d%% 를 얻게 됩니다.
+		또한 시전자는 산성 저항 40%% 와 산성 친화 %d%% 를 얻게 됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blighted Path", "황폐화된 길", "talent name")
 t("Blighted Path", "황폐화된 길", "_t")
@@ -980,11 +980,11 @@ t([[Each time you walk or move you gain a blight charge. You can store up to %d 
 		- restore %0.2f vim per charge.
 		- deal %0.2f blight damage per charge to a target in range %d.
 		- create a shield absorbing %d damage per charge and reflecting half of it back to attackers.
-		The damage scales with your Spellpower.]], [[이동할 때마다 황폐 중첩을 얻습니다. 최대 %d 번 중첩됩니다.
-		시전자가 이 기술을 비활성화할 경우, 이 중첩들을 다음과 같이 사용할 수 있습니다.
-		- 중첩 당 %0.2f 원기 회복.
-		- 중첩 당 %0.2f 황폐 피해를 대상 주위 반경 %d 칸에 가함.
-		- 중첩 당 %d 피해를 막아내고, 피해량의 절반을 공격자에게 반사하는 방어막 생성.
+		The damage scales with your Spellpower.]], [[이동할 때마다 황폐 중첩을 얻습니다. 최대 %d 번까지 중첩됩니다.
+		시전자가 이 기술을 비활성화하면, 이 중첩들을 다음과 같이 사용할 수 있습니다.
+		- 중첩당 %0.2f 원기 회복.
+		- 중첩당 %0.2f 황폐 피해를 반경 %d 칸 내의 대상에게 가함.
+		- 중첩당 %d 피해를 막아내고, 피해량의 절반을 공격자에게 반사하는 방어막 생성.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Corrupt Light", "타락의 빛", "talent name")
 t([[Weave darkness in a radius of %d. All unlit grids contribute to your power by increasing all your damage done for %d turns.
@@ -995,29 +995,29 @@ t([[Whenever you are on an unlit grid you can meld with the shadows, gaining %d 
 		While stealthed you wrap shadows around you in a defensive cloak, giving you a %d%% chance to ignore physical or magical detrimental effects.
 		Your equiped lite does not count and will be turned off when activating.
 		Moving will cancel the effect.
-		Stealth power depends on Spellpower.]], [[불빛이 닿지 않는 위치에 있을 시, 그림자와 동화할 수 있게 되어 은신력이 %d 상승합니다.
-		은신 중, 그림자가 시전자를 보호하는 망토처럼 둘러싸 %d%% 확률로 물리나 마법 효과를 무시합니다.
+		Stealth power depends on Spellpower.]], [[불빛이 닿지 않는 위치에 있을 때, 그림자와 동화할 수 있게 되어 은신력이 %d 상승합니다.
+		은신 중, 그림자가 시전자를 보호하는 망토처럼 둘러싸 %d%% 확률로 물리, 마법 효과를 무시합니다.
 		시전자의 조명은 불빛으로 여겨지지 않으며 기술 활성화 중에는 꺼집니다.
 		이동 시 이 효과를 즉시 중단합니다.
 		은신력은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Blood Shield", "피의 방패", "talent name")
 t("You require a weapon and a shield to use this talent.", "방패와 근접 무기를 장비하지 않으면 이 기술을 사용할 수 없다.", "logPlayer")
 t([[By channeling doom forces in your shield you constantly apply 15%% of its block value as a flat damage reduction against all damage.
-		Whenever you are hit in melee your shield retaliates automatically for %d%% of its block value as fire and darkness damage.]], [[파멸의 힘을 방패에 모아, 방패 막기 수치의 15%% 에 해당하는 모든 피해에 대한 고정 피해 감소를 얻습니다.
-		근접 공격을 받을 시 방패를 이용해서 자동적으로 반격하여 방패 막기 수치의 %d%% 에 해당하는 화염과 어둠 피해를 가합니다.]], "tformat")
+		Whenever you are hit in melee your shield retaliates automatically for %d%% of its block value as fire and darkness damage.]], [[파멸의 힘을 방패에 모아, 방패 막기 수치의 15%% 만큼 고정 피해 감소 효과를 얻습니다.
+		근접 공격을 받게 되면 방패를 이용해서 자동으로 반격하여 방패 막기 수치의 %d%% 만큼 화염과 어둠 피해를 가합니다.]], "tformat")
 t("Silence", "침묵", "talent name")
 t("Corrupt the target, silencing it for %d turns %s.", "대상을 타락시켜 %d 턴 동안 침묵시킵니다 %s.", "tformat")
 t("Fiery Portal", "화염의 차원문", "talent name")
 t("fiery portal", "화염의 차원문", "_t")
 t([[Create two interlinked portals for %d turns.
 		Only you can use the portal willingly.
-		If a creature stands on the other end of the portal when you enter, you will switch places with it.]], [[%d 턴 동안 서로 연결된 2 개의 차원문을 엽니다.
+		If a creature stands on the other end of the portal when you enter, you will switch places with it.]], [[%d 턴 동안 서로 연결된 한 쌍의 차원문을 엽니다.
 		오직 시전자만 이 차원문을 마음대로 사용할 수 있습니다.
-		어떤 개체가 차원문의 반대쪽 출구를 막고 있을 때, 시전자가 차원문을 이용한다면 해당 개체와 자리를 바꿉니다.]], "tformat")
+		어떤 개체가 차원문의 반대쪽 출구를 막고 있을 때 시전자가 차원문을 이용한다면 해당 개체와 자리를 맞바꿉니다.]], "tformat")
 t("Doom Tendrils", "파멸의 덩굴", "talent name")
 t([[You turn into a pillar of doom, sprouting flame tendrils in radius 2 around you.
 		All foes hit by the tendrils take %0.2f fire damage per turn.
-		If the creature suffers damage from the fire it is pinned to the ground %s.]], [[파멸의 기둥이 되어 시전자를 기준으로 반경 2 칸 내에 불타는 덩굴들을 생성합니다.
+		If the creature suffers damage from the fire it is pinned to the ground %s.]], [[파멸의 기둥이 되어 시전자를 기준으로 반경 2 칸 내에 불타는 덩굴들을 만들어냅니다.
 		덩굴 위의 적은 매 턴 %0.2f 화염 피해를 받습니다.
 		화염 피해를 받은 적은 속박됩니다 %s.]], "tformat")
 t("Doomed Nature", "파멸한 자연", "talent name")
@@ -1037,36 +1037,36 @@ t([[When you deal a critical strike in melee, you send out a cone of acid, deali
 t("Armoured Leviathan", "중무장한 괴수", "talent name")
 t([[You enchant your shield to grant you power for %d turns.
 		While the effect last your Strength and Magic stats are increased by 10%% of your shield block value.]], [[방패를 강화해 시전자는 %d 턴 동안 막강한 힘을 누립니다.
-		지속시간 동안 방패 막기 수치의 10%% 에 해당하는 수치만큼 힘과 마법 능력치가 상승합니다.]], "tformat")
+		지속시간 동안 방패 막기 수치의 10%% 만큼 힘과 마법 능력치가 상승합니다.]], "tformat")
 t("Flash Block", "섬광의 방어", "talent name")
-t("In a fiery display of speed you raise your shield to block instantly.", "불 같이 빠른 속도로 방패를 들어 피해를 막아냅니다.", "tformat")
+t("In a fiery display of speed you raise your shield to block instantly.", "엄청난 속도로 방패를 들어 피해를 막아냅니다.", "tformat")
 t("Blackice", "검은 얼음", "talent name")
 t([[Each time your kill a creature with non-fire damage you gain a blackice charge for 20 turns (stacking to %d).
-		At any moment you can use a charge to infect a creature with blackice, reducing its fire and physical resistance by %d%% for 7 turns %s.]], [[화염이 아닌 피해로 적을 쓰러뜨리면 20 턴 동안 지속되는 검은 얼음 중첩을 얻습니다. (최대 %d 번 중첩됩니다)
+		At any moment you can use a charge to infect a creature with blackice, reducing its fire and physical resistance by %d%% for 7 turns %s.]], [[화염이 아닌 피해로 적을 처치하면 20 턴 동안 지속되는 검은 얼음 중첩을 얻습니다 (최대 %d 번까지 중첩됩니다).
 		언제라도 중첩을 사용하여 적을 검은 얼음에 감염시킬 수 있습니다. 검은 얼음에 당한 적은 7 턴 동안 화염과 물리 저항이 %d%% 감소합니다 %s.]], "tformat")
 t("Doomfire", "파멸의 불", "talent name")
 t([[Raging flames burn foes and allies alike, doing %0.2f fire damage in a radius of %d each turn for %d turns.
 		Demons standing in the doomfire will instead be healed.
 		The damage will increase with your Spellpower.]], [[맹렬한 불길로 적과 아군을 모두 불태웁니다. 반경 %d 칸 범위에 %d 턴 동안 %0.2f 화염 피해를 매 턴 줍니다.
-		파멸의 불에 영향을 받는 악마는 피해를 입는 대신 생명력이 회복됩니다.
+		파멸의 불에 영향을 받는 악마는 피해를 받는 대신 같은 수치만큼 생명력이 회복됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat", {2,3,1})
 t("Pain Affinity", "고통 친화", "talent name")
 t([[Whenever you take blight damage you bask in the sweet pain for 2 turns, increasing all damage affinity by 15%%.
-		This can only happen every %d turns.]], [[황폐 피해를 입으면 달콤한 고통을 만끽합니다. 2 턴 동안 모든 속성 친화가 15%% 상승합니다.
+		This can only happen every %d turns.]], [[황폐 피해를 받으면 달콤한 고통을 만끽합니다. 2 턴 동안 모든 속성 친화가 15%% 상승합니다.
 		이 효과는 매 %d 턴마다 일어납니다.]], "tformat")
 t("Hexed Shield", "비술 방패", "talent name")
 t([[Whenever you block an attack with your shield, you randomly hex the attacker with one of the hexes: Pacification, Domination, Burning or Empathic as if cast at talent level %d %s.
 		This may only happen once per turn.]], [[방패로 공격을 막으면 공격자에게 기술 레벨 %d의 진정의 비술, 화염의 비술, 공감의 비술, 지배의 비술 중 하나를 겁니다 %s.
-		이 효과는 한 턴에 한 번만 발생합니다.]], "tformat")
+		이 효과는 한 턴에 한 번만 일어납니다.]], "tformat")
 t("Cursed Arm", "저주받은 무기", "talent name")
 t([[Whenever make a melee attack, you have a %d%% chance to randomly curse the target with one of the curses: Defenselessness, Impotence, Death or Vulnerability as if cast at talent level %d %s.
 		This may only happen once per turn.]], [[근접 공격을 가하면 %d%% 확률로 기술 레벨 %d의 무방비의 저주, 무기력의 저주, 죽음의 저주, 취약의 저주 중 하나를 겁니다 %s.
-		이 효과는 한 턴에 한 번만 발생합니다.]], "tformat")
+		이 효과는 한 턴에 한 번만 일어납니다.]], "tformat")
 t("Doom Storm", "파멸의 폭풍", "talent name")
 t("firestorm", "화염 폭풍", "_t")
 t([[A furious fire storm rages around the caster, doing %0.2f fire damage in a radius of 3 each turn for %d turns.
 		You closely control the firestorm, preventing it from harming your party members.
-		The damage and duration will increase with your Spellpower.]], [[시전자 주변에 맹렬한 화염 폭풍을 생성하여 반경 3 칸 내의 모든 대상에게 매 턴 %0.2f 화염 피해를 %d 턴 동안 가합니다.
+		The damage and duration will increase with your Spellpower.]], [[시전자 주변에 맹렬한 화염 폭풍을 일으켜 반경 3 칸 내의 모든 대상에게 매 턴 %0.2f 화염 피해를 %d 턴 동안 가합니다.
 		화염 폭풍은 완벽하게 통제되기 때문에 아군에게 피해를 가하지 않습니다.
 		피해량과 지속시간은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Frostfire Nova", "서리화염 폭발", "talent name")
@@ -1088,19 +1088,19 @@ t("Blood Drinker", "피를 마시는 자", "talent name")
 t([[Deal a blight-enhanced melee blow, dealing %d%% blight damage.
 		If the attack hits and %s the creature dies in the next 2 turns you drink its essence which makes you regenerate 7 vim per turn and gain 40%% chance to evade attacks for the next %d turns.
 		]], [[황폐의 힘이 담긴 근접 공격을 가해 %d%% 황폐 피해를 줍니다.
-		공격이 명중하고 대상이 2 턴 이내에 쓰러질 시 %s, 정수를 먹어치워 다음 %d 턴 동안 원기를 매 턴 7 회복하고, 40%% 확률로 받은 공격을 무효화합니다.
+		공격이 명중하고 대상이 2 턴 이내에 죽게 되면 %s, 정수를 먹어치워 다음 %d 턴 동안 원기를 매 턴 7 회복하고 40%% 확률로 받은 공격을 무효화합니다.
 		]], "tformat")
 t("Meteor Slam", "운석 강타", "talent name")
 t("You cannot use Meteor Slam without a shield!", "방패를 장비하지 않으면 운석 강타를 사용할 수 없다!", "logPlayer")
 t([[Using demonic forces you jump high in the sky and fall down on your target as a meteor, slamming the ground with your shield.
-		The impact is so powerful it shakes the ground in radius %d, dealing a %d%% fire and physical shield attack to all foes and turning the ground into lava.]], [[악마의 힘을 이용해 하늘 높이 도약한 후, 대상을 향해 운석처럼 떨어져 방패로 지면을 강타합니다.
-		충격은 너무나 강력하여 반경 %d 칸의 대지를 뒤흔들어, %d%% 화염, 물리 방패 피해를 모든 적에게 가하고 땅을 녹여 용암으로 만들어버립니다.]], "tformat")
+		The impact is so powerful it shakes the ground in radius %d, dealing a %d%% fire and physical shield attack to all foes and turning the ground into lava.]], [[악마의 힘을 이용해 하늘 높이 뛰어오르고, 대상을 향해 운석처럼 떨어져 방패로 지면을 강타합니다.
+		엄청난 충격에 반경 %d 칸의 대지가 요동치면서 %d%% 화염, 물리 방패 피해를 모든 적에게 가하고, 땅을 녹여 용암으로 만들어버립니다.]], "tformat")
 t("Blazing Phase", "불타는 위상", "talent name")
 t([[By seathing yourself in flames you phase to a distant location.
 		Any creature caught in the way is burnt for %0.2f fire damage which you use to regain %d vim.
 		The damage will increase with your Spellpower.
 		]], [[스스로를 불길로 둘러싸고 특정 위치로 이동합니다.
-		해당 경로 내의 모든 적은 불타올라 %0.2f 화염 피해를 받고, 시전자는 원기를 %d 회복합니다.
+		이동 경로의 모든 적은 불타올라 %0.2f 화염 피해를 받고, 시전자는 원기를 %d 회복합니다.
 		피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
 t("Frost Grab", "서리 손아귀", "talent name")
@@ -1113,9 +1113,9 @@ t("Diseased Body", "병든 몸", "talent name")
 t([[Whenever you take direct damage, there is a %d%% chance that your your diseased body erupts in blight, diseasing your attacker with a random disease for %d turns %s.
 		Each turn the disease deals %0.2f blight damage and reduce one random attribute (strength, dexterity, constitution) by %d.
 		This may only happen once per turn.
-		The damage increases with your spellpower.]], [[직접 피해를 받으면 %d%% 확률로 시전자의 병든 몸이 황폐를 터뜨려 공격자에게 %d 턴 동안 지속되는 무작위한 질병을 감염시킵니다 %s.
+		The damage increases with your spellpower.]], [[직접 피해를 받으면 %d%% 확률로 시전자의 병든 몸이 황폐를 터뜨려 공격자에게 %d 턴 동안 지속되는 무작위한 질병 하나를 감염시킵니다 %s.
 		매 턴, 질병은 %0.2f 황폐 피해를 주고 힘, 민첩, 체격 중 무작위한 능력치 하나를 %d 감소시킵니다.
-		이 효과는 한 턴에 한 번 발동합니다.
+		이 효과는 한 턴에 한 번만 일어납니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Volcanic Skin", "용암 피부", "talent name")
 t("raging volcano", "분출하는 화산", "_t")
@@ -1188,7 +1188,7 @@ t([[Strike a blow with your weapon for %d%% blight damage.
 		%s희귀#LAST# 또는 %s유일#LAST#:  50%%
 		%s보스#LAST#:  100%%
 		숙주가 쓰러지면 씨앗은 죽어가는 숙주의 원기로 가득 차, 소환할 수 있는 특정한 악마의 씨앗으로 변합니다.
-		만약 같은 종류의 씨앗이 가방 안에 있거나 장비에 장착되어 있을 시, 획득하는 대신 해당 악마의 씨앗의 레벨을 증가시키고 (단, 숙주의 레벨이 소지하고 있던 씨앗의 레벨보다 높을 경우에만), 해당하는 악마의 생명력이 %d%% 회복됩니다. 이미 죽어있던 악마의 경우 부활하고 회복됩니다.
+		만약 같은 종류의 씨앗이 가방 안에 있거나 장비에 장착되어 있다면, 획득하는 대신 해당 씨앗의 레벨을 증가시키고 (단, 숙주의 레벨이 소지하고 있던 씨앗의 레벨보다 높을 경우에만), 해당하는 악마의 생명력이 %d%% 회복됩니다. 이미 죽어있던 악마의 경우 부활하고 회복됩니다.
 
 		기술 레벨이 높을수록 더욱 강력한 고위 악마들의 씨앗을 얻을 수 있습니다.
 		게임 내 유일한 악마에게 씨앗을 심을 경우, 획득 성공 시 언제나 해당 악마의 씨앗을 얻게 됩니다.]], "tformat")
@@ -1210,7 +1210,7 @@ t([[Your knowledge of demonic forces grows, allowing you to bind more seeds to y
 		]], [[악마의 힘에 대한 지식을 터득하여, 더 많은 악마를 결합시키고 소환할 수 있게 되었습니다.
 		타락한 마법의 힘을 사용하여 %d 턴 동안 악마의 씨앗에서 해당하는 악마를 소환합니다.
 		소환된 악마는 생명력을 재생할 수 있으며, 다시 소환할 경우 마지막으로 소환했던 때의 생명력을 유지합니다.
-		악마가 죽을 경우 부활하기 전까지 소환이 불가능해집니다.
+		악마가 죽게 되면 부활하기 전까지 소환이 불가능해집니다.
 		이 주문은 가방 안의 악마 씨앗과 장비에 결합된 악마 씨앗 모두에게서 악마를 불러낼 수 있습니다.
 
 		또한 이 기술에 점수를 투자할수록 악마를 결합하는 새로운 방법을 깨달아, 이제껏 활용하지 못했던 씨앗들을 활용할 수 있게 됩니다.
@@ -1227,8 +1227,8 @@ t([[Teleports you randomly within a small range of up to %d grids with %d precis
 		If the target area is not in line of sight, there is a chance the spell will fizzle.
 		This spell requires an unsummoned, alive, demon seed equiped in a worn equipment to work.
 		The range will increase with your Spellpower.]], [[최대 %d 칸 범위 내의 무작위한 위치로 순간이동합니다. 오차 범위는 %d 칸 입니다.
-		순간이동 시, 시전자는 자신이 있던 자리에 무작위한 악마 씨앗 중 하나를 골라 %d 턴 동안 지속되는 악마를 소환합니다.
-		대상 위치가 시야 내에 없을 경우, 일정 확률로 주문이 실패합니다.
+		순간이동 시, 시전자는 무작위한 악마 씨앗 중 하나를 골라 자신이 있던 자리에 %d 턴 동안 지속되는 악마를 소환합니다.
+		대상 위치가 시야 내에 없다면 일정 확률로 주문이 실패합니다.
 		이 주문을 사용하려면 장비에 장착되어 있으며, 살아있고, 소환 상태가 아닌 악마의 씨앗이 필요합니다.
 		범위는 주문력에 비례하여 증가합니다.]], "tformat")
 t("Doom Concordat", "파멸의 협약", "talent name")
@@ -1238,10 +1238,10 @@ t([[You use your demon seeds to the fullest of their potential.
 		Each time you enter combat you automatically summon a random demon from your worn seeds for %d turns. Demons are only summoned if their life is over 70%% and only if no other summoned demon is from Doom Concordat.
 		Each time you kill a creature a random worn demon seed with less than 100%% life will be healed for %d%% life and resurrected if it was dead and the target was an elite or more.
 		In addition you feed of the arrival, departure or death of your demons, each time healing yourself for %d life.
-		The healing is based on your Spellpower.]], [[악마의 씨앗의 잠재력을 최대한 끌어냅니다.
-		전투에 돌입할 때마다 자동으로 결합 중인 악마 씨앗들 중 하나를 무작위로 골라 악마를 %d 턴 동안 소환합니다. 파멸의 협약으로 소환된 악마가 이미 있으면 소환되지 않으며, 생명력이 70%% 이상인 악마 씨앗만이 소환 대상이 됩니다.
+		The healing is based on your Spellpower.]], [[악마 씨앗의 잠재력을 최대한 끌어냅니다.
+		전투에 돌입할 때마다 자동으로 결합 중인 악마 씨앗들 중 하나를 무작위로 골라 %d 턴 동안 소환합니다. 파멸의 협약으로 소환된 악마가 이미 있으면 소환되지 않으며, 생명력이 70%% 이상인 악마 씨앗만이 소환 대상이 됩니다.
 		시전자가 적을 살해하면 생명력이 100%% 미만인, 결합 중인 무작위 악마 하나의 생명력을 %d%% 회복합니다. 살해한 대상이 정예 등급 이상일 경우 악마의 씨앗이 부활합니다.
-		추가로, 악마가 소환되거나, 지속시간이 다 되어 사라지거나, 또는 죽을 때 시전자의 생명력이 %d 회복됩니다.
+		추가로, 악마가 소환되거나, 지속시간이 다 되어 사라지거나, 죽을 때 시전자의 생명력이 %d 회복됩니다.
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -1256,19 +1256,19 @@ t([[Use your stored vim to supercharge your body, recovering %d stamina and %d l
 		Additionally, you will be able to survive your HP going under 0, down to -%d HP, for the next 8 turns.
 		These values will increase with your Spellpower.
 		Spell criticals with this talent also effect the stamina gain.]], [[모아둔 원기를 소모하여 육체를 폭주시킵니다. 기력을 %d, 생명력을 %d 회복합니다.
-		추가로, 다음 8 턴 동안 생명력이 0 이하로 떨어져도 죽지 않게 되고, 생명력이 -%d 에 도달해야 죽게 됩니다.
+		더해서 다음 8 턴 동안 생명력이 0 이하로 떨어져도 죽지 않게 되고, 생명력이 -%d 에 도달해야 죽게 됩니다.
 		이 효과는 주문력에 비례하여 증가합니다.
 		이 기술은 주문 치명타에 영향을 받으며, 치명타 시 기력 회복량에 영향을 줍니다.]], "tformat")
 t("Demonic Blood", "악마의 피", "talent name")
 t([[Demonic Blood flows through your veins, increasing your spellpower by %d and your maximum vim by %d.
 		Additionally, you will recieve a bonus to all damage equal to %d%% of your current vim (Currently %d%%).]], [[악마의 피가 혈관을 타고 흘러 주문력이 %d 상승하고, 최대 원기량이 %d 증가합니다.
-		추가로, 현재 원기량의 %d%% 에 해당하는 수치만큼 시전자가 가하는 피해량이 증가합니다 (현재 %d%%).]], "tformat")
+		추가로, 현재 원기량의 %d%% 만큼 시전자가 가하는 피해량이 증가합니다 (현재 %d%%).]], "tformat")
 t("Abyssal Shield", "심연의 방패", "talent name")
 t([[Surround yourself with a defensive aura, increasing armor by %d, and inflicting %0.2f fire and %0.2f blight damage to all attacking foes.
 Additionally, your vim will enhance your defences, reducing all damage by %d%% of your current vim (currently %d), but never reducing by more than half of the original damage. This will cost vim equal to 5%% of the damage blocked.
 The damage will scale with your Spellpower.]], [[방어의 기운을 둘러 방어력이 %d 증가하고, 시전자를 공격하는 모든 적에게 %0.2f 화염 피해와 %0.2f 황폐 피해로 보복합니다.
-추가로, 시전자의 원기가 방어를 강화시켜, 현재 원기량의 %d%% 에 해당하는 수치만큼 시전자가 받는 피해량이 감소합니다. (현재 %d) 하지만 이 효과는 원래 피해의 50%% 이상을 감소시킬 수는 없습니다. 공격을 막아낼 때마다, 막아낸 피해량의 5%% 에 해당하는 원기가 소모됩니다.
-피해량은 주문력에 비례하여 증가합니다.]], "tformat")
+추가로 시전자의 원기가 방어를 강화시켜, 현재 원기량의 %d%% 만큼 시전자가 받는 피해량이 감소합니다. (현재 %d) 하지만 이 효과는 피해를 50%% 이상 감소시킬 수 없습니다. 공격을 막아낼 때마다, 막아낸 피해량의 5%% 만큼 원기를 소모합니다.
+보복 피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/doom-covenant.lua"
@@ -1279,10 +1279,10 @@ t([[Your affinity for the shadows grow stronger.
 		If you kill a creature with darkness damage this effect always triggers.
 		You can only gain one stack of Dark Reign per turn.
 		This effect stacks multiplicatively up to %d times.]], [[그림자와의 결속이 강해집니다.
-		주문으로 어둠 피해를 입히면 %d%% 확률로 8 턴 동안 모든 속성에 대한 친화를 8%% 얻게 됩니다.
-		어둠 피해로 적을 쓰러뜨리면 이 효과가 항상 발동합니다.
-		어둠의 지배 중첩은 한 턴에 한 번만 획득할 수 있습니다.
-		이 효과는 최대 %d 번 중첩됩니다.]], "tformat")
+		주문으로 어둠 피해를 주면 %d%% 확률로 8 턴 동안 모든 속성 친화를 8%% 얻게 됩니다.
+		어둠 피해로 적을 쓰러뜨리면 이 효과가 반드시 발동합니다.
+		어둠의 지배 중첩은 한 턴에 하나씩만 획득할 수 있습니다.
+		이 효과는 최대 %d 번까지 중첩됩니다.]], "tformat")
 t("Dread End", "두려운 끝", "talent name")
 t([[You learn to use death around you to an even greater advantage. 
 		Each time you kill or deal damage above %d%% of a creatures max life with non-darkness damage while Dark Reign is active the death will create a pool of dark energies of radius 1 for 5 turns.
@@ -1291,23 +1291,23 @@ t([[You learn to use death around you to an even greater advantage.
 		This effect can only happen once per turn.
 		The damage increases with spellpower.
 		At talent level 3 your Dark Reign buff also protects you from death until reaching %d life per stack.]], [[주변의 죽음을 통해 더욱 큰 이점을 취하는 법을 배웁니다.
-		어둠의 지배가 활성화 중일 때, 어둠 속성이 아닌 피해로 적의 최대 생명력의 %d%% 이상 피해를 가하거나 적을 살해하면, 대상의 죽음을 뽑아내어 5 턴 동안 지속되는 반경 1 칸의 암흑 에너지 웅덩이를 생성합니다.
-		이 웅덩이는 시전자를 기준으로 반경 %d 칸 내의 무작위한 적의 위치에 생성됩니다.
-		웅덩이 안에 서 있는 적은 매 턴 %0.2f 어둠 피해를 받습니다.
+		어둠의 지배가 활성화 중일 때 어둠 속성이 아닌 피해로 적의 최대 생명력의 %d%% 이상 피해를 가하거나 적을 살해하면, 대상의 죽음을 뽑아내어 5 턴 동안 지속되는 반경 1 칸의 암흑 에너지 웅덩이를 만듭니다.
+		이 웅덩이는 시전자를 기준으로 반경 %d 칸 내의 무작위 적의 위치에 만들어집니다.
+		웅덩이 위에 서 있는 적은 매 턴 %0.2f 어둠 피해를 받습니다.
 		이 효과는 한 턴에 한 번만 일어납니다.
 		피해량은 주문력에 비례하여 증가합니다.
-		기술 레벨 3 부터, 어둠의 지배 효과가 죽음으로부터 시전자를 보호하여 매 중첩 당 생명력 하한이 %d 증가합니다.]], "tformat")
+		기술 레벨 3 부터, 어둠의 지배 효과가 죽음으로부터 시전자를 보호하여 중첩당 생명력 하한이 %d 증가합니다.]], "tformat")
 t("Blood Pact", "피의 계약", "talent name")
 t([[Pay %d%% of your current life and gain 100%% darkness damage conversion for 1 turns.
-			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[현재 생명력의 %d%% 를 대가로 1 턴 동안 모든 피해가 어둠 속성으로 전환됩니다.
-			어둠의 지배가 활성화되어 있다면 중첩 당 기력을 %d, 원기를 %d 회복합니다.]], "tformat")
+			If Dark Reign is active you also gain %d stamina and %d vim per stack.]], [[현재 생명력의 %d%% 를 대가로 1 턴 동안 가하는 모든 피해가 어둠 속성으로 전환됩니다.
+			어둠의 지배가 활성화되어 있다면 중첩당 기력을 %d, 원기를 %d 회복합니다.]], "tformat")
 t("Erupting Darkness", "폭발하는 어둠", "talent name")
 t("raging volcano", "분출하는 화산", "_t")
 t([[When Dread End creates pools of darkness you can focus your raging thoughts on them to make them erupt into volcanos.
 		Up to %d pools in radius %d will erupt, producing a volcano for %d turns.
 		Each turn the volcano will send out fiery boulders that deal %0.2f fire and %0.2f physical damage.
-		The effects will improve with your Spellpower.]], [[분노를 집중해, 두려운 끝으로 생성된 어둠의 웅덩이를 화산으로 재형성할 수 있게 되었습니다.
-		반경 %d 칸 내의 최대 %d 개의 웅덩이가 들끓어올라, %d 턴 동안 지속되는 화산이 됩니다.
+		The effects will improve with your Spellpower.]], [[분노를 집중해, 두려운 끝으로 만들어진 어둠의 웅덩이를 화산으로 바꿀 수 있게 되었습니다.
+		반경 %d 칸 내의 최대 %d 개의 웅덩이가 들끓어올라 %d 턴 동안 지속되는 화산이 됩니다.
 		매 턴, 화산은 불타는 암석을 분출해 %0.2f 화염 피해와 %0.2f 물리 피해를 가합니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat", {2,1,3,4,5})
 
@@ -1322,9 +1322,9 @@ t([[You infuse your shield with the energies of Urh'Rok, bringing about a magica
 		At level 3 if a damage dealt is at least twice as high you have %d%% chance to also remove a physical detrimental effect. This effect can only happen once per turn.
 		This spell disabled automatically on rest or run.
 		#{bold}#Activating the shield takes no time but de-activating it does.#{normal}#
-		The damage increases with spellpower.]], [[방패에 울흐'록의 에너지를 부여하여, 피격 시 삼투 방패의 방어 수치만큼 피해를 경감하고, 3 턴에 걸쳐 경감한 피해와 같은 양을 회복합니다. (이로써 실제 중화량은 총 방어 수치의 2 배이며, 방패 막기 수치에 비례합니다) 이 효과는 중첩 가능합니다.
-		수치는 5 + 방패 막기 수치의 %d%% 입니다 (현재 %d).
-		기술 레벨 3 부터, 흡수량의 2 배 이상의 피해를 받게 되면 %d%% 확률로 부정적인 물리 효과를 하나 해제합니다. 이 효과는 한 턴에 한 번만 일어납니다.
+		The damage increases with spellpower.]], [[방패에 울흐'록의 에너지를 채웁니다. 피격 시 삼투 방패의 방어량만큼 피해를 경감하고, 경감한 만큼 3 턴에 걸쳐 생명력을 회복합니다 (이로써 실제 경감량은 방어량의 2 배이며, 방패 막기 수치에 비례합니다). 이 효과는 중첩 가능합니다.
+		방어량은 5 + 방패 막기 수치의 %d%% 입니다 (현재 %d).
+		기술 레벨 3 부터, 방어량의 2 배 이상의 피해를 받게 되면 %d%% 확률로 부정적인 물리 효과를 하나 제거합니다. 이 효과는 한 턴에 한 번만 일어납니다.
 		휴식이나 탐험 시 이 기술은 자동으로 비활성화됩니다.
 		#{bold}#기술을 활성화하는 것은 턴을 소모하지 않지만, 해제하는 것은 턴을 소모합니다.#{normal}#
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
@@ -1334,12 +1334,12 @@ t([[Taking example from Mal'Rok, the demon's homeworld you harden yourself.
 		방어력이 %d%% + 10 증가하고, 주문력이 %d 증가합니다.]], "tformat")
 t("Demonic Madness", "악마의 광기", "talent name")
 t([[You spin around madly with your shield, bashing all those around you for %d%% shield damage as darkness, confusing your foes for %d turns %s.
-		At level 4 you also automatically block at the end.]], [[방패를 미친 듯이 회전시켜, 시전자 근처의 적에게 %d%% 방패 피해를 어둠 속성으로 가하고 %d 턴 동안 혼란시킵니다 %s.
+		At level 4 you also automatically block at the end.]], [[방패를 미친 듯이 회전시켜, 시전자와 인접한 적들에게 %d%% 방패 피해를 어둠 속성으로 가하고 %d 턴 동안 혼란시킵니다 %s.
 		기술 레벨 4 부터, 기술 사용 후 자동적으로 방패 막기 태세에 돌입합니다.]], "tformat")
 t("Blighted Shield", "황폐화된 방패", "talent name")
 t([[Your shield is infused with a powerful blight. Anytime you block and apply a counterstrike effect the target is also afflicted by a curse of impotence %s.
 		Cursed creatures have all their damage decreased by %d%% for 5 turns.
-		The effects will improve with your Spellpower.]], [[강력한 황폐의 힘이 방패에 깃듭니다. 방패 막기를 할 때, 그리고 적에게 반격 약화 효과를 부여할 때 대상에게 무기력의 저주를 내립니다 %s.
+		The effects will improve with your Spellpower.]], [[강력한 황폐의 힘이 방패에 깃듭니다. 방패 막기를 할 때, 그리고 적에게 반격 약화 효과를 걸 때 대상에게 무기력의 저주를 내립니다 %s.
 		저주받은 대상은 5 턴 동안 모든 피해량이 %d%% 감소합니다.
 		이 효과는 주문력에 비례하여 증가합니다.]], "tformat")
 
@@ -1350,9 +1350,9 @@ t("Demonhide", "악마가죽", "talent name")
 t([[Your body becomes more like that of the Wretch. You gain %d increased max life and %d armor. While standing on an #GREEN#acid pool#LAST# you will gain %0.1f life regeneration. Additionally, whenever you take damage in combat, you have a chance to create an #GREEN#acid pool#LAST# on a random tile within range 4, up to once per turn. The chance is 100%%, reduced by 25%% for each #GREEN#acid pool#LAST# within range 4. However, a pool will not be created if the chosen tile contains impassable terrain.
 		
 		Life and armor values improve with Strength. Life regeneration improves with Magic.
-		]], [[몸이 좀 더 렛치와 비슷하게 변합니다. 최대 생명력이 %d, 방어력이 %d 상승합니다. 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있으면 생명력 재생을 %0.1f 얻습니다. 또한 시전자가 전투 중에 피해를 받게 되면 한 턴에 한 번만, 확률적으로 반경 4 칸 내에 #GREEN#산성액 웅덩이#LAST#를 하나 만들어냅니다. 확률은 기본 100%%로, 반경 4 칸 내에 존재하는 #GREEN#산성액 웅덩이#LAST#가 하나 당 25%%씩 감소합니다. 이때 웅덩이가 생성될 칸이 이동할 수 없는 칸이라면 생성되지 않습니다.
+		]], [[몸이 좀 더 렛치와 비슷하게 변합니다. 최대 생명력이 %d, 방어력이 %d 상승합니다. 시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있으면 생명력 재생을 %0.1f 얻습니다. 또한 시전자가 전투 중에 피해를 받게 되면 한 턴에 한 번만, 확률적으로 반경 4 칸 내에 #GREEN#산성액 웅덩이#LAST#를 하나 만들어냅니다. 확률은 기본 100%%로, 반경 4 칸 내에 존재하는 #GREEN#산성액 웅덩이#LAST# 하나 당 25%%씩 감소합니다. 이때 웅덩이가 생성될 칸이 이동할 수 없는 칸이라면 생성되지 않습니다.
 		
-		생명력과 방어력 상승치는 힘 능력치에 비례해 증가합니다. 생명력 재생 상승치는 마법 능력치에 비례해 상승합니다.
+		생명력과 방어력 상승치는 힘 능력치에 비례하여 증가합니다. 생명력 재생 상승치는 마법 능력치에 비례하여 상승합니다.
 		]], "tformat")
 t("Blinding Splash", "실명 물보라", "talent name")
 t([[When you move onto an #GREEN#acid pool#LAST#, you release a surge of power into it, creating a radius %d splash of acid which deals %0.2f damage and has a chance to blind foes %s for %d turns.
@@ -1374,7 +1374,7 @@ t("Emerald Resonance", "에메랄드의 공명", "talent name")
 t([[The Wretch essence within resonates with nearby #GREEN#acid pools#LAST#. You gain %d accuracy and spellpower and %d%% increased acid damage for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most. Additionally, when you #DARK_GREEN#absorb#LAST# an #GREEN#acid pool#LAST# you gain %d%% resistance to all damage for 2 turns.
 		
 		Damage resistance improves with Magic.
-		]], [[내면의 렛치의 정수가 근처 #GREEN#산성액 웅덩이#LAST#들과 공명합니다. 반경 %d 칸 내에 있는 #GREEN#산성액 웅덩이#LAST# 하나 당 시전자의 정확도와 주문력이 %d, 산성 피해가 %d%% 상승합니다 (웅덩이는 최대 %d 개까지 계산). 또한 시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 2 턴 동안 모든 속성 저항이 %d%% 상승합니다.
+		]], [[내면의 렛치의 정수가 근처 #GREEN#산성액 웅덩이#LAST#들과 공명합니다. 반경 %d 칸 내에 있는 #GREEN#산성액 웅덩이#LAST# 하나마다 시전자의 정확도와 주문력이 %d, 산성 피해가 %d%% 상승합니다 (웅덩이는 최대 %d 개까지 계산). 또한 시전자가 #GREEN#산성액 웅덩이#LAST#를 #DARK_GREEN#흡수#LAST#하면 2 턴 동안 모든 속성 저항이 %d%% 상승합니다.
 		
 		저항 상승량은 마법 능력치에 비례하여 증가합니다.
 		]], "tformat", {3,1,2,4,5})
@@ -1387,22 +1387,22 @@ t("You can't move there.", "그곳으로 이동할 수 없다.", "logSeen")
 t("The spell fizzles!", "주문이 실패했다!", "logSeen")
 t([[Open a gateway to the Fearscape, stepping through it to a nearby location. As you step out, a burst of fire will leave with you, dealing %0.2f demonfire damage to everyone within %d spaces and leaving flames which will deal an additional %0.2f demonfire damage over 4 turns.
 		Additionally, shifting through reality enhances your awareness, allowing you to see all enemies within %d spaces for the next 3 turns.
-		The damage will scale with your Spellpower and the range will increase with the talent level.]], [[공포의 영역으로의 차원문을 열어 좁은 범위를 순간이동합니다. 순간이동을 끝내면 동시에 화염이 분출되어, %0.2f 악마 화염 피해를 반경 %d 칸 내의 모든 개체에게 가하고, 남아있는 화염이 %0.2f 악마 화염 피해를 4 턴에 걸쳐 가합니다.
+		The damage will scale with your Spellpower and the range will increase with the talent level.]], [[공포의 영역으로의 차원문을 열어 좁은 범위를 순간이동합니다. 순간이동이 끝나는 동시에 불꽃이 쏟아져 나와 %0.2f 악마 화염 피해를 반경 %d 칸 내의 모든 개체에게 가하고, 남아있는 불길이 %0.2f 악마 화염 피해를 4 턴에 걸쳐 가합니다.
 		추가로, 현실을 벗어나 순간이동함으로써 시전자의 인식력이 매우 향상되어, 다음 3 턴 동안 반경 %d 칸 내의 모든 적을 감지할 수 있게 됩니다.
 		피해량은 주문력에 비례하여 증가하고, 범위는 기술 레벨에 비례하여 증가합니다.]], "tformat")
 t("Cauterize Spirit", "영혼 지지기", "talent name")
 t([[Removes all detrimental effects but causes you to burn for %d%% of your max health per effect, over 7 turns.
 		This ignores all resists, defenses, and affinities.
-		This does not take a turn.]], [[모든 부정적인 효과를 제거하는 대신, 제거한 부정적인 효과 하나마다 최대 생명력의 %d%% 를 7 턴에 걸쳐 잃습니다.
+		This does not take a turn.]], [[현재 걸려 있는 부정적인 효과를 전부 제거하고, 제거한 효과 하나마다 최대 생명력의 %d%% 를 7 턴에 걸쳐 잃습니다.
 		이 효과는 모든 저항, 회피, 속성 친화를 무시합니다.
 		이 기술은 턴을 소모하지 않습니다.]], "tformat")
 t("Infernal Breath", "지옥의 숨결", "talent name")
 t([[Exhale a wave of dark fire with radius %d, lasting 4 turns. Any non-demon caught in the area will take %0.2f fire damage, and flames will be left dealing a further %0.2f each turn. Demons will be healed for the same amount.
-		The damage will increase with your Strength Stat, but critically hit as a spell.]], [[반경 %d 칸 범위에 어둠 불꽃을 뿜어냅니다. 악마가 아닌 모든 존재는 %0.2f 화염 피해를 입습니다. 내뿜어진 화염은 지면에 남아 매 턴 %0.2f 피해를 줍니다. 악마는 같은 수치만큼 회복합니다.
-		피해량은 힘에 비례하여 증가하지만, 치명타는 주문 치명타 확률을 적용받습니다.]], "tformat")
+		The damage will increase with your Strength Stat, but critically hit as a spell.]], [[반경 %d 칸 범위에 어둠 불꽃을 뿜어냅니다. 악마가 아닌 존재는 %0.2f 화염 피해를 받습니다. 불꽃은 4 턴 동안 지면에 남아 매 턴 %0.2f 피해를 줍니다. 악마는 같은 수치만큼 회복합니다.
+		피해량은 힘에 비례하여 증가하지만, 치명타는 주문 치명타 확률을 사용합니다.]], "tformat")
 t("Maw of Urh'rok", "울흐'록의 아가리", "talent name")
 t([[Your body becomes a nexus for the Fearscape, causing you to drag enemies towards you in a cone with a radius of %d, dealing %0.2f fire damage every turn.
-		The damage will increase with your Spellpower.]], [[신체가 공포의 영역으로의 교차점으로 변해, 반경 %d 칸의 원뿔 범위 내의 적들을 끌어당기고 매 턴 %0.2f 화염 피해를 줍니다.
+		The damage will increase with your Spellpower.]], [[몸이 공포의 영역으로의 교차점으로 변해, 반경 %d 칸의 원뿔 범위 내의 적들을 끌어당기고 매 턴 %0.2f 화염 피해를 줍니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -1415,7 +1415,7 @@ t([[Your have developed fiendish, acid-dripping claws
 		
 		Note that Fiends naturally gain 0.5 physical power per character level and attack 20%% faster while unarmed. 
 		Acid damage improves with Spellpower.
-		]], [[손이 산성액이 뚝뚝 떨어지는 악마의 갈퀴손으로 변했습니다.
+		]], [[손이 산성액이 뚝뚝 떨어지는 악마의 발톱으로 변했습니다.
 		물리력이 %d 상승하고 맨손 공격의 피해량도 %d%% 상승하며, 맨손 공격이 %d 산성 피해를 추가로 가하게 됩니다.
 		또한 장갑의 피해량을 계산할 때 교활 대신 마법을 사용하게 됩니다.
 		
@@ -1450,7 +1450,7 @@ t([[The rage of the Wretch fills your being, passively increasing your stun and 
 		Each such attack requires and consumes %d Vim.
 		
 		Extra attack chance improves with your Dexterity, increases above 50%% Vim to double at 100%% Vim, and falls to 0%% as your Vim is depleted. Further, the chance for each successive hit in a turn is diminshed by one quarter after each attack. These attacks will only occur while unarmed and wearing armor lighter than massive.
-		]], [[렛치의 분노가 온몸 가득 차오릅니다. 지속 효과로써 기절 저항과 속박 저항이 %d%% 상승합니다. 원기가 쌓일수록 시전자는 분노에 집어삼켜져, 모든 맨손 공격이 %d%% 확률로 똑같은 속성의 맨손 공격을 추가로 가해 %d%% 피해를 가하게 됩니다. 
+		]], [[렛치의 분노가 온몸 가득 차오릅니다. 지속 효과로써 기절 저항과 속박 저항이 %d%% 상승합니다. 원기가 쌓일수록 시전자는 분노에 집어삼켜져, 모든 맨손 공격이 %d%% 확률로 똑같은 속성의 맨손 공격을 추가로 가해 %d%% 피해를 주게 됩니다. 
 		
 		이러한 추가 공격은 원기를 %d 만큼 소모하며, 원기가 부족하면 일어나지 않습니다.
 		
@@ -1464,18 +1464,18 @@ t("Burning Sacrifice", "불타는 제물", "talent name")
 t([[Whenever you kill a burning enemy, you will instantly deal a melee attack against a random adjacant enemy at %d%% power. 
 		Additionally, Incinerating Blows will always trigger on this attack (or your next attack), dealing %d%% of its normal damage to all enemies hit and stunning, ignoring the cooldown.
 		This can only trigger once every 5 turns.]], [[불타는 적을 죽이면 시전자와 인접한 무작위 적 하나에게 근접 공격을 %d%% 의 위력으로 가합니다. 
-		추가로, 이 공격은 언제나 소각의 타격의 효과를 발생시킵니다. 근처에 피격당할 적이 없으면 다음 공격에 적용됩니다. 이렇게 발동하는 소각의 타격은 일반 피해의 %d%% 에 해당하는 피해량을 갖고, 공격당한 적은 기절하게 됩니다. 이 기술은 소각의 타격의 재사용 대기시간을 무시합니다.
-		이 효과는 매 5 턴마다 한 번씩 발동합니다.]], "tformat")
+		추가로, 이 공격은 언제나 불사르는 무기의 폭발 효과를 일으킵니다. 근처에 피격당할 적이 없으면 다음 공격에 일어납니다. 이렇게 일어나는 폭발은 피해량이 일반 피해의 %d%% 가 되고, 공격당한 적은 기절하게 됩니다. 이 효과는 불사르는 무기의 재사용 대기 상태 여부를 무시합니다.
+		이 효과는 매 5 턴마다 한 번씩만 일어납니다.]], "tformat")
 t("Fiery Aegis", "불타는 아이기스", "talent name")
 t([[Draw in the raging fires and envelop yourself in them. Remove all burns from enemies in a radius of 5 around you, and create a shield lasting %d turns with a power of %d, increased by 15%% for each burn removed.
-		When the shield ends, it releases a burst of fire in a radius of %d around you, burning all enemies for 3 turns, doing damage equal to the initial power of the shield.]], [[격렬한 화염을 끌어와 시전자 주위에 두릅니다. 시전자를 기준으로 반경 5 칸 이내의 모든 화상 효과를 제거하는 대신, %d 턴 동안 유지되는 %d 위력의 보호막을 생성합니다. 보호막은 제거된 화상 효과 하나 당 15%% 씩 강력해집니다.
-		보호막이 사라지면 시전자를 기준으로 반경 %d 칸 내에 화염 폭발을 일으켜, 모든 적에게 3 턴 동안 지속되는 화상을 입힙니다. 피해량은 보호막의 기본 위력과 같습니다.]], "tformat")
+		When the shield ends, it releases a burst of fire in a radius of %d around you, burning all enemies for 3 turns, doing damage equal to the initial power of the shield.]], [[격렬한 화염을 끌어와 주위에 두릅니다. 시전자를 기준으로 반경 5 칸 이내의 모든 화상 효과를 제거하고, %d 턴 동안 유지되는 %d 위력의 보호막을 만들어냅니다. 보호막은 제거된 화상 효과 하나마다 15%% 씩 강력해집니다.
+		보호막이 사라지면 반경 %d 칸에 화염 폭발을 일으켜, 모든 적에게 3 턴 동안 지속되는 화상을 입힙니다. 피해량은 보호막의 기본 위력과 같습니다.]], "tformat")
 t("Devouring Flames", "집어삼키는 화염", "talent name")
 t([[Your connection to fire nourishes you. Whenever you strike an enemy in melee, you inflict a burning curse upon them. As long as they continue to burn, you gain %0.2f health and %0.2f vim per turn.
 		Each turn they remain within 10 spaces of you, all enemies with cursed flames will spread it to other burning enemies in radius 1, causing you to heal for the same amount for each enemy, as well as dealing %d fire damage on spreading.]], [[화염과의 연결을 이용해 힘을 취합니다. 어떤 식으로든 적에게 근접 공격을 가하면 적에게 불타는 저주를 내립니다. 적들이 불타오르는 동안 시전자는 매 턴 생명력을 %0.2f, 원기를 %0.2f 회복합니다.
-		대상이 시전자를 기준으로 반경 10 칸 내에 머물러 있을 때, 매 턴 저주의 화염을 반경 1 칸 내의 화상을 입은 다른 적에게 퍼뜨립니다. 이때, 시전자는 영향을 받은 적마다 상술한 것과 같은 수치만큼 회복합니다. 또한 저주받은 화염이 퍼져나갈 때 %d 화염 피해를 가합니다.]], "tformat")
+		대상이 시전자 주변 반경 10 칸 내에 있다면, 매 턴 저주의 화염을 반경 1 칸 내의 화상을 입은 다른 적에게 퍼뜨립니다. 이때 시전자는 영향을 받은 적마다 상술한 것과 같은 수치만큼 회복합니다. 또한 저주받은 화염이 퍼져나갈 때 %d 화염 피해를 가합니다.]], "tformat")
 t("Blazing Rebirth", "불사르는 부활", "talent name")
-t("Restore yourself to full health, but take damage equal to the damage healed over %d turns. This damage is split evenly among you and all burning enemies in radius %d. Damage you take is irresistable. Damage to enemies is fire damage.", "최대 생명력으로 회복하는 대신, 회복된 수치만큼 %d 턴에 걸쳐 피해를 받습니다. 이 피해는 반경 %d 칸 내의 불타고 있는 적들과 나눠서 받습니다. 시전자가 받는 피해는 저항이 불가능하며, 적들에게 가하는 피해는 화염 속성입니다.", "tformat")
+t("Restore yourself to full health, but take damage equal to the damage healed over %d turns. This damage is split evenly among you and all burning enemies in radius %d. Damage you take is irresistable. Damage to enemies is fire damage.", "최대 생명력까지 회복하고, 그 대신 %d 턴에 걸쳐 회복된 수치만큼 피해를 받습니다. 이 피해는 반경 %d 칸 내의 불타고 있는 적들과 나눠서 받습니다. 시전자가 받는 피해는 저항이 불가능하며, 적들에게 가하는 피해는 화염 속성입니다.", "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
@@ -1483,14 +1483,14 @@ section "tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
 t("Flame Leash", "화염의 속박", "talent name")
 t([[Tendrils of flame fire from your hands in a narrow cone. Any foes caught inside will be pulled in towards you and have its movement speed reduced by %d%% for 4 turns.
 		Each tendril will leave a trail of fire in its path dealing %0.2f fire damage for 4 turns.
-		The damage increases with spellpower.]], [[손에서 좁은 원뿔 범위의 화염 덩굴을 발사해, 범위 내의 적들을 시전자 앞으로 끌고 오고 4 턴 동안 이동속도를 %d%% 낮춥니다.
+		The damage increases with spellpower.]], [[손에서 화염 덩굴을 뽑아 원뿔 모양으로 날립니다. 범위 내의 적들을 시전자 앞으로 끌고 오고 4 턴 동안 이동속도를 %d%% 낮춥니다.
 		화염 덩굴은 화염의 궤적을 남겨, %0.2f 화염 피해를 4 턴 동안 가합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Demon Blade", "악마의 칼날", "talent name")
 t([[Imbue your weapon with fire for 5 turns. During this time all your melee hits will trigger a ball of fire of radius 1 dealing %0.2f fire damage.
 		This effect can only happen once per turn.
-		The damage increases with spellpower.]], [[5 턴 동안 무기에 화염을 두릅니다. 지속시간 동안 모든 근접 공격이 화염구를 발동해, 반경 1 칸 범위에 %0.2f 화염 피해를 가합니다.
-		이 효과는 한 턴에 한 번만 발동합니다.
+		The damage increases with spellpower.]], [[5 턴 동안 무기에 화염을 두릅니다. 지속시간 동안 모든 근접 공격이 화염구를 만들어내고, 반경 1 칸 범위에 %0.2f 화염 피해를 가합니다.
+		이 효과는 한 턴에 한 번씩만 일어납니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Link of Pain", "고통의 연결", "talent name")
 t("Select the source:", "숙주 선택:", "logPlayer")
@@ -1507,8 +1507,8 @@ t([[Demon horns temporarily grow on your shield as you bash a foe with it for %d
 		If the attack hits the creature is impaled by the horns, causing it to bleed black blood for 50%% of the damage done as darkness over 5 turns.
 		Any time you damage this foe in melee while it bleeds you get healed for %d (this can only happen once per turn).
 		The healing power increases with your spellpower.]], [[일시적으로 방패에 악마의 뿔을 자라나게 하고 방패로 적을 가격해 %d%% 피해를 줍니다.
-		공격이 적중하면 대상은 뿔에 관통되어, 검은 피 출혈이 일어나 받은 피해의 50%% 에 해당하는 피해를 5 턴에 걸쳐 어둠 속성으로 받습니다.
-		출혈이 일어난 적을 근접 공격으로 공격하면 시전자의 생명력이 %d 회복됩니다. (이 효과는 한 턴에 한 번 일어납니다)
+		공격이 명중하면 대상은 뿔에 꿰뚫려, 검은 피 출혈이 일어나 받은 피해의 50%% 만큼을 5 턴에 걸쳐 어둠 속성으로 받습니다.
+		검은 피 출혈이 일어난 적을 근접 공격으로 공격하면 시전자의 생명력이 %d 회복됩니다 (이 효과는 한 턴에 한 번씩만 일어납니다).
 		회복량은 주문력에 비례하여 증가합니다.]], "tformat")
 
 ------------------------------------------------
@@ -1535,7 +1535,7 @@ t([[The corruption within you is bolstered by nearby #GREEN#acid pools#LAST#. Yo
 		
 		Chance to avoid damage and chance to trigger the effect from taking damage both improve with Dexterity.
 		]], [[내면의 타락의 힘이 근처의 #GREEN#산성액 웅덩이#LAST#들 덕분에 강화됩니다. 반경 %d 칸 내에 있는 #GREEN#산성액 웅덩이#LAST# 하나마다 물리력이 %d, 이동 속도가 %d%% 상승합니다 (웅덩이는 최대 %d 개까지 계산). 
-		또한 전투 중에, 최대 생명력의 8%% 이상의 피해를 받게 되면 %d%% 확률로 4 턴간 악마의 반사신경 효과를 얻어, %d%% 확률로 받는 피해를 완전히 무시합니다. 이 효과는 재사용 대기시간이 있습니다 (%d 턴). 
+		또한 전투 중에 최대 생명력의 8%% 이상의 피해를 받게 되면 %d%% 확률로 4 턴간 악마의 반사신경 효과를 얻어, %d%% 확률로 받는 피해를 완전히 무시합니다. 이 효과는 재사용 대기시간이 있습니다 (%d 턴). 
 		
 		효과 발생 확률과 피해 무시 확률은 민첩 능력치에 비례하여 증가합니다.
 		]], "tformat", {3,1,2,4,5,6,7})
@@ -1581,7 +1581,7 @@ t([[Acrid vapours begin to swirl about your #GREEN#acid pools#LAST#, causing foe
 		]], "tformat")
 t("Dissolve Affliction", "고통 용해", "talent name")
 t([[Each turn while standing on an #GREEN#acid pool#LAST#, negative effects on you will have their duration reduced by an extra %d turns. This will apply to 1 effect for each #GREEN#acid pool#LAST# within %d tiles, up to %d at most (excluding type "other").
-		]], [[#GREEN#산성액 웅덩이#LAST# 위에 서 있으면 매 턴마다 시전자에게 걸린 부정적인 효과 1 개의 지속시간이 %d 턴 추가로 감소합니다. 시전자 주변 반경 %d 칸 내의 #GREEN#산성액 웅덩이#LAST# 하나마다 감소하는 효과의 개수가 하나씩 늘어나며, 최대 %d 개까지 적용됩니다 (단, 유형이 "기타" 인 효과는 제외).
+		]], [[#GREEN#산성액 웅덩이#LAST# 위에 서 있으면 매 턴마다 시전자에게 걸린 부정적인 효과 1 개의 지속시간이 %d 턴 추가로 감소합니다. 시전자 주변 반경 %d 칸 내의 #GREEN#산성액 웅덩이#LAST# 하나마다 감소하는 효과의 개수가 하나씩 늘어나며, 최대 %d 개까지 늘어납니다 (단, 유형이 "기타"인 효과는 제외).
 		]], "tformat")
 
 ------------------------------------------------
@@ -1613,19 +1613,19 @@ t([[Your successful melee hits apply a stacking effect %s that decreases damage 
 		At level 5 you can horrify enemies in a radius of %d.
 		This talent ignores saves and immunities.
 		]], [[근접 공격이 명중하면, 피해량을 %d%% 감소시키는 중첩형 효과를 적에게 쌓습니다 %s.
-		한 대상 당 %d 중첩을 쌓을 수 있고, 중첩을 쌓을 때마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면 이 효과는 즉시 사라집니다.
+		각 대상에게는 %d 중첩까지 쌓을 수 있고, 중첩을 쌓을 때마다 지속시간이 갱신됩니다. 하지만 대상에게서 %d 칸 이상 떨어지면 이 효과는 즉시 사라집니다.
 		기술 레벨 3 부터, 중첩 당 %0.2f%% 의 감속을 겁니다.
 		기술 레벨 5 부터, 반경 %d 칸 내의 적을 두려움에 떨게 합니다.
 		이 기술은 각종 내성과 면역을 무시합니다.
 		]], "tformat", {2,1,3,4,5,6})
 t("Mass Hysteria", "집단 히스테리", "talent name")
-t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d %s.", "대상에게 공포의 힘을 증폭시켜 중첩 당 효과 효율이 %d%% 상승하고, 지속시간이 %d 턴으로 재설정됩니다. 증폭된 공포는 반경 %d 칸 내의 모든 적에게 전파됩니다 %s.", "tformat")
+t("Amplifies the power of your fear on the target by %d%% per stack and sets its duration to %d.  The amplified fear spreads to all enemies in a radius of %d %s.", "대상에게 공포의 힘을 증폭시켜 중첩당 효과 효율이 %d%% 상승하고, 지속시간이 %d 턴으로 재설정됩니다. 증폭된 공포는 반경 %d 칸 내의 모든 적에게 전파됩니다 %s.", "tformat")
 t("Fearfeast", "공포 포식", "talent name")
 t("You gain %.1f turns!", "당신은 %.1f 턴을 획득했다!", "logPlayer")
-t("You consume the fear of enemies in radius %d, healing for %d life and gaining %0.1f%% of a turn for each stack up to a max of %.1f turns.", "반경 %d 칸 내의 적들의 공포를 삼켜, 생명력을 %d 회복하고 중첩 당 %0.1f%% 턴을 획득합니다. 최대 %.1f 턴을 획득할 수 있습니다.", "tformat")
+t("You consume the fear of enemies in radius %d, healing for %d life and gaining %0.1f%% of a turn for each stack up to a max of %.1f turns.", "반경 %d 칸 내의 적들의 공포를 삼켜, 생명력을 %d 회복하고 중첩당 %0.1f%% 턴을 획득합니다. 최대 %.1f 턴을 획득할 수 있습니다.", "tformat")
 t("Hope Wanes", "흩어지는 희망", "talent name")
 t([[You crush the spirit of a target with at least %d fear stacks, consuming all stacks and making it unable to act for %d turns.
-		This talent ignores saves and immunities.]], [[적어도 %d 중첩 이상을 가진 적의 영혼을 파쇄합니다. 중첩을 전부 소모하여 %d 턴 동안 행동할 수 없게 합니다.
+		This talent ignores saves and immunities.]], [[공포를 %d 중첩 이상 가진 적의 영혼을 산산조각냅니다. 중첩을 전부 소모하여 %d 턴 동안 행동할 수 없게 합니다.
 		이 기술은 모든 내성과 면역을 무시합니다.]], "tformat")
 
 ------------------------------------------------
@@ -1685,7 +1685,7 @@ t([[Bringing about the darkest days of the Spellblaze you hasten the death of yo
 		Affected foes will start taking %0.2f darkness damage each turn until it dies as long as it remains in radius %d of you.
 		The damage increases with spellpower.]], [[마법폭발의 암흑기를 재현하여 적들의 죽음을 앞당깁니다.
 		반경 %d 칸 내의 적에게 공격을 가할 때, 대상의 생명력이 33%% 이하로 떨어지면 마법폭발의 분노를 자동으로 해방합니다.
-		영향을 받은 적은 매 턴 %0.2f 어둠 피해를 받습니다. 이 효과는 시전자를 기준으로 반경 %d 칸 내에 있을 시, 죽을 때까지 지속됩니다.
+		영향을 받은 적은 매 턴 %0.2f 어둠 피해를 받습니다. 시전자 주변 반경 %d 칸 내에 있다면 이 효과는 죽을 때까지 지속됩니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Shattered Mind", "파괴된 정신", "talent name")
 t([[When you block an attack the shock ripples through your attacker, spreading the force of the Spellblaze in its mind for 5 turns %s.
@@ -1703,12 +1703,12 @@ t([[You chant the destruction of Mal'Rok, the demon's homeworld.
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/torture.lua"
 
-t("Incinerating Blows", "소각의 타격", "talent name")
+t("Incinerating Blows", "불사르는 무기", "talent name")
 t([[The power of the Fearscape infuses your weapon: Your melee attacks will deal %0.2f fire damage, spread over 3 turns.
 		Additionally, every time you attack, there is a %d%% chance of releasing a burst of powerful fire that will deal %0.2f fire damage to all enemies in radius %d over %d turns.
 		If this talent is not on cooldown, the burst of fire will instead be radius %d, and stun all targets in addition to burning them %s.
 		For the purposes of applying the stun, you have %d bonus spellpower.
-		The damage will increase with your Spellpower.]], [[공포의 영역의 힘을 무기에 주입합니다. 근접 공격이 3 턴에 걸쳐 %0.2f 화염 피해를 입힙니다.
+		The damage will increase with your Spellpower.]], [[공포의 영역의 힘을 무기에 주입합니다. 근접 공격이 3 턴에 걸쳐 %0.2f 화염 피해를 줍니다.
 		추가로, 공격 시 %d%% 확률로 강렬한 화염 폭발을 일으켜, 반경 %d 칸 내의 모든 적에게 %d 턴에 걸쳐 %0.2f 화염 피해를 가합니다.
 		이 기술이 재사용 대기 상태가 아니라면 화염 폭발의 범위가 %d 칸이 되고, 폭발에 휘말린 적은 기절하고 화상을 입게 됩니다 %s.
 		기절 성공 여부를 판정할 때 시전자는 주문력을 %d 만큼 추가로 가진 것으로 간주됩니다.
@@ -1721,13 +1721,13 @@ t([[Hits the target with your weapon doing %d%% weapon damage. If the attack hit
 		When Fiery Torment ends the victim will take %d fire damage. This damage will increase by %d%% of all damage taken while under torment.
 		The damage dealt by the effect will increase with spellpower.
 		Demons under fiery torment will be burned by the flames of the Fearscape.]], [[대상을 공격하여 %d%% 무기 피해를 가합니다. 명중 시, 대상은 %d 턴 동안 불타는 고문 효과에 걸려 %s 화염 저항이 %d%% 감소합니다.
-		불타는 고문의 효과가 끝나면 희생양은 %d 화염 피해를 받습니다. 이 피해는 고문 동안 받은 모든 피해의 %d%% 만큼 상승합니다.
+		불타는 고문의 효과가 끝나면 희생양은 %d 화염 피해를 받습니다. 이 피해는 고문에 걸린 동안 받은 모든 피해의 %d%% 만큼 상승합니다.
 		효과로 인해 받게 되는 피해량은 주문력에 비례하여 증가합니다.
 		이 기술은 악마들에게 공포의 영역의 화염으로 취급됩니다.]], "tformat")
 t("Eternal Suffering", "영원한 고통", "talent name")
 t([[Your strikes are imbued with a vile power that extends your victim's suffering. When hitting in melee, you have a (%d%%) chance to extend the length of all negative effects and reduce the length of all positive effects on the target by %d turn(s) %s.
-		This can only trigger on any particular target once every 6 turns.]], [[공격에 끔찍한 힘을 담아 희생양의 고통을 연장합니다. 근접 공격 시 %d%% 확률로 대상의 모든 부정적인 효과와 모든 이로운 효과를 %d 턴 연장 / 단축합니다 %s.
-		이 효과는 하나의 대상에 대해 6 턴마다 1 번씩 발동합니다.]], "tformat")
+		This can only trigger on any particular target once every 6 turns.]], [[공격에 끔찍한 힘을 담아 희생양의 고통을 늘립니다. 근접 공격 시 %d%% 확률로 대상의 모든 부정적인 효과와 모든 이로운 효과를 %d 턴 연장 / 단축합니다 %s.
+		이 효과는 각 대상마다 6 턴에 한 번씩만 발동합니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/corruptions/unstable-mutation.lua"
@@ -1769,7 +1769,7 @@ t([[Swing your weapon with incredible force, striking all enemies in a radius %d
 		This attack can not miss.]], [[엄청난 힘을 담아 무기를 휘둘러, 반경 %d 칸의 반원 범위 내의 모든 적에게 %d%% 무기 피해를 가합니다.
 		기술 레벨 5 부터, 공격받은 모든 적의 방어력과 각종 내성이 %d 감소합니다 %s.
 		이 공격은 반드시 명중합니다.]], "tformat")
-t("Detonating Charge", "격발의 돌진", "talent name")
+t("Detonating Charge", "폭발적인 돌진", "talent name")
 t("You require a two handed weapon and being able to move to use this talent.", "이 기술을 사용하기 위해서는 양손 무기를 장착하고, 이동이 가능하여야 한다.", "logPlayer")
 t("You can not do that currently.", "지금은 할 수 없다.", "logPlayer")
 t("You are too close to build up momentum!", "거리가 너무 가까워 가속도를 얻을 수 없다!", "logPlayer")
@@ -1780,7 +1780,7 @@ t([[Launch yourself toward a target. If the target is reached you get a free att
 		돌진하려면 대상과 적어도 2칸 이상 떨어져 있어야 합니다.]], "tformat")
 t("Voracious Blade", "탐식의 칼날", "talent name")
 t([[Your blade drinks in death. Whenever you score a kill with this talent off cooldown, your next %d melee attacks within 6 turns will always critically strike, and you gain %d%% critical multiplier for the duration.
-		Additionally, you gain an extra %d vim per kill.]], [[칼날이 죽음을 삼킵니다. 적을 쓰러뜨렸을 때, 이 기술이 재사용 대기 상태가 아니라면, 6 턴 동안 다음 %d 번의 근접 공격이 언제나 치명타를 유발합니다. 또한 지속시간 동안 치명타 피해량이 %d%% 증가합니다.
+		Additionally, you gain an extra %d vim per kill.]], [[칼날이 죽음을 삼킵니다. 적을 쓰러뜨렸을 때, 이 기술이 재사용 대기 상태가 아니라면 6 턴 동안 다음 %d 번의 근접 공격이 언제나 치명타가 됩니다. 또한 지속시간 동안 치명타 피해량이 %d%% 증가합니다.
 		추가로, 적을 쓰러뜨렸을 때 원기를 %d 추가로 획득합니다.]], "tformat")
 t("Destroyer", "파괴자", "talent name")
 t([[Your body overflows with the power of the Fearscape, turning you into a powerful demon for %d turns. This increases your size by 2, your stamina regen and physical power by %d, and your disarm and stun immunity by %d%%.
@@ -1799,7 +1799,7 @@ t([[Your body overflows with the power of the Fearscape, turning you into a powe
 		-난폭한 일격: %d 턴 동안 모든 속성 저항 관통을 %d%% 얻습니다.
 		-소멸의 강타: 범위가 %d 칸 증가합니다.
 		-납치: 명중 시, %d 번의 공격을 추가로 가해 타격 당 35%% 무기 피해를 입힙니다.
-		-소각의 타격: 추가 피해를 가할 확률이 %d%% 로 증가합니다.
+		-불사르는 무기: 폭발 확률이 %d%% 로 증가합니다.
 		-공포 포식: 중첩 당 원기를 %0.1f 회복합니다.
 		-울흐'록의 아가리: 원뿔 범위 각도가 %d 도 증가합니다.]], "tformat", {1,2,3,4,6,5,7,8,9,10,11})
 
@@ -1814,7 +1814,7 @@ t([[Your connection to the Children of Emerald allows you to call them to your s
 		Strength, Dexterity and Magic stats will be set to %d (based on your Magic stat), and life rating increased by %d. Many other stats will scale with your level. Your increased damage, damage penetration, critical strike chance, and critical strike multiplier stats will all be inherited by your wretchlings. Acid damage dealt to you by your wretchlings will be negated.
 		If you are more than 10 tiles from a wretchling or it loses line of sight of you for more than 3 turns, it will vanish.]], [[에메랄드의 자손들과의 연결을 통해 그들을 아군으로 불러낼 수 있게 됩니다. 시전자가 전투에 돌입하면 우호적인 렛츨링을 %d 마리 소환하여 죽을 때까지, 또는 전투가 끝날 때까지 싸우게 합니다. 렛츨링이 죽게 되면 %d 턴 뒤 다시 소환합니다.
 		렛츨링들은 %d 레벨 찰나의 강습 기술과 고이는 타락 기술을 알고 있으며 모든 공격이 산성 피해로 전환됩니다. 렛츨링이 만들어낸 #GREEN#산성액 웅덩이#LAST#는 시전자의 것으로 간주됩니다.
-		렛츨링의 힘/민첩/마법 능력치는 %d (시전자의 마법 능력치 기반) 이고 생명력 증가량이 %d 상승합니다. 그 외 다른 능력치들은 시전자의 레벨에 비례하여 증가합니다. 시전자의 각종 피해량 변동치, 저항 관통, 치명타 확률, 치명타 피해량은 렛츨링에게 계승됩니다. 렛츨링들은 시전자가 가하는 산성 피해에 면역입니다.
+		렛츨링의 힘/민첩/마법 능력치는 %d (시전자의 마법 능력치 기반) 이고 생명력 증가량이 %d 상승합니다. 그 외 다른 능력치들은 시전자의 레벨에 비례하여 증가합니다. 시전자의 각종 피해량 변동치, 저항 관통, 치명타 확률, 치명타 피해량은 렛츨링에게 계승됩니다. 시전자는 렛츨링들이 가하는 산성 피해를 받지 않습니다.
 		렛츨링이 시전자에게서 10 칸 이상 떨어지거나 시야 범위 내에서 사라질 경우, 렛츨링은 사라집니다.]], "tformat")
 t("Wretched Influence", "렛치의 영향력", "talent name")
 t([[Your influence over your summoned wretchlings grows stronger. They will learn the Demonhide talent at level %d and gain %d%% global speed. Additionally, you will grant them the Demonic Reflex effect for %d turns when summoned, granting a %d%% chance to avoid incoming damage. 
@@ -1862,7 +1862,7 @@ t([[Your original invisibility talent was corrupted and twisted.
 		- your darkness damage is increased by %d%%
 		- any non mind and non physical damage you deal above %d triggers a darkness explosion of radius 1 for half the damage (this can only happen once per turn)
 		- when you transform the cooldowns of Haste of the Doomed and Pitiless are reset
-		]], [[원래 갖고 있던 투명화 기술이 뒤틀리고, 타락하였습니다.
+		]], [[원래 갖고 있던 투명화 능력이 뒤틀리고, 타락하였습니다.
 		최대 생명력의 10%% 이상의 피해를 단번에 받으면 %d%% 확률로 5 턴 동안 듀아세들렌으로 변신합니다.
 		이때 다음과 같은 효과를 받습니다.
 		- 영구적인 은신. (은신력 %d)
@@ -1873,7 +1873,7 @@ t([[Your original invisibility talent was corrupted and twisted.
 t("Pitiless", "냉혹함", "talent name")
 t([[You launch a mental assault on the target %s.
 		The assault increases the cooldown of any already cooling down talents by %d, the duration of any magical, physical or mental detrimental effects by %d (max 4x duration) and decreases the duration of any magical, physical or mental beneficial effects by %d.]], [[대상에게 정신적인 맹공을 가합니다 %s.
-		맹공은 재사용 대기 상태인 기술들의 대기시간을 %d 턴 연장시킵니다. 또한 모든 부정적인 물리/마법/정신 효과의 지속시간을 %d 턴 연장시키고 (최대 4 배까지), 모든 이로운 물리/마법/정신 효과의 지속시간을 %d 턴 단축시킵니다.]], "tformat")
+		맹공은 재사용 대기 상태인 기술들의 대기시간을 %d 턴 늘립니다. 또한 모든 부정적인 물리/마법/정신 효과의 지속시간을 %d 턴 연장시키고 (최대 4 배까지), 모든 이로운 물리/마법/정신 효과의 지속시간을 %d 턴 단축시킵니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-ashes-urhrok/data/talents/uber/mag.lua"
@@ -1912,7 +1912,7 @@ t([[You dedicate yourself entirely to the creation and manipulation of acid and 
 	  - #GOLD#Demonhide#LAST# will create acid pools #GOLD#on your tile#LAST# or an adjacent tile if possible and automatically create an acid pool when you enter combat
 	  - Acid pool limit for #GOLD#Caustic Link, Emerald Resonance, Demonic Reflex#LAST#, and #GOLD#Dissolve Affliction#LAST# is #GOLD#increased by 2#LAST# and the #GOLD#radius is increased to 10#LAST#
 	  - + #GOLD#8%% acid resistance penetration#LAST# for each acid pool in radius 10, up to 6 at most
-	   ]], [[산성액을 만들고 다루는 데에 전념하고, 악마의 발톱을 마법의 집중점으로 사용함으로써 스스로의 사악한 힘을 강화합니다. 양손을 비운 채로 장갑류 방어구와 중갑을 입고 있지 않을 때, 다음 효과들을 받게 됩니다:
+	   ]], [[산성액을 만들고 다루는 데에 전념하고, 악마의 발톱을 마법의 집중점으로 사용함으로써 스스로의 사악한 힘을 강화합니다. 양손이 비워져 있고 장갑류 방어구와 중갑을 입고 있지 않을 때, 다음 효과들을 받게 됩니다:
 	  - 기본 피해 능력치 계수가 힘 100%% 에서 #GOLD#힘 50%%, 민첩 50%%, 마법 50%%#LAST# 로 변하게 됨
 	  - #GOLD#주문력 +%d#LAST#, 힘과 민첩 비례
 	  - 근접 공격이 아닌 공격 주문이 #GOLD#%d%% 확률#LAST#로 대상에게 #GOLD#발톱 파쇄#LAST# 기술을 추가로 시전하게 됨 (재사용 대기 상태를 무시, 최대 사거리 10 칸)
@@ -1957,7 +1957,7 @@ t("+Voracious", "+탐식의 칼날", "_t")
 t("#Target#'s weapon stops glowing.", "#Target#의 무기의 빛이 사라졌다.", "_t")
 t("-Voracious", "-탐식의 칼날", "_t")
 t("Raging flames", "불타는 화염", "_t")
-t("Next melee attack will always trigger incinerating blows, and the damage from incinerating blows will be multiplied by %d%%", "다음 근접 공격은 반드시 소각의 타격을 일으킴 / 소각의 타격의 피해량 +%d%%", "tformat")
+t("Next melee attack will always trigger incinerating blows, and the damage from incinerating blows will be multiplied by %d%%", "다음 근접 공격은 반드시 불사르는 무기 폭발을 일으킴 / 해당 폭발의 피해량 +%d%%", "tformat")
 t("#Target#'s weapon surges with fire!", "#Target#의 무기가 화염으로 쇄도했다!", "_t")
 t("+Revel", "+고무됨", "_t")
 t("#Target#'s is no longer blazing.", "#Target1# 화염에서 벗어났다.", "_t")

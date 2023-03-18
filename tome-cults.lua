@@ -2702,7 +2702,7 @@ section "tome-cults/data/talents/demented/chronophage.lua"
 t("Atrophy", "쇠퇴", "talent name")
 t("%s has been cut from the timeline!", "%s 시간선에서 잘려나갔다!", "logSeen", nil, {"는"})
 t([[You are surrounded by a vortex of entropic energy that feeds on the timelines of others. Each time you cast a spell random targets in radius 10 begin rapidly aging and decaying, reducing all stats by %d for 8 turns %s, stacking up to %d times.
-			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[다른 이들의 시간선을 포식하는 엔트로피 소용돌이에 둘러싸여 있습니다. 주문을 시전할 때마다 반경 10 칸 내의 무작위한 대상들은 빠르게 노화하고 부패합니다. 영향을 받는 적은 8 턴 동안 모든 능력치가 %d 감소합니다 %s. 이 효과는 최대 %d 번 중첩됩니다.
+			Up to %d stacks total will be applied to enemies each cast with a max of 2 stacks on the same target.]], [[다른 이들의 시간선을 포식하는 엔트로피 소용돌이에 둘러싸여 있습니다. 주문을 시전할 때마다 반경 10 칸 내의 무작위한 대상들은 빠르게 노화하고 부패합니다. 영향을 받는 적은 8 턴 동안 모든 능력치가 %d 감소합니다 %s. 이 효과는 최대 %d 번까지 중첩됩니다.
 			한 번의 주문 시전으로 다수의 적들에게 최대 %d 번 부여할 수 있으며, 같은 대상에게는 한 번에 최대 2 중첩까지만 부여됩니다.]], "tformat")
 t("Severed Threads", "가닥 절단", "talent name")
 t("On applying atrophy to a target below %d%% of their maximum life you will sever their lifeline, slaying them instantly %s. You will then feast on the remnants of their timeline for %d turns, increasing your life regeneration by %0.1f and causing talents without fixed cooldowns to refresh twice as fast.", "생명력이 최대 생명력의 %d%% 이하로 떨어진 대상에 쇠퇴를 부여하면 생명선을 절단하여 즉시 살해합니다 %s. 시전자는 대상의 절단된 시간선을 %d 턴 동안 포식합니다. 생명력 재생이 %0.1f 증가하고, 재사용 대기시간이 고정된 기술을 제외한 모든 기술들의 대기시간을 2 배 더 빨리 돌립니다.", "tformat")
