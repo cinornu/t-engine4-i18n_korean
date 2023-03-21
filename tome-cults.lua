@@ -740,7 +740,7 @@ t("It's a cold night and you did not find anything to eat during the day. Your f
 t("Poor Grung. All he wanted was food, but what he found instead was death.", "가엾은 그룽. 먹을 게 필요했을 뿐인데, 결국엔 죽어버렸습니다.", "_t")
 t("Grung", "그룽", "_t")
 t("The importance of evading blows (+10 defense)", "회피의 중요성 (회피도 +10)", "_t")
-t("The importance of speed (+10% movement speed)", "속도의 중요성 (이동속도 +10%)", "_t")
+t("The importance of speed (+10% movement speed)", "속도의 중요성 (이동 속도 +10%)", "_t")
 t("The importance of reflexes (+5 dexterity)", "반사신경의 중요성 (민첩 +5)", "_t")
 t("The importance of a honed mind (+5 cunning)", "연마한 마음의 중요성 (교활 +5)", "_t")
 t("A View From The Gallery", "눈앞에서 본 것", "_t")
@@ -2682,7 +2682,7 @@ section "tome-cults/data/talents/demented/calamity.lua"
 t("Jinxed Touch", "불운의 손길", "talent name")
 t([[Your touch carries an entropic curse, marking your victims for a terrible fate. Each time you deal damage to a target, they are Jinxed for 5 turns %s. This stacks up to 10 times, reducing saves and defense by %0.2f and critical strike chance by %0.2f%%.
 			This can only be applied once per target per turn and will fade entirely if you break line of sight with your target for more than 2 turns.]], [[마수를 뻗어 대상에게 엔트로피의 저주를 몰고 와, 파멸로 몰아넣습니다. 대상에게 피해를 입힐 때마다 대상은 5 턴 동안 불운 효과를 받습니다 %s. 이 효과는 최대 10 번 중첩되며, 매 중첩마다 모든 내성과 회피도가 %0.2f , 치명타 확률이 %0.2f%% 씩 감소합니다.
-			불운 효과는 하나의 대상에게는 한 턴에 한 번씩만 중첩할 수 있습니다. 시전자의 시야 내에서 대상이 2 턴 이상 벗어나게 되면 불운 중첩을 전부 잃게 됩니다.]], "tformat")
+			불운 효과는 각 대상마다 한 턴에 한 번씩만 중첩할 수 있습니다. 시전자의 시야 내에서 대상이 2 턴 이상 벗어나게 되면 불운 중첩을 전부 잃게 됩니다.]], "tformat")
 t("Preordain", "운명 예지", "talent name")
 t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "인과 관계의 흐름을 교묘하게 조작하여, 적들에게 더 큰 불행을 가져옵니다. 6 중첩 이상의 불운 중첩은 %d%% 확률로 기술 사용을 실패하게 합니다.", "tformat")
 t("Luckdrinker", "행운 포식자", "talent name")
@@ -2839,7 +2839,7 @@ t([[For a brief moment horrific hairs grow on your head, each of them ending wit
 		Brittle targets have a 35%% chance for any damage they take to be increased by %d%%.
 		This cannot be saved against.
 		]], [[무시무시한 눈알이 달린 끔찍한 머리카락이 잠시 동안 머리에서 자라납니다.
-		이 눈알로 %d 칸 범위의 지정한 지역을 응시하여, 범위 내 대상을 부분적으로 석화시켜 7 턴 동안 이동속도를 %d%% 감소시키고, 부서지기 쉽게 만듭니다.
+		이 눈알로 %d 칸 범위의 지정한 지역을 응시하여, 범위 내 대상을 부분적으로 석화시켜 7 턴 동안 이동 속도를 %d%% 감소시키고, 부서지기 쉽게 만듭니다.
 		부서지게 쉽게 된 대상은 35%% 의 확률로 %d%% 만큼 추가 피해를 입습니다.
 		이 효과는 저항할 수 없습니다.
 		]], "tformat")
@@ -2859,34 +2859,34 @@ t("Prophecy", "예언", "talent name")
 t([[By bringing the forces of entropy to bear on a target, you prophesize their inevitable doom %s. Each point in this talent unlocks additional prophecies. A target can only be affected by a single prophecy at a time.
 Level 1: Prophecy of Ruin. Deals %0.2f damage on falling below 75%%, 50%% or 25%% of maximum life.
 Level 3: Prophecy of Treason. %d%% chance each turn to attack an ally or themselves.
-Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[엔트로피의 힘을 대상에게 불러와, 그들에게 닥칠 필연적인 파멸을 예언합니다 %s. 이 기술에 투자된 기술 점수에 따라 예언들을 추가적으로 획득합니다. 하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
+Level 5: Prophecy of Madness. Increases talent cooldowns by %d%%.]], [[엔트로피의 힘을 대상에게 불러와, 그들에게 닥칠 필연적인 파멸을 예언합니다 %s. 이 기술에 투자된 기술 점수에 따라 예언들을 추가적으로 획득합니다. 각 대상들은 둘 이상의 예언을 동시에 받을 수 없습니다.
 기술 점수 1 점: 파멸의 예언. %0.2f 의 피해를 최대 생명력의 75%%, 50%% 혹은 25%% 이하로 떨어질 때마다 가합니다.
 기술 점수 3 점: 배반의 예언. 매 턴마다 %d%% 확률로 동료나 대상 스스로를 공격하게 합니다.
 기술 점수 5 점: 광기의 예언. 재사용 대기시간을 %d%% 늘립니다.]], "tformat")
 t("Prophecy of Madness", "광기의 예언", "talent name")
 t([[Utter a prophecy of the impending madness of your target, increasing the cooldown of all their talents by %d%% for 6 turns %s.
 		A target can only be affected by a single prophecy at a time.]], [[대상에게 임박한 광기를 예언하여, 6 턴 동안 대상의 모든 기술의 재사용 대기시간을 %d%% 늘립니다 %s.
-		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.]], "tformat")
+		각 대상들은 둘 이상의 예언을 동시에 받을 수 없습니다.]], "tformat")
 t("Prophecy of Ruin", "파멸의 예언", "talent name")
 t([[Utter a prophecy of the impending demise of your target that lasts 6 turns %s.
 		Each time their life falls below 75%%, 50%% or 25%% of maximum the power of the prophecy will echo outwards, inflicting %0.2f darkness damage to them.
 		A target can only be affected by a single prophecy at a time.
 		The damage increase will increase with your Spellpower.]], [[6 턴 동안 지속되는 임박한 죽음을 예언합니다 %s.
 		적들의 생명력이 75%%, 50%%, 25%% 이하로 떨어질 때마다 %0.2f 어둠 피해를 가합니다.
-		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.
+		각 대상들은 둘 이상의 예언을 동시에 받을 수 없습니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Prophecy of Treason", "배반의 예언", "talent name")
 t("%s(%d treason)#LAST#", "%s(%d 배반)#LAST#", "tformat")
 t([[Utter a prophecy of the impending treachery of your target %s. For the next 6 turns, they will have a %d%% each turn to waste their turn attempting to attack an adjacent creature for 10%% weapon damage, or even themself if no creature is present.
 		A target can only be affected by a single prophecy at a time.]], [[대상에게 임박한 배반을 예언합니다 %s. 다음 6 턴 동안, 매 턴 대상은 %d%% 확률로 대상의 인접한 동료들을 10%% 무기 피해로 공격하고 턴을 소모할 것입니다. 동료가 없을 경우엔 자해를 할 것입니다.
-		하나의 대상은 한 번에 하나의 예언의 영향만을 받습니다.]], "tformat")
+		각 대상들은 둘 이상의 예언을 동시에 받을 수 없습니다.]], "tformat")
 t("Grand Oration", "위대한 기도문", "talent name")
 t("None", "없음", "_t")
 t([[You speak a chosen prophecy to the masses. When applying this prophecy, it will spread to all targets in radius %d.
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
 		Current prophecy: %s]], [[선택한 예언을 군중에게 고합니다. 예언이 내려질 때, 반경 %d 칸 이내의 모든 대상에게 예언이 퍼져나갑니다.
-		하나의 예언은 위대한 기도문, 이중 저주, 계시 중 단 하나의 강화 효과를 받습니다.
+		각 예언은 위대한 기도문, 이중 저주, 계시 중 하나의 강화 효과만 받을 수 있습니다.
 		
 		현재 예언: %s]], "tformat")
 t("Twofold Curse", "이중 저주", "talent name")
@@ -2894,7 +2894,7 @@ t([[Weave your chosen prophecy into your speech, dooming your foe twice over. Th
 		A prophecy can only be affected by one of Grand Oration, Twofold Curse or Revelation.
 		
 		Current prophecy: %s]], [[선택한 예언으로 엔트로피의 가닥을 자아내어, 적을 이중으로 파멸시킵니다. 선택한 예언 외 다른 예언을 내렸을 때 그 첫 대상에게 즉시 %d 레벨 선택한 예언을 내립니다.
-		하나의 예언은 위대한 기도문, 이중 저주, 계시 중 단 하나의 강화 효과를 받습니다.
+		각 예언은 위대한 기도문, 이중 저주, 계시 중 하나의 강화 효과만 받을 수 있습니다.
 		
 		현재 예언: %s]], "tformat")
 t("Revelation", "계시", "talent name")
@@ -2910,7 +2910,7 @@ t([[As you speak the chosen prophecy whispers from the void guide you in how to 
 		파멸의 예언: 대상이 피해를 입을 때마다 시전자는 가한 피해의 %d%% 만큼 생명력을 회복합니다.
 		배반의 예언: 배반의 예언의 효과를 받는 무작위 적 하나에게 시전자가 받는 모든 피해의 %d%% 를 떠넘깁니다.
 		
-		하나의 예언은 위대한 기도문, 이중 저주, 계시 중 단 하나의 강화 효과를 받습니다.
+		각 예언은 위대한 기도문, 이중 저주, 계시 중 하나의 강화 효과만 받을 수 있습니다.
 	
 		현재 예언: %s]], "tformat")
 
@@ -3812,7 +3812,7 @@ t("Void Rift", "공허의 틈", "_t")
 t("The target has %d active void rift(s).", "현재 %d 개의 공허의 틈 활성화 됨.", "tformat")
 t("%d Void Rifts", "공허의 틈 %d 개", "tformat")
 t("Accelerate", "가속", "_t")
-t("Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "이동속도 +%d%% / 이동 이외의 행동 시 효과가 즉시 중단됨.", "tformat")
+t("Moving at extreme speed (%d%% faster).  Any action other than movement will cancel it.", "이동 속도 +%d%% / 이동 이외의 행동 시 효과가 즉시 중단됨.", "tformat")
 t("#Target# is moving at extreme speed!", "#Target2# 엄청난 속도로 이동했다!", "_t")
 t("+Accelerate", "+가속", "_t")
 t("#Target# slows down.", "#Target#의 발이 느려졌다.", "_t")

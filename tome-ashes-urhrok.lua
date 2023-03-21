@@ -1106,7 +1106,7 @@ t([[By seathing yourself in flames you phase to a distant location.
 t("Frost Grab", "서리 손아귀", "talent name")
 t([[Grab a target and pull it next to you %s, covering it with frost while reducing its movement speed by 50%% for %d turns %s.
 		The ice will also deal %0.2f cold damage.
-		The damage and chance to slow will increase with your Spellpower.]], [[대상을 붙잡아 시전자 옆으로 끌고 옵니다 %s. 대상은 서리에 뒤덮여 이동속도가 %d 턴 동안 50%% 감소합니다 %s.
+		The damage and chance to slow will increase with your Spellpower.]], [[대상을 붙잡아 시전자 옆으로 끌고 옵니다 %s. 대상은 서리에 뒤덮여 이동 속도가 %d 턴 동안 50%% 감소합니다 %s.
 		또한 얼음은 %0.2f 냉기 피해를 가합니다.
 		피해량과 감속 확률은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Diseased Body", "병든 몸", "talent name")
@@ -1483,7 +1483,7 @@ section "tome-ashes-urhrok/data/talents/corruptions/infernal-combat.lua"
 t("Flame Leash", "화염의 속박", "talent name")
 t([[Tendrils of flame fire from your hands in a narrow cone. Any foes caught inside will be pulled in towards you and have its movement speed reduced by %d%% for 4 turns.
 		Each tendril will leave a trail of fire in its path dealing %0.2f fire damage for 4 turns.
-		The damage increases with spellpower.]], [[손에서 화염 덩굴을 뽑아 원뿔 모양으로 날립니다. 범위 내의 적들을 시전자 앞으로 끌고 오고 4 턴 동안 이동속도를 %d%% 낮춥니다.
+		The damage increases with spellpower.]], [[손에서 화염 덩굴을 뽑아 원뿔 모양으로 날립니다. 범위 내의 적들을 시전자 앞으로 끌고 오고 4 턴 동안 이동 속도를 %d%% 낮춥니다.
 		화염 덩굴은 화염의 궤적을 남겨, %0.2f 화염 피해를 4 턴 동안 가합니다.
 		피해량은 주문력에 비례하여 증가합니다.]], "tformat")
 t("Demon Blade", "악마의 칼날", "talent name")
@@ -1777,7 +1777,7 @@ t([[Launch yourself toward a target. If the target is reached you get a free att
 		If the attack hits you release a massive burst of fire in radius %d, knocking away %s all enemies except your target and dealing %d damage.
 		You must charge from at least 2 tiles away.]], [[대상에게 돌격해 %d%% 무기 피해를 가합니다.
 		명중 시, 반경 %d 칸에 강렬한 화염 폭발을 일으켜 기술의 대상을 제외한 모든 적을 뒤로 밀치고 %s %d 피해를 가합니다.
-		돌진하려면 대상과 적어도 2칸 이상 떨어져 있어야 합니다.]], "tformat")
+		돌진하려면 대상과 적어도 2 칸 이상 떨어져 있어야 합니다.]], "tformat")
 t("Voracious Blade", "탐식의 칼날", "talent name")
 t([[Your blade drinks in death. Whenever you score a kill with this talent off cooldown, your next %d melee attacks within 6 turns will always critically strike, and you gain %d%% critical multiplier for the duration.
 		Additionally, you gain an extra %d vim per kill.]], [[칼날이 죽음을 삼킵니다. 적을 쓰러뜨렸을 때, 이 기술이 재사용 대기 상태가 아니라면 6 턴 동안 다음 %d 번의 근접 공격이 언제나 치명타가 됩니다. 또한 지속시간 동안 치명타 피해량이 %d%% 증가합니다.
