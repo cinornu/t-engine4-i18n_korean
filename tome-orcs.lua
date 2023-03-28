@@ -5996,7 +5996,7 @@ t([[Technomancers are Archmages that dabble in steam technology to enhance their
 
 		Once put in a robe, the Arcane Dynamo will regenerate Steam each time mana is spent and increase Spellpower based on current steam level.
 
-		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[마도공학자는 이미 가공할 위력을 가진 주문들을 더욱 더 강화하기 위해서 증기 공학을 활용해 보는 마도사들입니다.
+		#{bold}#As soon as this evolution is used you will need to craft the Arcane Dynamo to place in a robe to benefit from all the powers of the Technomancer.#{normal}#]], [[마도공학자는 이미 가공할 위력을 가진 주문들을 더욱더 강화하기 위해서 증기 공학을 활용해 보는 마도사들입니다.
 		이 직업 진화를 선택하면 다음과 같은 것들을 얻습니다:
 		- 비전 발전기 발명품 도안
 		- 증기 공학/물리학 기술 계열 (열림)
