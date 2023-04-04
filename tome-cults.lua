@@ -2684,11 +2684,11 @@ t([[Your touch carries an entropic curse, marking your victims for a terrible fa
 			This can only be applied once per target per turn and will fade entirely if you break line of sight with your target for more than 2 turns.]], [[마수를 뻗어 대상에게 엔트로피의 저주를 몰고 와, 파멸로 몰아넣습니다. 대상에게 피해를 줄 때마다 대상은 5 턴 동안 불운 효과를 받습니다 %s. 이 효과는 최대 10 번 중첩되며, 중첩마다 모든 내성과 회피도가 %0.2f, 치명타 확률이 %0.2f%% 씩 감소합니다.
 			불운 효과는 각 대상마다 한 턴에 한 번씩만 중첩할 수 있습니다. 시전자의 시야에서 대상이 2 턴 이상 벗어나게 되면 불운 중첩을 전부 잃게 됩니다.]], "tformat")
 t("Preordain", "운명 예지", "talent name")
-t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "인과의 흐름을 교묘하게 조작하여 적들에게 더 큰 불행을 안깁니다. 불운이 6 중첩 이상이면 %d%% 확률로 기술 사용을 실패하게 만듭니다.", "tformat")
+t("You subtly alter the course of events to cause your foes further misfortune. Each stack of Jinx beyond 6 will cause enemies to also suffer a %d%% chance to fail talent usage.", "인과의 흐름을 교묘하게 조작하여 적들에게 더 큰 불행을 안깁니다. 불운이 7 중첩 이상이면 %d%% 확률로 기술 사용을 실패하게 만듭니다.", "tformat")
 t("Luckdrinker", "행운 포식자", "talent name")
 t([[Each time you apply Jinx to an enemy, you have a %d%% chance to siphon some of their luck for yourself for 5 turns. This stacks up to 10 times, increasing saves and defense by %0.2f and critical strike chance by %0.2f%%.
 		If you know Preordain, stacks beyond 6 also grant a %d%% chance for you to entirely avoid damage taken.]], [[적에게 불운을 걸 때마다 %d%% 확률로 적들의 행운을 흡수합니다. 이 효과는 최대 10 번 중첩되며, 중첩마다 시전자의 내성과 회피도가 %0.2f, 치명타 확률이 %0.2f%% 씩 증가합니다.
-		운명 예지 기술을 알고 있다면 행운 포식자가 6 중첩 이상일 때 %d%% 확률로 받은 피해를 완전히 무효화합니다.]], "tformat")
+		운명 예지 기술을 알고 있다면 행운 포식자가 7 중첩 이상일 때 %d%% 확률로 받은 피해를 완전히 무효화합니다.]], "tformat")
 t("Fatebreaker", "운명 파괴자", "talent name")
 t([[You form a link between yourself and the chosen target for %d turns, tying your fates together. If during this time you receive fatal damage, you reflexively warp reality, ending the effect and attempting to force them to die in your place.
 		As long as your target remains alive this redirects all damage you take to it as temporal and darkness damage for 1 turn.
