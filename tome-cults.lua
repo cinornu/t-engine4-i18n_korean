@@ -292,7 +292,7 @@ t([[The ground suddenly shakes under your feet and a giant worm appears to gobbl
 You could try to escape using the Rod of Recall or accept your fate.]], [[갑자기 발밑의 땅이 흔들리고, 거대한 벌레가 튀어나와서 당신을 집어삼키려 합니다!
 탈출하기 위해 귀환의 장대를 사용하거나, 아니면 그대로 운명을 받아들일 수도 있습니다.]], "_t")
 t("You manage in extremis to activate the rod in emergency. As you keep on falling towards the maw of the worm the rod finishes charging up and you re-appear nearby, safe from the monstrosity.", "극한 상황에서 간신히 장대를 발동시켰다. 벌레의 입 안쪽으로 떨어지고 있는 도중에, 장대가 완전히 충전되었고 근처로 순간이동되어 위기를 넘겼다.", "log")
-t("Accept your fate", "자신의 운명을 받아들인다", "_t")
+t("Accept your fate", "운명을 받아들인다", "_t")
 t("Use the rod", "장대를 사용한다", "_t")
 
 ------------------------------------------------
@@ -4297,7 +4297,7 @@ t(".", "없습니다.", "_t")
 t("Helm of Knowledge", "지식의 투구", "entity name")
 t("psionic crown", "정신파 왕관", "_t")
 t("A large crown, part metallic part glass that radiates with psionic powers.", "금속과 유리로 이루어진 커다란 왕관입니다. 정신파를 내뿜고 있습니다.", "_t")
-t("It can be used without being worn.", "장비하지 않은 상태에선 쓸 수 없다.", "_t")
+t("It can be used without being worn.", "장비하지 않아도 쓸 수 있다.", "_t")
 t("sense the presence of unique objects", "특이한 물체들이 있는지 감지한다", "_t")
 t("#GREY#You sense no unique items on the floor.", "#GREY#이 구역에는 특이한 물건이 없다.", "log")
 t("#GOLD#You sense %d unique item(s) on the floor.", "#GOLD#이 구역엔 특이한 물건이 %d 개 있는 게 느껴진다.", "log")
