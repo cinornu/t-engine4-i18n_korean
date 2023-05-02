@@ -2767,7 +2767,7 @@ TANTALOS: "Such undignified conduct!  All because you can't accept that the publ
 
 토르막: 한숨. "불행하게도, 크룩 오크들의 발밑이었습니다.  우리 쪽이랑 다르게 열원인 마그마가 아직 빠져나가지가 않아서, 확실히 훌륭한 지점이긴 합니다.  하지만 거길 파내려면...  음, 그놈들이 얼마나 빠르게 건설장비들을 무기들로, 그것도 우리의 것들과 견줄만한 무기들로 바꿨었는지 다들 알고 계시겠지요.  우리가 그곳에 최첨단 굴착 장비를 끌고 간다면--"
 
-탄탈로스: 웃음. "굴착 장비라!  날 바보로 아는 겁니까?  팔라퀴, 그 우스꽝스러운 꼬마 기사들이 무슨 생각을 하고 있는 건지 이야기해줄 수 있습니까? 지금 오크 반란군들 때문에 본토를 샅샅이 뒤지고 있는 자들 말입니다."  한 손을 들어서 명예 평의원 카시로스를 조용히 시킴.  "확실하게 관계가 있는 이야기입니다. 보장하지요."
+탄탈로스: 웃음. "굴착 장비라!  농담 한 번 잘 하시는군요?  팔라퀴, 그 우스꽝스러운 꼬마 기사들이 무슨 생각을 하고 있는 건지 이야기해줄 수 있습니까? 지금 오크 반란군들 때문에 본토를 샅샅이 뒤지고 있는 자들 말입니다."  한 손을 들어서 명예 평의원 카시로스를 조용히 시킴.  "확실하게 관계가 있는 이야기입니다. 보장하지요."
 
 팔라퀴: "불만입니다...  아주 오랫동안 몰래 쌓아두고 있던 원한이라고 해야 하나. 어떤 자들은 크룩 오크들을 절멸시키고 싶어 하고, 다른 자들은 그 오크들을 구금해 두고 싶어 합니다.  어느 쪽에도 직접적으로 관여할 수는 없지만, 약간의 지원 정도는 확실히 가능합니다."
 
@@ -3200,7 +3200,7 @@ t("a journal (2)", "일지 (2)", "_t")
 t([[Great #CRIMSON#AMAKTHEL#LAST#, forgive me, for I could not prevent the actions of my brethren.  I tried.  We tried.  When they spoke of committing the Great Sin, we argued ferociously, until Caldizar and his apostates did it before we could react in time.  We did our best to avenge this foul deed, and used the Magic of Creativity on as many as we could, blessing them with new forms, and blessing ourselves such that we could do battle with their fortresses; alas, it was nonetheless a war we eventually lost, for what chance did we have against weaponry, power, and mercilessness to which even You fell?  Please, Your Brilliance, understand that we did everything we could.  
 
 Our planet lay in ruins, with even the apostates abandoning Eyal for other worlds.  Every one of Your followers fought to our deaths...  except me, coward that I was in those days.  Now, I am all that remains, along with the apostates we blessed with Your magic.  I will not beg for Your forgiveness; as an inventor You are concerned with results over words, and I will prove to You that my moment of weakness will soon have a wondrous result.  With the sinful apostates gone, You will have the time to secure this world for Yourself, purging the creations of the lesser gods...  and preparing to exact justice on the sinners when they return.  
-]], [[위대하신 #CRIMSON#아마크텔#LAST#이시여, 동포들을 막지 못한 저를 용서하시옵소서.  저는 노력했나이다.  저희는 노력했나이다.  제 동포들이 그 크나큰 죄악을 범하는 이야기를 할 때, 저희는 그것에 대하여 격렬한 언쟁을 벌였나이다. 하지만 칼디자르와 놈을 따르는 변절자들은 저희가 대응하기 전에 죄를 저질러 버렸나이다.  저희는 그 역겨운 행위를 응징하기 위하여 최선을 다했고, 창조의 마법을 가능한 한 많은 이들에게 사용하여 그들을 새로운 모습으로 축복하였으며 저희 역시 그 축복을 받아 변절자들의 요새들과 전투를 벌였나이다. 아아, 그렇지만 저희는 결국 그 전쟁에서 패배하였나이다. 당신마저 쓰러뜨린 무기와 힘, 그리고 그 잔혹함에 저희가 어찌 맞설 수 있겠사옵니까?  간곡히 부탁드리옵니다, 눈부신 분이시여, 저희가 최선을 다했다는 것을 이해하여 주시옵소서.  
+]], [[위대하신 #CRIMSON#아마크텔#LAST#이시여, 형제들을 막지 못한 저를 용서하시옵소서.  저는 노력했나이다.  저희는 노력했나이다.  제 형제들이 그 크나큰 죄악을 범하는 이야기를 할 때, 저희는 그것에 대하여 격렬한 언쟁을 벌였나이다. 하지만 칼디자르와 놈을 따르는 변절자들은 저희가 대응하기 전에 죄를 저질러 버렸나이다.  저희는 그 역겨운 행위를 응징하기 위하여 최선을 다했고, 창조의 마법을 가능한 한 많은 이들에게 사용하여 그들을 새로운 모습으로 축복하였으며 저희 역시 그 축복을 받아 변절자들의 요새들과 전투를 벌였나이다. 아아, 그렇지만 저희는 결국 그 전쟁에서 패배하였나이다. 당신마저 쓰러뜨린 무기와 힘, 그리고 그 잔혹함에 저희가 어찌 맞설 수 있겠사옵니까?  간곡히 부탁드리옵니다, 눈부신 분이시여, 저희가 최선을 다했다는 것을 이해하여 주시옵소서.  
 
 저희의 행성은 폐허가 되었고, 그 변절자들마저 에이알을 버리고 다른 세상으로 떠났나이다.  당신을 따르던 자들은, 그 당시 겁쟁이였던 저를 제외하면 모두 마지막까지 싸워 죽음을 맞이하였나이다...  이제 남은 것은 저와, 저희가 당신의 마법으로 축복을 내렸던 변절자들 뿐이옵나이다.  당신께 용서를 구하진 않겠나이다. 창조자로서, 당신께선 말보다 결과를 중히 여기시는 분이시고, 그러므로 저는 제가 나약했던 그 순간이 머지않아 불러일으킬 놀라운 결과를 당신께 보여드리겠나이다.  죄 많은 변절자들이 사라졌으매, 당신께서 이 세계를 다시금 취하실 때가 도래할 것이옵나이다. 다른 하등한 신들의 피조물들을 정화하시고... 죄를 지은 자들이 돌아왔을 때 정당한 심판을 내릴 준비를 하실 때 말이옵니다.  
 ]], "_t")

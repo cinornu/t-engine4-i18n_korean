@@ -13,9 +13,9 @@ section "tome-possessors/data/birth/psionic.lua"
 
 t("Possessor", "빙의술사", "birth descriptor name")
 t("#CRIMSON#BEWARE: This class is very #{italic}#strange#{normal}# and may be confusing to play for beginners.#LAST#", "#CRIMSON#경고: 이 직업은 굉장히 #{italic}#난해하기에#{normal}# 초보자가 플레이하기는 굉장히 어렵습니다.#LAST#", "_t")
-t("Possessors are a rare breed of psionics. Some call them body snatchers. Some call them nightmarish.", "빙의술사는 매우 희귀한 초능력자입니다. 그들은 육체 강탈자라고 불리기도 하고, 악몽 같은 존재라고 불리기도 합니다.", "_t")
-t("They are adept at stealing their foes corpses for their own use. Discarding their own bodies for a while to use other's.", "그들은 적의 시체를 능숙하게 훔쳐내어 목적을 달성하는 데에 이용합니다. 자신의 육체를 잠시 버리고 다른 육체를 사용하기도 합니다.", "_t")
-t("Their most important stats are: Willpower and Cunning", "그들에게 가장 중요한 능력치는 의지와 교활입니다.", "_t")
+t("Possessors are a rare breed of psionics. Some call them body snatchers. Some call them nightmarish.", "빙의술사는 매우 희귀한 초능력자입니다. 이들은 육체 강탈자라고 불리기도 하고, 악몽 같은 존재라고 불리기도 합니다.", "_t")
+t("They are adept at stealing their foes corpses for their own use. Discarding their own bodies for a while to use other's.", "빙의술사들은 적의 시체를 능숙하게 훔쳐내어 이용합니다. 자신의 육체를 잠시 버리고 다른 이의 육체를 사용하기도 합니다.", "_t")
+t("Their most important stats are: Willpower and Cunning", "가장 중요한 능력치는 의지와 교활입니다.", "_t")
 t("#GOLD#Stat modifiers:", "#GOLD#능력치 변경:", "_t")
 t("#LIGHT_BLUE# * +2 Strength, +2 Dexterity, +0 Constitution", "#LIGHT_BLUE# * +2 힘, +2 민첩, +0 체격", "_t")
 t("#LIGHT_BLUE# * +0 Magic, +3 Willpower, +2 Cunning", "#LIGHT_BLUE# * +0 마법, +3 의지, +2 교활", "_t")
@@ -33,7 +33,7 @@ t([[You imbue your offhand mindstar with wild psionic forces.
 		Each stack lasts for %d turns and deals %0.2f mind damage over the duration (max %d stacks).
 		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[마석에 격렬한 초능력을 불어넣습니다.
 		기술이 활성화되면 마석의 정신력과 정신 치명타 확률이 %d%% 증가합니다.
-		또한, 매 근접 공격마다 대상에게 염동력 방해 효과를 1 만큼 누적시킵니다.
+		또한, 매 근접 공격마다 대상에게 염동력 방해 효과를 1 씩 쌓습니다.
 		공격을 가할 때마다 효과의 지속시간이 %d 턴으로 갱신되며, 매 턴 %0.2f 정신 피해를 가합니다. 최대 %d 번까지 중첩시킬 수 있습니다.
 		현재 한손 무기와 마석을 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Shockstar", "충격의 별", "talent name")
@@ -41,22 +41,22 @@ t([[You make a first attack with your mainhand for %d%% weapon damage.
 		If the attack hits the target is distracted and you use that to violently slam your mindstar into it, dealing %d%% damage.
 		The shock is so powerful the target is stunned for %d turns and all creatures around in radius %d are dazed for the same time.
 		The stun and daze duration is dependant on the number of psionic disruption charges on the target, the given number is for 4 charges.
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[주무기로 대상을 타격해 %d%% 무기 피해를 입힙니다.
-		기술이 명중하면 대상은 짧은 시간 동안 정신을 집중하지 못하게 되며, 시전자는 곧바로 마석을 맹렬히 내려쳐 %d%% 피해를 가합니다.
-		너무나도 강력한 충격을 받아 대상은 %d 턴 동안 기절하게 되며, 반경 %d 칸 내의 모든 적 또한 같은 시간동안 혼절하게 됩니다.
-		기절과 혼절의 지속시간은 대상에게 누적된 염동력 방해 효과에 비례하여 증가합니다. 이 기술의 설명은 염동력 방해 효과가 4 만큼 누적되었을 때를 기준으로 합니다.
+		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[주무기로 대상을 공격해 %d%% 무기 피해를 줍니다.
+		명중하면 대상은 잠시 정신을 집중하지 못하게 되며, 시전자는 곧바로 마석을 맹렬히 내려쳐 %d%% 피해를 가합니다.
+		너무나도 강력한 충격을 받아 대상은 %d 턴 동안 기절하게 되며, 반경 %d 칸 내의 모든 적들이 같은 시간동안 혼절하게 됩니다.
+		기절과 혼절의 지속시간은 대상에게 누적된 염동력 방해 효과에 비례하여 증가합니다. 이 기술의 설명은 누적수가 4 일 때를 기준으로 합니다.
 		현재 한손 무기와 마석을 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Dazzling Lights", "눈부신 빛", "talent name")
 t([[Raising your mindstar in the air you channel a bright flash of light through it. Any creatures in radius %d is blinded for %d turns.
 		If any foe in melee range is blinded by the effect you quickly use that to your advantage by striking them with a blow of your main hand weapon doing %d%% damage.
-		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[마석을 공중에 띄우고 강렬한 섬광을 마석을 통해 내보냅니다. 반경 %d 칸 내의 모든 적은 %d 턴 동안 실명합니다.
-		인접한 위치에 적이 있을 경우, 실명 효과의 이점을 최대한 활용합니다. 주무기로 가격하여 적에게 %d%% 피해를 가합니다.
+		If you do not have a one handed weapon and a mindstar equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[마석을 공중에 띄우고 강렬한 섬광을 마석을 통해 뿜어냅니다. 반경 %d 칸 내의 모든 적은 %d 턴 동안 실명합니다.
+		인접한 적이 실명했다면 그 이점을 최대한 활용합니다. 주무기로 후려쳐 %d%% 피해를 가합니다.
 		현재 한손 무기와 마석을 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Psionic Block", "염동력 방어장", "talent name")
 t([[You concentrate to create a psionic block field all around you for 5 turns.
 		While the effect holds all damage against you have a %d%% chance to be fully ignored.
 		When damage is cancelled you instinctively make a retaliation mind strike against the source, dealing %0.2f mind damage. (The retaliation may only happen 2 times per turn.)
-		]], [[염동력으로 이루어진 방어장을 만드는 데에 정신을 집중합니다. 방어장은 5 턴 동안 유지됩니다.
+		]], [[정신을 집중하여 염동력으로 이루어진 방어장을 만듭니다. 방어장은 5 턴 동안 유지됩니다.
 		지속시간 동안 피격 시 받는 피해가 %d%% 확률로 완전히 무효화됩니다.
 		공격이 무효화되면 시전자는 즉각 공격자에게 정신 공격으로 보복해, %0.2f 정신 피해를 줍니다 (보복 효과는 한 턴에 두 번까지만 일어납니다).
 		]], "tformat")
@@ -76,12 +76,12 @@ t([[You imbue a part of your own mind into a body without actually taking its fo
 		Psionic minions can not heal in any way.
 		When the effect ends the body is permanently lost.]], [[육체 하나에 정신의 일부를 주입합니다. 그 육체에 빙의하지는 않습니다.
 		해당 육체는 %d 턴 동안 시전자의 하수인이 됩니다.
-		초능력 하수인은 어떤 방식으로든 회복이 불가능합니다.
+		초능력 하수인은 어떤 방식으로든 회복할 수 없습니다.
 		효과가 끝나면 해당 육체는 영구적으로 파괴됩니다.]], "tformat")
 t("Psionic Duplication", "초능력 복제", "talent name")
 t([[When you store a body you also store %d more identical copies of it that you can use later.
 		When you store a rare/unique/boss or higher rank creature you only get a third of the uses (but never less than one).]], [[육체를 보관할 때, 추후에 사용할 수 있는 %d 구의 복제 육체를 같이 보관합니다.
-		희귀/단일/보스, 또는 더 높은 등급의 개체는 위 수치의 1/3 만큼만 복제됩니다. (최소 1 구의 복제 육체는 보장됩니다)]], "tformat")
+		희귀/유일/보스, 그 외 더 높은 등급의 육체는 위 수치의 1/3 만큼만 복제됩니다 (최소 1 구는 보장됩니다).]], "tformat")
 t("Cannibalize", "육체 부품 교체", "talent name")
 t("You require need to assume a form first.", "우선 형상을 취해야 한다.", "logPlayer")
 t("Rank of body too low.", "육체의 등급이 너무 낮다.", "logPlayer")
@@ -91,10 +91,10 @@ t([[When you assume a form you may cannibalize a body in your reserve to repleni
 		The healing effect is more psionic in nature than a real heal. As such may things that prevent healing will not prevent cannibalize from working.
 		Cannibalize is the only possible way to heal a body.
 		]], [[형상을 취하고 있을 때, 보관소 내의 육체 하나를 부품으로 사용하여 현재 육체를 수복할 수 있습니다.
-		현재 육체의 등급과 동일하거나 더 높은 등급의 육체만 사용할 수 있습니다. 이 기술을 사용할 때마다 해당 육체가 받는 회복량은 33%%씩 감소하게 됩니다.
+		등급이 현재 육체와 동일하거나 더 높은 것만 사용할 수 있습니다. 이 기술을 사용할 때마다 수복된 육체가 받는 회복량은 33%%씩 감소하게 됩니다.
 		현재 육체의 생명력이 부품이 된 육체가 가진 최대 생명력의 %d%% 만큼 회복되며, 시전자는 해당 수치의 50%% 만큼 염력을 회복합니다.
-		이로 인한 회복 효과는 자연적이라기보단 초능력적인 것에 더 가깝습니다. 따라서 회복을 막는 여러 기술들을 무시합니다.
-		육체 부품 교체는 육체를 수복할 수 있는 유일한 방법입니다.
+		이 회복 효과는 진짜 회복이 아니라, 초능력에 더 가깝습니다. 따라서 회복을 막는 각종 기술들을 무시합니다.
+		육체 부품 교체는 육체의 생명력을 회복시킬 수 있는 유일한 방법입니다.
 		]], "tformat")
 
 ------------------------------------------------
@@ -114,7 +114,7 @@ t([[Your mere presence is a blight in your foes minds. Using this link you are a
 		%d 턴 동안 시전자는 대상의 무작위 사용형 기술을 하나 사용할 수 있고, 대상은 그 기술을 잃어버리게 됩니다 (지속형 기술과 유지형 기술은 강탈할 수 없습니다).
 		시전자가 이미 알고 있는 기술은 강탈할 수 없습니다.
 		강탈한 기술은 사용할 때 어떤 원천력도 소모하지 않습니다.
-		기술 레벨이 5 일 때, 강탈할 기술을 선택할 수 있게 됩니다.
+		기술 레벨 5 부터, 강탈할 기술을 선택할 수 있게 됩니다.
 		강탈한 기술의 기술 레벨은 최대 %d 으로 제한됩니다.]], "tformat")
 t("Spectral Dash", "망령 질주", "talent name")
 t([[For a brief moment your whole body becomes etheral and you dash into a nearby creature and all those in straight line behind it (in range %d).
@@ -127,8 +127,8 @@ t([[Your physical form is but a mere extension of your mind, you can bend it at 
 		While under the effect you gain %d%% all resistances and have %d%% chance to ignore all critical hits.
 		On activation you also remove up to %d physical or mental effects.
 		]], [[육체는 정신의 연장선에 불과합니다. 시전자는 %d 턴 동안 육체를 마음대로 조작합니다.
-		지속시간 동안 모든 저항 %d%% 와 치명타 무시 확률 %d%% 를 얻습니다.
-		이 기술을 발동하면 정신적 효과나 물리적 효과를 최대 %d 개 제거합니다.
+		지속시간 동안 모든 저항 %d%% 와 치명타 피해 감쇄 %d%% 를 얻습니다.
+		이 기술을 발동하면 정신적 효과나 물리적 효과를 최대 %d 개까지 제거합니다.
 		]], "tformat")
 t("Ominous Form", "불길한 형상", "talent name")
 t("You are already assuming a form.", "당신은 이미 형상을 취하고 있다.", "logPlayer")
@@ -137,8 +137,8 @@ t([[Your psionic powers have no limits. You are now able to assault a target and
 		The form is only temporary, lasting %d turns and subject to the same restrictions as your normal powers.
 		While using a stolen form your health is bound to your target. (Your life%% will always be identical to your target's life%%)
 		]], [[시전자의 초능력은 한계가 없습니다. 적에게 맹공을 가해, 죽이지 않고 적을 복제할 수 있게 됩니다.
-		이 형상은 일시적인 것으로, %d 턴 동안만 지속되며 시전자의 일반적인 능력과 같은 제한을 받습니다.
-		이렇게 형상을 취하면 시전자의 생명력은 대상에게 속박됩니다. (시전자의 생명력 비율은 언제나 대상의 생명력 비율과 같게 됩니다)
+		이 형상은 일시적인 것으로, %d 턴 동안만 유지되며 시전자의 일반적인 능력과 같은 제한을 받습니다.
+		이렇게 형상을 취하면 시전자의 생명력은 대상에게 속박됩니다 (시전자의 생명력 비율은 언제나 대상의 생명력 비율과 같아집니다).
 		]], "tformat")
 
 ------------------------------------------------
@@ -147,7 +147,7 @@ section "tome-possessors/data/talents/psionic/possession.lua"
 t("Possession Talent %d", "빙의 기술 %d", "tformat")
 t("You must assume a form to use that form's talents.", "형상을 취해야만 해당 육체의 기술을 사용할 수 있다.", "logPlayer")
 t([[When you assume a form, this talent will be replaced with one of the body's talents.
-			The only use for this talent is to pre-organize your hotkeys bar.]], [[형상을 취할 때, 이 기술은 해당 육체의 기술 중 하나로 대체됩니다.
+			The only use for this talent is to pre-organize your hotkeys bar.]], [[어떤 형상을 취하면 이 기술은 해당 육체의 기술 중 하나로 대체됩니다.
 			이 기술은 단지 단축키 할당을 위해 사용됩니다.]], "tformat")
 t("none", "없음", "_t")
 t("\
@@ -172,25 +172,25 @@ t([[You call upon one of your reserve bodies, assuming its form.
 		While in another body your currently equiped objects are #{italic}#merged#{normal}# in you, you can not take them of or wear new ones.
 		Bodies possessed:
 		%s]], [[비축한 육체 중 하나를 불러내어 그 형상을 취합니다.
-		해당 육체는 어떤 방법으로도 회복될 수 없습니다.
-		언제라도 이 기술을 다시 사용해 해당 육체에서 벗어날 수 있습니다. 해당 육체는 해제 시의 상태 그대로 보관소로 돌아가게 됩니다.
-		육체의 생명력이 0 에 도달하면 육체에서 강제로 사출되어, 시전자의 본래 최대 생명력의 %d%% 에 해당하는 피해를 입고, 6 턴 동안 이동 속도가 50%%, 가하는 피해량이 60%% 감소합니다.
-		시전자가 본래의 형상을 취할 때만 재사용 대기시간이 돌아갑니다.
-		다른 개체의 형상을 취하고 있어도 경험치는 정상적으로 얻게 되지만, 원래 모습으로 돌아올 때만 레벨 업이 가능합니다.
-		다른 개체의 형상을 취하면 현재 장착한 장비들은 시전자에게로 #{italic}#융합#{normal}# 되어, 장비를 벗거나, 새로 장착할 수 없습니다.
+		해당 육체는 기본적으로 생명력을 회복할 수 없습니다.
+		언제라도 이 기술을 다시 사용해 육체에서 벗어날 수 있습니다. 해당 육체는 해제 시의 상태 그대로 보관소로 돌아가게 됩니다.
+		육체의 생명력이 0 에 도달하면 육체에서 강제로 사출되어, 시전자의 본래 최대 생명력의 %d%% 만큼 피해를 받고, 6 턴 동안 이동 속도가 50%%, 가하는 피해량이 60%% 감소합니다.
+		시전자가 본래 육체를 사용하고 있을 때에만 재사용 대기시간이 감소합니다.
+		다른 형상을 취하고 있어도 경험치는 정상적으로 얻지만, 본래 육체를 사용하고 있을 때만 레벨 업이 가능합니다.
+		다른 형상을 취한 동안에는 현재 장착한 장비들은 시전자에게로 #{italic}#융합#{normal}#되어, 장비를 벗거나 새로 장착할 수 없게 됩니다.
 		갖고 있는 육체:
 		%s]], "tformat")
 t("Possess", "빙의", "talent name")
 t("You do not have enough room in your bodies storage.", "육체 보관소에 충분한 공간이 없다.", "logPlayer")
 t("This creature is immune to possession.", "이 개체는 빙의에 면역이다.", "logPlayer")
-t("You may not possess a creature which you summoned.", "당신이 소환한 소환물에 빙의할 수는 없다.", "logPlayer")
+t("You may not possess a creature which you summoned.", "자신이 소환한 소환물에 빙의할 수는 없다.", "logPlayer")
 t("You may not possess a creature which has an expiration time or a master.", "지속시간이 정해져 있거나, 주인이 있는 대상에게는 빙의할 수 없다.", "logPlayer")
 t("You may not possess a creature of this rank (%s%s#LAST#).", "이 등급의 적에게는 빙의할 수 없다. (%s%s#LAST#).", "logPlayer")
 t("Possess", "빙의", "_t")
 t("Permanently learn to possess creatures of type #LIGHT_BLUE#%s#LAST# (you may only do that a few times, based on talent level) ?", "영구적으로 #LIGHT_BLUE#%s#LAST# 종족에 대한 빙의 방법을 배우시겠습니까? (기술 레벨에 비례해, 아주 적은 횟수만 가능합니다)", "tformat")
 t("No", "아니요", "_t")
 t("Yes", "네", "_t")
-t("You may not possess this kind of creature.", "당신은 이 종류의 적에게 빙의하지 못한다.", "logPlayer")
+t("You may not possess this kind of creature.", "이 종류의 적에게는 빙의하지 못한다.", "logPlayer")
 t("You have no more room available to store a new body.", "보관소에 남는 공간이 없어 새로운 육체를 보관할 수 없다.", "logPlayer")
 t("Your target is dead!", "대상이 죽었다!", "logPlayer")
 t([[You cast a psionic web at a target that lasts for %d turns. Each turn it deals %0.2f mind damage.
@@ -205,22 +205,22 @@ t([[You cast a psionic web at a target that lasts for %d turns. Each turn it dea
 
 		You may only steal the body of creatures of the following types: #LIGHT_BLUE#%s#LAST#
 		When you try to possess a creature of a different type you may learn this type permanently, you can do that %d more times.]], [[%d 턴 동안 지속되는 초능력 망을 대상에게 씌웁니다. 초능력 망은 매 턴마다 %0.2f 정신 피해를 가합니다.
-		초능력 망의 영향을 받고 있는 도중에 대상이 죽게 되면, 시전자가 해당 육체를 강탈하여 숨겨진 초능력 보관소에 안치합니다.
-		이후에 형상 취하기 기술을 사용하면, 해당 육체의 형상을 취해 육체의 강점과 약점을 모두 적용받습니다.
+		초능력 망에 씌인 대상이 죽게 되면, 시전자가 대상의 육체를 강탈하여 숨겨진 초능력 보관소에 안치합니다.
+		이후에 형상 취하기 기술을 사용하면, 해당 육체의 형상을 취해 육체의 강점과 약점을 모두 얻습니다.
 		보관소에 남은 공간이 없으면 육체를 강탈할 수 없습니다.
 
 		시전자는 등급이 %s%s#LAST# 이하인 육체를 강탈할 수 있습니다.
-		기술 레벨이 3 일 때, 최대 %s%s#LAST# 등급까지.
-		기술 레벨이 5 일 때, 최대 %s%s#LAST# 등급까지.
-		기술 레벨이 7 일 때, 최대 %s%s#LAST# 등급까지.
+		기술 레벨 3 부터, 최대 %s%s#LAST# 등급까지.
+		기술 레벨 5 부터, 최대 %s%s#LAST# 등급까지.
+		기술 레벨 7 부터, 최대 %s%s#LAST# 등급까지.
 
-		오직 다음과 같은 종족의 육체만 강탈할 수 있습니다: #LIGHT_BLUE#%s#LAST#
+		다음과 같은 종족의 육체만 강탈할 수 있습니다: #LIGHT_BLUE#%s#LAST#
 		위에 포함되지 않는 종족의 육체를 강탈하려고 시도하면, 해당 종족에 대한 빙의 방법을 익힙니다. %d 종류 더 익힐 수 있습니다.]], "tformat")
 t("Self Persistence", "자기 지속성", "talent name")
-t("When you assume the form of an other body you can still keep %d%% of the values (defences, crits, powers, save, ...) of your own body.", "육체의 형상을 취할 때, 시전자는 원래 능력치의 %d%% 를 유지할 수 있게 됩니다. (회피도, 치명타, 내성 등등 ...)", "tformat")
+t("When you assume the form of an other body you can still keep %d%% of the values (defences, crits, powers, save, ...) of your own body.", "육체의 형상을 취할 때, 시전자는 원래 능력치의 %d%% 를 유지할 수 있게 됩니다 (회피도, 치명타, 내성 등등 ...).", "tformat")
 t("Improved Form", "강화된 형상", "talent name")
 t([[When you assume the form of another body you gain %d%% of the values (defences, crits, powers, save, ...) of the body.
-		In addition talents gained from bodies are limited to level %0.1f.]], [[육체의 형상을 취할 때, 해당 육체의 능력치가 %d%% 향상됩니다. (회피도, 치명타, 내성 등등 ...)
+		In addition talents gained from bodies are limited to level %0.1f.]], [[육체의 형상을 취할 때, 해당 육체의 능력치가 %d%% 상승합니다 (회피도, 치명타, 내성 등등 ...).
 		거기에 더해 해당 육체로 얻게 되는 기술의 레벨 상한이 %0.1f 이 됩니다.]], "tformat")
 t("Full Control", "완벽한 통제", "talent name")
 t([[When you assume the form of an other body you gain more control over the body:
@@ -231,12 +231,12 @@ t([[When you assume the form of an other body you gain more control over the bod
 		- at level 5 you gain all speeds (only if they are superior to yours)
 		- at level 6+ you gain one more talent slot
 		]], [[육체의 형상을 취할 때, 해당 육체에 대한 통제력이 강해집니다.
-		- 기술 레벨 1 일 때, 기술 슬롯을 하나 더 얻습니다.
-		- 기술 레벨 2 일 때, 기술 슬롯을 하나 더 얻습니다.
-		- 기술 레벨이 3 일 때, 각종 저항과 고정 피해 감소를 얻습니다.
-		- 기술 레벨 4 일 때, 기술 슬롯을 하나 더 얻습니다.
-		- 기술 레벨이 5 일 때, 전체 속도가 향상됩니다 (원래 육체보다 속도가 더 빠를 때에만).
-		- 기술 레벨 6+ 일 때, 기술 슬롯을 하나 더 얻습니다.
+		- 기술 레벨 1 부터, 기술 슬롯을 하나 더 얻습니다.
+		- 기술 레벨 2 부터, 기술 슬롯을 하나 더 얻습니다.
+		- 기술 레벨 3 부터, 각종 저항과 고정 피해 감소를 얻습니다.
+		- 기술 레벨 4 부터, 기술 슬롯을 하나 더 얻습니다.
+		- 기술 레벨 5 부터, 전체 속도를 얻습니다 (원래 육체보다 속도가 더 빠를 때에만).
+		- 기술 레벨 6+ 부터, 기술 슬롯을 하나 더 얻습니다.
 		]], "tformat")
 
 ------------------------------------------------
@@ -254,15 +254,15 @@ t("Psychic Wipe", "초능력 소거", "talent name")
 t([[You project ethereal fingers inside the target's brain.
 		Over %d turns it will take %0.2f total mind damage and have its mental save reduced by %d.
 		This powerful effect uses 130%% of your Mindpower to try to overcome your target's initial mental save.
-		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[영체 상태의 손가락을 대상의 뇌에 투사합니다.
-		대상은 %d 턴에 걸쳐 총 %0.2f 정신 피해를 입고 정신 내성이 %d 감소합니다.
-		이 기술은 효과 적용 판정 시, 대상의 정신 내성에 대항한 시전자의 정신력을 130%% 로 적용합니다.
+		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[영체 상태의 손가락을 대상의 뇌에 쏩니다.
+		대상은 %d 턴에 걸쳐 %0.2f 정신 피해를 받고 정신 내성이 %d 감소합니다.
+		이 기술은 효과 판정을 할 때 시전자의 정신력을 130%% 로 이용합니다.
 		현재 마석을 양손에 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Ghastly Wail", "섬뜩한 곡성", "talent name")
 t([[You let your mental forces go unchecked for an instant. All foes in a radius %d are knocked 3 grids away from you.
 		Creatures that fail a mental save are also dazed for %d turns and take %0.2f mind damage.
 		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[정신력을 순간적으로 해방하여 반경 %d 칸 내의 모든 적을 시전자로부터 3 칸 밀칩니다.
-		정신 내성에 실패한 적은 %d 턴 동안 혼절 상태에 빠지며, %0.2f 정신 피해를 받습니다.
+		정신 내성에 실패한 적은 %d 턴 동안 혼절하며, %0.2f 정신 피해를 받습니다.
 		현재 마석을 양손에 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 t("Finger of Death", "죽음의 손가락", "talent name")
 t("#PURPLE##Source# shatters #Target#'s mind, utterly destroying it.", "#PURPLE##Source1# #Target#의 정신을 산산조각내어, 완전히 파괴했다.", "logCombat")
@@ -273,9 +273,9 @@ t([[You point your ghastly finger at a foe affected by Ghastly Wail and send a p
 		On targets of rank boss or higher the damage is limited to %d.
 		If the target dies from the Finger and is of a type you can already absorb it is directly absorbed into your bodies reserve.
 		If you do not have two mindstars equiped, but have them in your off set, you instantly automatically switch. The wild psionic powers are incompatible with the focused nature of psiblades.]], [[섬뜩한 곡성의 영향을 받은 적을 망령의 손가락으로 가리켜, 초능력 파장을 통해 순순히 죽으라고 속삭입니다.
-		대상은 이미 잃은 생명력의 %d%% 에 해당하는 정신 피해를 받습니다.
-		대상의 등급이 보스 이상이라면 피해량은 %d 으로 제한됩니다.
-		죽음의 손가락으로 인해 죽은 대상이 육체를 강탈할 수 있는 종족일 경우, 육체를 강탈해 보관소에 보관합니다.
+		대상은 잃은 생명력의 %d%% 만큼 정신 피해를 받습니다.
+		대상의 등급이 보스 이상이라면 최대 피해량이 %d 으로 제한됩니다.
+		죽음의 손가락으로 죽은 대상이 육체를 강탈할 수 있는 종족이라면, 육체를 강탈해 보관소에 보관합니다.
 		현재 마석을 양손에 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다. 염동 칼날은 이러한 종류의 격렬한 초능력과 동시에 사용할 수 없습니다.]], "tformat")
 
 ------------------------------------------------
@@ -310,22 +310,22 @@ t("%s resists the psychic blow!", "%s 초능력 타격에 저항했다!", "logSe
 t([[Using both your mind and your arms you propel your two handed weapon to deal a huge strike doing %d%% weapon mind damage.
 		If the blow connects and the target fails a mental save there is %d%% chance that the blow was so powerful it ripped a psychic imprint off the target.
 		It will appear nearby and serve you for %d turns.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[무기에 정신을 집중하여 힘을 더하고, 양손 무기로 강력한 일격을 가해 %d%% 무기 피해를 정신 속성으로 가합니다.
-		공격이 명중하면 대상은 정신 내성 판정을 거칩니다. 실패할 경우 %d%% 확률로 적에게서 초능력 투영체를 벗겨냅니다.
-		초능력 투영체는 적 근처에서 생성되며 %d 턴 동안 시전자를 돕습니다.
+		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[양손 무기에 정신을 집중하여 힘을 더하고, 강력한 일격을 가해 %d%% 무기 피해를 정신 속성으로 줍니다.
+		공격이 명중하면 대상은 정신 내성 판정을 거칩니다. 성공하면 %d%% 확률로 적에게서 초능력 투영체를 벗겨냅니다.
+		초능력 투영체는 적 근처에서 생겨나며 %d 턴 동안 시전자를 돕습니다.
 		현재 양손 무기를 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다.]], "tformat")
 t("Force Shield", "힘의 보호막", "talent name")
 t([[You create a psionic shield from your weapon that prevents you from ever taking blows that deal more than %d%% of your maximum life and gives you %d%% evasion.
 		In addition, each time you take a melee hit the attacker automatically takes revenge strike that deals %d%% weapon damage as mind damage. (This effect can only happen once per turn)
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[무기에서 초능력 보호막을 생성하여 한 번에 최대 생명력의 %d%% 이상의 피해를 받지 않게 되고, %d%% 의 피해 무효화 확률을 얻게 됩니다.
-		추가로, 근접 공격을 맞을 때마다 자동적으로 보복을 가해 %d%% 무기 피해를 정신 속성으로 가합니다 (이 효과는 한 턴에 한 번만 발생합니다).
+		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[무기에서 초능력 보호막을 만들어내어 최대 생명력의 %d%% 를 넘는 피해를 단번에 받지 않게 되고, 피해 무효화 확률을 %d%% 얻습니다.
+		추가로, 근접 공격을 맞을 때마다 자동적으로 보복을 가해 %d%% 무기 피해를 정신 속성으로 가합니다 (이 효과는 한 턴에 한 번만 일어납니다).
 		현재 양손 무기를 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다.]], "tformat")
 t("Unleashed Mind", "해방된 정신", "talent name")
 t([[You concentrate your powerful psionic powers on your weapon and briefly unleash your fury.
 		All foes in radius %d will take a melee attack dealing %d%% weapon damage as mind damage.
 		Any psionic clones in the radius will have its remaining time extended by %d turns.
-		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[강력한 초능력을 무기에 집중해, 잠시 동안 분노를 해방합니다.
-		반경 %d 칸 내의 모든 적에게 근접 공격을 가해 %d%% 무기 피해를 정신 속성으로 입힙니다.
+		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[강력한 초능력을 무기에 집중하여 잠시 동안 분노를 해방합니다.
+		반경 %d 칸 내의 모든 적에게 근접 공격을 가해 %d%% 무기 피해를 정신 속성으로 줍니다.
 		범위 내의 모든 초능력 투영체는 지속시간이 %d 턴 연장됩니다.
 		현재 양손 무기를 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다.]], "tformat")
 t("Seismic Mind", "압도적인 정신", "talent name")
@@ -333,7 +333,7 @@ t([[You shatter your weapon in the ground, projecting a psionic shockwave in a c
 		Any foes in the area will take %d%% weapon damage as mind damage.
 		Any psionic clones hit will instantly shatter, exploding for %0.2f physical damage in radius 1.
 		If you do not have a two handed weapon equiped, but have it in your off set, you instantly automatically switch.]], [[무기로 지면을 강타하고, 반경 %d 칸의 원뿔 범위에 초능력 충격파를 쏩니다.
-		범위 내의 모든 적은 %d%% 무기 피해를 정신 피해로 받습니다.
+		범위 내의 모든 적은 %d%% 무기 피해를 정신 속성으로 받습니다.
 		충격파에 휘말린 초능력 투영체는 즉시 산산조각나고, 반경 1 칸 내에 %0.2f 물리 피해를 가합니다.
 		현재 양손 무기를 장비하고 있지 않더라도, 보조 장비 칸에 해당 무기들을 장비하고 있다면 즉시 장비 칸을 전환합니다.]], "tformat")
 
@@ -342,7 +342,7 @@ section "tome-possessors/data/talents/psionic/ravenous-mind.lua"
 
 t("Sadist", "사디스트", "talent name")
 t([[You feed on the pain of all foes in sight. For each one of them with life under 80%% you gain a stack of Sadist effect that increases your raw mindpower by %d.
-		]], [[시야 내의 모든 적들이 느끼는 고통을 포식합니다. 적 하나의 생명력이 80%% 이하로 떨어지면, 시전자는 순수 정신력을 %d 증가시키는 사디스트 중첩을 하나 얻습니다.
+		]], [[시야 내의 모든 적들이 느끼는 고통을 포식합니다. 적 하나의 생명력이 80%% 이하로 떨어지면 시전자는 사디스트 중첩을 하나 얻습니다. 사디스트 중첩당 순수 정신력이 %d 증가합니다.
 		]], "tformat")
 t("Channel Pain", "고통 모으기", "talent name")
 t("#ORANGE#%s channels pain to %s!", "#ORANGE#%s 고통을 %s에게 모은다!", "logSeen", nil, {"는"})
@@ -350,8 +350,8 @@ t("#ORANGE#%s channels pain!", "#ORANGE#%s 고통을 모은다!", "logSeen")
 t([[As long as you have at least a stack of Sadist whenever you take damage you use %d psi to harness your stacks of Sadist to divide the damage by your stacks + 1.
 		Each time this happens a random foe in sight with 80%% or less life left will take a backlash of %d%% of the absorbed damage as mind damage.
 		This effect can only happen once per turn and only triggers for hits over 10%% of your max life.]], [[사디스트 중첩을 하나 이상 갖고 있다면, 피격 시 염력을 %d 소모하여 피해량을 사디스트 중첩 + 1 의 수치로 나눕니다.
-		이 효과가 발생할 때마다 시야 내의 생명력 80%% 이하인 적 하나가 반동을 받아, 흡수된 피해량의 %d%% 를 정신 피해로 대신 받습니다.
-		이 효과는 한 턴에 한 번만 일어나며, 최대 생명력의 10%% 이상의 피해를 단번에 받을 때만 발동됩니다.]], "tformat")
+		이 효과가 일어날 때마다 시야 내의 생명력 80%% 이하인 적 하나가 반동을 받아, 흡수된 피해량의 %d%% 를 정신 피해로 대신 받습니다.
+		이 효과는 한 턴에 한 번만 일어나며, 최대 생명력의 10%% 를 넘는 피해를 단번에 받을 때만 발동합니다.]], "tformat")
 t("Radiate Agony", "격통 발산", "talent name")
 t("You need a Sadist stack to use this talent.", "이 기술을 사용하려면 사디스트 중첩이 필요하다.", "logPlayer")
 t([[As long as you have at least a stack of Sadist you can radiate agony to all those you see in radius %d with 80%% or lower life left.
@@ -359,8 +359,8 @@ t([[As long as you have at least a stack of Sadist you can radiate agony to all 
 		5 턴 동안 해당 적들의 정신은 격통으로 물들어, 가하는 피해량이 %d%% 감소합니다.]], "tformat")
 t("Torture Mind", "정신 고문", "talent name")
 t([[As long as you have at least a stack of Sadist you can mentally lash out at a target, sending horrible images to its mind.
-		The target will reel from the effect for %d turns, rendering %d random talents unusable for the duration.]], [[사디스트 중첩을 하나 이상 갖고 있다면, 대상에게 끔찍한 환상을 보내 정신적인 공격을 가합니다.
-		이 효과로 인해 대상은 %d 턴 동안 정신을 놓게 되어 무작위한 기술 %d 개를 사용할 수 없게 됩니다.]], "tformat")
+		The target will reel from the effect for %d turns, rendering %d random talents unusable for the duration.]], [[사디스트 중첩을 하나 이상 갖고 있다면, 대상에게 끔찍한 환상을 보내 정신 공격을 가합니다.
+		대상은 %d 턴 동안 정신을 놓게 되어 무작위 기술 %d 개를 사용할 수 없게 됩니다.]], "tformat")
 
 ------------------------------------------------
 section "tome-possessors/data/timed_effects.lua"
@@ -423,7 +423,7 @@ t("Psionic Block", "염동력 방어장", "_t")
 t("%d%% chances to ignore damage and to retaliate with %0.2f mind damage.", "%d%% 확률로 피해를 무시하고, 공격자에게 %0.2f 정신 피해로 보복.", "tformat")
 t("#Target# is protected by a psionic block!", "#Target1# 염동력 방어장으로 보호받고 있다!", "_t")
 t("#Target# no longer protected by the psionic block.", "#Target#의 염동력 방어장이 사라졌다.", "_t")
-t("#ROYAL_BLUE#The attack against %s is cancelled by a psionic block!", "#ROYAL_BLUE#%s 향한 공격은 염동력 방어장에 의해 무효화 되었다!", "logSeen", nil, {"를"})
+t("#ROYAL_BLUE#The attack against %s is cancelled by a psionic block!", "#ROYAL_BLUE#%s 향한 공격은 염동력 방어장에 의해 무효화되었다!", "logSeen", nil, {"를"})
 t("Sadist", "사디스트", "_t")
 t("Mindpower (raw) increased by %d.", "순수 정신력 +%d.", "tformat")
 t("#Target# is empowered by the suffering of others!", "#Target1# 적들에게 고통을 퍼뜨려 힘을 얻는다!", "_t")
@@ -498,5 +498,5 @@ section "tome-possessors/overload/mod/dialogs/AssumeFormSelectTalents.lua"
 t("Assume Form: Select Talents (max talent level %0.1f)", "형상 취하기: 기술을 고르십시오 (최대 기술 레벨 %0.1f)", "tformat")
 t("Possess Body", "육체 빙의", "_t")
 t("Cancel", "취소", "_t")
-t("#SLATE##{italic}#Your level of #LIGHT_BLUE#Full Control talent#LAST# is not high enough to use all the talents of this body. Select which to keep, your choice will be permanent for this body and its clones.", "#SLATE##{italic}#당신의 #LIGHT_BLUE#완벽한 통제#LAST# 기술은 해당 육체의 모든 기술을 사용할 수 있을 정도로 높지 않습니다. 어떤 기술을 사용할지 선택하십시오, 이 선택은 해당 육체와 복제품에 있어 영구적입니다.", "_t")
+t("#SLATE##{italic}#Your level of #LIGHT_BLUE#Full Control talent#LAST# is not high enough to use all the talents of this body. Select which to keep, your choice will be permanent for this body and its clones.", "#SLATE##{italic}#당신의 #LIGHT_BLUE#완벽한 통제#LAST# 기술은 해당 육체의 모든 기술을 사용할 수 있을 정도로 높지 않습니다. 어떤 기술을 사용할지 선택하십시오, 이 선택은 해당 육체와 복제품에게 영구적입니다.", "_t")
 
