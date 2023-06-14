@@ -913,7 +913,7 @@ t("steam", "증기", "entity subtype")
 t("steam giant guard", "증기 거인 경비병", "entity name")
 t("This titanic figure walks towards you, a massive sword and shield in each hand.", "엄청난 크기의 거인입니다. 거대한 검과 방패를 들고 다가오고 있습니다.", "_t")
 t("steam giant berserker", "증기 거인 광전사", "entity name")
-t("This steam giant carries a massive greatsword with both hands, and you see a cloud of thick steam enveloping the blade.", "양손에 거대한 검을 한 자루씩 들고 있는 거인입니다. 두꺼운 증기 구름이 칼날을 감싸고 있습니다.", "_t")
+t("This steam giant carries a massive greatsword with both hands, and you see a cloud of thick steam enveloping the blade.", "거대한 검을 양손으로 쥐고 있는 거인입니다. 두꺼운 증기 구름이 칼날을 감싸고 있습니다.", "_t")
 t("steam giant yeti rider", "증기 거인 예티 기병", "entity name")
 t("Riding atop a massive armored yeti, this steam giant wields a huge greatsword.", "중무장을 한 예티를 타고 있는 거인입니다. 거대한 대검을 들고 있습니다.", "_t")
 
@@ -2556,7 +2556,7 @@ Seriously, though, I'm writing this note so even if I get killed from this, I'm 
 
 "제비를 잘못 뽑아서" 교정 작업을 하게 됐어. [i]제대로 부려먹히고 있다고.[/i]  위치 전환 마법을 써서 속임수를 쓴 거였고, 그 자리에 있던 녀석들도 다 한통속이었어.  지구랏에서 일하다 보니까, 그런 녀석들이랑 한 판 벌일 때는 정신 보호 모자를 쓰고 녀석들이 하는 짓을 잘 보고 있어야 바가지를 안 쓴다는 걸 까먹고 있었어.
 
-바가지 얘기가 나와서 말인데, 우리가 왜 이런 시체 애호가 놈을 믿고 있는 거지? 이게 가짜라면, 이걸 만드는 비용이 우리한테 판 값보다 훨씬 더 비쌀 것 같긴 한데, 그래도...  탄넨은 왜 살아 있는 것만 통과할 수 있는 차원문을 만들었고, 왜 또 그걸 하필 강령술사 놈들한테 - [i]살아 있다는 걸 단점이라고 보는 유일한 족속들[/i]한테 보수로 넘겼을까?
+바가지 얘기가 나와서 말인데, 우리가 왜 이런 시체 애호가 놈을 믿고 있는 거지? 이게 가짜라면, 이걸 만드는 비용이 우리한테 판 값보다 훨씬 더 비쌀 것 같긴 한데, 그래도...  탄넨은 왜 살아 있는 것만 통과할 수 있는 차원문을 만들었고, 왜 또 그걸 하필 강령술사 놈한테 - [i]살아 있다는 걸 단점이라고 보는 유일한 족속들[/i]한테 보수로 넘겼을까?
 
 뭐, 그러니까 [i]미치광이[/i] 연금술사 소릴 듣게 됐고, 떵떵거리면서 편하게 사는 물약 장인도 아닌 거겠지만.  이제와선 탄넨한테 사정을 들을 수 있는 놈도 없어. 우리가 이 차원문을 얻어 낸 녀석을 빼면 말이야.
 
@@ -3028,11 +3028,11 @@ And what then?  A master of battle has nothing to do once the battle is won.  <?
 
 Of course, a character like that can't simply be thrown away.  The story may be over, but it can be told again and again, and as such there would be as many Heroes of Maj'Eyal as there were people who'd listen to the story, each hearing it and imagining it slightly differently from the next.  Even the storyteller would dream up more situations for the Hero of Maj'Eyal, always wondering - what if I found an even match for this first warrior?  Don't I owe <?=Lore.pocket_time_winner.himher?> the reward of a fight <?=Lore.pocket_time_winner.heshe?> would be eager to participate in, and one that would give <?=Lore.pocket_time_winner.himher?> the challenge <?=Lore.pocket_time_winner.heshe?> craved so dearly?  Wouldn't such a duel be worth writing about?  And so, it kept <?=Lore.pocket_time_winner.name?> in mind, promising to remember <?=Lore.pocket_time_winner.himher?> whenever it found or created a threat worthy of <?=Lore.pocket_time_winner.himher?>.
 
-[b]<?=player.name?>[/b], you crave the thrill and tension of a close fight as much as <?=Lore.pocket_time_winner.heshe?> does.  I owe this opportunity to you in life, and the Scourge from the West in <?=Lore.pocket_time_winner.hisher?> legend; all I ask in return is that the two of you give me a battle that the people of Eyal will sing songs about.]], [[<? Lore.init_pocket_time_data() ?>옛날 옛적에, 에이알의 그 어떤 것보다도 오래된, 에이돌론이라는 영혼이 있었다.  어떤 이들은 그것을 질서와 정의를 가져오는 구세주라 불렀고, 다른 이들은 그것을 자신의 즐거움을 위해 공포를 퍼뜨리는 "어두운 신" - 다크 갓이라 불렀다.  이런 필멸자들의 구분은 정말로 적절치 못한 것이, 거의 시간 그 자체만큼이나 오래된 이 존재가 어째서 그런 어처구니없는 규모의 예지를 하는가를 설명할 수가 없기 때문이다...  하지만 만약 당신이 에이돌론에게 직접 물어본다면, 그것은 자신을 "작가" 라고 칭할 것이다.
+[b]<?=player.name?>[/b], you crave the thrill and tension of a close fight as much as <?=Lore.pocket_time_winner.heshe?> does.  I owe this opportunity to you in life, and the Scourge from the West in <?=Lore.pocket_time_winner.hisher?> legend; all I ask in return is that the two of you give me a battle that the people of Eyal will sing songs about.]], [[<? Lore.init_pocket_time_data() ?>옛날 옛적에, 에이알의 그 어떤 것보다도 오래된, 에이돌론이라는 영혼이 있었다.  어떤 이들은 그것을 질서와 정의를 가져오는 구세주라 불렀고, 또 어떤 이들은 자신의 즐거움을 위해 공포를 퍼뜨리는 "어두운 신" - 다크 갓이라 불렀다.  이런 필멸자들의 구분은 정말로 적절치 못한 것이, 거의 시간 그 자체만큼이나 오래된 이 존재가 어째서 그런 어처구니없는 규모의 예지를 하는가를 설명할 수가 없기 때문이다...  하지만 만약 당신이 에이돌론에게 직접 물어본다면, 그것은 자신을 "작가" 라고 칭할 것이다.
 
-그 이야기가 그 자신의 머릿속에만 있는 것인지, 아니면 샨드랄 성계에 영향을 미치는지는, 아무도 모른다. 하지만 언제나 그랬듯이, 에이돌론에겐 자신의 이야기에 등장할 영웅이 필요하다.  최근에는, 그것이 원했던 영웅이란 포식자 가르쿨 이후로 나타난 적이 없었던, 전장을 휘어잡는 자였다.  에이돌론은 몇 가지 후보들을 고려해 봤다. 그중 대부분은 실패작으로 여겨졌지만, 개중에는 몇 번 실수를 하더라도 용서할 수 있을 만한 유망주들이 있었고, 결국 마지막에는 단 하나만 남게 되었다.  그 주인공이 바로 <?=Lore.pocket_time_winner.himher?>였고, 그래서 수많은 시련들을 마주하게 되었다. 어떨 땐 손쉽게, 보통은 어렵사리, 가끔씩은 순전히 운에 기대서 헤쳐나갔고, 결국에는 최고봉의 꼭대기에 도착해 이제까지 마주했던 것들 중 가장 큰 위협으로부터 에이알을 구해냈다<? if Lore.pocket_time_winner.sacrifice then ?>. 주술사들의 장거리 차원문을 꺼뜨리기 위해 <?=Lore.pocket_time_winner.himher?> 자신을 희생함으로써 말이다<? end ?>.
+그 이야기가 그 자신의 머릿속에만 있는 것인지, 아니면 샨드랄 성계에 영향을 미치는지는, 아무도 모른다. 하지만 언제나 그랬듯이, 에이돌론에겐 자신의 이야기에 등장할 영웅이 필요하다.  최근에는, 그것이 원했던 영웅이란 포식자 가르쿨 이후로 나타난 적이 없었던, 전장을 휘어잡는 자였다.  에이돌론은 몇 가지 후보들을 고려해 봤다. 그중 대부분은 실패작으로 여겨졌지만 개중에는 몇 번 실수를 하더라도 용서할 수 있을 만한 유망주들이 있었고, 결국 마지막에는 단 하나만 남게 되었다.  그 주인공이 바로 <?=Lore.pocket_time_winner.himher?>였고, 그래서 수많은 시련들을 마주하게 되었다. 어떨 땐 손쉽게, 보통은 어렵사리, 가끔씩은 순전히 운에 기대서 헤쳐나갔고, 결국에는 최고봉의 꼭대기에 도착해 이제까지 마주했던 것들 중 가장 큰 위협으로부터 에이알을 구해냈다<? if Lore.pocket_time_winner.sacrifice then ?>. 주술사들의 장거리 차원문을 꺼뜨리기 위해 <?=Lore.pocket_time_winner.himher?> 자신을 희생함으로써 말이다<? end ?>.
 <? if not Lore.pocket_time_winner.sacrifice then ?>
-그러고 나선?  전장을 휘어잡는 자는, 전투에서 승리하고 나면 딱히 할 일이 없다.  <?=Lore.pocket_time_winner.HeShe?>는 더 강한 적들을 찾아 나설 수도 있겠지만, 결국 <?=Lore.pocket_time_winner.heshe?>가 찾아내게 되는 건 굳이 상대할 가치도 없는 놈이거나, 에이알의 시민들이나 좀 피해를 볼 만한 수준일 것이다. 그런 것들은 이야기에 아무런 도움이 되지 않는다.  에이돌론이 <?=Lore.pocket_time_winner.himher?>를 완전히 박살낼 수 있을 정도로 강한 적을 내려줄 수도 있겠지만, 뭔 놈의 결말이 그따위인가?  그래서 에이돌론은 그렇게 하는 대신에, 주인공의 역할이 끝난 뒤에는 <?=Lore.pocket_time_winner.heshe?>가 마음대로 살게 놔 두기로 했다...  무한의 던전으로 내려가서 피할 수 없는 파멸을 맞이하든지, 아타마쏜이나 리나니일같은 말도 안 되는 적들을 쓰러뜨리려 시도하든지, 아니면 그냥 은퇴해서 남은 인생을 쉐르'툴 요새의 주인으로 보내든지, 아무튼 <?=Lore.pocket_time_winner.heshe?>가 선택한 대로 살도록 내버려 두었다.  어떻게 되든 간에, 이야기는 끝이 났다. <?=Lore.pocket_time_winner.name?>의 여생에 뭔가 더 다룰 여지 같은 건 없었다.<? end ?>
+그러고 나선?  전장을 휘어잡는 자는, 전투에서 승리하고 나면 딱히 할 일이 없다.  더 강한 적들을 찾아 나설 수도 있겠지만, 결국 <?=Lore.pocket_time_winner.heshe?>가 찾아내게 되는 건 굳이 상대할 가치도 없는 놈이거나, 에이알의 시민들이나 좀 피해를 볼 만한 수준일 것이다. 그런 것들은 이야기에 아무런 도움이 되지 않는다.  에이돌론이 <?=Lore.pocket_time_winner.himher?>를 완전히 박살낼 수 있을 정도로 강한 적을 내려줄 수도 있겠지만, 뭔 놈의 결말이 그따위인가?  그래서 에이돌론은 그렇게 하는 대신에, 주인공의 역할이 끝난 뒤에는 <?=Lore.pocket_time_winner.heshe?>가 마음대로 살게 놔 두기로 했다...  무한의 던전으로 내려가서 피할 수 없는 파멸을 맞이하든지, 아타마쏜이나 리나니일같은 말도 안 되는 적들을 쓰러뜨리려 시도하든지, 아니면 그냥 은퇴해서 남은 인생을 쉐르'툴 요새의 주인으로 보내든지, 아무튼 <?=Lore.pocket_time_winner.heshe?>가 선택한 대로 살도록 내버려 두었다.  어떻게 되든 간에, 이야기는 끝이 났다. <?=Lore.pocket_time_winner.name?>의 여생에 뭔가 더 다룰 여지 같은 건 없었다.<? end ?>
 
 물론, 그런 등장인물을 그냥 내버릴 수는 없다.  이야기는 끝이 났지만, 그 이야기는 다시 이야기되고, 또다시, 또다시, 계속해서 이야기될 수는 있다. 그리고 그 이야기를 들을 때마다 사람들은 제각기 다른 인물상을 상상할 테니, 그 이야기를 듣는 사람들의 수만큼 수많은 마즈'에이알의 영웅들이 생겨나게 되는 것이다.  심지어 "작가" 자신도 마즈'에이알의 영웅을 위한 상황을 더 많이 떠올려내고, 항상 궁금해한다 - "이 최고의 전사에게 딱 알맞은 적수를 찾게 되면 어떻게 할까?  내가 <?=Lore.pocket_time_winner.himher?>에게 싸우고 싶어서 안달이 날 만한 전투를, <?=Lore.pocket_time_winner.heshe?>가 그렇게나 간절히 바라던 도전이라는 보상을 아직 안 내려주지 않았던가?  그런 결투라면 충분히 써내려갈 가치가 있지 않을까?"  그리하여, 그것은 <?=Lore.pocket_time_winner.name?>에게 약속을 하였다.  자신이 <?=Lore.pocket_time_winner.himher?>를 상대할 만한 가치가 있는 자를 찾아내거나, 만들어내게 된다면, <?=Lore.pocket_time_winner.himher?>를 떠올리겠노라고.
 
@@ -6945,7 +6945,7 @@ t("pure crimson ring", "새빨간 반지", "_t")
 t([[This crimson ring has a palpable bittersweet feel to it.
 Inside it is engraved the phrase #{italic}#"To Aeryn, my love, my life. Yours forever. John"#{normal}#]], [[씁쓸함이 뚜렷하게 느껴지는 진홍색의 반지입니다.
 안쪽에 어떤 글이 새겨져 있습니다. #{italic}#"내 사랑이자, 내 삶의 보람, 아에린에게. 네 영원한 사랑, 존이"#{normal}#]], "_t")
-t("You feel something is #{bold}#very wrong#{normal}# with this ring.", "이 반지에서 #{bold}#정말로 안 좋은#{normal}# 느낌이 들었다.", "_t")
+t("You feel something is #{bold}#very wrong#{normal}# with this ring.", "이 반지에서 #{bold}#정말로 안 좋은#{normal}# 느낌이 든다.", "_t")
 t("Crimson Templar John", "진홍빛 기사 존", "_t")
 
 ------------------------------------------------
@@ -6996,7 +6996,7 @@ t("disk", "원반", "entity subtype")
 t("disk", "원반", "_t")
 t([[A strange black disk found in the G.E.M.
 You have no idea how to use it.]], [[G.E.M 안에서 찾아낸 수상한 검은 원반입니다.
-이걸 어떻게 쓰는지 감도 안 옵니다.]], "_t")
+이걸 어떻게 쓰는 건지 감도 안 옵니다.]], "_t")
 t("erratic scribblings", "휘갈겨 쓴 낙서", "entity name")
 t("A journal.", "일지입니다.", "_t")
 t("schematic: Steam Powered Armour", "설계도: 증기력 갑옷", "entity name")
@@ -8043,7 +8043,7 @@ All Tinker classes use Steam for their powers.
 
 염동사수는 초능력과 증기 공학을 결합하여 치명적인 작품을 만들어내는 발명가들로, 한 손으로는 증기총을 들고 다른 손에는 마석을 듭니다.
 직업 특징:#YELLOW#
-- 쏘아내는 탄환에 마석의 힘을 입힌다.
+- 총을 쏘면서 마석 공격을 더한다.
 - 공포로 적들을 약화시키고 총으로 마무리한다.
 - 적들 주변의 공기 자체를 조작한다.
 - 증기 발생기와 정신을 공명시켜, 출력을 높인다.#WHITE#
