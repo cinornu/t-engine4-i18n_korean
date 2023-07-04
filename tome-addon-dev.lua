@@ -8,6 +8,12 @@ t("Provides tools to develop and publish addons.", "애드온을 개발하고 �
 section "tome-addon-dev/overload/engine/i18nhelper/ArrangeText.lua"
 
 t("Success", "성공", "_t")
+-- new text
+--[==[
+t("%s, %s, %s", "%s, %s, %s", "log")
+t("Translation text printed in xml format.", "Translation text printed in xml format.", "_t")
+--]==]
+
 -- untranslated text
 --[==[
 t([[[ERROR] format string error near '%s' of string %s
@@ -226,6 +232,11 @@ Logs written to %s]], "tformat")
 ------------------------------------------------
 section "tome-addon-dev/superload/mod/dialogs/debug/TranslationTool.lua"
 
+
+-- new text
+--[==[
+t("Print original & translation xml files", "Print original & translation xml files", "_t")
+--]==]
 
 -- untranslated text
 --[==[
