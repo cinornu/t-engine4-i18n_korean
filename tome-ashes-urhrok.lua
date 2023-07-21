@@ -868,7 +868,7 @@ t("Claw Crush", "발톱 파쇄", "talent name")
 t("%s resists the stun!", "%s 기절에 저항했다!", "logSeen", nil, {"가"})
 t([[Send a surge of power into your claws and crush a foe between them, dealing an unarmed strike for %d%% damage as acid and attempting to stun them %s for %d turns.
 		If you are standing on an #GREEN#acid pool#LAST#, you will #DARK_GREEN#absorb#LAST# it to strike twice.
-		]], [[발톱에 힘을 모은 뒤 적을 양쪽에서 눌러 으스러뜨립니다. %d%% 맨손 피해를 가하고 %d 턴 동안 기절시킵니다 %s.
+		]], [[발톱에 힘을 모은 뒤 적을 양쪽에서 눌러 으스러뜨립니다. %d%% 맨손 피해를 산성 속성으로 가하고 %d 턴 동안 기절시킵니다 %s.
 		시전자가 #GREEN#산성액 웅덩이#LAST# 위에 서 있다면 #DARK_GREEN#흡수#LAST#하고 한 번 더 공격합니다.
 		]], "tformat", {1,3,2})
 t("Noxious Blow", "해로운 강타", "talent name")
@@ -1081,7 +1081,7 @@ t([[You breathe a mix of darkness and blight in a frontal cone of radius %d. Any
 		In addition each time you do a melee attack there is a 10%% chance to trigger the breath at no cost.
 		The damage will increase with your Spellpower.
 		]], [[반경 %d 칸의 원뿔 범위 내에 어둠과 황폐의 혼합물을 뱉어냅니다. 범위 내의 모든 대상은 %0.2f 어둠/황폐 피해를 받습니다.
-		추가로, 시전자가 물리 공격을 가하면 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어냅니다.
+		추가로, 시전자가 근접 공격을 가하면 10%% 확률로 턴과 원천력을 소모하지 않고 숨결을 뱉어냅니다.
 		피해량은 주문력에 비례하여 증가합니다.
 		]], "tformat")
 t("Blood Drinker", "피를 마시는 자", "talent name")
